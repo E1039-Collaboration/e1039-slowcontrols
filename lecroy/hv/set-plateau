@@ -1,0 +1,137 @@
+#!/bin/bash
+
+####################
+# ./set-plateau   <Hodoscope station>   < nominal voltage + $2 > <Hodoscope plane>
+# ./set-plateau H1 -30 H1XT  // it will raise 30 voltages to all the PMTS in the H1XT 
+# $1: Hodoscope Stations are:  H1 H2, H3, H4; 
+# $2: changes of voltages from nominal one:   <nominal voltage in the file> + <added $2>
+# $3: The hodoscope planes are: H1XT, H1XB, H1YL, H1YR, H2XT, H2XB, H2YL, H2YR, H3XT , H3XB, H4Y1L, H4Y1R, H4Y2L, H4Y2R, H4XT, H4XB
+# An example would be: ./set-plateau H4 -15 H4Y1R
+###################
+
+dir="/data2/e1039/daq/slowcontrols/lecroy/"
+
+setstring=""
+
+theMapFile=`cat /data2/e1039/daq/slowcontrols/lecroy/settings/HVcrates | grep $1 | cut -d' ' -f2`
+
+echo $theMapFile
+three="$3"
+four="$4"
+five="$5"
+echo "The hodosocpe plane that needs to be optimized: $3"
+echo "The minimum channel of the hodoscope plane : $4"
+echo "The maximum channel of the hodoscope plane: $5"
+
+#mapping all the hodoscope channels to hodoscope planes from the text files of /data2/e1039/daq/slowcontrols/lecroy/settings/current.
+
+if [ "$three" == "H1XT" ]; then
+   four=72
+   five=110
+fi
+
+if [ "$three" == "H1XB" ]; then
+   four=111
+   five=165
+fi
+
+if [ "$three" == "H1YL" ]; then
+   four=36
+   five=71
+fi
+
+if [ "$three" == "H1YR" ]; then
+   four=0
+   five=35
+fi
+
+if [ "$three" == "H2XT" ]; then
+   four=118
+   five=149
+fi
+
+if [ "$three" == "H2XB" ]; then
+   four=0
+   five=15
+fi
+
+if [ "$three" == "H2YL" ]; then
+   four=32
+   five=66
+fi
+
+if [ "$three" == "H2YR" ]; then
+   four=67
+   five=117
+fi
+
+if [ "$three" == "H3XB" ]; then
+   four=0
+   five=15
+fi
+
+if [ "$three" == "H3XT" ]; then
+   four=16
+   five=31
+fi
+
+if [ "$three" == "H4Y1L" ]; then
+   four=32
+   five=63
+fi
+
+if [ "$three" == "H4Y1R" ]; then
+   four=64
+   five=95
+fi
+
+if [ "$three" == "H4Y2L" ]; then
+   four=97
+   five=126
+fi
+
+if [ "$three" == "H4Y2R" ]; then
+   four=128
+   five=159
+fi
+
+if [ "$three" == "H4XB" ]; then
+   four=160
+   five=191
+fi
+
+if [ "$three" == "H4XT" ]; then
+   four=192
+   five=223
+fi
+
+echo "$four"
+echo "$five"
+
+# setting the high voltages to the hodoscope plane that we select in $3 
+while read first second third fourth
+do
+	[ "$fourth" == -0 ] && continue
+	if [[( "$first" -ge $four && "$first" -le $five) && "$fourth" != -0 ]]
+	then
+		 /data2/e1039/daq/slowcontrols/lecroy/hv/hv $1 "W `echo $((fourth+$2))` C `echo $first`"
+		 #/data2/e1039/daq/slowcontrols/lecroy/hv/hv $1 "W `echo $((-1650))` C `echo $first`"
+
+	fi;
+ done < /data2/e1039/daq/slowcontrols/lecroy/settings/current/$theMapFile
+
+if [ "$three" == "H4XT" ]; then
+        /data2/e1039/daq/slowcontrols/lecroy/hv/hv $1 "W `echo $((-1345+$2))` C `echo 252`"
+        /data2/e1039/daq/slowcontrols/lecroy/hv/hv $1 "W `echo $((-0))` C `echo 207`"
+fi
+
+if [ "$three" == "H4Y2L" ]; then
+        /data2/e1039/daq/slowcontrols/lecroy/hv/hv $1 "W `echo $((-1700+$2))` C `echo 251`"
+        /data2/e1039/daq/slowcontrols/lecroy/hv/hv $1 "W `echo $((-1910+$2))` C `echo 253`"
+        /data2/e1039/daq/slowcontrols/lecroy/hv/hv $1 "W `echo $((-1780+$2))` C `echo 254`"
+        /data2/e1039/daq/slowcontrols/lecroy/hv/hv $1 "W `echo $(-0)` C `echo 125`"
+fi
+if [ "$three" == "H4Y1R" ]; then
+        /data2/e1039/daq/slowcontrols/lecroy/hv/hv $1 "W `echo $((-0))` C `echo 79`"
+        /data2/e1039/daq/slowcontrols/lecroy/hv/hv $1 "W `echo $((-1840+$2))` C `echo 255`"
+fi

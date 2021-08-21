@@ -1,0 +1,1816 @@
+record(ai,"EOS"){
+  field(DESC,"End of Spill")
+  field(DTYP,"Soft Channel")
+  field(PINI,"1")
+  field(SCAN,"Passive")
+}
+record(ai,"BOS"){
+  field(DESC,"Beginning of Spill")
+  field(DTYP,"Soft Channel")
+  field(PINI,"1")
+  field(SCAN,"Passive")
+}
+
+record(ai,"ST1_V"){
+  field(DESC,"St 1 chamber V")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,".5 second")
+}
+
+record(ai,"ST1_I"){
+  field(DESC,"St 1 Chamber I")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,".5 second")
+}
+
+record(ai,"RECTEST"){
+  field(DESC,"Test PV for Elizabeth")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SPILLCOUNTER"){
+  field(DESC,"NIM-based spill counter")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"TARGALARM"){
+  field(DESC,"OR of all Target Alarms")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"TARGPOS"){
+  field(DESC,"target position")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"DUTYFACTOR_BEAM"){
+  field(DESC,"Beam Duty Factor")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"DUTYFACTORMI_BEAM"){
+  field(DESC,"MI Beam Duty Factor")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"DUTYFACTOR_SC"){
+  field(DESC,"Beam Duty Factor")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"DUTYFACTORMI_SC"){
+  field(DESC,"MI Beam Duty Factor")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"NM2ION"){
+  field(DESC,"NM2 Ion Chamber")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"NM3ION"){
+  field(DESC,"NM3 Ion Chamber")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"NBSYD"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"TURN13"){
+  field(DESC,"Number of Main Injector Turns")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"BNCH13"){
+  field(DESC,"Number of Main Injector Bunches")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"N2N3EF"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"NM3RRT"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"NM3RRT"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"G2SEM"){
+  field(DESC,"G2 SEM")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"E906BM"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"OUTTMP"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"NS2RET"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"NS2SUP"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"NM3RRT"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"NM3RST"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"KTEVTC"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"CBAR"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M2C2VF"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M2C2VI"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M2C2HF"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M2C2HI"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M2C2VS"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M2C2VM"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M2C2HS"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M2C2HM"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M3TGVF"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M3TGVI"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M3TGHF"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M3TGHI"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M3TGVS"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M3TGVM"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M3TGHS"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"M3TGHM"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"BEAM21"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"NM2SEM"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"NM4AN"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"NM3S"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"NM2H"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"NM2D1"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"NM2V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH1"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH2"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH3"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH4"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH5"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH6"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH7"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH8"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH9"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH10"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH11"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH12"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH13"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH14"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH15"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH16"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH17"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH18"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"SC1_CH19"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH20"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH21"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH22"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH23"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH24"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH25"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH26"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH27"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH28"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH29"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH30"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH31"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC1_CH32"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH1"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH2"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH3"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH4"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH5"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH6"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH7"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH8"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH9"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH10"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH11"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH12"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH13"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH14"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH15"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH16"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH17"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH18"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"SC2_CH19"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH20"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH21"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH22"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH23"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH24"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH25"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH26"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH27"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH28"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH29"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH30"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH31"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC2_CH32"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH1"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH2"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH3"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH4"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH5"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH6"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH7"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH8"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH9"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH10"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH11"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH12"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH13"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH14"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH15"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH16"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH17"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH18"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"SC3_CH19"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH20"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH21"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH22"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH23"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH24"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH25"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH26"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH27"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH28"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH29"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH30"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH31"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC3_CH32"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH1"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH2"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH3"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH4"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH5"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH6"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH7"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH8"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH9"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH10"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH11"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH12"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH13"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH14"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH15"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH16"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH17"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH18"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+record(ai,"SC4_CH19"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH20"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH21"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH22"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH23"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH24"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH25"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH26"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH27"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH28"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH29"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH30"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH31"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"SC4_CH32"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D1U_HV1_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D1U_HV1_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D1UP_HV2_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D1UP_HV2_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D1X_HV3_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D1X_HV3_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D1XP_HV4_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D1XP_HV4_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D1V_HV5_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D1V_HV5_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D1VP_HV6_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D1VP_HV6_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D2V_HV1_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D2V_HV1_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D2VP_HV2_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D2VP_HV2_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D2X_HV3_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D2X_HV3_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D2XP_HV4_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D2XP_HV4_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D2U_HV5_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D2U_HV5_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D2UP_HV6_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D2UP_HV6_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3pV_HV1_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3pV_HV1_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3pX_HV2_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3pX_HV2_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3pU_HV3_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3pU_HV3_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3pG_HV4_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3pG_HV4_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3mU_HV1_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3mU_HV1_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3mUP_HV2_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3mUP_HV2_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3mX_HV3_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3mX_HV3_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3mXP_HV4_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3mXP_HV4_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3mV_HV5_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3mV_HV5_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3mVP_HV6_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"D3mVP_HV6_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"P4_P1V_HV1_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"P4_P1V_HV1_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"P4_P1H_HV2_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"P4_P1H_HV2_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"P4_P2V_HV3_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"P4_P2V_HV3_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"P4_P2H_HV4_V"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+
+record(ai,"P4_P2H_HV4_I"){
+  field(DESC,"Test")
+  field(DTYP,"Soft Channel")
+  field(INP,"")
+  field(PINI,"1")
+  field(SCAN,"1 second")
+}
+

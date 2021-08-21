@@ -1,0 +1,32 @@
+Import('env')
+subobj = []
+instdir = '$TOPDIR/include'
+
+if env['buildlib']:
+    for ccname in Glob('*.cc'):
+        oo =  env.SharedObject(ccname)
+        subobj.append(oo)
+    env.Install(instdir,Glob('*.hh'))
+    env.Alias('install',instdir)
+    env.Default('install')
+
+else: 
+    for ccname in Glob('*.cc'):
+        oo =  env.Object(ccname)
+        subobj.append(oo)
+
+Return('subobj')
+
+
+
+
+#Gets Environment
+
+#Depending on buildlib variable builds either
+#shared library objects or objects from subfolders
+
+#in case of building library copies headers from
+#subfolders to destination directory (instdir)
+
+#Returns list of compiled object files
+

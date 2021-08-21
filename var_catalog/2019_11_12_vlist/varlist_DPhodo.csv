@@ -1,0 +1,1320 @@
+1,DP1; LT quadrant; board 1; plate RTD,DP1_LT1_TPLATE,double,1,C,,,,,1
+2,DP1; LT quadrant; board 2; plate RTD,DP1_LT2_TPLATE,double,1,C,,,,,1
+3,DP1; LT quadrant; board 3; plate RTD,DP1_LT3_TPLATE,double,1,C,,,,,1
+4,DP1; LT quadrant; board 4; plate RTD,DP1_LT4_TPLATE,double,1,C,,,,,1
+5,DP1; LB quadrant; board 1; plate RTD,DP1_LB1_TPLATE,double,1,C,,,,,1
+6,DP1; LB quadrant; board 2; plate RTD,DP1_LB2_TPLATE,double,1,C,,,,,1
+7,DP1; LB quadrant; board 3; plate RTD,DP1_LB3_TPLATE,double,1,C,,,,,1
+8,DP1; LB quadrant; board 4; plate RTD,DP1_LB4_TPLATE,double,1,C,,,,,1
+9,DP1; RT quadrant; board 1; plate RTD,DP1_RT1_TPLATE,double,1,C,,,,,1
+10,DP1; RT quadrant; board 2; plate RTD,DP1_RT2_TPLATE,double,1,C,,,,,1
+11,DP1; RT quadrant; board 3; plate RTD,DP1_RT3_TPLATE,double,1,C,,,,,1
+12,DP1; RT quadrant; board 4; plate RTD,DP1_RT4_TPLATE,double,1,C,,,,,1
+13,DP1; RB quadrant; board 1; plate RTD,DP1_RB1_TPLATE,double,1,C,,,,,1
+14,DP1; RB quadrant; board 2; plate RTD,DP1_RB2_TPLATE,double,1,C,,,,,1
+15,DP1; RB quadrant; board 3; plate RTD,DP1_RB3_TPLATE,double,1,C,,,,,1
+16,DP1; RB quadrant; board 4; plate RTD,DP1_RB4_TPLATE,double,1,C,,,,,1
+17,DP2; LT quadrant; board 1; plate RTD,DP2_LT1_TPLATE,double,1,C,,,,,1
+18,DP2; LT quadrant; board 2; plate RTD,DP2_LT2_TPLATE,double,1,C,,,,,1
+19,DP2; LB quadrant; board 1; plate RTD,DP2_LB1_TPLATE,double,1,C,,,,,1
+20,DP2; LB quadrant; board 2; plate RTD,DP2_LB2_TPLATE,double,1,C,,,,,1
+21,DP2; RT quadrant; board 1; plate RTD,DP2_RT1_TPLATE,double,1,C,,,,,1
+22,DP2; RT quadrant; board 2; plate RTD,DP2_RT2_TPLATE,double,1,C,,,,,1
+23,DP2; RB quadrant; board 1; plate RTD,DP2_RB1_TPLATE,double,1,C,,,,,1
+24,DP2; RB quadrant; board 2; plate RTD,DP2_RB2_TPLATE,double,1,C,,,,,1
+25,DP1; LT quadrant; board 1; preamp RTD,DP1_LT1_TPREAMP,double,1,C,,,,,1
+26,DP1; LT quadrant; board 2; preamp RTD,DP1_LT2_TPREAMP,double,1,C,,,,,1
+27,DP1; LT quadrant; board 3; preamp RTD,DP1_LT3_TPREAMP,double,1,C,,,,,1
+28,DP1; LT quadrant; board 4; preamp RTD,DP1_LT4_TPREAMP,double,1,C,,,,,1
+29,DP1; LB quadrant; board 1; preamp RTD,DP1_LB1_TPREAMP,double,1,C,,,,,1
+30,DP1; LB quadrant; board 2; preamp RTD,DP1_LB2_TPREAMP,double,1,C,,,,,1
+31,DP1; LB quadrant; board 3; preamp RTD,DP1_LB3_TPREAMP,double,1,C,,,,,1
+32,DP1; LB quadrant; board 4; preamp RTD,DP1_LB4_TPREAMP,double,1,C,,,,,1
+33,DP1; RT quadrant; board 1; preamp RTD,DP1_RT1_TPREAMP,double,1,C,,,,,1
+34,DP1; RT quadrant; board 2; preamp RTD,DP1_RT2_TPREAMP,double,1,C,,,,,1
+35,DP1; RT quadrant; board 3; preamp RTD,DP1_RT3_TPREAMP,double,1,C,,,,,1
+36,DP1; RT quadrant; board 4; preamp RTD,DP1_RT4_TPREAMP,double,1,C,,,,,1
+37,DP1; RB quadrant; board 1; preamp RTD,DP1_RB1_TPREAMP,double,1,C,,,,,1
+38,DP1; RB quadrant; board 2; preamp RTD,DP1_RB2_TPREAMP,double,1,C,,,,,1
+39,DP1; RB quadrant; board 3; preamp RTD,DP1_RB3_TPREAMP,double,1,C,,,,,1
+40,DP1; RB quadrant; board 4; preamp RTD,DP1_RB4_TPREAMP,double,1,C,,,,,1
+41,DP2; LT quadrant; board 1; preamp RTD,DP2_LT1_TPREAMP,double,1,C,,,,,1
+42,DP2; LT quadrant; board 2; preamp RTD,DP2_LT2_TPREAMP,double,1,C,,,,,1
+43,DP2; LB quadrant; board 1; preamp RTD,DP2_LB1_TPREAMP,double,1,C,,,,,1
+44,DP2; LB quadrant; board 2; preamp RTD,DP2_LB2_TPREAMP,double,1,C,,,,,1
+45,DP2; RT quadrant; board 1; preamp RTD,DP2_RT1_TPREAMP,double,1,C,,,,,1
+46,DP2; RT quadrant; board 2; preamp RTD,DP2_RT2_TPREAMP,double,1,C,,,,,1
+47,DP2; RB quadrant; board 1; preamp RTD,DP2_RB1_TPREAMP,double,1,C,,,,,1
+48,DP2; RB quadrant; board 2; preamp RTD,DP2_RB2_TPREAMP,double,1,C,,,,,1
+49,DP1; LT quadrant; board 1; 9V supply,DP1_LT1_V9,double,1,V,,,,,1
+50,DP1; LT quadrant; board 2; 9V supply,DP1_LT2_V9,double,1,V,,,,,1
+51,DP1; LT quadrant; board 3; 9V supply,DP1_LT3_V9,double,1,V,,,,,1
+52,DP1; LT quadrant; board 4; 9V supply,DP1_LT4_V9,double,1,V,,,,,1
+53,DP1; LB quadrant; board 1; 9V supply,DP1_LB1_V9,double,1,V,,,,,1
+54,DP1; LB quadrant; board 2; 9V supply,DP1_LB2_V9,double,1,V,,,,,1
+55,DP1; LB quadrant; board 3; 9V supply,DP1_LB3_V9,double,1,V,,,,,1
+56,DP1; LB quadrant; board 4; 9V supply,DP1_LB4_V9,double,1,V,,,,,1
+57,DP1; RT quadrant; board 1; 9V supply,DP1_RT1_V9,double,1,V,,,,,1
+58,DP1; RT quadrant; board 2; 9V supply,DP1_RT2_V9,double,1,V,,,,,1
+59,DP1; RT quadrant; board 3; 9V supply,DP1_RT3_V9,double,1,V,,,,,1
+60,DP1; RT quadrant; board 4; 9V supply,DP1_RT4_V9,double,1,V,,,,,1
+61,DP1; RB quadrant; board 1; 9V supply,DP1_RB1_V9,double,1,V,,,,,1
+62,DP1; RB quadrant; board 2; 9V supply,DP1_RB2_V9,double,1,V,,,,,1
+63,DP1; RB quadrant; board 3; 9V supply,DP1_RB3_V9,double,1,V,,,,,1
+64,DP1; RB quadrant; board 4; 9V supply,DP1_RB4_V9,double,1,V,,,,,1
+65,DP2; LT quadrant; board 1; 9V supply,DP2_LT1_V9,double,1,V,,,,,1
+66,DP2; LT quadrant; board 2; 9V supply,DP2_LT2_V9,double,1,V,,,,,1
+67,DP2; LB quadrant; board 1; 9V supply,DP2_LB1_V9,double,1,V,,,,,1
+68,DP2; LB quadrant; board 2; 9V supply,DP2_LB2_V9,double,1,V,,,,,1
+69,DP2; RT quadrant; board 1; 9V supply,DP2_RT1_V9,double,1,V,,,,,1
+70,DP2; RT quadrant; board 2; 9V supply,DP2_RT2_V9,double,1,V,,,,,1
+71,DP2; RB quadrant; board 1; 9V supply,DP2_RB1_V9,double,1,V,,,,,1
+72,DP2; RB quadrant; board 2; 9V supply,DP2_RB2_V9,double,1,V,,,,,1
+73,DP1; LT quadrant; board 1; VDD,DP1_LT1_VDD,double,1,V,,,,,1
+74,DP1; LT quadrant; board 2; VDD,DP1_LT2_VDD,double,1,V,,,,,1
+75,DP1; LT quadrant; board 3; VDD,DP1_LT3_VDD,double,1,V,,,,,1
+76,DP1; LT quadrant; board 4; VDD,DP1_LT4_VDD,double,1,V,,,,,1
+77,DP1; LB quadrant; board 1; VDD,DP1_LB1_VDD,double,1,V,,,,,1
+78,DP1; LB quadrant; board 2; VDD,DP1_LB2_VDD,double,1,V,,,,,1
+79,DP1; LB quadrant; board 3; VDD,DP1_LB3_VDD,double,1,V,,,,,1
+80,DP1; LB quadrant; board 4; VDD,DP1_LB4_VDD,double,1,V,,,,,1
+81,DP1; RT quadrant; board 1; VDD,DP1_RT1_VDD,double,1,V,,,,,1
+82,DP1; RT quadrant; board 2; VDD,DP1_RT2_VDD,double,1,V,,,,,1
+83,DP1; RT quadrant; board 3; VDD,DP1_RT3_VDD,double,1,V,,,,,1
+84,DP1; RT quadrant; board 4; VDD,DP1_RT4_VDD,double,1,V,,,,,1
+85,DP1; RB quadrant; board 1; VDD,DP1_RB1_VDD,double,1,V,,,,,1
+86,DP1; RB quadrant; board 2; VDD,DP1_RB2_VDD,double,1,V,,,,,1
+87,DP1; RB quadrant; board 3; VDD,DP1_RB3_VDD,double,1,V,,,,,1
+88,DP1; RB quadrant; board 4; VDD,DP1_RB4_VDD,double,1,V,,,,,1
+89,DP2; LT quadrant; board 1; VDD,DP2_LT1_VDD,double,1,V,,,,,1
+90,DP2; LT quadrant; board 2; VDD,DP2_LT2_VDD,double,1,V,,,,,1
+91,DP2; LB quadrant; board 1; VDD,DP2_LB1_VDD,double,1,V,,,,,1
+92,DP2; LB quadrant; board 2; VDD,DP2_LB2_VDD,double,1,V,,,,,1
+93,DP2; RT quadrant; board 1; VDD,DP2_RT1_VDD,double,1,V,,,,,1
+94,DP2; RT quadrant; board 2; VDD,DP2_RT2_VDD,double,1,V,,,,,1
+95,DP2; RB quadrant; board 1; VDD,DP2_RB1_VDD,double,1,V,,,,,1
+96,DP2; RB quadrant; board 2; VDD,DP2_RB2_VDD,double,1,V,,,,,1
+97,DP1; LT quadrant; board 1; 100V supply,DP1_LT1_V100,double,1,V,,,,,1
+98,DP1; LT quadrant; board 2; 100V supply,DP1_LT2_V100,double,1,V,,,,,1
+99,DP1; LT quadrant; board 3; 100V supply,DP1_LT3_V100,double,1,V,,,,,1
+100,DP1; LT quadrant; board 4; 100V supply,DP1_LT4_V100,double,1,V,,,,,1
+101,DP1; LB quadrant; board 1; 100V supply,DP1_LB1_V100,double,1,V,,,,,1
+102,DP1; LB quadrant; board 2; 100V supply,DP1_LB2_V100,double,1,V,,,,,1
+103,DP1; LB quadrant; board 3; 100V supply,DP1_LB3_V100,double,1,V,,,,,1
+104,DP1; LB quadrant; board 4; 100V supply,DP1_LB4_V100,double,1,V,,,,,1
+105,DP1; RT quadrant; board 1; 100V supply,DP1_RT1_V100,double,1,V,,,,,1
+106,DP1; RT quadrant; board 2; 100V supply,DP1_RT2_V100,double,1,V,,,,,1
+107,DP1; RT quadrant; board 3; 100V supply,DP1_RT3_V100,double,1,V,,,,,1
+108,DP1; RT quadrant; board 4; 100V supply,DP1_RT4_V100,double,1,V,,,,,1
+109,DP1; RB quadrant; board 1; 100V supply,DP1_RB1_V100,double,1,V,,,,,1
+110,DP1; RB quadrant; board 2; 100V supply,DP1_RB2_V100,double,1,V,,,,,1
+111,DP1; RB quadrant; board 3; 100V supply,DP1_RB3_V100,double,1,V,,,,,1
+112,DP1; RB quadrant; board 4; 100V supply,DP1_RB4_V100,double,1,V,,,,,1
+113,DP2; LT quadrant; board 1; 100V supply,DP2_LT1_V100,double,1,V,,,,,1
+114,DP2; LT quadrant; board 2; 100V supply,DP2_LT2_V100,double,1,V,,,,,1
+115,DP2; LB quadrant; board 1; 100V supply,DP2_LB1_V100,double,1,V,,,,,1
+116,DP2; LB quadrant; board 2; 100V supply,DP2_LB2_V100,double,1,V,,,,,1
+117,DP2; RT quadrant; board 1; 100V supply,DP2_RT1_V100,double,1,V,,,,,1
+118,DP2; RT quadrant; board 2; 100V supply,DP2_RT2_V100,double,1,V,,,,,1
+119,DP2; RB quadrant; board 1; 100V supply,DP2_RB1_V100,double,1,V,,,,,1
+120,DP2; RB quadrant; board 2; 100V supply,DP2_RB2_V100,double,1,V,,,,,1
+121,DP1; LT quadrant; board 1; preamp voltage,DP1_LT1_VPREAMP,double,1,V,,,,,1
+122,DP1; LT quadrant; board 2; preamp voltage,DP1_LT2_VPREAMP,double,1,V,,,,,1
+123,DP1; LT quadrant; board 3; preamp voltage,DP1_LT3_VPREAMP,double,1,V,,,,,1
+124,DP1; LT quadrant; board 4; preamp voltage,DP1_LT4_VPREAMP,double,1,V,,,,,1
+125,DP1; LB quadrant; board 1; preamp voltage,DP1_LB1_VPREAMP,double,1,V,,,,,1
+126,DP1; LB quadrant; board 2; preamp voltage,DP1_LB2_VPREAMP,double,1,V,,,,,1
+127,DP1; LB quadrant; board 3; preamp voltage,DP1_LB3_VPREAMP,double,1,V,,,,,1
+128,DP1; LB quadrant; board 4; preamp voltage,DP1_LB4_VPREAMP,double,1,V,,,,,1
+129,DP1; RT quadrant; board 1; preamp voltage,DP1_RT1_VPREAMP,double,1,V,,,,,1
+130,DP1; RT quadrant; board 2; preamp voltage,DP1_RT2_VPREAMP,double,1,V,,,,,1
+131,DP1; RT quadrant; board 3; preamp voltage,DP1_RT3_VPREAMP,double,1,V,,,,,1
+132,DP1; RT quadrant; board 4; preamp voltage,DP1_RT4_VPREAMP,double,1,V,,,,,1
+133,DP1; RB quadrant; board 1; preamp voltage,DP1_RB1_VPREAMP,double,1,V,,,,,1
+134,DP1; RB quadrant; board 2; preamp voltage,DP1_RB2_VPREAMP,double,1,V,,,,,1
+135,DP1; RB quadrant; board 3; preamp voltage,DP1_RB3_VPREAMP,double,1,V,,,,,1
+136,DP1; RB quadrant; board 4; preamp voltage,DP1_RB4_VPREAMP,double,1,V,,,,,1
+137,DP2; LT quadrant; board 1; preamp voltage,DP2_LT1_VPREAMP,double,1,V,,,,,1
+138,DP2; LT quadrant; board 2; preamp voltage,DP2_LT2_VPREAMP,double,1,V,,,,,1
+139,DP2; LB quadrant; board 1; preamp voltage,DP2_LB1_VPREAMP,double,1,V,,,,,1
+140,DP2; LB quadrant; board 2; preamp voltage,DP2_LB2_VPREAMP,double,1,V,,,,,1
+141,DP2; RT quadrant; board 1; preamp voltage,DP2_RT1_VPREAMP,double,1,V,,,,,1
+142,DP2; RT quadrant; board 2; preamp voltage,DP2_RT2_VPREAMP,double,1,V,,,,,1
+143,DP2; RB quadrant; board 1; preamp voltage,DP2_RB1_VPREAMP,double,1,V,,,,,1
+144,DP2; RB quadrant; board 2; preamp voltage,DP2_RB2_VPREAMP,double,1,V,,,,,1
+145,DP1; LT quadrant; board 1; SiPM 1 voltage,DP1_LT1_CH1_V,double,1,V,,,,,1
+146,DP1; LT quadrant; board 1; SiPM 2 voltage,DP1_LT1_CH2_V,double,1,V,,,,,1
+147,DP1; LT quadrant; board 1; SiPM 3 voltage,DP1_LT1_CH3_V,double,1,V,,,,,1
+148,DP1; LT quadrant; board 1; SiPM 4 voltage,DP1_LT1_CH4_V,double,1,V,,,,,1
+149,DP1; LT quadrant; board 1; SiPM 5 voltage,DP1_LT1_CH5_V,double,1,V,,,,,1
+150,DP1; LT quadrant; board 1; SiPM 6 voltage,DP1_LT1_CH6_V,double,1,V,,,,,1
+151,DP1; LT quadrant; board 1; SiPM 7 voltage,DP1_LT1_CH7_V,double,1,V,,,,,1
+152,DP1; LT quadrant; board 1; SiPM 8 voltage,DP1_LT1_CH8_V,double,1,V,,,,,1
+153,DP1; LT quadrant; board 1; SiPM 9 voltage,DP1_LT1_CH9_V,double,1,V,,,,,1
+154,DP1; LT quadrant; board 1; SiPM 10 voltage,DP1_LT1_CH10_V,double,1,V,,,,,1
+155,DP1; LT quadrant; board 1; SiPM 11 voltage,DP1_LT1_CH11_V,double,1,V,,,,,1
+156,DP1; LT quadrant; board 1; SiPM 12 voltage,DP1_LT1_CH12_V,double,1,V,,,,,1
+157,DP1; LT quadrant; board 1; SiPM 13 voltage,DP1_LT1_CH13_V,double,1,V,,,,,1
+158,DP1; LT quadrant; board 1; SiPM 14 voltage,DP1_LT1_CH14_V,double,1,V,,,,,1
+159,DP1; LT quadrant; board 1; SiPM 15 voltage,DP1_LT1_CH15_V,double,1,V,,,,,1
+160,DP1; LT quadrant; board 1; SiPM 16 voltage,DP1_LT1_CH16_V,double,1,V,,,,,1
+161,DP1; LT quadrant; board 1; SiPM 17 voltage,DP1_LT1_CH17_V,double,1,V,,,,,1
+162,DP1; LT quadrant; board 1; SiPM 18 voltage,DP1_LT1_CH18_V,double,1,V,,,,,1
+163,DP1; LT quadrant; board 1; SiPM 19 voltage,DP1_LT1_CH19_V,double,1,V,,,,,1
+164,DP1; LT quadrant; board 1; SiPM 20 voltage,DP1_LT1_CH20_V,double,1,V,,,,,1
+165,DP1; LT quadrant; board 1; SiPM 21 voltage,DP1_LT1_CH21_V,double,1,V,,,,,1
+166,DP1; LT quadrant; board 1; SiPM 22 voltage,DP1_LT1_CH22_V,double,1,V,,,,,1
+167,DP1; LT quadrant; board 1; SiPM 23 voltage,DP1_LT1_CH23_V,double,1,V,,,,,1
+168,DP1; LT quadrant; board 1; SiPM 24 voltage,DP1_LT1_CH24_V,double,1,V,,,,,1
+169,DP1; LT quadrant; board 2; SiPM 1 voltage,DP1_LT2_CH1_V,double,1,V,,,,,1
+170,DP1; LT quadrant; board 2; SiPM 2 voltage,DP1_LT2_CH2_V,double,1,V,,,,,1
+171,DP1; LT quadrant; board 2; SiPM 3 voltage,DP1_LT2_CH3_V,double,1,V,,,,,1
+172,DP1; LT quadrant; board 2; SiPM 4 voltage,DP1_LT2_CH4_V,double,1,V,,,,,1
+173,DP1; LT quadrant; board 2; SiPM 5 voltage,DP1_LT2_CH5_V,double,1,V,,,,,1
+174,DP1; LT quadrant; board 2; SiPM 6 voltage,DP1_LT2_CH6_V,double,1,V,,,,,1
+175,DP1; LT quadrant; board 2; SiPM 7 voltage,DP1_LT2_CH7_V,double,1,V,,,,,1
+176,DP1; LT quadrant; board 2; SiPM 8 voltage,DP1_LT2_CH8_V,double,1,V,,,,,1
+177,DP1; LT quadrant; board 2; SiPM 9 voltage,DP1_LT2_CH9_V,double,1,V,,,,,1
+178,DP1; LT quadrant; board 2; SiPM 10 voltage,DP1_LT2_CH10_V,double,1,V,,,,,1
+179,DP1; LT quadrant; board 2; SiPM 11 voltage,DP1_LT2_CH11_V,double,1,V,,,,,1
+180,DP1; LT quadrant; board 2; SiPM 12 voltage,DP1_LT2_CH12_V,double,1,V,,,,,1
+181,DP1; LT quadrant; board 2; SiPM 13 voltage,DP1_LT2_CH13_V,double,1,V,,,,,1
+182,DP1; LT quadrant; board 2; SiPM 14 voltage,DP1_LT2_CH14_V,double,1,V,,,,,1
+183,DP1; LT quadrant; board 2; SiPM 15 voltage,DP1_LT2_CH15_V,double,1,V,,,,,1
+184,DP1; LT quadrant; board 2; SiPM 16 voltage,DP1_LT2_CH16_V,double,1,V,,,,,1
+185,DP1; LT quadrant; board 2; SiPM 17 voltage,DP1_LT2_CH17_V,double,1,V,,,,,1
+186,DP1; LT quadrant; board 2; SiPM 18 voltage,DP1_LT2_CH18_V,double,1,V,,,,,1
+187,DP1; LT quadrant; board 2; SiPM 19 voltage,DP1_LT2_CH19_V,double,1,V,,,,,1
+188,DP1; LT quadrant; board 2; SiPM 20 voltage,DP1_LT2_CH20_V,double,1,V,,,,,1
+189,DP1; LT quadrant; board 2; SiPM 21 voltage,DP1_LT2_CH21_V,double,1,V,,,,,1
+190,DP1; LT quadrant; board 2; SiPM 22 voltage,DP1_LT2_CH22_V,double,1,V,,,,,1
+191,DP1; LT quadrant; board 2; SiPM 23 voltage,DP1_LT2_CH23_V,double,1,V,,,,,1
+192,DP1; LT quadrant; board 2; SiPM 24 voltage,DP1_LT2_CH24_V,double,1,V,,,,,1
+193,DP1; LT quadrant; board 3; SiPM 1 voltage,DP1_LT3_CH1_V,double,1,V,,,,,1
+194,DP1; LT quadrant; board 3; SiPM 2 voltage,DP1_LT3_CH2_V,double,1,V,,,,,1
+195,DP1; LT quadrant; board 3; SiPM 3 voltage,DP1_LT3_CH3_V,double,1,V,,,,,1
+196,DP1; LT quadrant; board 3; SiPM 4 voltage,DP1_LT3_CH4_V,double,1,V,,,,,1
+197,DP1; LT quadrant; board 3; SiPM 5 voltage,DP1_LT3_CH5_V,double,1,V,,,,,1
+198,DP1; LT quadrant; board 3; SiPM 6 voltage,DP1_LT3_CH6_V,double,1,V,,,,,1
+199,DP1; LT quadrant; board 3; SiPM 7 voltage,DP1_LT3_CH7_V,double,1,V,,,,,1
+200,DP1; LT quadrant; board 3; SiPM 8 voltage,DP1_LT3_CH8_V,double,1,V,,,,,1
+201,DP1; LT quadrant; board 3; SiPM 9 voltage,DP1_LT3_CH9_V,double,1,V,,,,,1
+202,DP1; LT quadrant; board 3; SiPM 10 voltage,DP1_LT3_CH10_V,double,1,V,,,,,1
+203,DP1; LT quadrant; board 3; SiPM 11 voltage,DP1_LT3_CH11_V,double,1,V,,,,,1
+204,DP1; LT quadrant; board 3; SiPM 12 voltage,DP1_LT3_CH12_V,double,1,V,,,,,1
+205,DP1; LT quadrant; board 3; SiPM 13 voltage,DP1_LT3_CH13_V,double,1,V,,,,,1
+206,DP1; LT quadrant; board 3; SiPM 14 voltage,DP1_LT3_CH14_V,double,1,V,,,,,1
+207,DP1; LT quadrant; board 3; SiPM 15 voltage,DP1_LT3_CH15_V,double,1,V,,,,,1
+208,DP1; LT quadrant; board 3; SiPM 16 voltage,DP1_LT3_CH16_V,double,1,V,,,,,1
+209,DP1; LT quadrant; board 3; SiPM 17 voltage,DP1_LT3_CH17_V,double,1,V,,,,,1
+210,DP1; LT quadrant; board 3; SiPM 18 voltage,DP1_LT3_CH18_V,double,1,V,,,,,1
+211,DP1; LT quadrant; board 3; SiPM 19 voltage,DP1_LT3_CH19_V,double,1,V,,,,,1
+212,DP1; LT quadrant; board 3; SiPM 20 voltage,DP1_LT3_CH20_V,double,1,V,,,,,1
+213,DP1; LT quadrant; board 3; SiPM 21 voltage,DP1_LT3_CH21_V,double,1,V,,,,,1
+214,DP1; LT quadrant; board 3; SiPM 22 voltage,DP1_LT3_CH22_V,double,1,V,,,,,1
+215,DP1; LT quadrant; board 3; SiPM 23 voltage,DP1_LT3_CH23_V,double,1,V,,,,,1
+216,DP1; LT quadrant; board 3; SiPM 24 voltage,DP1_LT3_CH24_V,double,1,V,,,,,1
+217,DP1; LT quadrant; board 4; SiPM 1 voltage,DP1_LT4_CH1_V,double,1,V,,,,,1
+218,DP1; LT quadrant; board 4; SiPM 2 voltage,DP1_LT4_CH2_V,double,1,V,,,,,1
+219,DP1; LT quadrant; board 4; SiPM 3 voltage,DP1_LT4_CH3_V,double,1,V,,,,,1
+220,DP1; LT quadrant; board 4; SiPM 4 voltage,DP1_LT4_CH4_V,double,1,V,,,,,1
+221,DP1; LT quadrant; board 4; SiPM 5 voltage,DP1_LT4_CH5_V,double,1,V,,,,,1
+222,DP1; LT quadrant; board 4; SiPM 6 voltage,DP1_LT4_CH6_V,double,1,V,,,,,1
+223,DP1; LT quadrant; board 4; SiPM 7 voltage,DP1_LT4_CH7_V,double,1,V,,,,,1
+224,DP1; LT quadrant; board 4; SiPM 8 voltage,DP1_LT4_CH8_V,double,1,V,,,,,1
+225,DP1; LT quadrant; board 4; SiPM 9 voltage,DP1_LT4_CH9_V,double,1,V,,,,,1
+226,DP1; LT quadrant; board 4; SiPM 10 voltage,DP1_LT4_CH10_V,double,1,V,,,,,1
+227,DP1; LT quadrant; board 4; SiPM 11 voltage,DP1_LT4_CH11_V,double,1,V,,,,,1
+228,DP1; LT quadrant; board 4; SiPM 12 voltage,DP1_LT4_CH12_V,double,1,V,,,,,1
+229,DP1; LT quadrant; board 4; SiPM 13 voltage,DP1_LT4_CH13_V,double,1,V,,,,,1
+230,DP1; LT quadrant; board 4; SiPM 14 voltage,DP1_LT4_CH14_V,double,1,V,,,,,1
+231,DP1; LT quadrant; board 4; SiPM 15 voltage,DP1_LT4_CH15_V,double,1,V,,,,,1
+232,DP1; LT quadrant; board 4; SiPM 16 voltage,DP1_LT4_CH16_V,double,1,V,,,,,1
+233,DP1; LT quadrant; board 4; SiPM 17 voltage,DP1_LT4_CH17_V,double,1,V,,,,,1
+234,DP1; LT quadrant; board 4; SiPM 18 voltage,DP1_LT4_CH18_V,double,1,V,,,,,1
+235,DP1; LT quadrant; board 4; SiPM 19 voltage,DP1_LT4_CH19_V,double,1,V,,,,,1
+236,DP1; LT quadrant; board 4; SiPM 20 voltage,DP1_LT4_CH20_V,double,1,V,,,,,1
+237,DP1; LT quadrant; board 4; SiPM 21 voltage,DP1_LT4_CH21_V,double,1,V,,,,,1
+238,DP1; LT quadrant; board 4; SiPM 22 voltage,DP1_LT4_CH22_V,double,1,V,,,,,1
+239,DP1; LT quadrant; board 4; SiPM 23 voltage,DP1_LT4_CH23_V,double,1,V,,,,,1
+240,DP1; LT quadrant; board 4; SiPM 24 voltage,DP1_LT4_CH24_V,double,1,V,,,,,1
+241,DP1; LB quadrant; board 1; SiPM 1 voltage,DP1_LB1_CH1_V,double,1,V,,,,,1
+242,DP1; LB quadrant; board 1; SiPM 2 voltage,DP1_LB1_CH2_V,double,1,V,,,,,1
+243,DP1; LB quadrant; board 1; SiPM 3 voltage,DP1_LB1_CH3_V,double,1,V,,,,,1
+244,DP1; LB quadrant; board 1; SiPM 4 voltage,DP1_LB1_CH4_V,double,1,V,,,,,1
+245,DP1; LB quadrant; board 1; SiPM 5 voltage,DP1_LB1_CH5_V,double,1,V,,,,,1
+246,DP1; LB quadrant; board 1; SiPM 6 voltage,DP1_LB1_CH6_V,double,1,V,,,,,1
+247,DP1; LB quadrant; board 1; SiPM 7 voltage,DP1_LB1_CH7_V,double,1,V,,,,,1
+248,DP1; LB quadrant; board 1; SiPM 8 voltage,DP1_LB1_CH8_V,double,1,V,,,,,1
+249,DP1; LB quadrant; board 1; SiPM 9 voltage,DP1_LB1_CH9_V,double,1,V,,,,,1
+250,DP1; LB quadrant; board 1; SiPM 10 voltage,DP1_LB1_CH10_V,double,1,V,,,,,1
+251,DP1; LB quadrant; board 1; SiPM 11 voltage,DP1_LB1_CH11_V,double,1,V,,,,,1
+252,DP1; LB quadrant; board 1; SiPM 12 voltage,DP1_LB1_CH12_V,double,1,V,,,,,1
+253,DP1; LB quadrant; board 1; SiPM 13 voltage,DP1_LB1_CH13_V,double,1,V,,,,,1
+254,DP1; LB quadrant; board 1; SiPM 14 voltage,DP1_LB1_CH14_V,double,1,V,,,,,1
+255,DP1; LB quadrant; board 1; SiPM 15 voltage,DP1_LB1_CH15_V,double,1,V,,,,,1
+256,DP1; LB quadrant; board 1; SiPM 16 voltage,DP1_LB1_CH16_V,double,1,V,,,,,1
+257,DP1; LB quadrant; board 1; SiPM 17 voltage,DP1_LB1_CH17_V,double,1,V,,,,,1
+258,DP1; LB quadrant; board 1; SiPM 18 voltage,DP1_LB1_CH18_V,double,1,V,,,,,1
+259,DP1; LB quadrant; board 1; SiPM 19 voltage,DP1_LB1_CH19_V,double,1,V,,,,,1
+260,DP1; LB quadrant; board 1; SiPM 20 voltage,DP1_LB1_CH20_V,double,1,V,,,,,1
+261,DP1; LB quadrant; board 1; SiPM 21 voltage,DP1_LB1_CH21_V,double,1,V,,,,,1
+262,DP1; LB quadrant; board 1; SiPM 22 voltage,DP1_LB1_CH22_V,double,1,V,,,,,1
+263,DP1; LB quadrant; board 1; SiPM 23 voltage,DP1_LB1_CH23_V,double,1,V,,,,,1
+264,DP1; LB quadrant; board 1; SiPM 24 voltage,DP1_LB1_CH24_V,double,1,V,,,,,1
+265,DP1; LB quadrant; board 2; SiPM 1 voltage,DP1_LB2_CH1_V,double,1,V,,,,,1
+266,DP1; LB quadrant; board 2; SiPM 2 voltage,DP1_LB2_CH2_V,double,1,V,,,,,1
+267,DP1; LB quadrant; board 2; SiPM 3 voltage,DP1_LB2_CH3_V,double,1,V,,,,,1
+268,DP1; LB quadrant; board 2; SiPM 4 voltage,DP1_LB2_CH4_V,double,1,V,,,,,1
+269,DP1; LB quadrant; board 2; SiPM 5 voltage,DP1_LB2_CH5_V,double,1,V,,,,,1
+270,DP1; LB quadrant; board 2; SiPM 6 voltage,DP1_LB2_CH6_V,double,1,V,,,,,1
+271,DP1; LB quadrant; board 2; SiPM 7 voltage,DP1_LB2_CH7_V,double,1,V,,,,,1
+272,DP1; LB quadrant; board 2; SiPM 8 voltage,DP1_LB2_CH8_V,double,1,V,,,,,1
+273,DP1; LB quadrant; board 2; SiPM 9 voltage,DP1_LB2_CH9_V,double,1,V,,,,,1
+274,DP1; LB quadrant; board 2; SiPM 10 voltage,DP1_LB2_CH10_V,double,1,V,,,,,1
+275,DP1; LB quadrant; board 2; SiPM 11 voltage,DP1_LB2_CH11_V,double,1,V,,,,,1
+276,DP1; LB quadrant; board 2; SiPM 12 voltage,DP1_LB2_CH12_V,double,1,V,,,,,1
+277,DP1; LB quadrant; board 2; SiPM 13 voltage,DP1_LB2_CH13_V,double,1,V,,,,,1
+278,DP1; LB quadrant; board 2; SiPM 14 voltage,DP1_LB2_CH14_V,double,1,V,,,,,1
+279,DP1; LB quadrant; board 2; SiPM 15 voltage,DP1_LB2_CH15_V,double,1,V,,,,,1
+280,DP1; LB quadrant; board 2; SiPM 16 voltage,DP1_LB2_CH16_V,double,1,V,,,,,1
+281,DP1; LB quadrant; board 2; SiPM 17 voltage,DP1_LB2_CH17_V,double,1,V,,,,,1
+282,DP1; LB quadrant; board 2; SiPM 18 voltage,DP1_LB2_CH18_V,double,1,V,,,,,1
+283,DP1; LB quadrant; board 2; SiPM 19 voltage,DP1_LB2_CH19_V,double,1,V,,,,,1
+284,DP1; LB quadrant; board 2; SiPM 20 voltage,DP1_LB2_CH20_V,double,1,V,,,,,1
+285,DP1; LB quadrant; board 2; SiPM 21 voltage,DP1_LB2_CH21_V,double,1,V,,,,,1
+286,DP1; LB quadrant; board 2; SiPM 22 voltage,DP1_LB2_CH22_V,double,1,V,,,,,1
+287,DP1; LB quadrant; board 2; SiPM 23 voltage,DP1_LB2_CH23_V,double,1,V,,,,,1
+288,DP1; LB quadrant; board 2; SiPM 24 voltage,DP1_LB2_CH24_V,double,1,V,,,,,1
+289,DP1; LB quadrant; board 3; SiPM 1 voltage,DP1_LB3_CH1_V,double,1,V,,,,,1
+290,DP1; LB quadrant; board 3; SiPM 2 voltage,DP1_LB3_CH2_V,double,1,V,,,,,1
+291,DP1; LB quadrant; board 3; SiPM 3 voltage,DP1_LB3_CH3_V,double,1,V,,,,,1
+292,DP1; LB quadrant; board 3; SiPM 4 voltage,DP1_LB3_CH4_V,double,1,V,,,,,1
+293,DP1; LB quadrant; board 3; SiPM 5 voltage,DP1_LB3_CH5_V,double,1,V,,,,,1
+294,DP1; LB quadrant; board 3; SiPM 6 voltage,DP1_LB3_CH6_V,double,1,V,,,,,1
+295,DP1; LB quadrant; board 3; SiPM 7 voltage,DP1_LB3_CH7_V,double,1,V,,,,,1
+296,DP1; LB quadrant; board 3; SiPM 8 voltage,DP1_LB3_CH8_V,double,1,V,,,,,1
+297,DP1; LB quadrant; board 3; SiPM 9 voltage,DP1_LB3_CH9_V,double,1,V,,,,,1
+298,DP1; LB quadrant; board 3; SiPM 10 voltage,DP1_LB3_CH10_V,double,1,V,,,,,1
+299,DP1; LB quadrant; board 3; SiPM 11 voltage,DP1_LB3_CH11_V,double,1,V,,,,,1
+300,DP1; LB quadrant; board 3; SiPM 12 voltage,DP1_LB3_CH12_V,double,1,V,,,,,1
+301,DP1; LB quadrant; board 3; SiPM 13 voltage,DP1_LB3_CH13_V,double,1,V,,,,,1
+302,DP1; LB quadrant; board 3; SiPM 14 voltage,DP1_LB3_CH14_V,double,1,V,,,,,1
+303,DP1; LB quadrant; board 3; SiPM 15 voltage,DP1_LB3_CH15_V,double,1,V,,,,,1
+304,DP1; LB quadrant; board 3; SiPM 16 voltage,DP1_LB3_CH16_V,double,1,V,,,,,1
+305,DP1; LB quadrant; board 3; SiPM 17 voltage,DP1_LB3_CH17_V,double,1,V,,,,,1
+306,DP1; LB quadrant; board 3; SiPM 18 voltage,DP1_LB3_CH18_V,double,1,V,,,,,1
+307,DP1; LB quadrant; board 3; SiPM 19 voltage,DP1_LB3_CH19_V,double,1,V,,,,,1
+308,DP1; LB quadrant; board 3; SiPM 20 voltage,DP1_LB3_CH20_V,double,1,V,,,,,1
+309,DP1; LB quadrant; board 3; SiPM 21 voltage,DP1_LB3_CH21_V,double,1,V,,,,,1
+310,DP1; LB quadrant; board 3; SiPM 22 voltage,DP1_LB3_CH22_V,double,1,V,,,,,1
+311,DP1; LB quadrant; board 3; SiPM 23 voltage,DP1_LB3_CH23_V,double,1,V,,,,,1
+312,DP1; LB quadrant; board 3; SiPM 24 voltage,DP1_LB3_CH24_V,double,1,V,,,,,1
+313,DP1; LB quadrant; board 4; SiPM 1 voltage,DP1_LB4_CH1_V,double,1,V,,,,,1
+314,DP1; LB quadrant; board 4; SiPM 2 voltage,DP1_LB4_CH2_V,double,1,V,,,,,1
+315,DP1; LB quadrant; board 4; SiPM 3 voltage,DP1_LB4_CH3_V,double,1,V,,,,,1
+316,DP1; LB quadrant; board 4; SiPM 4 voltage,DP1_LB4_CH4_V,double,1,V,,,,,1
+317,DP1; LB quadrant; board 4; SiPM 5 voltage,DP1_LB4_CH5_V,double,1,V,,,,,1
+318,DP1; LB quadrant; board 4; SiPM 6 voltage,DP1_LB4_CH6_V,double,1,V,,,,,1
+319,DP1; LB quadrant; board 4; SiPM 7 voltage,DP1_LB4_CH7_V,double,1,V,,,,,1
+320,DP1; LB quadrant; board 4; SiPM 8 voltage,DP1_LB4_CH8_V,double,1,V,,,,,1
+321,DP1; LB quadrant; board 4; SiPM 9 voltage,DP1_LB4_CH9_V,double,1,V,,,,,1
+322,DP1; LB quadrant; board 4; SiPM 10 voltage,DP1_LB4_CH10_V,double,1,V,,,,,1
+323,DP1; LB quadrant; board 4; SiPM 11 voltage,DP1_LB4_CH11_V,double,1,V,,,,,1
+324,DP1; LB quadrant; board 4; SiPM 12 voltage,DP1_LB4_CH12_V,double,1,V,,,,,1
+325,DP1; LB quadrant; board 4; SiPM 13 voltage,DP1_LB4_CH13_V,double,1,V,,,,,1
+326,DP1; LB quadrant; board 4; SiPM 14 voltage,DP1_LB4_CH14_V,double,1,V,,,,,1
+327,DP1; LB quadrant; board 4; SiPM 15 voltage,DP1_LB4_CH15_V,double,1,V,,,,,1
+328,DP1; LB quadrant; board 4; SiPM 16 voltage,DP1_LB4_CH16_V,double,1,V,,,,,1
+329,DP1; LB quadrant; board 4; SiPM 17 voltage,DP1_LB4_CH17_V,double,1,V,,,,,1
+330,DP1; LB quadrant; board 4; SiPM 18 voltage,DP1_LB4_CH18_V,double,1,V,,,,,1
+331,DP1; LB quadrant; board 4; SiPM 19 voltage,DP1_LB4_CH19_V,double,1,V,,,,,1
+332,DP1; LB quadrant; board 4; SiPM 20 voltage,DP1_LB4_CH20_V,double,1,V,,,,,1
+333,DP1; LB quadrant; board 4; SiPM 21 voltage,DP1_LB4_CH21_V,double,1,V,,,,,1
+334,DP1; LB quadrant; board 4; SiPM 22 voltage,DP1_LB4_CH22_V,double,1,V,,,,,1
+335,DP1; LB quadrant; board 4; SiPM 23 voltage,DP1_LB4_CH23_V,double,1,V,,,,,1
+336,DP1; LB quadrant; board 4; SiPM 24 voltage,DP1_LB4_CH24_V,double,1,V,,,,,1
+337,DP1; RT quadrant; board 1; SiPM 1 voltage,DP1_RT1_CH1_V,double,1,V,,,,,1
+338,DP1; RT quadrant; board 1; SiPM 2 voltage,DP1_RT1_CH2_V,double,1,V,,,,,1
+339,DP1; RT quadrant; board 1; SiPM 3 voltage,DP1_RT1_CH3_V,double,1,V,,,,,1
+340,DP1; RT quadrant; board 1; SiPM 4 voltage,DP1_RT1_CH4_V,double,1,V,,,,,1
+341,DP1; RT quadrant; board 1; SiPM 5 voltage,DP1_RT1_CH5_V,double,1,V,,,,,1
+342,DP1; RT quadrant; board 1; SiPM 6 voltage,DP1_RT1_CH6_V,double,1,V,,,,,1
+343,DP1; RT quadrant; board 1; SiPM 7 voltage,DP1_RT1_CH7_V,double,1,V,,,,,1
+344,DP1; RT quadrant; board 1; SiPM 8 voltage,DP1_RT1_CH8_V,double,1,V,,,,,1
+345,DP1; RT quadrant; board 1; SiPM 9 voltage,DP1_RT1_CH9_V,double,1,V,,,,,1
+346,DP1; RT quadrant; board 1; SiPM 10 voltage,DP1_RT1_CH10_V,double,1,V,,,,,1
+347,DP1; RT quadrant; board 1; SiPM 11 voltage,DP1_RT1_CH11_V,double,1,V,,,,,1
+348,DP1; RT quadrant; board 1; SiPM 12 voltage,DP1_RT1_CH12_V,double,1,V,,,,,1
+349,DP1; RT quadrant; board 1; SiPM 13 voltage,DP1_RT1_CH13_V,double,1,V,,,,,1
+350,DP1; RT quadrant; board 1; SiPM 14 voltage,DP1_RT1_CH14_V,double,1,V,,,,,1
+351,DP1; RT quadrant; board 1; SiPM 15 voltage,DP1_RT1_CH15_V,double,1,V,,,,,1
+352,DP1; RT quadrant; board 1; SiPM 16 voltage,DP1_RT1_CH16_V,double,1,V,,,,,1
+353,DP1; RT quadrant; board 1; SiPM 17 voltage,DP1_RT1_CH17_V,double,1,V,,,,,1
+354,DP1; RT quadrant; board 1; SiPM 18 voltage,DP1_RT1_CH18_V,double,1,V,,,,,1
+355,DP1; RT quadrant; board 1; SiPM 19 voltage,DP1_RT1_CH19_V,double,1,V,,,,,1
+356,DP1; RT quadrant; board 1; SiPM 20 voltage,DP1_RT1_CH20_V,double,1,V,,,,,1
+357,DP1; RT quadrant; board 1; SiPM 21 voltage,DP1_RT1_CH21_V,double,1,V,,,,,1
+358,DP1; RT quadrant; board 1; SiPM 22 voltage,DP1_RT1_CH22_V,double,1,V,,,,,1
+359,DP1; RT quadrant; board 1; SiPM 23 voltage,DP1_RT1_CH23_V,double,1,V,,,,,1
+360,DP1; RT quadrant; board 1; SiPM 24 voltage,DP1_RT1_CH24_V,double,1,V,,,,,1
+361,DP1; RT quadrant; board 2; SiPM 1 voltage,DP1_RT2_CH1_V,double,1,V,,,,,1
+362,DP1; RT quadrant; board 2; SiPM 2 voltage,DP1_RT2_CH2_V,double,1,V,,,,,1
+363,DP1; RT quadrant; board 2; SiPM 3 voltage,DP1_RT2_CH3_V,double,1,V,,,,,1
+364,DP1; RT quadrant; board 2; SiPM 4 voltage,DP1_RT2_CH4_V,double,1,V,,,,,1
+365,DP1; RT quadrant; board 2; SiPM 5 voltage,DP1_RT2_CH5_V,double,1,V,,,,,1
+366,DP1; RT quadrant; board 2; SiPM 6 voltage,DP1_RT2_CH6_V,double,1,V,,,,,1
+367,DP1; RT quadrant; board 2; SiPM 7 voltage,DP1_RT2_CH7_V,double,1,V,,,,,1
+368,DP1; RT quadrant; board 2; SiPM 8 voltage,DP1_RT2_CH8_V,double,1,V,,,,,1
+369,DP1; RT quadrant; board 2; SiPM 9 voltage,DP1_RT2_CH9_V,double,1,V,,,,,1
+370,DP1; RT quadrant; board 2; SiPM 10 voltage,DP1_RT2_CH10_V,double,1,V,,,,,1
+371,DP1; RT quadrant; board 2; SiPM 11 voltage,DP1_RT2_CH11_V,double,1,V,,,,,1
+372,DP1; RT quadrant; board 2; SiPM 12 voltage,DP1_RT2_CH12_V,double,1,V,,,,,1
+373,DP1; RT quadrant; board 2; SiPM 13 voltage,DP1_RT2_CH13_V,double,1,V,,,,,1
+374,DP1; RT quadrant; board 2; SiPM 14 voltage,DP1_RT2_CH14_V,double,1,V,,,,,1
+375,DP1; RT quadrant; board 2; SiPM 15 voltage,DP1_RT2_CH15_V,double,1,V,,,,,1
+376,DP1; RT quadrant; board 2; SiPM 16 voltage,DP1_RT2_CH16_V,double,1,V,,,,,1
+377,DP1; RT quadrant; board 2; SiPM 17 voltage,DP1_RT2_CH17_V,double,1,V,,,,,1
+378,DP1; RT quadrant; board 2; SiPM 18 voltage,DP1_RT2_CH18_V,double,1,V,,,,,1
+379,DP1; RT quadrant; board 2; SiPM 19 voltage,DP1_RT2_CH19_V,double,1,V,,,,,1
+380,DP1; RT quadrant; board 2; SiPM 20 voltage,DP1_RT2_CH20_V,double,1,V,,,,,1
+381,DP1; RT quadrant; board 2; SiPM 21 voltage,DP1_RT2_CH21_V,double,1,V,,,,,1
+382,DP1; RT quadrant; board 2; SiPM 22 voltage,DP1_RT2_CH22_V,double,1,V,,,,,1
+383,DP1; RT quadrant; board 2; SiPM 23 voltage,DP1_RT2_CH23_V,double,1,V,,,,,1
+384,DP1; RT quadrant; board 2; SiPM 24 voltage,DP1_RT2_CH24_V,double,1,V,,,,,1
+385,DP1; RT quadrant; board 3; SiPM 1 voltage,DP1_RT3_CH1_V,double,1,V,,,,,1
+386,DP1; RT quadrant; board 3; SiPM 2 voltage,DP1_RT3_CH2_V,double,1,V,,,,,1
+387,DP1; RT quadrant; board 3; SiPM 3 voltage,DP1_RT3_CH3_V,double,1,V,,,,,1
+388,DP1; RT quadrant; board 3; SiPM 4 voltage,DP1_RT3_CH4_V,double,1,V,,,,,1
+389,DP1; RT quadrant; board 3; SiPM 5 voltage,DP1_RT3_CH5_V,double,1,V,,,,,1
+390,DP1; RT quadrant; board 3; SiPM 6 voltage,DP1_RT3_CH6_V,double,1,V,,,,,1
+391,DP1; RT quadrant; board 3; SiPM 7 voltage,DP1_RT3_CH7_V,double,1,V,,,,,1
+392,DP1; RT quadrant; board 3; SiPM 8 voltage,DP1_RT3_CH8_V,double,1,V,,,,,1
+393,DP1; RT quadrant; board 3; SiPM 9 voltage,DP1_RT3_CH9_V,double,1,V,,,,,1
+394,DP1; RT quadrant; board 3; SiPM 10 voltage,DP1_RT3_CH10_V,double,1,V,,,,,1
+395,DP1; RT quadrant; board 3; SiPM 11 voltage,DP1_RT3_CH11_V,double,1,V,,,,,1
+396,DP1; RT quadrant; board 3; SiPM 12 voltage,DP1_RT3_CH12_V,double,1,V,,,,,1
+397,DP1; RT quadrant; board 3; SiPM 13 voltage,DP1_RT3_CH13_V,double,1,V,,,,,1
+398,DP1; RT quadrant; board 3; SiPM 14 voltage,DP1_RT3_CH14_V,double,1,V,,,,,1
+399,DP1; RT quadrant; board 3; SiPM 15 voltage,DP1_RT3_CH15_V,double,1,V,,,,,1
+400,DP1; RT quadrant; board 3; SiPM 16 voltage,DP1_RT3_CH16_V,double,1,V,,,,,1
+401,DP1; RT quadrant; board 3; SiPM 17 voltage,DP1_RT3_CH17_V,double,1,V,,,,,1
+402,DP1; RT quadrant; board 3; SiPM 18 voltage,DP1_RT3_CH18_V,double,1,V,,,,,1
+403,DP1; RT quadrant; board 3; SiPM 19 voltage,DP1_RT3_CH19_V,double,1,V,,,,,1
+404,DP1; RT quadrant; board 3; SiPM 20 voltage,DP1_RT3_CH20_V,double,1,V,,,,,1
+405,DP1; RT quadrant; board 3; SiPM 21 voltage,DP1_RT3_CH21_V,double,1,V,,,,,1
+406,DP1; RT quadrant; board 3; SiPM 22 voltage,DP1_RT3_CH22_V,double,1,V,,,,,1
+407,DP1; RT quadrant; board 3; SiPM 23 voltage,DP1_RT3_CH23_V,double,1,V,,,,,1
+408,DP1; RT quadrant; board 3; SiPM 24 voltage,DP1_RT3_CH24_V,double,1,V,,,,,1
+409,DP1; RT quadrant; board 4; SiPM 1 voltage,DP1_RT4_CH1_V,double,1,V,,,,,1
+410,DP1; RT quadrant; board 4; SiPM 2 voltage,DP1_RT4_CH2_V,double,1,V,,,,,1
+411,DP1; RT quadrant; board 4; SiPM 3 voltage,DP1_RT4_CH3_V,double,1,V,,,,,1
+412,DP1; RT quadrant; board 4; SiPM 4 voltage,DP1_RT4_CH4_V,double,1,V,,,,,1
+413,DP1; RT quadrant; board 4; SiPM 5 voltage,DP1_RT4_CH5_V,double,1,V,,,,,1
+414,DP1; RT quadrant; board 4; SiPM 6 voltage,DP1_RT4_CH6_V,double,1,V,,,,,1
+415,DP1; RT quadrant; board 4; SiPM 7 voltage,DP1_RT4_CH7_V,double,1,V,,,,,1
+416,DP1; RT quadrant; board 4; SiPM 8 voltage,DP1_RT4_CH8_V,double,1,V,,,,,1
+417,DP1; RT quadrant; board 4; SiPM 9 voltage,DP1_RT4_CH9_V,double,1,V,,,,,1
+418,DP1; RT quadrant; board 4; SiPM 10 voltage,DP1_RT4_CH10_V,double,1,V,,,,,1
+419,DP1; RT quadrant; board 4; SiPM 11 voltage,DP1_RT4_CH11_V,double,1,V,,,,,1
+420,DP1; RT quadrant; board 4; SiPM 12 voltage,DP1_RT4_CH12_V,double,1,V,,,,,1
+421,DP1; RT quadrant; board 4; SiPM 13 voltage,DP1_RT4_CH13_V,double,1,V,,,,,1
+422,DP1; RT quadrant; board 4; SiPM 14 voltage,DP1_RT4_CH14_V,double,1,V,,,,,1
+423,DP1; RT quadrant; board 4; SiPM 15 voltage,DP1_RT4_CH15_V,double,1,V,,,,,1
+424,DP1; RT quadrant; board 4; SiPM 16 voltage,DP1_RT4_CH16_V,double,1,V,,,,,1
+425,DP1; RT quadrant; board 4; SiPM 17 voltage,DP1_RT4_CH17_V,double,1,V,,,,,1
+426,DP1; RT quadrant; board 4; SiPM 18 voltage,DP1_RT4_CH18_V,double,1,V,,,,,1
+427,DP1; RT quadrant; board 4; SiPM 19 voltage,DP1_RT4_CH19_V,double,1,V,,,,,1
+428,DP1; RT quadrant; board 4; SiPM 20 voltage,DP1_RT4_CH20_V,double,1,V,,,,,1
+429,DP1; RT quadrant; board 4; SiPM 21 voltage,DP1_RT4_CH21_V,double,1,V,,,,,1
+430,DP1; RT quadrant; board 4; SiPM 22 voltage,DP1_RT4_CH22_V,double,1,V,,,,,1
+431,DP1; RT quadrant; board 4; SiPM 23 voltage,DP1_RT4_CH23_V,double,1,V,,,,,1
+432,DP1; RT quadrant; board 4; SiPM 24 voltage,DP1_RT4_CH24_V,double,1,V,,,,,1
+433,DP1; RB quadrant; board 1; SiPM 1 voltage,DP1_RB1_CH1_V,double,1,V,,,,,1
+434,DP1; RB quadrant; board 1; SiPM 2 voltage,DP1_RB1_CH2_V,double,1,V,,,,,1
+435,DP1; RB quadrant; board 1; SiPM 3 voltage,DP1_RB1_CH3_V,double,1,V,,,,,1
+436,DP1; RB quadrant; board 1; SiPM 4 voltage,DP1_RB1_CH4_V,double,1,V,,,,,1
+437,DP1; RB quadrant; board 1; SiPM 5 voltage,DP1_RB1_CH5_V,double,1,V,,,,,1
+438,DP1; RB quadrant; board 1; SiPM 6 voltage,DP1_RB1_CH6_V,double,1,V,,,,,1
+439,DP1; RB quadrant; board 1; SiPM 7 voltage,DP1_RB1_CH7_V,double,1,V,,,,,1
+440,DP1; RB quadrant; board 1; SiPM 8 voltage,DP1_RB1_CH8_V,double,1,V,,,,,1
+441,DP1; RB quadrant; board 1; SiPM 9 voltage,DP1_RB1_CH9_V,double,1,V,,,,,1
+442,DP1; RB quadrant; board 1; SiPM 10 voltage,DP1_RB1_CH10_V,double,1,V,,,,,1
+443,DP1; RB quadrant; board 1; SiPM 11 voltage,DP1_RB1_CH11_V,double,1,V,,,,,1
+444,DP1; RB quadrant; board 1; SiPM 12 voltage,DP1_RB1_CH12_V,double,1,V,,,,,1
+445,DP1; RB quadrant; board 1; SiPM 13 voltage,DP1_RB1_CH13_V,double,1,V,,,,,1
+446,DP1; RB quadrant; board 1; SiPM 14 voltage,DP1_RB1_CH14_V,double,1,V,,,,,1
+447,DP1; RB quadrant; board 1; SiPM 15 voltage,DP1_RB1_CH15_V,double,1,V,,,,,1
+448,DP1; RB quadrant; board 1; SiPM 16 voltage,DP1_RB1_CH16_V,double,1,V,,,,,1
+449,DP1; RB quadrant; board 1; SiPM 17 voltage,DP1_RB1_CH17_V,double,1,V,,,,,1
+450,DP1; RB quadrant; board 1; SiPM 18 voltage,DP1_RB1_CH18_V,double,1,V,,,,,1
+451,DP1; RB quadrant; board 1; SiPM 19 voltage,DP1_RB1_CH19_V,double,1,V,,,,,1
+452,DP1; RB quadrant; board 1; SiPM 20 voltage,DP1_RB1_CH20_V,double,1,V,,,,,1
+453,DP1; RB quadrant; board 1; SiPM 21 voltage,DP1_RB1_CH21_V,double,1,V,,,,,1
+454,DP1; RB quadrant; board 1; SiPM 22 voltage,DP1_RB1_CH22_V,double,1,V,,,,,1
+455,DP1; RB quadrant; board 1; SiPM 23 voltage,DP1_RB1_CH23_V,double,1,V,,,,,1
+456,DP1; RB quadrant; board 1; SiPM 24 voltage,DP1_RB1_CH24_V,double,1,V,,,,,1
+457,DP1; RB quadrant; board 2; SiPM 1 voltage,DP1_RB2_CH1_V,double,1,V,,,,,1
+458,DP1; RB quadrant; board 2; SiPM 2 voltage,DP1_RB2_CH2_V,double,1,V,,,,,1
+459,DP1; RB quadrant; board 2; SiPM 3 voltage,DP1_RB2_CH3_V,double,1,V,,,,,1
+460,DP1; RB quadrant; board 2; SiPM 4 voltage,DP1_RB2_CH4_V,double,1,V,,,,,1
+461,DP1; RB quadrant; board 2; SiPM 5 voltage,DP1_RB2_CH5_V,double,1,V,,,,,1
+462,DP1; RB quadrant; board 2; SiPM 6 voltage,DP1_RB2_CH6_V,double,1,V,,,,,1
+463,DP1; RB quadrant; board 2; SiPM 7 voltage,DP1_RB2_CH7_V,double,1,V,,,,,1
+464,DP1; RB quadrant; board 2; SiPM 8 voltage,DP1_RB2_CH8_V,double,1,V,,,,,1
+465,DP1; RB quadrant; board 2; SiPM 9 voltage,DP1_RB2_CH9_V,double,1,V,,,,,1
+466,DP1; RB quadrant; board 2; SiPM 10 voltage,DP1_RB2_CH10_V,double,1,V,,,,,1
+467,DP1; RB quadrant; board 2; SiPM 11 voltage,DP1_RB2_CH11_V,double,1,V,,,,,1
+468,DP1; RB quadrant; board 2; SiPM 12 voltage,DP1_RB2_CH12_V,double,1,V,,,,,1
+469,DP1; RB quadrant; board 2; SiPM 13 voltage,DP1_RB2_CH13_V,double,1,V,,,,,1
+470,DP1; RB quadrant; board 2; SiPM 14 voltage,DP1_RB2_CH14_V,double,1,V,,,,,1
+471,DP1; RB quadrant; board 2; SiPM 15 voltage,DP1_RB2_CH15_V,double,1,V,,,,,1
+472,DP1; RB quadrant; board 2; SiPM 16 voltage,DP1_RB2_CH16_V,double,1,V,,,,,1
+473,DP1; RB quadrant; board 2; SiPM 17 voltage,DP1_RB2_CH17_V,double,1,V,,,,,1
+474,DP1; RB quadrant; board 2; SiPM 18 voltage,DP1_RB2_CH18_V,double,1,V,,,,,1
+475,DP1; RB quadrant; board 2; SiPM 19 voltage,DP1_RB2_CH19_V,double,1,V,,,,,1
+476,DP1; RB quadrant; board 2; SiPM 20 voltage,DP1_RB2_CH20_V,double,1,V,,,,,1
+477,DP1; RB quadrant; board 2; SiPM 21 voltage,DP1_RB2_CH21_V,double,1,V,,,,,1
+478,DP1; RB quadrant; board 2; SiPM 22 voltage,DP1_RB2_CH22_V,double,1,V,,,,,1
+479,DP1; RB quadrant; board 2; SiPM 23 voltage,DP1_RB2_CH23_V,double,1,V,,,,,1
+480,DP1; RB quadrant; board 2; SiPM 24 voltage,DP1_RB2_CH24_V,double,1,V,,,,,1
+481,DP1; RB quadrant; board 3; SiPM 1 voltage,DP1_RB3_CH1_V,double,1,V,,,,,1
+482,DP1; RB quadrant; board 3; SiPM 2 voltage,DP1_RB3_CH2_V,double,1,V,,,,,1
+483,DP1; RB quadrant; board 3; SiPM 3 voltage,DP1_RB3_CH3_V,double,1,V,,,,,1
+484,DP1; RB quadrant; board 3; SiPM 4 voltage,DP1_RB3_CH4_V,double,1,V,,,,,1
+485,DP1; RB quadrant; board 3; SiPM 5 voltage,DP1_RB3_CH5_V,double,1,V,,,,,1
+486,DP1; RB quadrant; board 3; SiPM 6 voltage,DP1_RB3_CH6_V,double,1,V,,,,,1
+487,DP1; RB quadrant; board 3; SiPM 7 voltage,DP1_RB3_CH7_V,double,1,V,,,,,1
+488,DP1; RB quadrant; board 3; SiPM 8 voltage,DP1_RB3_CH8_V,double,1,V,,,,,1
+489,DP1; RB quadrant; board 3; SiPM 9 voltage,DP1_RB3_CH9_V,double,1,V,,,,,1
+490,DP1; RB quadrant; board 3; SiPM 10 voltage,DP1_RB3_CH10_V,double,1,V,,,,,1
+491,DP1; RB quadrant; board 3; SiPM 11 voltage,DP1_RB3_CH11_V,double,1,V,,,,,1
+492,DP1; RB quadrant; board 3; SiPM 12 voltage,DP1_RB3_CH12_V,double,1,V,,,,,1
+493,DP1; RB quadrant; board 3; SiPM 13 voltage,DP1_RB3_CH13_V,double,1,V,,,,,1
+494,DP1; RB quadrant; board 3; SiPM 14 voltage,DP1_RB3_CH14_V,double,1,V,,,,,1
+495,DP1; RB quadrant; board 3; SiPM 15 voltage,DP1_RB3_CH15_V,double,1,V,,,,,1
+496,DP1; RB quadrant; board 3; SiPM 16 voltage,DP1_RB3_CH16_V,double,1,V,,,,,1
+497,DP1; RB quadrant; board 3; SiPM 17 voltage,DP1_RB3_CH17_V,double,1,V,,,,,1
+498,DP1; RB quadrant; board 3; SiPM 18 voltage,DP1_RB3_CH18_V,double,1,V,,,,,1
+499,DP1; RB quadrant; board 3; SiPM 19 voltage,DP1_RB3_CH19_V,double,1,V,,,,,1
+500,DP1; RB quadrant; board 3; SiPM 20 voltage,DP1_RB3_CH20_V,double,1,V,,,,,1
+501,DP1; RB quadrant; board 3; SiPM 21 voltage,DP1_RB3_CH21_V,double,1,V,,,,,1
+502,DP1; RB quadrant; board 3; SiPM 22 voltage,DP1_RB3_CH22_V,double,1,V,,,,,1
+503,DP1; RB quadrant; board 3; SiPM 23 voltage,DP1_RB3_CH23_V,double,1,V,,,,,1
+504,DP1; RB quadrant; board 3; SiPM 24 voltage,DP1_RB3_CH24_V,double,1,V,,,,,1
+505,DP1; RB quadrant; board 4; SiPM 1 voltage,DP1_RB4_CH1_V,double,1,V,,,,,1
+506,DP1; RB quadrant; board 4; SiPM 2 voltage,DP1_RB4_CH2_V,double,1,V,,,,,1
+507,DP1; RB quadrant; board 4; SiPM 3 voltage,DP1_RB4_CH3_V,double,1,V,,,,,1
+508,DP1; RB quadrant; board 4; SiPM 4 voltage,DP1_RB4_CH4_V,double,1,V,,,,,1
+509,DP1; RB quadrant; board 4; SiPM 5 voltage,DP1_RB4_CH5_V,double,1,V,,,,,1
+510,DP1; RB quadrant; board 4; SiPM 6 voltage,DP1_RB4_CH6_V,double,1,V,,,,,1
+511,DP1; RB quadrant; board 4; SiPM 7 voltage,DP1_RB4_CH7_V,double,1,V,,,,,1
+512,DP1; RB quadrant; board 4; SiPM 8 voltage,DP1_RB4_CH8_V,double,1,V,,,,,1
+513,DP1; RB quadrant; board 4; SiPM 9 voltage,DP1_RB4_CH9_V,double,1,V,,,,,1
+514,DP1; RB quadrant; board 4; SiPM 10 voltage,DP1_RB4_CH10_V,double,1,V,,,,,1
+515,DP1; RB quadrant; board 4; SiPM 11 voltage,DP1_RB4_CH11_V,double,1,V,,,,,1
+516,DP1; RB quadrant; board 4; SiPM 12 voltage,DP1_RB4_CH12_V,double,1,V,,,,,1
+517,DP1; RB quadrant; board 4; SiPM 13 voltage,DP1_RB4_CH13_V,double,1,V,,,,,1
+518,DP1; RB quadrant; board 4; SiPM 14 voltage,DP1_RB4_CH14_V,double,1,V,,,,,1
+519,DP1; RB quadrant; board 4; SiPM 15 voltage,DP1_RB4_CH15_V,double,1,V,,,,,1
+520,DP1; RB quadrant; board 4; SiPM 16 voltage,DP1_RB4_CH16_V,double,1,V,,,,,1
+521,DP1; RB quadrant; board 4; SiPM 17 voltage,DP1_RB4_CH17_V,double,1,V,,,,,1
+522,DP1; RB quadrant; board 4; SiPM 18 voltage,DP1_RB4_CH18_V,double,1,V,,,,,1
+523,DP1; RB quadrant; board 4; SiPM 19 voltage,DP1_RB4_CH19_V,double,1,V,,,,,1
+524,DP1; RB quadrant; board 4; SiPM 20 voltage,DP1_RB4_CH20_V,double,1,V,,,,,1
+525,DP1; RB quadrant; board 4; SiPM 21 voltage,DP1_RB4_CH21_V,double,1,V,,,,,1
+526,DP1; RB quadrant; board 4; SiPM 22 voltage,DP1_RB4_CH22_V,double,1,V,,,,,1
+527,DP1; RB quadrant; board 4; SiPM 23 voltage,DP1_RB4_CH23_V,double,1,V,,,,,1
+528,DP1; RB quadrant; board 4; SiPM 24 voltage,DP1_RB4_CH24_V,double,1,V,,,,,1
+529,DP2; LT quadrant; board 1; SiPM 1 voltage,DP2_LT1_CH1_V,double,1,V,,,,,1
+530,DP2; LT quadrant; board 1; SiPM 2 voltage,DP2_LT1_CH2_V,double,1,V,,,,,1
+531,DP2; LT quadrant; board 1; SiPM 3 voltage,DP2_LT1_CH3_V,double,1,V,,,,,1
+532,DP2; LT quadrant; board 1; SiPM 4 voltage,DP2_LT1_CH4_V,double,1,V,,,,,1
+533,DP2; LT quadrant; board 1; SiPM 5 voltage,DP2_LT1_CH5_V,double,1,V,,,,,1
+534,DP2; LT quadrant; board 1; SiPM 6 voltage,DP2_LT1_CH6_V,double,1,V,,,,,1
+535,DP2; LT quadrant; board 1; SiPM 7 voltage,DP2_LT1_CH7_V,double,1,V,,,,,1
+536,DP2; LT quadrant; board 1; SiPM 8 voltage,DP2_LT1_CH8_V,double,1,V,,,,,1
+537,DP2; LT quadrant; board 1; SiPM 9 voltage,DP2_LT1_CH9_V,double,1,V,,,,,1
+538,DP2; LT quadrant; board 1; SiPM 10 voltage,DP2_LT1_CH10_V,double,1,V,,,,,1
+539,DP2; LT quadrant; board 1; SiPM 11 voltage,DP2_LT1_CH11_V,double,1,V,,,,,1
+540,DP2; LT quadrant; board 1; SiPM 12 voltage,DP2_LT1_CH12_V,double,1,V,,,,,1
+541,DP2; LT quadrant; board 1; SiPM 13 voltage,DP2_LT1_CH13_V,double,1,V,,,,,1
+542,DP2; LT quadrant; board 1; SiPM 14 voltage,DP2_LT1_CH14_V,double,1,V,,,,,1
+543,DP2; LT quadrant; board 1; SiPM 15 voltage,DP2_LT1_CH15_V,double,1,V,,,,,1
+544,DP2; LT quadrant; board 1; SiPM 16 voltage,DP2_LT1_CH16_V,double,1,V,,,,,1
+545,DP2; LT quadrant; board 1; SiPM 17 voltage,DP2_LT1_CH17_V,double,1,V,,,,,1
+546,DP2; LT quadrant; board 1; SiPM 18 voltage,DP2_LT1_CH18_V,double,1,V,,,,,1
+547,DP2; LT quadrant; board 1; SiPM 19 voltage,DP2_LT1_CH19_V,double,1,V,,,,,1
+548,DP2; LT quadrant; board 1; SiPM 20 voltage,DP2_LT1_CH20_V,double,1,V,,,,,1
+549,DP2; LT quadrant; board 1; SiPM 21 voltage,DP2_LT1_CH21_V,double,1,V,,,,,1
+550,DP2; LT quadrant; board 1; SiPM 22 voltage,DP2_LT1_CH22_V,double,1,V,,,,,1
+551,DP2; LT quadrant; board 1; SiPM 23 voltage,DP2_LT1_CH23_V,double,1,V,,,,,1
+552,DP2; LT quadrant; board 1; SiPM 24 voltage,DP2_LT1_CH24_V,double,1,V,,,,,1
+553,DP2; LT quadrant; board 2; SiPM 1 voltage,DP2_LT2_CH1_V,double,1,V,,,,,1
+554,DP2; LT quadrant; board 2; SiPM 2 voltage,DP2_LT2_CH2_V,double,1,V,,,,,1
+555,DP2; LT quadrant; board 2; SiPM 3 voltage,DP2_LT2_CH3_V,double,1,V,,,,,1
+556,DP2; LT quadrant; board 2; SiPM 4 voltage,DP2_LT2_CH4_V,double,1,V,,,,,1
+557,DP2; LT quadrant; board 2; SiPM 5 voltage,DP2_LT2_CH5_V,double,1,V,,,,,1
+558,DP2; LT quadrant; board 2; SiPM 6 voltage,DP2_LT2_CH6_V,double,1,V,,,,,1
+559,DP2; LT quadrant; board 2; SiPM 7 voltage,DP2_LT2_CH7_V,double,1,V,,,,,1
+560,DP2; LT quadrant; board 2; SiPM 8 voltage,DP2_LT2_CH8_V,double,1,V,,,,,1
+561,DP2; LT quadrant; board 2; SiPM 9 voltage,DP2_LT2_CH9_V,double,1,V,,,,,1
+562,DP2; LT quadrant; board 2; SiPM 10 voltage,DP2_LT2_CH10_V,double,1,V,,,,,1
+563,DP2; LT quadrant; board 2; SiPM 11 voltage,DP2_LT2_CH11_V,double,1,V,,,,,1
+564,DP2; LT quadrant; board 2; SiPM 12 voltage,DP2_LT2_CH12_V,double,1,V,,,,,1
+565,DP2; LT quadrant; board 2; SiPM 13 voltage,DP2_LT2_CH13_V,double,1,V,,,,,1
+566,DP2; LT quadrant; board 2; SiPM 14 voltage,DP2_LT2_CH14_V,double,1,V,,,,,1
+567,DP2; LT quadrant; board 2; SiPM 15 voltage,DP2_LT2_CH15_V,double,1,V,,,,,1
+568,DP2; LT quadrant; board 2; SiPM 16 voltage,DP2_LT2_CH16_V,double,1,V,,,,,1
+569,DP2; LT quadrant; board 2; SiPM 17 voltage,DP2_LT2_CH17_V,double,1,V,,,,,1
+570,DP2; LT quadrant; board 2; SiPM 18 voltage,DP2_LT2_CH18_V,double,1,V,,,,,1
+571,DP2; LT quadrant; board 2; SiPM 19 voltage,DP2_LT2_CH19_V,double,1,V,,,,,1
+572,DP2; LT quadrant; board 2; SiPM 20 voltage,DP2_LT2_CH20_V,double,1,V,,,,,1
+573,DP2; LT quadrant; board 2; SiPM 21 voltage,DP2_LT2_CH21_V,double,1,V,,,,,1
+574,DP2; LT quadrant; board 2; SiPM 22 voltage,DP2_LT2_CH22_V,double,1,V,,,,,1
+575,DP2; LT quadrant; board 2; SiPM 23 voltage,DP2_LT2_CH23_V,double,1,V,,,,,1
+576,DP2; LT quadrant; board 2; SiPM 24 voltage,DP2_LT2_CH24_V,double,1,V,,,,,1
+577,DP2; LB quadrant; board 1; SiPM 1 voltage,DP2_LB1_CH1_V,double,1,V,,,,,1
+578,DP2; LB quadrant; board 1; SiPM 2 voltage,DP2_LB1_CH2_V,double,1,V,,,,,1
+579,DP2; LB quadrant; board 1; SiPM 3 voltage,DP2_LB1_CH3_V,double,1,V,,,,,1
+580,DP2; LB quadrant; board 1; SiPM 4 voltage,DP2_LB1_CH4_V,double,1,V,,,,,1
+581,DP2; LB quadrant; board 1; SiPM 5 voltage,DP2_LB1_CH5_V,double,1,V,,,,,1
+582,DP2; LB quadrant; board 1; SiPM 6 voltage,DP2_LB1_CH6_V,double,1,V,,,,,1
+583,DP2; LB quadrant; board 1; SiPM 7 voltage,DP2_LB1_CH7_V,double,1,V,,,,,1
+584,DP2; LB quadrant; board 1; SiPM 8 voltage,DP2_LB1_CH8_V,double,1,V,,,,,1
+585,DP2; LB quadrant; board 1; SiPM 9 voltage,DP2_LB1_CH9_V,double,1,V,,,,,1
+586,DP2; LB quadrant; board 1; SiPM 10 voltage,DP2_LB1_CH10_V,double,1,V,,,,,1
+587,DP2; LB quadrant; board 1; SiPM 11 voltage,DP2_LB1_CH11_V,double,1,V,,,,,1
+588,DP2; LB quadrant; board 1; SiPM 12 voltage,DP2_LB1_CH12_V,double,1,V,,,,,1
+589,DP2; LB quadrant; board 1; SiPM 13 voltage,DP2_LB1_CH13_V,double,1,V,,,,,1
+590,DP2; LB quadrant; board 1; SiPM 14 voltage,DP2_LB1_CH14_V,double,1,V,,,,,1
+591,DP2; LB quadrant; board 1; SiPM 15 voltage,DP2_LB1_CH15_V,double,1,V,,,,,1
+592,DP2; LB quadrant; board 1; SiPM 16 voltage,DP2_LB1_CH16_V,double,1,V,,,,,1
+593,DP2; LB quadrant; board 1; SiPM 17 voltage,DP2_LB1_CH17_V,double,1,V,,,,,1
+594,DP2; LB quadrant; board 1; SiPM 18 voltage,DP2_LB1_CH18_V,double,1,V,,,,,1
+595,DP2; LB quadrant; board 1; SiPM 19 voltage,DP2_LB1_CH19_V,double,1,V,,,,,1
+596,DP2; LB quadrant; board 1; SiPM 20 voltage,DP2_LB1_CH20_V,double,1,V,,,,,1
+597,DP2; LB quadrant; board 1; SiPM 21 voltage,DP2_LB1_CH21_V,double,1,V,,,,,1
+598,DP2; LB quadrant; board 1; SiPM 22 voltage,DP2_LB1_CH22_V,double,1,V,,,,,1
+599,DP2; LB quadrant; board 1; SiPM 23 voltage,DP2_LB1_CH23_V,double,1,V,,,,,1
+600,DP2; LB quadrant; board 1; SiPM 24 voltage,DP2_LB1_CH24_V,double,1,V,,,,,1
+601,DP2; LB quadrant; board 2; SiPM 1 voltage,DP2_LB2_CH1_V,double,1,V,,,,,1
+602,DP2; LB quadrant; board 2; SiPM 2 voltage,DP2_LB2_CH2_V,double,1,V,,,,,1
+603,DP2; LB quadrant; board 2; SiPM 3 voltage,DP2_LB2_CH3_V,double,1,V,,,,,1
+604,DP2; LB quadrant; board 2; SiPM 4 voltage,DP2_LB2_CH4_V,double,1,V,,,,,1
+605,DP2; LB quadrant; board 2; SiPM 5 voltage,DP2_LB2_CH5_V,double,1,V,,,,,1
+606,DP2; LB quadrant; board 2; SiPM 6 voltage,DP2_LB2_CH6_V,double,1,V,,,,,1
+607,DP2; LB quadrant; board 2; SiPM 7 voltage,DP2_LB2_CH7_V,double,1,V,,,,,1
+608,DP2; LB quadrant; board 2; SiPM 8 voltage,DP2_LB2_CH8_V,double,1,V,,,,,1
+609,DP2; LB quadrant; board 2; SiPM 9 voltage,DP2_LB2_CH9_V,double,1,V,,,,,1
+610,DP2; LB quadrant; board 2; SiPM 10 voltage,DP2_LB2_CH10_V,double,1,V,,,,,1
+611,DP2; LB quadrant; board 2; SiPM 11 voltage,DP2_LB2_CH11_V,double,1,V,,,,,1
+612,DP2; LB quadrant; board 2; SiPM 12 voltage,DP2_LB2_CH12_V,double,1,V,,,,,1
+613,DP2; LB quadrant; board 2; SiPM 13 voltage,DP2_LB2_CH13_V,double,1,V,,,,,1
+614,DP2; LB quadrant; board 2; SiPM 14 voltage,DP2_LB2_CH14_V,double,1,V,,,,,1
+615,DP2; LB quadrant; board 2; SiPM 15 voltage,DP2_LB2_CH15_V,double,1,V,,,,,1
+616,DP2; LB quadrant; board 2; SiPM 16 voltage,DP2_LB2_CH16_V,double,1,V,,,,,1
+617,DP2; LB quadrant; board 2; SiPM 17 voltage,DP2_LB2_CH17_V,double,1,V,,,,,1
+618,DP2; LB quadrant; board 2; SiPM 18 voltage,DP2_LB2_CH18_V,double,1,V,,,,,1
+619,DP2; LB quadrant; board 2; SiPM 19 voltage,DP2_LB2_CH19_V,double,1,V,,,,,1
+620,DP2; LB quadrant; board 2; SiPM 20 voltage,DP2_LB2_CH20_V,double,1,V,,,,,1
+621,DP2; LB quadrant; board 2; SiPM 21 voltage,DP2_LB2_CH21_V,double,1,V,,,,,1
+622,DP2; LB quadrant; board 2; SiPM 22 voltage,DP2_LB2_CH22_V,double,1,V,,,,,1
+623,DP2; LB quadrant; board 2; SiPM 23 voltage,DP2_LB2_CH23_V,double,1,V,,,,,1
+624,DP2; LB quadrant; board 2; SiPM 24 voltage,DP2_LB2_CH24_V,double,1,V,,,,,1
+625,DP2; RT quadrant; board 1; SiPM 1 voltage,DP2_RT1_CH1_V,double,1,V,,,,,1
+626,DP2; RT quadrant; board 1; SiPM 2 voltage,DP2_RT1_CH2_V,double,1,V,,,,,1
+627,DP2; RT quadrant; board 1; SiPM 3 voltage,DP2_RT1_CH3_V,double,1,V,,,,,1
+628,DP2; RT quadrant; board 1; SiPM 4 voltage,DP2_RT1_CH4_V,double,1,V,,,,,1
+629,DP2; RT quadrant; board 1; SiPM 5 voltage,DP2_RT1_CH5_V,double,1,V,,,,,1
+630,DP2; RT quadrant; board 1; SiPM 6 voltage,DP2_RT1_CH6_V,double,1,V,,,,,1
+631,DP2; RT quadrant; board 1; SiPM 7 voltage,DP2_RT1_CH7_V,double,1,V,,,,,1
+632,DP2; RT quadrant; board 1; SiPM 8 voltage,DP2_RT1_CH8_V,double,1,V,,,,,1
+633,DP2; RT quadrant; board 1; SiPM 9 voltage,DP2_RT1_CH9_V,double,1,V,,,,,1
+634,DP2; RT quadrant; board 1; SiPM 10 voltage,DP2_RT1_CH10_V,double,1,V,,,,,1
+635,DP2; RT quadrant; board 1; SiPM 11 voltage,DP2_RT1_CH11_V,double,1,V,,,,,1
+636,DP2; RT quadrant; board 1; SiPM 12 voltage,DP2_RT1_CH12_V,double,1,V,,,,,1
+637,DP2; RT quadrant; board 1; SiPM 13 voltage,DP2_RT1_CH13_V,double,1,V,,,,,1
+638,DP2; RT quadrant; board 1; SiPM 14 voltage,DP2_RT1_CH14_V,double,1,V,,,,,1
+639,DP2; RT quadrant; board 1; SiPM 15 voltage,DP2_RT1_CH15_V,double,1,V,,,,,1
+640,DP2; RT quadrant; board 1; SiPM 16 voltage,DP2_RT1_CH16_V,double,1,V,,,,,1
+641,DP2; RT quadrant; board 1; SiPM 17 voltage,DP2_RT1_CH17_V,double,1,V,,,,,1
+642,DP2; RT quadrant; board 1; SiPM 18 voltage,DP2_RT1_CH18_V,double,1,V,,,,,1
+643,DP2; RT quadrant; board 1; SiPM 19 voltage,DP2_RT1_CH19_V,double,1,V,,,,,1
+644,DP2; RT quadrant; board 1; SiPM 20 voltage,DP2_RT1_CH20_V,double,1,V,,,,,1
+645,DP2; RT quadrant; board 1; SiPM 21 voltage,DP2_RT1_CH21_V,double,1,V,,,,,1
+646,DP2; RT quadrant; board 1; SiPM 22 voltage,DP2_RT1_CH22_V,double,1,V,,,,,1
+647,DP2; RT quadrant; board 1; SiPM 23 voltage,DP2_RT1_CH23_V,double,1,V,,,,,1
+648,DP2; RT quadrant; board 1; SiPM 24 voltage,DP2_RT1_CH24_V,double,1,V,,,,,1
+649,DP2; RT quadrant; board 2; SiPM 1 voltage,DP2_RT2_CH1_V,double,1,V,,,,,1
+650,DP2; RT quadrant; board 2; SiPM 2 voltage,DP2_RT2_CH2_V,double,1,V,,,,,1
+651,DP2; RT quadrant; board 2; SiPM 3 voltage,DP2_RT2_CH3_V,double,1,V,,,,,1
+652,DP2; RT quadrant; board 2; SiPM 4 voltage,DP2_RT2_CH4_V,double,1,V,,,,,1
+653,DP2; RT quadrant; board 2; SiPM 5 voltage,DP2_RT2_CH5_V,double,1,V,,,,,1
+654,DP2; RT quadrant; board 2; SiPM 6 voltage,DP2_RT2_CH6_V,double,1,V,,,,,1
+655,DP2; RT quadrant; board 2; SiPM 7 voltage,DP2_RT2_CH7_V,double,1,V,,,,,1
+656,DP2; RT quadrant; board 2; SiPM 8 voltage,DP2_RT2_CH8_V,double,1,V,,,,,1
+657,DP2; RT quadrant; board 2; SiPM 9 voltage,DP2_RT2_CH9_V,double,1,V,,,,,1
+658,DP2; RT quadrant; board 2; SiPM 10 voltage,DP2_RT2_CH10_V,double,1,V,,,,,1
+659,DP2; RT quadrant; board 2; SiPM 11 voltage,DP2_RT2_CH11_V,double,1,V,,,,,1
+660,DP2; RT quadrant; board 2; SiPM 12 voltage,DP2_RT2_CH12_V,double,1,V,,,,,1
+661,DP2; RT quadrant; board 2; SiPM 13 voltage,DP2_RT2_CH13_V,double,1,V,,,,,1
+662,DP2; RT quadrant; board 2; SiPM 14 voltage,DP2_RT2_CH14_V,double,1,V,,,,,1
+663,DP2; RT quadrant; board 2; SiPM 15 voltage,DP2_RT2_CH15_V,double,1,V,,,,,1
+664,DP2; RT quadrant; board 2; SiPM 16 voltage,DP2_RT2_CH16_V,double,1,V,,,,,1
+665,DP2; RT quadrant; board 2; SiPM 17 voltage,DP2_RT2_CH17_V,double,1,V,,,,,1
+666,DP2; RT quadrant; board 2; SiPM 18 voltage,DP2_RT2_CH18_V,double,1,V,,,,,1
+667,DP2; RT quadrant; board 2; SiPM 19 voltage,DP2_RT2_CH19_V,double,1,V,,,,,1
+668,DP2; RT quadrant; board 2; SiPM 20 voltage,DP2_RT2_CH20_V,double,1,V,,,,,1
+669,DP2; RT quadrant; board 2; SiPM 21 voltage,DP2_RT2_CH21_V,double,1,V,,,,,1
+670,DP2; RT quadrant; board 2; SiPM 22 voltage,DP2_RT2_CH22_V,double,1,V,,,,,1
+671,DP2; RT quadrant; board 2; SiPM 23 voltage,DP2_RT2_CH23_V,double,1,V,,,,,1
+672,DP2; RT quadrant; board 2; SiPM 24 voltage,DP2_RT2_CH24_V,double,1,V,,,,,1
+673,DP2; RB quadrant; board 1; SiPM 1 voltage,DP2_RB1_CH1_V,double,1,V,,,,,1
+674,DP2; RB quadrant; board 1; SiPM 2 voltage,DP2_RB1_CH2_V,double,1,V,,,,,1
+675,DP2; RB quadrant; board 1; SiPM 3 voltage,DP2_RB1_CH3_V,double,1,V,,,,,1
+676,DP2; RB quadrant; board 1; SiPM 4 voltage,DP2_RB1_CH4_V,double,1,V,,,,,1
+677,DP2; RB quadrant; board 1; SiPM 5 voltage,DP2_RB1_CH5_V,double,1,V,,,,,1
+678,DP2; RB quadrant; board 1; SiPM 6 voltage,DP2_RB1_CH6_V,double,1,V,,,,,1
+679,DP2; RB quadrant; board 1; SiPM 7 voltage,DP2_RB1_CH7_V,double,1,V,,,,,1
+680,DP2; RB quadrant; board 1; SiPM 8 voltage,DP2_RB1_CH8_V,double,1,V,,,,,1
+681,DP2; RB quadrant; board 1; SiPM 9 voltage,DP2_RB1_CH9_V,double,1,V,,,,,1
+682,DP2; RB quadrant; board 1; SiPM 10 voltage,DP2_RB1_CH10_V,double,1,V,,,,,1
+683,DP2; RB quadrant; board 1; SiPM 11 voltage,DP2_RB1_CH11_V,double,1,V,,,,,1
+684,DP2; RB quadrant; board 1; SiPM 12 voltage,DP2_RB1_CH12_V,double,1,V,,,,,1
+685,DP2; RB quadrant; board 1; SiPM 13 voltage,DP2_RB1_CH13_V,double,1,V,,,,,1
+686,DP2; RB quadrant; board 1; SiPM 14 voltage,DP2_RB1_CH14_V,double,1,V,,,,,1
+687,DP2; RB quadrant; board 1; SiPM 15 voltage,DP2_RB1_CH15_V,double,1,V,,,,,1
+688,DP2; RB quadrant; board 1; SiPM 16 voltage,DP2_RB1_CH16_V,double,1,V,,,,,1
+689,DP2; RB quadrant; board 1; SiPM 17 voltage,DP2_RB1_CH17_V,double,1,V,,,,,1
+690,DP2; RB quadrant; board 1; SiPM 18 voltage,DP2_RB1_CH18_V,double,1,V,,,,,1
+691,DP2; RB quadrant; board 1; SiPM 19 voltage,DP2_RB1_CH19_V,double,1,V,,,,,1
+692,DP2; RB quadrant; board 1; SiPM 20 voltage,DP2_RB1_CH20_V,double,1,V,,,,,1
+693,DP2; RB quadrant; board 1; SiPM 21 voltage,DP2_RB1_CH21_V,double,1,V,,,,,1
+694,DP2; RB quadrant; board 1; SiPM 22 voltage,DP2_RB1_CH22_V,double,1,V,,,,,1
+695,DP2; RB quadrant; board 1; SiPM 23 voltage,DP2_RB1_CH23_V,double,1,V,,,,,1
+696,DP2; RB quadrant; board 1; SiPM 24 voltage,DP2_RB1_CH24_V,double,1,V,,,,,1
+697,DP2; RB quadrant; board 2; SiPM 1 voltage,DP2_RB2_CH1_V,double,1,V,,,,,1
+698,DP2; RB quadrant; board 2; SiPM 2 voltage,DP2_RB2_CH2_V,double,1,V,,,,,1
+699,DP2; RB quadrant; board 2; SiPM 3 voltage,DP2_RB2_CH3_V,double,1,V,,,,,1
+700,DP2; RB quadrant; board 2; SiPM 4 voltage,DP2_RB2_CH4_V,double,1,V,,,,,1
+701,DP2; RB quadrant; board 2; SiPM 5 voltage,DP2_RB2_CH5_V,double,1,V,,,,,1
+702,DP2; RB quadrant; board 2; SiPM 6 voltage,DP2_RB2_CH6_V,double,1,V,,,,,1
+703,DP2; RB quadrant; board 2; SiPM 7 voltage,DP2_RB2_CH7_V,double,1,V,,,,,1
+704,DP2; RB quadrant; board 2; SiPM 8 voltage,DP2_RB2_CH8_V,double,1,V,,,,,1
+705,DP2; RB quadrant; board 2; SiPM 9 voltage,DP2_RB2_CH9_V,double,1,V,,,,,1
+706,DP2; RB quadrant; board 2; SiPM 10 voltage,DP2_RB2_CH10_V,double,1,V,,,,,1
+707,DP2; RB quadrant; board 2; SiPM 11 voltage,DP2_RB2_CH11_V,double,1,V,,,,,1
+708,DP2; RB quadrant; board 2; SiPM 12 voltage,DP2_RB2_CH12_V,double,1,V,,,,,1
+709,DP2; RB quadrant; board 2; SiPM 13 voltage,DP2_RB2_CH13_V,double,1,V,,,,,1
+710,DP2; RB quadrant; board 2; SiPM 14 voltage,DP2_RB2_CH14_V,double,1,V,,,,,1
+711,DP2; RB quadrant; board 2; SiPM 15 voltage,DP2_RB2_CH15_V,double,1,V,,,,,1
+712,DP2; RB quadrant; board 2; SiPM 16 voltage,DP2_RB2_CH16_V,double,1,V,,,,,1
+713,DP2; RB quadrant; board 2; SiPM 17 voltage,DP2_RB2_CH17_V,double,1,V,,,,,1
+714,DP2; RB quadrant; board 2; SiPM 18 voltage,DP2_RB2_CH18_V,double,1,V,,,,,1
+715,DP2; RB quadrant; board 2; SiPM 19 voltage,DP2_RB2_CH19_V,double,1,V,,,,,1
+716,DP2; RB quadrant; board 2; SiPM 20 voltage,DP2_RB2_CH20_V,double,1,V,,,,,1
+717,DP2; RB quadrant; board 2; SiPM 21 voltage,DP2_RB2_CH21_V,double,1,V,,,,,1
+718,DP2; RB quadrant; board 2; SiPM 22 voltage,DP2_RB2_CH22_V,double,1,V,,,,,1
+719,DP2; RB quadrant; board 2; SiPM 23 voltage,DP2_RB2_CH23_V,double,1,V,,,,,1
+720,DP2; RB quadrant; board 2; SiPM 24 voltage,DP2_RB2_CH24_V,double,1,V,,,,,1
+721,DP1; LT quadrant; board 1; preamp current,DP1_LT1_IPREAMP,double,1,mA,,,,,1
+722,DP1; LT quadrant; board 2; preamp current,DP1_LT2_IPREAMP,double,1,mA,,,,,1
+723,DP1; LT quadrant; board 3; preamp current,DP1_LT3_IPREAMP,double,1,mA,,,,,1
+724,DP1; LT quadrant; board 4; preamp current,DP1_LT4_IPREAMP,double,1,mA,,,,,1
+725,DP1; LB quadrant; board 1; preamp current,DP1_LB1_IPREAMP,double,1,mA,,,,,1
+726,DP1; LB quadrant; board 2; preamp current,DP1_LB2_IPREAMP,double,1,mA,,,,,1
+727,DP1; LB quadrant; board 3; preamp current,DP1_LB3_IPREAMP,double,1,mA,,,,,1
+728,DP1; LB quadrant; board 4; preamp current,DP1_LB4_IPREAMP,double,1,mA,,,,,1
+729,DP1; RT quadrant; board 1; preamp current,DP1_RT1_IPREAMP,double,1,mA,,,,,1
+730,DP1; RT quadrant; board 2; preamp current,DP1_RT2_IPREAMP,double,1,mA,,,,,1
+731,DP1; RT quadrant; board 3; preamp current,DP1_RT3_IPREAMP,double,1,mA,,,,,1
+732,DP1; RT quadrant; board 4; preamp current,DP1_RT4_IPREAMP,double,1,mA,,,,,1
+733,DP1; RB quadrant; board 1; preamp current,DP1_RB1_IPREAMP,double,1,mA,,,,,1
+734,DP1; RB quadrant; board 2; preamp current,DP1_RB2_IPREAMP,double,1,mA,,,,,1
+735,DP1; RB quadrant; board 3; preamp current,DP1_RB3_IPREAMP,double,1,mA,,,,,1
+736,DP1; RB quadrant; board 4; preamp current,DP1_RB4_IPREAMP,double,1,mA,,,,,1
+737,DP2; LT quadrant; board 1; preamp current,DP2_LT1_IPREAMP,double,1,mA,,,,,1
+738,DP2; LT quadrant; board 2; preamp current,DP2_LT2_IPREAMP,double,1,mA,,,,,1
+739,DP2; LB quadrant; board 1; preamp current,DP2_LB1_IPREAMP,double,1,mA,,,,,1
+740,DP2; LB quadrant; board 2; preamp current,DP2_LB2_IPREAMP,double,1,mA,,,,,1
+741,DP2; RT quadrant; board 1; preamp current,DP2_RT1_IPREAMP,double,1,mA,,,,,1
+742,DP2; RT quadrant; board 2; preamp current,DP2_RT2_IPREAMP,double,1,mA,,,,,1
+743,DP2; RB quadrant; board 1; preamp current,DP2_RB1_IPREAMP,double,1,mA,,,,,1
+744,DP2; RB quadrant; board 2; preamp current,DP2_RB2_IPREAMP,double,1,mA,,,,,1
+745,DP1; LT quadrant; board 1; SiPM 1 current,DP1_LT1_CH1_I,double,1,uA,,,,,1
+746,DP1; LT quadrant; board 1; SiPM 2 current,DP1_LT1_CH2_I,double,1,uA,,,,,1
+747,DP1; LT quadrant; board 1; SiPM 3 current,DP1_LT1_CH3_I,double,1,uA,,,,,1
+748,DP1; LT quadrant; board 1; SiPM 4 current,DP1_LT1_CH4_I,double,1,uA,,,,,1
+749,DP1; LT quadrant; board 1; SiPM 5 current,DP1_LT1_CH5_I,double,1,uA,,,,,1
+750,DP1; LT quadrant; board 1; SiPM 6 current,DP1_LT1_CH6_I,double,1,uA,,,,,1
+751,DP1; LT quadrant; board 1; SiPM 7 current,DP1_LT1_CH7_I,double,1,uA,,,,,1
+752,DP1; LT quadrant; board 1; SiPM 8 current,DP1_LT1_CH8_I,double,1,uA,,,,,1
+753,DP1; LT quadrant; board 1; SiPM 9 current,DP1_LT1_CH9_I,double,1,uA,,,,,1
+754,DP1; LT quadrant; board 1; SiPM 10 current,DP1_LT1_CH10_I,double,1,uA,,,,,1
+755,DP1; LT quadrant; board 1; SiPM 11 current,DP1_LT1_CH11_I,double,1,uA,,,,,1
+756,DP1; LT quadrant; board 1; SiPM 12 current,DP1_LT1_CH12_I,double,1,uA,,,,,1
+757,DP1; LT quadrant; board 1; SiPM 13 current,DP1_LT1_CH13_I,double,1,uA,,,,,1
+758,DP1; LT quadrant; board 1; SiPM 14 current,DP1_LT1_CH14_I,double,1,uA,,,,,1
+759,DP1; LT quadrant; board 1; SiPM 15 current,DP1_LT1_CH15_I,double,1,uA,,,,,1
+760,DP1; LT quadrant; board 1; SiPM 16 current,DP1_LT1_CH16_I,double,1,uA,,,,,1
+761,DP1; LT quadrant; board 1; SiPM 17 current,DP1_LT1_CH17_I,double,1,uA,,,,,1
+762,DP1; LT quadrant; board 1; SiPM 18 current,DP1_LT1_CH18_I,double,1,uA,,,,,1
+763,DP1; LT quadrant; board 1; SiPM 19 current,DP1_LT1_CH19_I,double,1,uA,,,,,1
+764,DP1; LT quadrant; board 1; SiPM 20 current,DP1_LT1_CH20_I,double,1,uA,,,,,1
+765,DP1; LT quadrant; board 1; SiPM 21 current,DP1_LT1_CH21_I,double,1,uA,,,,,1
+766,DP1; LT quadrant; board 1; SiPM 22 current,DP1_LT1_CH22_I,double,1,uA,,,,,1
+767,DP1; LT quadrant; board 1; SiPM 23 current,DP1_LT1_CH23_I,double,1,uA,,,,,1
+768,DP1; LT quadrant; board 1; SiPM 24 current,DP1_LT1_CH24_I,double,1,uA,,,,,1
+769,DP1; LT quadrant; board 2; SiPM 1 current,DP1_LT2_CH1_I,double,1,uA,,,,,1
+770,DP1; LT quadrant; board 2; SiPM 2 current,DP1_LT2_CH2_I,double,1,uA,,,,,1
+771,DP1; LT quadrant; board 2; SiPM 3 current,DP1_LT2_CH3_I,double,1,uA,,,,,1
+772,DP1; LT quadrant; board 2; SiPM 4 current,DP1_LT2_CH4_I,double,1,uA,,,,,1
+773,DP1; LT quadrant; board 2; SiPM 5 current,DP1_LT2_CH5_I,double,1,uA,,,,,1
+774,DP1; LT quadrant; board 2; SiPM 6 current,DP1_LT2_CH6_I,double,1,uA,,,,,1
+775,DP1; LT quadrant; board 2; SiPM 7 current,DP1_LT2_CH7_I,double,1,uA,,,,,1
+776,DP1; LT quadrant; board 2; SiPM 8 current,DP1_LT2_CH8_I,double,1,uA,,,,,1
+777,DP1; LT quadrant; board 2; SiPM 9 current,DP1_LT2_CH9_I,double,1,uA,,,,,1
+778,DP1; LT quadrant; board 2; SiPM 10 current,DP1_LT2_CH10_I,double,1,uA,,,,,1
+779,DP1; LT quadrant; board 2; SiPM 11 current,DP1_LT2_CH11_I,double,1,uA,,,,,1
+780,DP1; LT quadrant; board 2; SiPM 12 current,DP1_LT2_CH12_I,double,1,uA,,,,,1
+781,DP1; LT quadrant; board 2; SiPM 13 current,DP1_LT2_CH13_I,double,1,uA,,,,,1
+782,DP1; LT quadrant; board 2; SiPM 14 current,DP1_LT2_CH14_I,double,1,uA,,,,,1
+783,DP1; LT quadrant; board 2; SiPM 15 current,DP1_LT2_CH15_I,double,1,uA,,,,,1
+784,DP1; LT quadrant; board 2; SiPM 16 current,DP1_LT2_CH16_I,double,1,uA,,,,,1
+785,DP1; LT quadrant; board 2; SiPM 17 current,DP1_LT2_CH17_I,double,1,uA,,,,,1
+786,DP1; LT quadrant; board 2; SiPM 18 current,DP1_LT2_CH18_I,double,1,uA,,,,,1
+787,DP1; LT quadrant; board 2; SiPM 19 current,DP1_LT2_CH19_I,double,1,uA,,,,,1
+788,DP1; LT quadrant; board 2; SiPM 20 current,DP1_LT2_CH20_I,double,1,uA,,,,,1
+789,DP1; LT quadrant; board 2; SiPM 21 current,DP1_LT2_CH21_I,double,1,uA,,,,,1
+790,DP1; LT quadrant; board 2; SiPM 22 current,DP1_LT2_CH22_I,double,1,uA,,,,,1
+791,DP1; LT quadrant; board 2; SiPM 23 current,DP1_LT2_CH23_I,double,1,uA,,,,,1
+792,DP1; LT quadrant; board 2; SiPM 24 current,DP1_LT2_CH24_I,double,1,uA,,,,,1
+793,DP1; LT quadrant; board 3; SiPM 1 current,DP1_LT3_CH1_I,double,1,uA,,,,,1
+794,DP1; LT quadrant; board 3; SiPM 2 current,DP1_LT3_CH2_I,double,1,uA,,,,,1
+795,DP1; LT quadrant; board 3; SiPM 3 current,DP1_LT3_CH3_I,double,1,uA,,,,,1
+796,DP1; LT quadrant; board 3; SiPM 4 current,DP1_LT3_CH4_I,double,1,uA,,,,,1
+797,DP1; LT quadrant; board 3; SiPM 5 current,DP1_LT3_CH5_I,double,1,uA,,,,,1
+798,DP1; LT quadrant; board 3; SiPM 6 current,DP1_LT3_CH6_I,double,1,uA,,,,,1
+799,DP1; LT quadrant; board 3; SiPM 7 current,DP1_LT3_CH7_I,double,1,uA,,,,,1
+800,DP1; LT quadrant; board 3; SiPM 8 current,DP1_LT3_CH8_I,double,1,uA,,,,,1
+801,DP1; LT quadrant; board 3; SiPM 9 current,DP1_LT3_CH9_I,double,1,uA,,,,,1
+802,DP1; LT quadrant; board 3; SiPM 10 current,DP1_LT3_CH10_I,double,1,uA,,,,,1
+803,DP1; LT quadrant; board 3; SiPM 11 current,DP1_LT3_CH11_I,double,1,uA,,,,,1
+804,DP1; LT quadrant; board 3; SiPM 12 current,DP1_LT3_CH12_I,double,1,uA,,,,,1
+805,DP1; LT quadrant; board 3; SiPM 13 current,DP1_LT3_CH13_I,double,1,uA,,,,,1
+806,DP1; LT quadrant; board 3; SiPM 14 current,DP1_LT3_CH14_I,double,1,uA,,,,,1
+807,DP1; LT quadrant; board 3; SiPM 15 current,DP1_LT3_CH15_I,double,1,uA,,,,,1
+808,DP1; LT quadrant; board 3; SiPM 16 current,DP1_LT3_CH16_I,double,1,uA,,,,,1
+809,DP1; LT quadrant; board 3; SiPM 17 current,DP1_LT3_CH17_I,double,1,uA,,,,,1
+810,DP1; LT quadrant; board 3; SiPM 18 current,DP1_LT3_CH18_I,double,1,uA,,,,,1
+811,DP1; LT quadrant; board 3; SiPM 19 current,DP1_LT3_CH19_I,double,1,uA,,,,,1
+812,DP1; LT quadrant; board 3; SiPM 20 current,DP1_LT3_CH20_I,double,1,uA,,,,,1
+813,DP1; LT quadrant; board 3; SiPM 21 current,DP1_LT3_CH21_I,double,1,uA,,,,,1
+814,DP1; LT quadrant; board 3; SiPM 22 current,DP1_LT3_CH22_I,double,1,uA,,,,,1
+815,DP1; LT quadrant; board 3; SiPM 23 current,DP1_LT3_CH23_I,double,1,uA,,,,,1
+816,DP1; LT quadrant; board 3; SiPM 24 current,DP1_LT3_CH24_I,double,1,uA,,,,,1
+817,DP1; LT quadrant; board 4; SiPM 1 current,DP1_LT4_CH1_I,double,1,uA,,,,,1
+818,DP1; LT quadrant; board 4; SiPM 2 current,DP1_LT4_CH2_I,double,1,uA,,,,,1
+819,DP1; LT quadrant; board 4; SiPM 3 current,DP1_LT4_CH3_I,double,1,uA,,,,,1
+820,DP1; LT quadrant; board 4; SiPM 4 current,DP1_LT4_CH4_I,double,1,uA,,,,,1
+821,DP1; LT quadrant; board 4; SiPM 5 current,DP1_LT4_CH5_I,double,1,uA,,,,,1
+822,DP1; LT quadrant; board 4; SiPM 6 current,DP1_LT4_CH6_I,double,1,uA,,,,,1
+823,DP1; LT quadrant; board 4; SiPM 7 current,DP1_LT4_CH7_I,double,1,uA,,,,,1
+824,DP1; LT quadrant; board 4; SiPM 8 current,DP1_LT4_CH8_I,double,1,uA,,,,,1
+825,DP1; LT quadrant; board 4; SiPM 9 current,DP1_LT4_CH9_I,double,1,uA,,,,,1
+826,DP1; LT quadrant; board 4; SiPM 10 current,DP1_LT4_CH10_I,double,1,uA,,,,,1
+827,DP1; LT quadrant; board 4; SiPM 11 current,DP1_LT4_CH11_I,double,1,uA,,,,,1
+828,DP1; LT quadrant; board 4; SiPM 12 current,DP1_LT4_CH12_I,double,1,uA,,,,,1
+829,DP1; LT quadrant; board 4; SiPM 13 current,DP1_LT4_CH13_I,double,1,uA,,,,,1
+830,DP1; LT quadrant; board 4; SiPM 14 current,DP1_LT4_CH14_I,double,1,uA,,,,,1
+831,DP1; LT quadrant; board 4; SiPM 15 current,DP1_LT4_CH15_I,double,1,uA,,,,,1
+832,DP1; LT quadrant; board 4; SiPM 16 current,DP1_LT4_CH16_I,double,1,uA,,,,,1
+833,DP1; LT quadrant; board 4; SiPM 17 current,DP1_LT4_CH17_I,double,1,uA,,,,,1
+834,DP1; LT quadrant; board 4; SiPM 18 current,DP1_LT4_CH18_I,double,1,uA,,,,,1
+835,DP1; LT quadrant; board 4; SiPM 19 current,DP1_LT4_CH19_I,double,1,uA,,,,,1
+836,DP1; LT quadrant; board 4; SiPM 20 current,DP1_LT4_CH20_I,double,1,uA,,,,,1
+837,DP1; LT quadrant; board 4; SiPM 21 current,DP1_LT4_CH21_I,double,1,uA,,,,,1
+838,DP1; LT quadrant; board 4; SiPM 22 current,DP1_LT4_CH22_I,double,1,uA,,,,,1
+839,DP1; LT quadrant; board 4; SiPM 23 current,DP1_LT4_CH23_I,double,1,uA,,,,,1
+840,DP1; LT quadrant; board 4; SiPM 24 current,DP1_LT4_CH24_I,double,1,uA,,,,,1
+841,DP1; LB quadrant; board 1; SiPM 1 current,DP1_LB1_CH1_I,double,1,uA,,,,,1
+842,DP1; LB quadrant; board 1; SiPM 2 current,DP1_LB1_CH2_I,double,1,uA,,,,,1
+843,DP1; LB quadrant; board 1; SiPM 3 current,DP1_LB1_CH3_I,double,1,uA,,,,,1
+844,DP1; LB quadrant; board 1; SiPM 4 current,DP1_LB1_CH4_I,double,1,uA,,,,,1
+845,DP1; LB quadrant; board 1; SiPM 5 current,DP1_LB1_CH5_I,double,1,uA,,,,,1
+846,DP1; LB quadrant; board 1; SiPM 6 current,DP1_LB1_CH6_I,double,1,uA,,,,,1
+847,DP1; LB quadrant; board 1; SiPM 7 current,DP1_LB1_CH7_I,double,1,uA,,,,,1
+848,DP1; LB quadrant; board 1; SiPM 8 current,DP1_LB1_CH8_I,double,1,uA,,,,,1
+849,DP1; LB quadrant; board 1; SiPM 9 current,DP1_LB1_CH9_I,double,1,uA,,,,,1
+850,DP1; LB quadrant; board 1; SiPM 10 current,DP1_LB1_CH10_I,double,1,uA,,,,,1
+851,DP1; LB quadrant; board 1; SiPM 11 current,DP1_LB1_CH11_I,double,1,uA,,,,,1
+852,DP1; LB quadrant; board 1; SiPM 12 current,DP1_LB1_CH12_I,double,1,uA,,,,,1
+853,DP1; LB quadrant; board 1; SiPM 13 current,DP1_LB1_CH13_I,double,1,uA,,,,,1
+854,DP1; LB quadrant; board 1; SiPM 14 current,DP1_LB1_CH14_I,double,1,uA,,,,,1
+855,DP1; LB quadrant; board 1; SiPM 15 current,DP1_LB1_CH15_I,double,1,uA,,,,,1
+856,DP1; LB quadrant; board 1; SiPM 16 current,DP1_LB1_CH16_I,double,1,uA,,,,,1
+857,DP1; LB quadrant; board 1; SiPM 17 current,DP1_LB1_CH17_I,double,1,uA,,,,,1
+858,DP1; LB quadrant; board 1; SiPM 18 current,DP1_LB1_CH18_I,double,1,uA,,,,,1
+859,DP1; LB quadrant; board 1; SiPM 19 current,DP1_LB1_CH19_I,double,1,uA,,,,,1
+860,DP1; LB quadrant; board 1; SiPM 20 current,DP1_LB1_CH20_I,double,1,uA,,,,,1
+861,DP1; LB quadrant; board 1; SiPM 21 current,DP1_LB1_CH21_I,double,1,uA,,,,,1
+862,DP1; LB quadrant; board 1; SiPM 22 current,DP1_LB1_CH22_I,double,1,uA,,,,,1
+863,DP1; LB quadrant; board 1; SiPM 23 current,DP1_LB1_CH23_I,double,1,uA,,,,,1
+864,DP1; LB quadrant; board 1; SiPM 24 current,DP1_LB1_CH24_I,double,1,uA,,,,,1
+865,DP1; LB quadrant; board 2; SiPM 1 current,DP1_LB2_CH1_I,double,1,uA,,,,,1
+866,DP1; LB quadrant; board 2; SiPM 2 current,DP1_LB2_CH2_I,double,1,uA,,,,,1
+867,DP1; LB quadrant; board 2; SiPM 3 current,DP1_LB2_CH3_I,double,1,uA,,,,,1
+868,DP1; LB quadrant; board 2; SiPM 4 current,DP1_LB2_CH4_I,double,1,uA,,,,,1
+869,DP1; LB quadrant; board 2; SiPM 5 current,DP1_LB2_CH5_I,double,1,uA,,,,,1
+870,DP1; LB quadrant; board 2; SiPM 6 current,DP1_LB2_CH6_I,double,1,uA,,,,,1
+871,DP1; LB quadrant; board 2; SiPM 7 current,DP1_LB2_CH7_I,double,1,uA,,,,,1
+872,DP1; LB quadrant; board 2; SiPM 8 current,DP1_LB2_CH8_I,double,1,uA,,,,,1
+873,DP1; LB quadrant; board 2; SiPM 9 current,DP1_LB2_CH9_I,double,1,uA,,,,,1
+874,DP1; LB quadrant; board 2; SiPM 10 current,DP1_LB2_CH10_I,double,1,uA,,,,,1
+875,DP1; LB quadrant; board 2; SiPM 11 current,DP1_LB2_CH11_I,double,1,uA,,,,,1
+876,DP1; LB quadrant; board 2; SiPM 12 current,DP1_LB2_CH12_I,double,1,uA,,,,,1
+877,DP1; LB quadrant; board 2; SiPM 13 current,DP1_LB2_CH13_I,double,1,uA,,,,,1
+878,DP1; LB quadrant; board 2; SiPM 14 current,DP1_LB2_CH14_I,double,1,uA,,,,,1
+879,DP1; LB quadrant; board 2; SiPM 15 current,DP1_LB2_CH15_I,double,1,uA,,,,,1
+880,DP1; LB quadrant; board 2; SiPM 16 current,DP1_LB2_CH16_I,double,1,uA,,,,,1
+881,DP1; LB quadrant; board 2; SiPM 17 current,DP1_LB2_CH17_I,double,1,uA,,,,,1
+882,DP1; LB quadrant; board 2; SiPM 18 current,DP1_LB2_CH18_I,double,1,uA,,,,,1
+883,DP1; LB quadrant; board 2; SiPM 19 current,DP1_LB2_CH19_I,double,1,uA,,,,,1
+884,DP1; LB quadrant; board 2; SiPM 20 current,DP1_LB2_CH20_I,double,1,uA,,,,,1
+885,DP1; LB quadrant; board 2; SiPM 21 current,DP1_LB2_CH21_I,double,1,uA,,,,,1
+886,DP1; LB quadrant; board 2; SiPM 22 current,DP1_LB2_CH22_I,double,1,uA,,,,,1
+887,DP1; LB quadrant; board 2; SiPM 23 current,DP1_LB2_CH23_I,double,1,uA,,,,,1
+888,DP1; LB quadrant; board 2; SiPM 24 current,DP1_LB2_CH24_I,double,1,uA,,,,,1
+889,DP1; LB quadrant; board 3; SiPM 1 current,DP1_LB3_CH1_I,double,1,uA,,,,,1
+890,DP1; LB quadrant; board 3; SiPM 2 current,DP1_LB3_CH2_I,double,1,uA,,,,,1
+891,DP1; LB quadrant; board 3; SiPM 3 current,DP1_LB3_CH3_I,double,1,uA,,,,,1
+892,DP1; LB quadrant; board 3; SiPM 4 current,DP1_LB3_CH4_I,double,1,uA,,,,,1
+893,DP1; LB quadrant; board 3; SiPM 5 current,DP1_LB3_CH5_I,double,1,uA,,,,,1
+894,DP1; LB quadrant; board 3; SiPM 6 current,DP1_LB3_CH6_I,double,1,uA,,,,,1
+895,DP1; LB quadrant; board 3; SiPM 7 current,DP1_LB3_CH7_I,double,1,uA,,,,,1
+896,DP1; LB quadrant; board 3; SiPM 8 current,DP1_LB3_CH8_I,double,1,uA,,,,,1
+897,DP1; LB quadrant; board 3; SiPM 9 current,DP1_LB3_CH9_I,double,1,uA,,,,,1
+898,DP1; LB quadrant; board 3; SiPM 10 current,DP1_LB3_CH10_I,double,1,uA,,,,,1
+899,DP1; LB quadrant; board 3; SiPM 11 current,DP1_LB3_CH11_I,double,1,uA,,,,,1
+900,DP1; LB quadrant; board 3; SiPM 12 current,DP1_LB3_CH12_I,double,1,uA,,,,,1
+901,DP1; LB quadrant; board 3; SiPM 13 current,DP1_LB3_CH13_I,double,1,uA,,,,,1
+902,DP1; LB quadrant; board 3; SiPM 14 current,DP1_LB3_CH14_I,double,1,uA,,,,,1
+903,DP1; LB quadrant; board 3; SiPM 15 current,DP1_LB3_CH15_I,double,1,uA,,,,,1
+904,DP1; LB quadrant; board 3; SiPM 16 current,DP1_LB3_CH16_I,double,1,uA,,,,,1
+905,DP1; LB quadrant; board 3; SiPM 17 current,DP1_LB3_CH17_I,double,1,uA,,,,,1
+906,DP1; LB quadrant; board 3; SiPM 18 current,DP1_LB3_CH18_I,double,1,uA,,,,,1
+907,DP1; LB quadrant; board 3; SiPM 19 current,DP1_LB3_CH19_I,double,1,uA,,,,,1
+908,DP1; LB quadrant; board 3; SiPM 20 current,DP1_LB3_CH20_I,double,1,uA,,,,,1
+909,DP1; LB quadrant; board 3; SiPM 21 current,DP1_LB3_CH21_I,double,1,uA,,,,,1
+910,DP1; LB quadrant; board 3; SiPM 22 current,DP1_LB3_CH22_I,double,1,uA,,,,,1
+911,DP1; LB quadrant; board 3; SiPM 23 current,DP1_LB3_CH23_I,double,1,uA,,,,,1
+912,DP1; LB quadrant; board 3; SiPM 24 current,DP1_LB3_CH24_I,double,1,uA,,,,,1
+913,DP1; LB quadrant; board 4; SiPM 1 current,DP1_LB4_CH1_I,double,1,uA,,,,,1
+914,DP1; LB quadrant; board 4; SiPM 2 current,DP1_LB4_CH2_I,double,1,uA,,,,,1
+915,DP1; LB quadrant; board 4; SiPM 3 current,DP1_LB4_CH3_I,double,1,uA,,,,,1
+916,DP1; LB quadrant; board 4; SiPM 4 current,DP1_LB4_CH4_I,double,1,uA,,,,,1
+917,DP1; LB quadrant; board 4; SiPM 5 current,DP1_LB4_CH5_I,double,1,uA,,,,,1
+918,DP1; LB quadrant; board 4; SiPM 6 current,DP1_LB4_CH6_I,double,1,uA,,,,,1
+919,DP1; LB quadrant; board 4; SiPM 7 current,DP1_LB4_CH7_I,double,1,uA,,,,,1
+920,DP1; LB quadrant; board 4; SiPM 8 current,DP1_LB4_CH8_I,double,1,uA,,,,,1
+921,DP1; LB quadrant; board 4; SiPM 9 current,DP1_LB4_CH9_I,double,1,uA,,,,,1
+922,DP1; LB quadrant; board 4; SiPM 10 current,DP1_LB4_CH10_I,double,1,uA,,,,,1
+923,DP1; LB quadrant; board 4; SiPM 11 current,DP1_LB4_CH11_I,double,1,uA,,,,,1
+924,DP1; LB quadrant; board 4; SiPM 12 current,DP1_LB4_CH12_I,double,1,uA,,,,,1
+925,DP1; LB quadrant; board 4; SiPM 13 current,DP1_LB4_CH13_I,double,1,uA,,,,,1
+926,DP1; LB quadrant; board 4; SiPM 14 current,DP1_LB4_CH14_I,double,1,uA,,,,,1
+927,DP1; LB quadrant; board 4; SiPM 15 current,DP1_LB4_CH15_I,double,1,uA,,,,,1
+928,DP1; LB quadrant; board 4; SiPM 16 current,DP1_LB4_CH16_I,double,1,uA,,,,,1
+929,DP1; LB quadrant; board 4; SiPM 17 current,DP1_LB4_CH17_I,double,1,uA,,,,,1
+930,DP1; LB quadrant; board 4; SiPM 18 current,DP1_LB4_CH18_I,double,1,uA,,,,,1
+931,DP1; LB quadrant; board 4; SiPM 19 current,DP1_LB4_CH19_I,double,1,uA,,,,,1
+932,DP1; LB quadrant; board 4; SiPM 20 current,DP1_LB4_CH20_I,double,1,uA,,,,,1
+933,DP1; LB quadrant; board 4; SiPM 21 current,DP1_LB4_CH21_I,double,1,uA,,,,,1
+934,DP1; LB quadrant; board 4; SiPM 22 current,DP1_LB4_CH22_I,double,1,uA,,,,,1
+935,DP1; LB quadrant; board 4; SiPM 23 current,DP1_LB4_CH23_I,double,1,uA,,,,,1
+936,DP1; LB quadrant; board 4; SiPM 24 current,DP1_LB4_CH24_I,double,1,uA,,,,,1
+937,DP1; RT quadrant; board 1; SiPM 1 current,DP1_RT1_CH1_I,double,1,uA,,,,,1
+938,DP1; RT quadrant; board 1; SiPM 2 current,DP1_RT1_CH2_I,double,1,uA,,,,,1
+939,DP1; RT quadrant; board 1; SiPM 3 current,DP1_RT1_CH3_I,double,1,uA,,,,,1
+940,DP1; RT quadrant; board 1; SiPM 4 current,DP1_RT1_CH4_I,double,1,uA,,,,,1
+941,DP1; RT quadrant; board 1; SiPM 5 current,DP1_RT1_CH5_I,double,1,uA,,,,,1
+942,DP1; RT quadrant; board 1; SiPM 6 current,DP1_RT1_CH6_I,double,1,uA,,,,,1
+943,DP1; RT quadrant; board 1; SiPM 7 current,DP1_RT1_CH7_I,double,1,uA,,,,,1
+944,DP1; RT quadrant; board 1; SiPM 8 current,DP1_RT1_CH8_I,double,1,uA,,,,,1
+945,DP1; RT quadrant; board 1; SiPM 9 current,DP1_RT1_CH9_I,double,1,uA,,,,,1
+946,DP1; RT quadrant; board 1; SiPM 10 current,DP1_RT1_CH10_I,double,1,uA,,,,,1
+947,DP1; RT quadrant; board 1; SiPM 11 current,DP1_RT1_CH11_I,double,1,uA,,,,,1
+948,DP1; RT quadrant; board 1; SiPM 12 current,DP1_RT1_CH12_I,double,1,uA,,,,,1
+949,DP1; RT quadrant; board 1; SiPM 13 current,DP1_RT1_CH13_I,double,1,uA,,,,,1
+950,DP1; RT quadrant; board 1; SiPM 14 current,DP1_RT1_CH14_I,double,1,uA,,,,,1
+951,DP1; RT quadrant; board 1; SiPM 15 current,DP1_RT1_CH15_I,double,1,uA,,,,,1
+952,DP1; RT quadrant; board 1; SiPM 16 current,DP1_RT1_CH16_I,double,1,uA,,,,,1
+953,DP1; RT quadrant; board 1; SiPM 17 current,DP1_RT1_CH17_I,double,1,uA,,,,,1
+954,DP1; RT quadrant; board 1; SiPM 18 current,DP1_RT1_CH18_I,double,1,uA,,,,,1
+955,DP1; RT quadrant; board 1; SiPM 19 current,DP1_RT1_CH19_I,double,1,uA,,,,,1
+956,DP1; RT quadrant; board 1; SiPM 20 current,DP1_RT1_CH20_I,double,1,uA,,,,,1
+957,DP1; RT quadrant; board 1; SiPM 21 current,DP1_RT1_CH21_I,double,1,uA,,,,,1
+958,DP1; RT quadrant; board 1; SiPM 22 current,DP1_RT1_CH22_I,double,1,uA,,,,,1
+959,DP1; RT quadrant; board 1; SiPM 23 current,DP1_RT1_CH23_I,double,1,uA,,,,,1
+960,DP1; RT quadrant; board 1; SiPM 24 current,DP1_RT1_CH24_I,double,1,uA,,,,,1
+961,DP1; RT quadrant; board 2; SiPM 1 current,DP1_RT2_CH1_I,double,1,uA,,,,,1
+962,DP1; RT quadrant; board 2; SiPM 2 current,DP1_RT2_CH2_I,double,1,uA,,,,,1
+963,DP1; RT quadrant; board 2; SiPM 3 current,DP1_RT2_CH3_I,double,1,uA,,,,,1
+964,DP1; RT quadrant; board 2; SiPM 4 current,DP1_RT2_CH4_I,double,1,uA,,,,,1
+965,DP1; RT quadrant; board 2; SiPM 5 current,DP1_RT2_CH5_I,double,1,uA,,,,,1
+966,DP1; RT quadrant; board 2; SiPM 6 current,DP1_RT2_CH6_I,double,1,uA,,,,,1
+967,DP1; RT quadrant; board 2; SiPM 7 current,DP1_RT2_CH7_I,double,1,uA,,,,,1
+968,DP1; RT quadrant; board 2; SiPM 8 current,DP1_RT2_CH8_I,double,1,uA,,,,,1
+969,DP1; RT quadrant; board 2; SiPM 9 current,DP1_RT2_CH9_I,double,1,uA,,,,,1
+970,DP1; RT quadrant; board 2; SiPM 10 current,DP1_RT2_CH10_I,double,1,uA,,,,,1
+971,DP1; RT quadrant; board 2; SiPM 11 current,DP1_RT2_CH11_I,double,1,uA,,,,,1
+972,DP1; RT quadrant; board 2; SiPM 12 current,DP1_RT2_CH12_I,double,1,uA,,,,,1
+973,DP1; RT quadrant; board 2; SiPM 13 current,DP1_RT2_CH13_I,double,1,uA,,,,,1
+974,DP1; RT quadrant; board 2; SiPM 14 current,DP1_RT2_CH14_I,double,1,uA,,,,,1
+975,DP1; RT quadrant; board 2; SiPM 15 current,DP1_RT2_CH15_I,double,1,uA,,,,,1
+976,DP1; RT quadrant; board 2; SiPM 16 current,DP1_RT2_CH16_I,double,1,uA,,,,,1
+977,DP1; RT quadrant; board 2; SiPM 17 current,DP1_RT2_CH17_I,double,1,uA,,,,,1
+978,DP1; RT quadrant; board 2; SiPM 18 current,DP1_RT2_CH18_I,double,1,uA,,,,,1
+979,DP1; RT quadrant; board 2; SiPM 19 current,DP1_RT2_CH19_I,double,1,uA,,,,,1
+980,DP1; RT quadrant; board 2; SiPM 20 current,DP1_RT2_CH20_I,double,1,uA,,,,,1
+981,DP1; RT quadrant; board 2; SiPM 21 current,DP1_RT2_CH21_I,double,1,uA,,,,,1
+982,DP1; RT quadrant; board 2; SiPM 22 current,DP1_RT2_CH22_I,double,1,uA,,,,,1
+983,DP1; RT quadrant; board 2; SiPM 23 current,DP1_RT2_CH23_I,double,1,uA,,,,,1
+984,DP1; RT quadrant; board 2; SiPM 24 current,DP1_RT2_CH24_I,double,1,uA,,,,,1
+985,DP1; RT quadrant; board 3; SiPM 1 current,DP1_RT3_CH1_I,double,1,uA,,,,,1
+986,DP1; RT quadrant; board 3; SiPM 2 current,DP1_RT3_CH2_I,double,1,uA,,,,,1
+987,DP1; RT quadrant; board 3; SiPM 3 current,DP1_RT3_CH3_I,double,1,uA,,,,,1
+988,DP1; RT quadrant; board 3; SiPM 4 current,DP1_RT3_CH4_I,double,1,uA,,,,,1
+989,DP1; RT quadrant; board 3; SiPM 5 current,DP1_RT3_CH5_I,double,1,uA,,,,,1
+990,DP1; RT quadrant; board 3; SiPM 6 current,DP1_RT3_CH6_I,double,1,uA,,,,,1
+991,DP1; RT quadrant; board 3; SiPM 7 current,DP1_RT3_CH7_I,double,1,uA,,,,,1
+992,DP1; RT quadrant; board 3; SiPM 8 current,DP1_RT3_CH8_I,double,1,uA,,,,,1
+993,DP1; RT quadrant; board 3; SiPM 9 current,DP1_RT3_CH9_I,double,1,uA,,,,,1
+994,DP1; RT quadrant; board 3; SiPM 10 current,DP1_RT3_CH10_I,double,1,uA,,,,,1
+995,DP1; RT quadrant; board 3; SiPM 11 current,DP1_RT3_CH11_I,double,1,uA,,,,,1
+996,DP1; RT quadrant; board 3; SiPM 12 current,DP1_RT3_CH12_I,double,1,uA,,,,,1
+997,DP1; RT quadrant; board 3; SiPM 13 current,DP1_RT3_CH13_I,double,1,uA,,,,,1
+998,DP1; RT quadrant; board 3; SiPM 14 current,DP1_RT3_CH14_I,double,1,uA,,,,,1
+999,DP1; RT quadrant; board 3; SiPM 15 current,DP1_RT3_CH15_I,double,1,uA,,,,,1
+1000,DP1; RT quadrant; board 3; SiPM 16 current,DP1_RT3_CH16_I,double,1,uA,,,,,1
+1001,DP1; RT quadrant; board 3; SiPM 17 current,DP1_RT3_CH17_I,double,1,uA,,,,,1
+1002,DP1; RT quadrant; board 3; SiPM 18 current,DP1_RT3_CH18_I,double,1,uA,,,,,1
+1003,DP1; RT quadrant; board 3; SiPM 19 current,DP1_RT3_CH19_I,double,1,uA,,,,,1
+1004,DP1; RT quadrant; board 3; SiPM 20 current,DP1_RT3_CH20_I,double,1,uA,,,,,1
+1005,DP1; RT quadrant; board 3; SiPM 21 current,DP1_RT3_CH21_I,double,1,uA,,,,,1
+1006,DP1; RT quadrant; board 3; SiPM 22 current,DP1_RT3_CH22_I,double,1,uA,,,,,1
+1007,DP1; RT quadrant; board 3; SiPM 23 current,DP1_RT3_CH23_I,double,1,uA,,,,,1
+1008,DP1; RT quadrant; board 3; SiPM 24 current,DP1_RT3_CH24_I,double,1,uA,,,,,1
+1009,DP1; RT quadrant; board 4; SiPM 1 current,DP1_RT4_CH1_I,double,1,uA,,,,,1
+1010,DP1; RT quadrant; board 4; SiPM 2 current,DP1_RT4_CH2_I,double,1,uA,,,,,1
+1011,DP1; RT quadrant; board 4; SiPM 3 current,DP1_RT4_CH3_I,double,1,uA,,,,,1
+1012,DP1; RT quadrant; board 4; SiPM 4 current,DP1_RT4_CH4_I,double,1,uA,,,,,1
+1013,DP1; RT quadrant; board 4; SiPM 5 current,DP1_RT4_CH5_I,double,1,uA,,,,,1
+1014,DP1; RT quadrant; board 4; SiPM 6 current,DP1_RT4_CH6_I,double,1,uA,,,,,1
+1015,DP1; RT quadrant; board 4; SiPM 7 current,DP1_RT4_CH7_I,double,1,uA,,,,,1
+1016,DP1; RT quadrant; board 4; SiPM 8 current,DP1_RT4_CH8_I,double,1,uA,,,,,1
+1017,DP1; RT quadrant; board 4; SiPM 9 current,DP1_RT4_CH9_I,double,1,uA,,,,,1
+1018,DP1; RT quadrant; board 4; SiPM 10 current,DP1_RT4_CH10_I,double,1,uA,,,,,1
+1019,DP1; RT quadrant; board 4; SiPM 11 current,DP1_RT4_CH11_I,double,1,uA,,,,,1
+1020,DP1; RT quadrant; board 4; SiPM 12 current,DP1_RT4_CH12_I,double,1,uA,,,,,1
+1021,DP1; RT quadrant; board 4; SiPM 13 current,DP1_RT4_CH13_I,double,1,uA,,,,,1
+1022,DP1; RT quadrant; board 4; SiPM 14 current,DP1_RT4_CH14_I,double,1,uA,,,,,1
+1023,DP1; RT quadrant; board 4; SiPM 15 current,DP1_RT4_CH15_I,double,1,uA,,,,,1
+1024,DP1; RT quadrant; board 4; SiPM 16 current,DP1_RT4_CH16_I,double,1,uA,,,,,1
+1025,DP1; RT quadrant; board 4; SiPM 17 current,DP1_RT4_CH17_I,double,1,uA,,,,,1
+1026,DP1; RT quadrant; board 4; SiPM 18 current,DP1_RT4_CH18_I,double,1,uA,,,,,1
+1027,DP1; RT quadrant; board 4; SiPM 19 current,DP1_RT4_CH19_I,double,1,uA,,,,,1
+1028,DP1; RT quadrant; board 4; SiPM 20 current,DP1_RT4_CH20_I,double,1,uA,,,,,1
+1029,DP1; RT quadrant; board 4; SiPM 21 current,DP1_RT4_CH21_I,double,1,uA,,,,,1
+1030,DP1; RT quadrant; board 4; SiPM 22 current,DP1_RT4_CH22_I,double,1,uA,,,,,1
+1031,DP1; RT quadrant; board 4; SiPM 23 current,DP1_RT4_CH23_I,double,1,uA,,,,,1
+1032,DP1; RT quadrant; board 4; SiPM 24 current,DP1_RT4_CH24_I,double,1,uA,,,,,1
+1033,DP1; RB quadrant; board 1; SiPM 1 current,DP1_RB1_CH1_I,double,1,uA,,,,,1
+1034,DP1; RB quadrant; board 1; SiPM 2 current,DP1_RB1_CH2_I,double,1,uA,,,,,1
+1035,DP1; RB quadrant; board 1; SiPM 3 current,DP1_RB1_CH3_I,double,1,uA,,,,,1
+1036,DP1; RB quadrant; board 1; SiPM 4 current,DP1_RB1_CH4_I,double,1,uA,,,,,1
+1037,DP1; RB quadrant; board 1; SiPM 5 current,DP1_RB1_CH5_I,double,1,uA,,,,,1
+1038,DP1; RB quadrant; board 1; SiPM 6 current,DP1_RB1_CH6_I,double,1,uA,,,,,1
+1039,DP1; RB quadrant; board 1; SiPM 7 current,DP1_RB1_CH7_I,double,1,uA,,,,,1
+1040,DP1; RB quadrant; board 1; SiPM 8 current,DP1_RB1_CH8_I,double,1,uA,,,,,1
+1041,DP1; RB quadrant; board 1; SiPM 9 current,DP1_RB1_CH9_I,double,1,uA,,,,,1
+1042,DP1; RB quadrant; board 1; SiPM 10 current,DP1_RB1_CH10_I,double,1,uA,,,,,1
+1043,DP1; RB quadrant; board 1; SiPM 11 current,DP1_RB1_CH11_I,double,1,uA,,,,,1
+1044,DP1; RB quadrant; board 1; SiPM 12 current,DP1_RB1_CH12_I,double,1,uA,,,,,1
+1045,DP1; RB quadrant; board 1; SiPM 13 current,DP1_RB1_CH13_I,double,1,uA,,,,,1
+1046,DP1; RB quadrant; board 1; SiPM 14 current,DP1_RB1_CH14_I,double,1,uA,,,,,1
+1047,DP1; RB quadrant; board 1; SiPM 15 current,DP1_RB1_CH15_I,double,1,uA,,,,,1
+1048,DP1; RB quadrant; board 1; SiPM 16 current,DP1_RB1_CH16_I,double,1,uA,,,,,1
+1049,DP1; RB quadrant; board 1; SiPM 17 current,DP1_RB1_CH17_I,double,1,uA,,,,,1
+1050,DP1; RB quadrant; board 1; SiPM 18 current,DP1_RB1_CH18_I,double,1,uA,,,,,1
+1051,DP1; RB quadrant; board 1; SiPM 19 current,DP1_RB1_CH19_I,double,1,uA,,,,,1
+1052,DP1; RB quadrant; board 1; SiPM 20 current,DP1_RB1_CH20_I,double,1,uA,,,,,1
+1053,DP1; RB quadrant; board 1; SiPM 21 current,DP1_RB1_CH21_I,double,1,uA,,,,,1
+1054,DP1; RB quadrant; board 1; SiPM 22 current,DP1_RB1_CH22_I,double,1,uA,,,,,1
+1055,DP1; RB quadrant; board 1; SiPM 23 current,DP1_RB1_CH23_I,double,1,uA,,,,,1
+1056,DP1; RB quadrant; board 1; SiPM 24 current,DP1_RB1_CH24_I,double,1,uA,,,,,1
+1057,DP1; RB quadrant; board 2; SiPM 1 current,DP1_RB2_CH1_I,double,1,uA,,,,,1
+1058,DP1; RB quadrant; board 2; SiPM 2 current,DP1_RB2_CH2_I,double,1,uA,,,,,1
+1059,DP1; RB quadrant; board 2; SiPM 3 current,DP1_RB2_CH3_I,double,1,uA,,,,,1
+1060,DP1; RB quadrant; board 2; SiPM 4 current,DP1_RB2_CH4_I,double,1,uA,,,,,1
+1061,DP1; RB quadrant; board 2; SiPM 5 current,DP1_RB2_CH5_I,double,1,uA,,,,,1
+1062,DP1; RB quadrant; board 2; SiPM 6 current,DP1_RB2_CH6_I,double,1,uA,,,,,1
+1063,DP1; RB quadrant; board 2; SiPM 7 current,DP1_RB2_CH7_I,double,1,uA,,,,,1
+1064,DP1; RB quadrant; board 2; SiPM 8 current,DP1_RB2_CH8_I,double,1,uA,,,,,1
+1065,DP1; RB quadrant; board 2; SiPM 9 current,DP1_RB2_CH9_I,double,1,uA,,,,,1
+1066,DP1; RB quadrant; board 2; SiPM 10 current,DP1_RB2_CH10_I,double,1,uA,,,,,1
+1067,DP1; RB quadrant; board 2; SiPM 11 current,DP1_RB2_CH11_I,double,1,uA,,,,,1
+1068,DP1; RB quadrant; board 2; SiPM 12 current,DP1_RB2_CH12_I,double,1,uA,,,,,1
+1069,DP1; RB quadrant; board 2; SiPM 13 current,DP1_RB2_CH13_I,double,1,uA,,,,,1
+1070,DP1; RB quadrant; board 2; SiPM 14 current,DP1_RB2_CH14_I,double,1,uA,,,,,1
+1071,DP1; RB quadrant; board 2; SiPM 15 current,DP1_RB2_CH15_I,double,1,uA,,,,,1
+1072,DP1; RB quadrant; board 2; SiPM 16 current,DP1_RB2_CH16_I,double,1,uA,,,,,1
+1073,DP1; RB quadrant; board 2; SiPM 17 current,DP1_RB2_CH17_I,double,1,uA,,,,,1
+1074,DP1; RB quadrant; board 2; SiPM 18 current,DP1_RB2_CH18_I,double,1,uA,,,,,1
+1075,DP1; RB quadrant; board 2; SiPM 19 current,DP1_RB2_CH19_I,double,1,uA,,,,,1
+1076,DP1; RB quadrant; board 2; SiPM 20 current,DP1_RB2_CH20_I,double,1,uA,,,,,1
+1077,DP1; RB quadrant; board 2; SiPM 21 current,DP1_RB2_CH21_I,double,1,uA,,,,,1
+1078,DP1; RB quadrant; board 2; SiPM 22 current,DP1_RB2_CH22_I,double,1,uA,,,,,1
+1079,DP1; RB quadrant; board 2; SiPM 23 current,DP1_RB2_CH23_I,double,1,uA,,,,,1
+1080,DP1; RB quadrant; board 2; SiPM 24 current,DP1_RB2_CH24_I,double,1,uA,,,,,1
+1081,DP1; RB quadrant; board 3; SiPM 1 current,DP1_RB3_CH1_I,double,1,uA,,,,,1
+1082,DP1; RB quadrant; board 3; SiPM 2 current,DP1_RB3_CH2_I,double,1,uA,,,,,1
+1083,DP1; RB quadrant; board 3; SiPM 3 current,DP1_RB3_CH3_I,double,1,uA,,,,,1
+1084,DP1; RB quadrant; board 3; SiPM 4 current,DP1_RB3_CH4_I,double,1,uA,,,,,1
+1085,DP1; RB quadrant; board 3; SiPM 5 current,DP1_RB3_CH5_I,double,1,uA,,,,,1
+1086,DP1; RB quadrant; board 3; SiPM 6 current,DP1_RB3_CH6_I,double,1,uA,,,,,1
+1087,DP1; RB quadrant; board 3; SiPM 7 current,DP1_RB3_CH7_I,double,1,uA,,,,,1
+1088,DP1; RB quadrant; board 3; SiPM 8 current,DP1_RB3_CH8_I,double,1,uA,,,,,1
+1089,DP1; RB quadrant; board 3; SiPM 9 current,DP1_RB3_CH9_I,double,1,uA,,,,,1
+1090,DP1; RB quadrant; board 3; SiPM 10 current,DP1_RB3_CH10_I,double,1,uA,,,,,1
+1091,DP1; RB quadrant; board 3; SiPM 11 current,DP1_RB3_CH11_I,double,1,uA,,,,,1
+1092,DP1; RB quadrant; board 3; SiPM 12 current,DP1_RB3_CH12_I,double,1,uA,,,,,1
+1093,DP1; RB quadrant; board 3; SiPM 13 current,DP1_RB3_CH13_I,double,1,uA,,,,,1
+1094,DP1; RB quadrant; board 3; SiPM 14 current,DP1_RB3_CH14_I,double,1,uA,,,,,1
+1095,DP1; RB quadrant; board 3; SiPM 15 current,DP1_RB3_CH15_I,double,1,uA,,,,,1
+1096,DP1; RB quadrant; board 3; SiPM 16 current,DP1_RB3_CH16_I,double,1,uA,,,,,1
+1097,DP1; RB quadrant; board 3; SiPM 17 current,DP1_RB3_CH17_I,double,1,uA,,,,,1
+1098,DP1; RB quadrant; board 3; SiPM 18 current,DP1_RB3_CH18_I,double,1,uA,,,,,1
+1099,DP1; RB quadrant; board 3; SiPM 19 current,DP1_RB3_CH19_I,double,1,uA,,,,,1
+1100,DP1; RB quadrant; board 3; SiPM 20 current,DP1_RB3_CH20_I,double,1,uA,,,,,1
+1101,DP1; RB quadrant; board 3; SiPM 21 current,DP1_RB3_CH21_I,double,1,uA,,,,,1
+1102,DP1; RB quadrant; board 3; SiPM 22 current,DP1_RB3_CH22_I,double,1,uA,,,,,1
+1103,DP1; RB quadrant; board 3; SiPM 23 current,DP1_RB3_CH23_I,double,1,uA,,,,,1
+1104,DP1; RB quadrant; board 3; SiPM 24 current,DP1_RB3_CH24_I,double,1,uA,,,,,1
+1105,DP1; RB quadrant; board 4; SiPM 1 current,DP1_RB4_CH1_I,double,1,uA,,,,,1
+1106,DP1; RB quadrant; board 4; SiPM 2 current,DP1_RB4_CH2_I,double,1,uA,,,,,1
+1107,DP1; RB quadrant; board 4; SiPM 3 current,DP1_RB4_CH3_I,double,1,uA,,,,,1
+1108,DP1; RB quadrant; board 4; SiPM 4 current,DP1_RB4_CH4_I,double,1,uA,,,,,1
+1109,DP1; RB quadrant; board 4; SiPM 5 current,DP1_RB4_CH5_I,double,1,uA,,,,,1
+1110,DP1; RB quadrant; board 4; SiPM 6 current,DP1_RB4_CH6_I,double,1,uA,,,,,1
+1111,DP1; RB quadrant; board 4; SiPM 7 current,DP1_RB4_CH7_I,double,1,uA,,,,,1
+1112,DP1; RB quadrant; board 4; SiPM 8 current,DP1_RB4_CH8_I,double,1,uA,,,,,1
+1113,DP1; RB quadrant; board 4; SiPM 9 current,DP1_RB4_CH9_I,double,1,uA,,,,,1
+1114,DP1; RB quadrant; board 4; SiPM 10 current,DP1_RB4_CH10_I,double,1,uA,,,,,1
+1115,DP1; RB quadrant; board 4; SiPM 11 current,DP1_RB4_CH11_I,double,1,uA,,,,,1
+1116,DP1; RB quadrant; board 4; SiPM 12 current,DP1_RB4_CH12_I,double,1,uA,,,,,1
+1117,DP1; RB quadrant; board 4; SiPM 13 current,DP1_RB4_CH13_I,double,1,uA,,,,,1
+1118,DP1; RB quadrant; board 4; SiPM 14 current,DP1_RB4_CH14_I,double,1,uA,,,,,1
+1119,DP1; RB quadrant; board 4; SiPM 15 current,DP1_RB4_CH15_I,double,1,uA,,,,,1
+1120,DP1; RB quadrant; board 4; SiPM 16 current,DP1_RB4_CH16_I,double,1,uA,,,,,1
+1121,DP1; RB quadrant; board 4; SiPM 17 current,DP1_RB4_CH17_I,double,1,uA,,,,,1
+1122,DP1; RB quadrant; board 4; SiPM 18 current,DP1_RB4_CH18_I,double,1,uA,,,,,1
+1123,DP1; RB quadrant; board 4; SiPM 19 current,DP1_RB4_CH19_I,double,1,uA,,,,,1
+1124,DP1; RB quadrant; board 4; SiPM 20 current,DP1_RB4_CH20_I,double,1,uA,,,,,1
+1125,DP1; RB quadrant; board 4; SiPM 21 current,DP1_RB4_CH21_I,double,1,uA,,,,,1
+1126,DP1; RB quadrant; board 4; SiPM 22 current,DP1_RB4_CH22_I,double,1,uA,,,,,1
+1127,DP1; RB quadrant; board 4; SiPM 23 current,DP1_RB4_CH23_I,double,1,uA,,,,,1
+1128,DP1; RB quadrant; board 4; SiPM 24 current,DP1_RB4_CH24_I,double,1,uA,,,,,1
+1129,DP2; LT quadrant; board 1; SiPM 1 current,DP2_LT1_CH1_I,double,1,uA,,,,,1
+1130,DP2; LT quadrant; board 1; SiPM 2 current,DP2_LT1_CH2_I,double,1,uA,,,,,1
+1131,DP2; LT quadrant; board 1; SiPM 3 current,DP2_LT1_CH3_I,double,1,uA,,,,,1
+1132,DP2; LT quadrant; board 1; SiPM 4 current,DP2_LT1_CH4_I,double,1,uA,,,,,1
+1133,DP2; LT quadrant; board 1; SiPM 5 current,DP2_LT1_CH5_I,double,1,uA,,,,,1
+1134,DP2; LT quadrant; board 1; SiPM 6 current,DP2_LT1_CH6_I,double,1,uA,,,,,1
+1135,DP2; LT quadrant; board 1; SiPM 7 current,DP2_LT1_CH7_I,double,1,uA,,,,,1
+1136,DP2; LT quadrant; board 1; SiPM 8 current,DP2_LT1_CH8_I,double,1,uA,,,,,1
+1137,DP2; LT quadrant; board 1; SiPM 9 current,DP2_LT1_CH9_I,double,1,uA,,,,,1
+1138,DP2; LT quadrant; board 1; SiPM 10 current,DP2_LT1_CH10_I,double,1,uA,,,,,1
+1139,DP2; LT quadrant; board 1; SiPM 11 current,DP2_LT1_CH11_I,double,1,uA,,,,,1
+1140,DP2; LT quadrant; board 1; SiPM 12 current,DP2_LT1_CH12_I,double,1,uA,,,,,1
+1141,DP2; LT quadrant; board 1; SiPM 13 current,DP2_LT1_CH13_I,double,1,uA,,,,,1
+1142,DP2; LT quadrant; board 1; SiPM 14 current,DP2_LT1_CH14_I,double,1,uA,,,,,1
+1143,DP2; LT quadrant; board 1; SiPM 15 current,DP2_LT1_CH15_I,double,1,uA,,,,,1
+1144,DP2; LT quadrant; board 1; SiPM 16 current,DP2_LT1_CH16_I,double,1,uA,,,,,1
+1145,DP2; LT quadrant; board 1; SiPM 17 current,DP2_LT1_CH17_I,double,1,uA,,,,,1
+1146,DP2; LT quadrant; board 1; SiPM 18 current,DP2_LT1_CH18_I,double,1,uA,,,,,1
+1147,DP2; LT quadrant; board 1; SiPM 19 current,DP2_LT1_CH19_I,double,1,uA,,,,,1
+1148,DP2; LT quadrant; board 1; SiPM 20 current,DP2_LT1_CH20_I,double,1,uA,,,,,1
+1149,DP2; LT quadrant; board 1; SiPM 21 current,DP2_LT1_CH21_I,double,1,uA,,,,,1
+1150,DP2; LT quadrant; board 1; SiPM 22 current,DP2_LT1_CH22_I,double,1,uA,,,,,1
+1151,DP2; LT quadrant; board 1; SiPM 23 current,DP2_LT1_CH23_I,double,1,uA,,,,,1
+1152,DP2; LT quadrant; board 1; SiPM 24 current,DP2_LT1_CH24_I,double,1,uA,,,,,1
+1153,DP2; LT quadrant; board 2; SiPM 1 current,DP2_LT2_CH1_I,double,1,uA,,,,,1
+1154,DP2; LT quadrant; board 2; SiPM 2 current,DP2_LT2_CH2_I,double,1,uA,,,,,1
+1155,DP2; LT quadrant; board 2; SiPM 3 current,DP2_LT2_CH3_I,double,1,uA,,,,,1
+1156,DP2; LT quadrant; board 2; SiPM 4 current,DP2_LT2_CH4_I,double,1,uA,,,,,1
+1157,DP2; LT quadrant; board 2; SiPM 5 current,DP2_LT2_CH5_I,double,1,uA,,,,,1
+1158,DP2; LT quadrant; board 2; SiPM 6 current,DP2_LT2_CH6_I,double,1,uA,,,,,1
+1159,DP2; LT quadrant; board 2; SiPM 7 current,DP2_LT2_CH7_I,double,1,uA,,,,,1
+1160,DP2; LT quadrant; board 2; SiPM 8 current,DP2_LT2_CH8_I,double,1,uA,,,,,1
+1161,DP2; LT quadrant; board 2; SiPM 9 current,DP2_LT2_CH9_I,double,1,uA,,,,,1
+1162,DP2; LT quadrant; board 2; SiPM 10 current,DP2_LT2_CH10_I,double,1,uA,,,,,1
+1163,DP2; LT quadrant; board 2; SiPM 11 current,DP2_LT2_CH11_I,double,1,uA,,,,,1
+1164,DP2; LT quadrant; board 2; SiPM 12 current,DP2_LT2_CH12_I,double,1,uA,,,,,1
+1165,DP2; LT quadrant; board 2; SiPM 13 current,DP2_LT2_CH13_I,double,1,uA,,,,,1
+1166,DP2; LT quadrant; board 2; SiPM 14 current,DP2_LT2_CH14_I,double,1,uA,,,,,1
+1167,DP2; LT quadrant; board 2; SiPM 15 current,DP2_LT2_CH15_I,double,1,uA,,,,,1
+1168,DP2; LT quadrant; board 2; SiPM 16 current,DP2_LT2_CH16_I,double,1,uA,,,,,1
+1169,DP2; LT quadrant; board 2; SiPM 17 current,DP2_LT2_CH17_I,double,1,uA,,,,,1
+1170,DP2; LT quadrant; board 2; SiPM 18 current,DP2_LT2_CH18_I,double,1,uA,,,,,1
+1171,DP2; LT quadrant; board 2; SiPM 19 current,DP2_LT2_CH19_I,double,1,uA,,,,,1
+1172,DP2; LT quadrant; board 2; SiPM 20 current,DP2_LT2_CH20_I,double,1,uA,,,,,1
+1173,DP2; LT quadrant; board 2; SiPM 21 current,DP2_LT2_CH21_I,double,1,uA,,,,,1
+1174,DP2; LT quadrant; board 2; SiPM 22 current,DP2_LT2_CH22_I,double,1,uA,,,,,1
+1175,DP2; LT quadrant; board 2; SiPM 23 current,DP2_LT2_CH23_I,double,1,uA,,,,,1
+1176,DP2; LT quadrant; board 2; SiPM 24 current,DP2_LT2_CH24_I,double,1,uA,,,,,1
+1177,DP2; LB quadrant; board 1; SiPM 1 current,DP2_LB1_CH1_I,double,1,uA,,,,,1
+1178,DP2; LB quadrant; board 1; SiPM 2 current,DP2_LB1_CH2_I,double,1,uA,,,,,1
+1179,DP2; LB quadrant; board 1; SiPM 3 current,DP2_LB1_CH3_I,double,1,uA,,,,,1
+1180,DP2; LB quadrant; board 1; SiPM 4 current,DP2_LB1_CH4_I,double,1,uA,,,,,1
+1181,DP2; LB quadrant; board 1; SiPM 5 current,DP2_LB1_CH5_I,double,1,uA,,,,,1
+1182,DP2; LB quadrant; board 1; SiPM 6 current,DP2_LB1_CH6_I,double,1,uA,,,,,1
+1183,DP2; LB quadrant; board 1; SiPM 7 current,DP2_LB1_CH7_I,double,1,uA,,,,,1
+1184,DP2; LB quadrant; board 1; SiPM 8 current,DP2_LB1_CH8_I,double,1,uA,,,,,1
+1185,DP2; LB quadrant; board 1; SiPM 9 current,DP2_LB1_CH9_I,double,1,uA,,,,,1
+1186,DP2; LB quadrant; board 1; SiPM 10 current,DP2_LB1_CH10_I,double,1,uA,,,,,1
+1187,DP2; LB quadrant; board 1; SiPM 11 current,DP2_LB1_CH11_I,double,1,uA,,,,,1
+1188,DP2; LB quadrant; board 1; SiPM 12 current,DP2_LB1_CH12_I,double,1,uA,,,,,1
+1189,DP2; LB quadrant; board 1; SiPM 13 current,DP2_LB1_CH13_I,double,1,uA,,,,,1
+1190,DP2; LB quadrant; board 1; SiPM 14 current,DP2_LB1_CH14_I,double,1,uA,,,,,1
+1191,DP2; LB quadrant; board 1; SiPM 15 current,DP2_LB1_CH15_I,double,1,uA,,,,,1
+1192,DP2; LB quadrant; board 1; SiPM 16 current,DP2_LB1_CH16_I,double,1,uA,,,,,1
+1193,DP2; LB quadrant; board 1; SiPM 17 current,DP2_LB1_CH17_I,double,1,uA,,,,,1
+1194,DP2; LB quadrant; board 1; SiPM 18 current,DP2_LB1_CH18_I,double,1,uA,,,,,1
+1195,DP2; LB quadrant; board 1; SiPM 19 current,DP2_LB1_CH19_I,double,1,uA,,,,,1
+1196,DP2; LB quadrant; board 1; SiPM 20 current,DP2_LB1_CH20_I,double,1,uA,,,,,1
+1197,DP2; LB quadrant; board 1; SiPM 21 current,DP2_LB1_CH21_I,double,1,uA,,,,,1
+1198,DP2; LB quadrant; board 1; SiPM 22 current,DP2_LB1_CH22_I,double,1,uA,,,,,1
+1199,DP2; LB quadrant; board 1; SiPM 23 current,DP2_LB1_CH23_I,double,1,uA,,,,,1
+1200,DP2; LB quadrant; board 1; SiPM 24 current,DP2_LB1_CH24_I,double,1,uA,,,,,1
+1201,DP2; LB quadrant; board 2; SiPM 1 current,DP2_LB2_CH1_I,double,1,uA,,,,,1
+1202,DP2; LB quadrant; board 2; SiPM 2 current,DP2_LB2_CH2_I,double,1,uA,,,,,1
+1203,DP2; LB quadrant; board 2; SiPM 3 current,DP2_LB2_CH3_I,double,1,uA,,,,,1
+1204,DP2; LB quadrant; board 2; SiPM 4 current,DP2_LB2_CH4_I,double,1,uA,,,,,1
+1205,DP2; LB quadrant; board 2; SiPM 5 current,DP2_LB2_CH5_I,double,1,uA,,,,,1
+1206,DP2; LB quadrant; board 2; SiPM 6 current,DP2_LB2_CH6_I,double,1,uA,,,,,1
+1207,DP2; LB quadrant; board 2; SiPM 7 current,DP2_LB2_CH7_I,double,1,uA,,,,,1
+1208,DP2; LB quadrant; board 2; SiPM 8 current,DP2_LB2_CH8_I,double,1,uA,,,,,1
+1209,DP2; LB quadrant; board 2; SiPM 9 current,DP2_LB2_CH9_I,double,1,uA,,,,,1
+1210,DP2; LB quadrant; board 2; SiPM 10 current,DP2_LB2_CH10_I,double,1,uA,,,,,1
+1211,DP2; LB quadrant; board 2; SiPM 11 current,DP2_LB2_CH11_I,double,1,uA,,,,,1
+1212,DP2; LB quadrant; board 2; SiPM 12 current,DP2_LB2_CH12_I,double,1,uA,,,,,1
+1213,DP2; LB quadrant; board 2; SiPM 13 current,DP2_LB2_CH13_I,double,1,uA,,,,,1
+1214,DP2; LB quadrant; board 2; SiPM 14 current,DP2_LB2_CH14_I,double,1,uA,,,,,1
+1215,DP2; LB quadrant; board 2; SiPM 15 current,DP2_LB2_CH15_I,double,1,uA,,,,,1
+1216,DP2; LB quadrant; board 2; SiPM 16 current,DP2_LB2_CH16_I,double,1,uA,,,,,1
+1217,DP2; LB quadrant; board 2; SiPM 17 current,DP2_LB2_CH17_I,double,1,uA,,,,,1
+1218,DP2; LB quadrant; board 2; SiPM 18 current,DP2_LB2_CH18_I,double,1,uA,,,,,1
+1219,DP2; LB quadrant; board 2; SiPM 19 current,DP2_LB2_CH19_I,double,1,uA,,,,,1
+1220,DP2; LB quadrant; board 2; SiPM 20 current,DP2_LB2_CH20_I,double,1,uA,,,,,1
+1221,DP2; LB quadrant; board 2; SiPM 21 current,DP2_LB2_CH21_I,double,1,uA,,,,,1
+1222,DP2; LB quadrant; board 2; SiPM 22 current,DP2_LB2_CH22_I,double,1,uA,,,,,1
+1223,DP2; LB quadrant; board 2; SiPM 23 current,DP2_LB2_CH23_I,double,1,uA,,,,,1
+1224,DP2; LB quadrant; board 2; SiPM 24 current,DP2_LB2_CH24_I,double,1,uA,,,,,1
+1225,DP2; RT quadrant; board 1; SiPM 1 current,DP2_RT1_CH1_I,double,1,uA,,,,,1
+1226,DP2; RT quadrant; board 1; SiPM 2 current,DP2_RT1_CH2_I,double,1,uA,,,,,1
+1227,DP2; RT quadrant; board 1; SiPM 3 current,DP2_RT1_CH3_I,double,1,uA,,,,,1
+1228,DP2; RT quadrant; board 1; SiPM 4 current,DP2_RT1_CH4_I,double,1,uA,,,,,1
+1229,DP2; RT quadrant; board 1; SiPM 5 current,DP2_RT1_CH5_I,double,1,uA,,,,,1
+1230,DP2; RT quadrant; board 1; SiPM 6 current,DP2_RT1_CH6_I,double,1,uA,,,,,1
+1231,DP2; RT quadrant; board 1; SiPM 7 current,DP2_RT1_CH7_I,double,1,uA,,,,,1
+1232,DP2; RT quadrant; board 1; SiPM 8 current,DP2_RT1_CH8_I,double,1,uA,,,,,1
+1233,DP2; RT quadrant; board 1; SiPM 9 current,DP2_RT1_CH9_I,double,1,uA,,,,,1
+1234,DP2; RT quadrant; board 1; SiPM 10 current,DP2_RT1_CH10_I,double,1,uA,,,,,1
+1235,DP2; RT quadrant; board 1; SiPM 11 current,DP2_RT1_CH11_I,double,1,uA,,,,,1
+1236,DP2; RT quadrant; board 1; SiPM 12 current,DP2_RT1_CH12_I,double,1,uA,,,,,1
+1237,DP2; RT quadrant; board 1; SiPM 13 current,DP2_RT1_CH13_I,double,1,uA,,,,,1
+1238,DP2; RT quadrant; board 1; SiPM 14 current,DP2_RT1_CH14_I,double,1,uA,,,,,1
+1239,DP2; RT quadrant; board 1; SiPM 15 current,DP2_RT1_CH15_I,double,1,uA,,,,,1
+1240,DP2; RT quadrant; board 1; SiPM 16 current,DP2_RT1_CH16_I,double,1,uA,,,,,1
+1241,DP2; RT quadrant; board 1; SiPM 17 current,DP2_RT1_CH17_I,double,1,uA,,,,,1
+1242,DP2; RT quadrant; board 1; SiPM 18 current,DP2_RT1_CH18_I,double,1,uA,,,,,1
+1243,DP2; RT quadrant; board 1; SiPM 19 current,DP2_RT1_CH19_I,double,1,uA,,,,,1
+1244,DP2; RT quadrant; board 1; SiPM 20 current,DP2_RT1_CH20_I,double,1,uA,,,,,1
+1245,DP2; RT quadrant; board 1; SiPM 21 current,DP2_RT1_CH21_I,double,1,uA,,,,,1
+1246,DP2; RT quadrant; board 1; SiPM 22 current,DP2_RT1_CH22_I,double,1,uA,,,,,1
+1247,DP2; RT quadrant; board 1; SiPM 23 current,DP2_RT1_CH23_I,double,1,uA,,,,,1
+1248,DP2; RT quadrant; board 1; SiPM 24 current,DP2_RT1_CH24_I,double,1,uA,,,,,1
+1249,DP2; RT quadrant; board 2; SiPM 1 current,DP2_RT2_CH1_I,double,1,uA,,,,,1
+1250,DP2; RT quadrant; board 2; SiPM 2 current,DP2_RT2_CH2_I,double,1,uA,,,,,1
+1251,DP2; RT quadrant; board 2; SiPM 3 current,DP2_RT2_CH3_I,double,1,uA,,,,,1
+1252,DP2; RT quadrant; board 2; SiPM 4 current,DP2_RT2_CH4_I,double,1,uA,,,,,1
+1253,DP2; RT quadrant; board 2; SiPM 5 current,DP2_RT2_CH5_I,double,1,uA,,,,,1
+1254,DP2; RT quadrant; board 2; SiPM 6 current,DP2_RT2_CH6_I,double,1,uA,,,,,1
+1255,DP2; RT quadrant; board 2; SiPM 7 current,DP2_RT2_CH7_I,double,1,uA,,,,,1
+1256,DP2; RT quadrant; board 2; SiPM 8 current,DP2_RT2_CH8_I,double,1,uA,,,,,1
+1257,DP2; RT quadrant; board 2; SiPM 9 current,DP2_RT2_CH9_I,double,1,uA,,,,,1
+1258,DP2; RT quadrant; board 2; SiPM 10 current,DP2_RT2_CH10_I,double,1,uA,,,,,1
+1259,DP2; RT quadrant; board 2; SiPM 11 current,DP2_RT2_CH11_I,double,1,uA,,,,,1
+1260,DP2; RT quadrant; board 2; SiPM 12 current,DP2_RT2_CH12_I,double,1,uA,,,,,1
+1261,DP2; RT quadrant; board 2; SiPM 13 current,DP2_RT2_CH13_I,double,1,uA,,,,,1
+1262,DP2; RT quadrant; board 2; SiPM 14 current,DP2_RT2_CH14_I,double,1,uA,,,,,1
+1263,DP2; RT quadrant; board 2; SiPM 15 current,DP2_RT2_CH15_I,double,1,uA,,,,,1
+1264,DP2; RT quadrant; board 2; SiPM 16 current,DP2_RT2_CH16_I,double,1,uA,,,,,1
+1265,DP2; RT quadrant; board 2; SiPM 17 current,DP2_RT2_CH17_I,double,1,uA,,,,,1
+1266,DP2; RT quadrant; board 2; SiPM 18 current,DP2_RT2_CH18_I,double,1,uA,,,,,1
+1267,DP2; RT quadrant; board 2; SiPM 19 current,DP2_RT2_CH19_I,double,1,uA,,,,,1
+1268,DP2; RT quadrant; board 2; SiPM 20 current,DP2_RT2_CH20_I,double,1,uA,,,,,1
+1269,DP2; RT quadrant; board 2; SiPM 21 current,DP2_RT2_CH21_I,double,1,uA,,,,,1
+1270,DP2; RT quadrant; board 2; SiPM 22 current,DP2_RT2_CH22_I,double,1,uA,,,,,1
+1271,DP2; RT quadrant; board 2; SiPM 23 current,DP2_RT2_CH23_I,double,1,uA,,,,,1
+1272,DP2; RT quadrant; board 2; SiPM 24 current,DP2_RT2_CH24_I,double,1,uA,,,,,1
+1273,DP2; RB quadrant; board 1; SiPM 1 current,DP2_RB1_CH1_I,double,1,uA,,,,,1
+1274,DP2; RB quadrant; board 1; SiPM 2 current,DP2_RB1_CH2_I,double,1,uA,,,,,1
+1275,DP2; RB quadrant; board 1; SiPM 3 current,DP2_RB1_CH3_I,double,1,uA,,,,,1
+1276,DP2; RB quadrant; board 1; SiPM 4 current,DP2_RB1_CH4_I,double,1,uA,,,,,1
+1277,DP2; RB quadrant; board 1; SiPM 5 current,DP2_RB1_CH5_I,double,1,uA,,,,,1
+1278,DP2; RB quadrant; board 1; SiPM 6 current,DP2_RB1_CH6_I,double,1,uA,,,,,1
+1279,DP2; RB quadrant; board 1; SiPM 7 current,DP2_RB1_CH7_I,double,1,uA,,,,,1
+1280,DP2; RB quadrant; board 1; SiPM 8 current,DP2_RB1_CH8_I,double,1,uA,,,,,1
+1281,DP2; RB quadrant; board 1; SiPM 9 current,DP2_RB1_CH9_I,double,1,uA,,,,,1
+1282,DP2; RB quadrant; board 1; SiPM 10 current,DP2_RB1_CH10_I,double,1,uA,,,,,1
+1283,DP2; RB quadrant; board 1; SiPM 11 current,DP2_RB1_CH11_I,double,1,uA,,,,,1
+1284,DP2; RB quadrant; board 1; SiPM 12 current,DP2_RB1_CH12_I,double,1,uA,,,,,1
+1285,DP2; RB quadrant; board 1; SiPM 13 current,DP2_RB1_CH13_I,double,1,uA,,,,,1
+1286,DP2; RB quadrant; board 1; SiPM 14 current,DP2_RB1_CH14_I,double,1,uA,,,,,1
+1287,DP2; RB quadrant; board 1; SiPM 15 current,DP2_RB1_CH15_I,double,1,uA,,,,,1
+1288,DP2; RB quadrant; board 1; SiPM 16 current,DP2_RB1_CH16_I,double,1,uA,,,,,1
+1289,DP2; RB quadrant; board 1; SiPM 17 current,DP2_RB1_CH17_I,double,1,uA,,,,,1
+1290,DP2; RB quadrant; board 1; SiPM 18 current,DP2_RB1_CH18_I,double,1,uA,,,,,1
+1291,DP2; RB quadrant; board 1; SiPM 19 current,DP2_RB1_CH19_I,double,1,uA,,,,,1
+1292,DP2; RB quadrant; board 1; SiPM 20 current,DP2_RB1_CH20_I,double,1,uA,,,,,1
+1293,DP2; RB quadrant; board 1; SiPM 21 current,DP2_RB1_CH21_I,double,1,uA,,,,,1
+1294,DP2; RB quadrant; board 1; SiPM 22 current,DP2_RB1_CH22_I,double,1,uA,,,,,1
+1295,DP2; RB quadrant; board 1; SiPM 23 current,DP2_RB1_CH23_I,double,1,uA,,,,,1
+1296,DP2; RB quadrant; board 1; SiPM 24 current,DP2_RB1_CH24_I,double,1,uA,,,,,1
+1297,DP2; RB quadrant; board 2; SiPM 1 current,DP2_RB2_CH1_I,double,1,uA,,,,,1
+1298,DP2; RB quadrant; board 2; SiPM 2 current,DP2_RB2_CH2_I,double,1,uA,,,,,1
+1299,DP2; RB quadrant; board 2; SiPM 3 current,DP2_RB2_CH3_I,double,1,uA,,,,,1
+1300,DP2; RB quadrant; board 2; SiPM 4 current,DP2_RB2_CH4_I,double,1,uA,,,,,1
+1301,DP2; RB quadrant; board 2; SiPM 5 current,DP2_RB2_CH5_I,double,1,uA,,,,,1
+1302,DP2; RB quadrant; board 2; SiPM 6 current,DP2_RB2_CH6_I,double,1,uA,,,,,1
+1303,DP2; RB quadrant; board 2; SiPM 7 current,DP2_RB2_CH7_I,double,1,uA,,,,,1
+1304,DP2; RB quadrant; board 2; SiPM 8 current,DP2_RB2_CH8_I,double,1,uA,,,,,1
+1305,DP2; RB quadrant; board 2; SiPM 9 current,DP2_RB2_CH9_I,double,1,uA,,,,,1
+1306,DP2; RB quadrant; board 2; SiPM 10 current,DP2_RB2_CH10_I,double,1,uA,,,,,1
+1307,DP2; RB quadrant; board 2; SiPM 11 current,DP2_RB2_CH11_I,double,1,uA,,,,,1
+1308,DP2; RB quadrant; board 2; SiPM 12 current,DP2_RB2_CH12_I,double,1,uA,,,,,1
+1309,DP2; RB quadrant; board 2; SiPM 13 current,DP2_RB2_CH13_I,double,1,uA,,,,,1
+1310,DP2; RB quadrant; board 2; SiPM 14 current,DP2_RB2_CH14_I,double,1,uA,,,,,1
+1311,DP2; RB quadrant; board 2; SiPM 15 current,DP2_RB2_CH15_I,double,1,uA,,,,,1
+1312,DP2; RB quadrant; board 2; SiPM 16 current,DP2_RB2_CH16_I,double,1,uA,,,,,1
+1313,DP2; RB quadrant; board 2; SiPM 17 current,DP2_RB2_CH17_I,double,1,uA,,,,,1
+1314,DP2; RB quadrant; board 2; SiPM 18 current,DP2_RB2_CH18_I,double,1,uA,,,,,1
+1315,DP2; RB quadrant; board 2; SiPM 19 current,DP2_RB2_CH19_I,double,1,uA,,,,,1
+1316,DP2; RB quadrant; board 2; SiPM 20 current,DP2_RB2_CH20_I,double,1,uA,,,,,1
+1317,DP2; RB quadrant; board 2; SiPM 21 current,DP2_RB2_CH21_I,double,1,uA,,,,,1
+1318,DP2; RB quadrant; board 2; SiPM 22 current,DP2_RB2_CH22_I,double,1,uA,,,,,1
+1319,DP2; RB quadrant; board 2; SiPM 23 current,DP2_RB2_CH23_I,double,1,uA,,,,,1
+1320,DP2; RB quadrant; board 2; SiPM 24 current,DP2_RB2_CH24_I,double,1,uA,,,,,1

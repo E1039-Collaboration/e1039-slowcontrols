@@ -1,0 +1,1169 @@
+
+file {
+	name="/data2/e1039/daq/slowcontrols/epics/epics_medm/medm_DPhodo.adl"
+	version=030111
+}
+display {
+	object {
+		x=57
+		y=631
+		width=800
+		height=250
+	}
+	clr=14
+	bclr=9
+	cmap=""
+	gridSpacing=5
+	gridOn=0
+	snapToGrid=0
+}
+"color map" {
+	ncolors=65
+	colors {
+		ffffff,
+		ececec,
+		dadada,
+		c8c8c8,
+		bbbbbb,
+		aeaeae,
+		9e9e9e,
+		919191,
+		858585,
+		787878,
+		696969,
+		5a5a5a,
+		464646,
+		2d2d2d,
+		000000,
+		00d800,
+		1ebb00,
+		339900,
+		2d7f00,
+		216c00,
+		fd0000,
+		de1309,
+		be190b,
+		a01207,
+		820400,
+		5893ff,
+		597ee1,
+		4b6ec7,
+		3a5eab,
+		27548d,
+		fbf34a,
+		f9da3c,
+		eeb62b,
+		e19015,
+		cd6100,
+		ffb0ff,
+		d67fe2,
+		ae4ebc,
+		8b1a96,
+		610a75,
+		a4aaff,
+		8793e2,
+		6a73c1,
+		4d52a4,
+		343386,
+		c7bb6d,
+		b79d5c,
+		a47e3c,
+		7d5627,
+		58340f,
+		99ffff,
+		73dfff,
+		4ea5f9,
+		2a63e4,
+		0a00b8,
+		ebf1b5,
+		d4db9d,
+		bbc187,
+		a6a462,
+		8b8239,
+		73ff6b,
+		52da3b,
+		3cb420,
+		289315,
+		1a7309,
+	}
+}
+rectangle {
+	object {
+		x=441
+		y=60
+		width=150
+		height=150
+	}
+	"basic attribute" {
+		clr=36
+		fill="outline"
+	}
+}
+"related display" {
+	object {
+		x=196
+		y=50
+		width=50
+		height=20
+	}
+	display[0] {
+		label="DP1-LT1 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=LT, brd=1"
+	}
+	display[1] {
+		label="DP1-LT2 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=LT, brd=2"
+	}
+	display[2] {
+		label="DP1-LT3 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=LT, brd=3"
+	}
+	display[3] {
+		label="DP1-LT4 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=LT, brd=4"
+	}
+	clr=14
+	bclr=36
+	label="-DP1-LT"
+}
+rectangle {
+	object {
+		x=173
+		y=60
+		width=150
+		height=150
+	}
+	"basic attribute" {
+		clr=36
+		fill="outline"
+	}
+}
+text {
+	object {
+		x=10
+		y=10
+		width=470
+		height=25
+	}
+	"basic attribute" {
+		clr=36
+	}
+	textix="DARK PHOTON HODOSCOPE MONITOR"
+}
+composite {
+	object {
+		x=206
+		y=90
+		width=40
+		height=91
+	}
+	"composite name"=""
+	children {
+		composite {
+			object {
+				x=206
+				y=90
+				width=40
+				height=43
+			}
+			"composite name"=""
+			children {
+				composite {
+					object {
+						x=206
+						y=90
+						width=40
+						height=43
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=206
+								y=90
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=206
+								y=123
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=206
+								y=101
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=206
+								y=112
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+					}
+				}
+				composite {
+					object {
+						x=206
+						y=90
+						width=40
+						height=43
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=206
+								y=90
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+						rectangle {
+							object {
+								x=206
+								y=123
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+						rectangle {
+							object {
+								x=206
+								y=101
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+						rectangle {
+							object {
+								x=206
+								y=112
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+					}
+				}
+			}
+		}
+		composite {
+			object {
+				x=206
+				y=138
+				width=40
+				height=43
+			}
+			"composite name"=""
+			children {
+				composite {
+					object {
+						x=206
+						y=138
+						width=40
+						height=43
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=206
+								y=138
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=206
+								y=171
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=206
+								y=149
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=206
+								y=160
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+					}
+				}
+				composite {
+					object {
+						x=206
+						y=138
+						width=40
+						height=43
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=206
+								y=138
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+						rectangle {
+							object {
+								x=206
+								y=171
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+						rectangle {
+							object {
+								x=206
+								y=149
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+						rectangle {
+							object {
+								x=206
+								y=160
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=251
+		y=90
+		width=40
+		height=91
+	}
+	"composite name"=""
+	children {
+		composite {
+			object {
+				x=251
+				y=90
+				width=40
+				height=43
+			}
+			"composite name"=""
+			children {
+				composite {
+					object {
+						x=251
+						y=90
+						width=40
+						height=43
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=251
+								y=90
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=251
+								y=123
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=251
+								y=101
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=251
+								y=112
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+					}
+				}
+				composite {
+					object {
+						x=251
+						y=90
+						width=40
+						height=43
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=251
+								y=90
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+						rectangle {
+							object {
+								x=251
+								y=123
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+						rectangle {
+							object {
+								x=251
+								y=101
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+						rectangle {
+							object {
+								x=251
+								y=112
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+					}
+				}
+			}
+		}
+		composite {
+			object {
+				x=251
+				y=138
+				width=40
+				height=43
+			}
+			"composite name"=""
+			children {
+				composite {
+					object {
+						x=251
+						y=138
+						width=40
+						height=43
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=251
+								y=138
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=251
+								y=171
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=251
+								y=149
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=251
+								y=160
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+					}
+				}
+				composite {
+					object {
+						x=251
+						y=138
+						width=40
+						height=43
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=251
+								y=138
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+						rectangle {
+							object {
+								x=251
+								y=171
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+						rectangle {
+							object {
+								x=251
+								y=149
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+						rectangle {
+							object {
+								x=251
+								y=160
+								width=40
+								height=10
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=467
+		y=86
+		width=47
+		height=99
+	}
+	"composite name"=""
+	children {
+		composite {
+			object {
+				x=467
+				y=86
+				width=47
+				height=47
+			}
+			"composite name"=""
+			children {
+				composite {
+					object {
+						x=467
+						y=86
+						width=47
+						height=23
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=467
+								y=86
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=467
+								y=86
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+					}
+				}
+				composite {
+					object {
+						x=467
+						y=110
+						width=47
+						height=23
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=467
+								y=110
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=467
+								y=110
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+					}
+				}
+			}
+		}
+		composite {
+			object {
+				x=467
+				y=138
+				width=47
+				height=47
+			}
+			"composite name"=""
+			children {
+				composite {
+					object {
+						x=467
+						y=138
+						width=47
+						height=23
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=467
+								y=138
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=467
+								y=138
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+					}
+				}
+				composite {
+					object {
+						x=467
+						y=162
+						width=47
+						height=23
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=467
+								y=162
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=467
+								y=162
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=519
+		y=86
+		width=47
+		height=99
+	}
+	"composite name"=""
+	children {
+		composite {
+			object {
+				x=519
+				y=86
+				width=47
+				height=47
+			}
+			"composite name"=""
+			children {
+				composite {
+					object {
+						x=519
+						y=86
+						width=47
+						height=23
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=519
+								y=86
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=519
+								y=86
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+					}
+				}
+				composite {
+					object {
+						x=519
+						y=110
+						width=47
+						height=23
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=519
+								y=110
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=519
+								y=110
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+					}
+				}
+			}
+		}
+		composite {
+			object {
+				x=519
+				y=138
+				width=47
+				height=47
+			}
+			"composite name"=""
+			children {
+				composite {
+					object {
+						x=519
+						y=138
+						width=47
+						height=23
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=519
+								y=138
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=519
+								y=138
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+					}
+				}
+				composite {
+					object {
+						x=519
+						y=162
+						width=47
+						height=23
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=519
+								y=162
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=21
+							}
+						}
+						rectangle {
+							object {
+								x=519
+								y=162
+								width=47
+								height=23
+							}
+							"basic attribute" {
+								clr=36
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+"related display" {
+	object {
+		x=251
+		y=50
+		width=50
+		height=20
+	}
+	display[0] {
+		label="DP1-RT1 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=RT, brd=1"
+	}
+	display[1] {
+		label="DP1-RT2 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=RT, brd=2"
+	}
+	display[2] {
+		label="DP1-RT3 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=RT, brd=3"
+	}
+	display[3] {
+		label="DP1-RT4 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=RT, brd=4"
+	}
+	clr=14
+	bclr=36
+	label="-DP1-RT"
+}
+"related display" {
+	object {
+		x=196
+		y=200
+		width=50
+		height=20
+	}
+	display[0] {
+		label="DP1-LB1 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=LB, brd=1"
+	}
+	display[1] {
+		label="DP1-LB2 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=LB, brd=2"
+	}
+	display[2] {
+		label="DP1-LB3 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=LB, brd=3"
+	}
+	display[3] {
+		label="DP1-LB4 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=LB, brd=4"
+	}
+	clr=14
+	bclr=36
+	label="-DP1-LB"
+}
+"related display" {
+	object {
+		x=251
+		y=200
+		width=50
+		height=20
+	}
+	display[0] {
+		label="DP1-RB1 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=RB, brd=1"
+	}
+	display[1] {
+		label="DP1-RB2 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=RB, brd=2"
+	}
+	display[2] {
+		label="DP1-RB3 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=RB, brd=3"
+	}
+	display[3] {
+		label="DP1-RB4 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=1, quad=RB, brd=4"
+	}
+	clr=14
+	bclr=36
+	label="-DP1-RB"
+}
+"related display" {
+	object {
+		x=464
+		y=50
+		width=50
+		height=20
+	}
+	display[0] {
+		label="DP2-LT1 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=2, quad=LT, brd=1"
+	}
+	display[1] {
+		label="DP2-LT2 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=2, quad=LT, brd=2"
+	}
+	clr=14
+	bclr=36
+	label="-DP2-LT"
+}
+"related display" {
+	object {
+		x=519
+		y=50
+		width=50
+		height=20
+	}
+	display[0] {
+		label="DP2-RT1 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=2, quad=RT, brd=1"
+	}
+	display[1] {
+		label="DP2-RT2 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=2, quad=RT, brd=2"
+	}
+	clr=14
+	bclr=36
+	label="-DP2-RT"
+}
+"related display" {
+	object {
+		x=519
+		y=200
+		width=50
+		height=20
+	}
+	display[0] {
+		label="DP2-RB1 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=2, quad=RB, brd=1"
+	}
+	display[1] {
+		label="DP2-RB2 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=2, quad=RB, brd=2"
+	}
+	clr=14
+	bclr=36
+	label="-DP2-RB"
+}
+"related display" {
+	object {
+		x=464
+		y=200
+		width=50
+		height=20
+	}
+	display[0] {
+		label="DP2-LB1 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=2, quad=LB, brd=1"
+	}
+	display[1] {
+		label="DP2-LB2 Screen"
+		name="medm_DPhodo_board.adl"
+		args="pl=2, quad=LB, brd=2"
+	}
+	clr=14
+	bclr=36
+	label="-DP2-LB"
+}

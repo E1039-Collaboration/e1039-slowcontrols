@@ -1,0 +1,19 @@
+24-Oct-2019 10:27:48 : Setup Alarm Log File : ALH-default.alhAlarm
+24-Oct-2019 10:29:30 : Setup Alarm Log File : ALH-default.alhAlarm
+24-Oct-2019 10:30:59 : Setup Config File : /seaquest/users/preimer/test.alhConfig
+24-Oct-2019 10:31:57 : MAIN: BOS:  Local Ack Group (ERROR) ERROR           
+24-Oct-2019 10:32:03 : MAIN: EOS:  Local Ack Group (ERROR) ERROR           
+24-Oct-2019 10:36:04 : MAIN: : Setup Config File : /data2/users/preimer/test.alhConfig
+24-Oct-2019 10:36:04 : MAIN: : Input error: Invalid CHANNEL command: CHANNEL EOS 
+ 
+24-Oct-2019 10:36:04 : MAIN: : Input error: Invalid CHANNEL command: CHANNEL EOS 
+ 
+24-Oct-2019 10:36:04 : MAIN: : Input error: Invalid CHANNEL command: CHANNEL BOS 
+ 
+24-Oct-2019 10:36:04 : MAIN: : Input error: Invalid CHANNEL command: CHANNEL BOS 
+ 
+24-Oct-2019 10:36:48 : MAIN: : Setup Config File : /data2/users/preimer/
+24-Oct-2019 10:36:48 : MAIN: : ALH Error: Invalid config file: /data2/users/preimer/ 
+24-Oct-2019 10:44:12 : MAIN: : Setup Config File : /data2/users/preimer/
+24-Oct-2019 10:44:12 : MAIN: : ALH Error: Invalid config file: /data2/users/preimer/ 
+24-Oct-2019 10:44:27 : MAIN: : Setup---Exit

@@ -1,0 +1,46 @@
+F:NM2V 		NM2 vertical vernier trim magnet
+F:NM2D1		NM2 vertical bend
+F:NM2H		NM2 horizontal vernier trim magnet
+F:NM3S		FMAG
+F:NM4AN		KMAG
+F:NM2SEM	NM2 Secondary Emission Intensity Monitor
+I:BEAM21	MI intensity just before spill starts
+I:VFOUT		MI RF frequency
+I:FTSDF		Duty factor for slow spill measured by MI
+E:M3TGHM	Target SWIC Horz mean
+E:M3TGHS	Target SWIC Horz sigma
+E:M3TGVM	Target SWIC Vert mean
+E:M3TGVS	Target SWIC Vert sigma
+E:M3TGHI	Target SWIC Horz intensity
+E:M3TGHF	Target horz fig-me??
+E:M3TGVI	Target SWIC Horz intensity
+E:M3TGVF	Target vert fig-me??
+E:M2C2HM	NM2 SWIC Horz mean
+E:M2C2HS	NM2 SWIC Horz sigma
+E:M2C2VM	NM2 SWIC Vert mean
+E:M2C2VS	NM2 SWIC Vert sigma
+E:M2C2HI	NM2 SWIC Horz intensity
+E:M2C2HF	NM2 horz fig-me??
+E:M2C2VI	NM2 SWIC Horz intensity
+E:M2C2VF	NM2 vert fig-me??
+L:CBAR		CTF Barometer
+S:KTEVTC	G2 pipe Pirani Gauge
+F:NM2ION 	NM2 ion chamber
+F:NM3ION 	NM3 ion chamber
+F:NM3RST	FMAG supply temp
+F:NM3RRT	FMAG return temp
+F:NS2SUP	KMAG supply temp
+F:NS2RET	KMAG return temp
+M:OUTTMP	Outdoor temperture
+F:E906BM	E906 beam counter
+S:G2SEM	 	Intensity in G2 enclosure??
+F:NM3RRT	same as line 33 above
+G:TURN13 	number of Linac batches per Booster batch
+G:BNCH13 	number of RF bunches per Booster batch
+G:NBSYD 	number of Booster batches per MI turn
+S:N2N3EF	ration NM2 ion chamber to NM3 ion chamber
+U:TODB25 	accelerator time
+S:MSEP1U	Meson/E906 septa position
+S:F1SEM		beam to Meson
+F:NM2Q1		NM2 final focussing quad
+F:NM2Q2		NM2 final focussing quad

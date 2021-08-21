@@ -1,0 +1,18 @@
+#!/bin/bash
+
+Hephaestus H1T 1 write -1440
+Hephaestus H1T 2 write -1430
+Hephaestus H1T 3 write -1500
+Hephaestus H1T 4 write -1440
+Hephaestus H1T 20 write -1560
+Hephaestus H1T 21 write -1660
+Hephaestus H1T 22 write -1480
+Hephaestus H1T 23 write -1700
+Hephaestus H1B 1 write -1530
+Hephaestus H1B 2 write -1500
+Hephaestus H1B 3 write -1431
+Hephaestus H1B 4 write -1516
+Hephaestus H1B 20 write -1700
+Hephaestus H1B 21 write -1600
+Hephaestus H1B 22 write -1690
+Hephaestus H1B 23 write -1430

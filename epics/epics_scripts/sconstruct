@@ -1,0 +1,88 @@
+import os
+
+v = Variables(None, ARGUMENTS)
+v.Add(BoolVariable('buildlib', 'Set to 1 to build lib', 0))
+
+epics_tdir = ['/data2/e1039/daq/slowcontrols/epics/epics_scripts/mtopd']
+#epics_tdir='/data2/e1039/daq/slowcontrols/epics/epics_scripts/mtopd'
+#env = Environment(TOPDIR = os.environ['TOPDIR'], variables=v)
+env = Environment(TOPDIR = epics_tdir, variables=v)
+env.Append(EPICS_BASE = os.environ['EPICS_BASE'])
+env.Append(ENV = {'PATH':os.environ['PATH'], 'LD_LIBRARY_PATH':os.environ['LD_LIBRARY_PATH']})
+#env.Append(ENV = {'PATH':os.environ['PATH']})
+#env.Append(LIBS=['grupd'])
+env.Append(LIBS=['TreePlayer','Spectrum'])
+env.Append(LIBS=['ca','Com'])
+env.Append(LIBPATH=['$TOPDIR/lib','$EPICS_BASE/lib/linux-x86_64'])
+#                    '/data2/e1039/core/daily/lib',
+#                    '/data2/e1039/share/lib',
+#                    '/data2/e1039/share/lib64',
+#                    '/data2/e1039/share/root/lib',
+#                    '/data2/epics-7.0.2.2/base-7.0.2.2/lib/linux-x86_64/'])
+env.Append(CPPPATH=['$TOPDIR/include',
+                    '$EPICS_BASE/include/',
+                    '$EPICS_BASE/include/os/Linux/',
+                    '$EPICS_BASE/include/compiler/gcc'])
+env.Append(CCFLAGS = '-Wall -Wextra -O3 -m64 -static')
+env.ParseConfig("root-config --cflags --libs --glibs")
+
+Export('env')
+
+projdir = '$TOPDIR/build/' + os.path.basename(os.getcwd()) + '/'
+objs=[]
+for top, dirs, files in os.walk('.'):
+  for subdir in dirs:
+    sn = os.path.join(top, subdir,'scon_sub')
+    if os.path.exists(sn):
+     o = env.SConscript(sn, variant_dir=projdir+subdir, src_dir=subdir, duplicate=0)
+     objs.append(o)
+
+env.SConscript('scon_top', exports='objs', variant_dir=projdir, src_dir='.', duplicate=0)
+Help(v.GenerateHelpText(env))
+
+
+#for item in sorted(env.Dictionary().items()):
+#    print("construction variable = '%s', value = '%s'" % item)
+#print env.Dump()
+
+# libSpectrum was added to regular scons and scons_tpe
+
+#--------------------------------------------------------------------
+
+#Changes to  _org_1
+#Added misc directory for common for all projects tasks
+
+#grupd contains root graphs and hists classes upgraded to
+#have decoration options, libgrupd was added to sconstruct 
+
+#Removed rundb library for regular scons, created scons_tpe for tpe
+
+#--------------------------------------------------------------------
+
+#Creates variables object which uses the values from the 
+#command-line options dictionary ARGUMENTS
+
+#It uses Add method to indicate that the BUILDLIB 
+#variable can be set on the command line. default value=0
+
+#Passes External Environment variable TOPDIR and the created 
+#Variables object as a variables keyword argument to the Environment 
+
+#Appends cc compiler flags, my & rootlibs names, paths and includes
+
+#export environment to make it available for 
+#hierarchical sconsript files (scon_top, scon_sub)
+
+#Create variable for the project build dirname
+
+#Scans subfolders and checks if scon_sub is found
+#Builds/collects odjects from subfolders, stores them in objs[]
+
+#Transfers subfolders objects to scon_top
+#Builds executables in the projectdir  using those objects
+
+#Variables objects support a GenerateHelpText method 
+#It generates text that describes added variables  
+#Passes the output from this method to the Help function
+
+

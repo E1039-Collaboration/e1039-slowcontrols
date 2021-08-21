@@ -1,0 +1,45 @@
+#!/bin/bash
+
+timeout=1 # seconds
+
+rm -f commandPipe$1
+rm -f outputPipe$1
+
+mkfifo commandPipe$1
+mkfifo outputPipe$1
+
+dir=`dirname $0`
+
+
+ip=`grep $1 /data2/e1039/daq/slowcontrols/lecroy/settings/HVcrates | cut -d' ' -f3`
+port=`grep $1 /data2/e1039/daq/slowcontrols/lecroy/settings/HVcrates | cut -d' ' -f4`
+
+echo $ip, $port
+
+#netcat -t -c -v -w $timeout $ip $port < commandPipe$1 > outputPipe$1 2>&1 &  
+nc -t -C -v -w $timeout $ip $port < commandPipe$1 > outputPipe$1 2>&1 &  
+
+exec 3>&1
+
+responseFlag=y;
+
+(   echo -e "M 1 $2 VER\r"
+     while read line
+      do 
+#       echo `echo $line | grep "timed"`  1>&3
+      if [[ `echo $line | cut -d' ' -f1` = "Version" ]] || [[ `echo $line | cut -d' ' -f1` = "Prom" ]] ; 
+      then
+	  break # Skip entire rest of loop.
+      elif [ "`echo $line | grep timed`" != "" ]; then
+	  echo "Error: crate not responding." 1>&3
+      elif [ "`echo $line | grep drmsfsd`" != "" ]; then
+	  echo "" # Just suppress verbose messages from nc unless 'timed out'
+      else
+          echo "$line" | tr -d "\r" 1>&3
+      fi
+    done < outputPipe$1
+) > commandPipe$1 
+
+
+rm -f commandPipe$1
+rm -f outputPipe$1

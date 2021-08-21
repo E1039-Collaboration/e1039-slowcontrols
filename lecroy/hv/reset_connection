@@ -1,0 +1,41 @@
+#!/bin/bash
+
+rm -f commandPipeReset
+rm -f outputPipeReset
+
+mkfifo commandPipeReset
+mkfifo outputPipeReset
+
+dir=`dirname $0`
+
+timeout=1 # seconds
+
+ip=`grep $1 /seaquest/hodoscopes/settings/HVcrates | cut -d' ' -f3`
+
+/usr/local/bin/nc -t -c -v -w $timeout $ip 23 < commandPipeReset > outputPipeReset 2>&1 &
+
+exec 3>&1
+
+(
+    echo -e "\r\r"
+    while read line
+      do 
+#     echo $line 1>&3
+      if [ `echo $line | cut -d' ' -f1` = "Welcome" ]; then
+	  echo -e "login\r"
+	  sleep 0.1
+	  echo -e "admin\r"
+	  sleep 0.1
+	  echo -e "reset\r"
+	  sleep  0.1
+	  echo -e "Y\r"
+
+	  echo Reset succeeded. 1>&3
+
+	  break
+      fi
+    done < outputPipeReset
+) > commandPipeReset
+
+rm -f commandPipeReset
+rm -f outputPipeReset

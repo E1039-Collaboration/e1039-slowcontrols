@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#dir="/seaquest/hodoscopes/"
+dir="/data2/e1039/daq/slowcontrols/lecroy/"
+
+setstring=""
+
+theMapFile=`cat /data2/e1039/daq/slowcontrols/lecroy/settings/HVcrates | grep $1 | cut -d' ' -f2`
+
+echo $theMapFile
+
+while read line
+do
+  /data2/e1039/daq/slowcontrols/lecroy/hv/hv $1 "W `echo $line | cut -d' ' -f4` C `echo $line | cut -d' ' -f1`" 
+done < /data2/e1039/daq/slowcontrols/lecroy/settings/current/$theMapFile

@@ -1,0 +1,10 @@
+The H4_ldi file was created by two steps and is valid as of 24-Feb-2013.
+  1. All original H4 values from when we arrived this summer are lowered 250V, EXCEPT
+  2. X3T and X4B have been set by a cosmic ray trigger, reducing in 40 volt steps to find where efficiency starts to fall off.
+  3. X3B has been set by balancing all outputs to give 300 counts/minute.
+  4. X3T was balanced after cosmic ray trigger was used to reduce it, also to 300 counts/minute.
+  5. X4B was balanced after cosmic ray trigger was used to reduce voltages to 500 counts/minute.
+The ratio of cosmic rays hitting an X3 counter should be 0.6 based on the area of the counter.
+Since X3B and X4T have not been adjusted by cosmic ray trigger, they will likely have to go down further.
+If one simply looks at the gain of a Hamamatsu R329-02 PMT and factors in the pulse height loss due to the addition
+of the clip lines, the voltages should be reduced 300 volts for a change of a factor of 10 in threshold (250 to 25 mV).

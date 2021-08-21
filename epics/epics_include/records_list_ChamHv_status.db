@@ -1,0 +1,77 @@
+record(calc,"st_D1"){
+  field(DESC,"D1 group status")
+  field(PINI,"1")
+  field(INPA,"D1U_V CPP MSS")
+  field(INPB,"D1Up_V CPP MSS")
+  field(INPC,"D1V_V CPP MSS")
+  field(INPD,"D1Vp_V CPP MSS")
+  field(INPE,"D1X_V CPP MSS")
+  field(INPF,"D1Xp_V CPP MSS")
+  field(INPG,"D1U_I CPP MSS")
+  field(INPH,"D1Up_I CPP MSS")
+  field(INPI,"D1V_I CPP MSS")
+  field(INPJ,"D1Vp_I CPP MSS")
+  field(INPK,"D1X_I CPP MSS")
+  field(INPL,"D1Xp_I CPP MSS")
+  field(CALC,"A")
+}
+
+record(calc,"st_D2"){
+  field(DESC,"D2 group status")
+  field(PINI,"1")
+  field(INPA,"D2U_V CPP MSS")
+  field(INPB,"D2Up_V CPP MSS")
+  field(INPC,"D2V_V CPP MSS")
+  field(INPD,"D2Vp_V CPP MSS")
+  field(INPE,"D2X_V CPP MSS")
+  field(INPF,"D2Xp_V CPP MSS")
+  field(INPG,"D2U_I CPP MSS")
+  field(INPH,"D2Up_I CPP MSS")
+  field(INPI,"D2V_I CPP MSS")
+  field(INPJ,"D2Vp_I CPP MSS")
+  field(INPK,"D2X_I CPP MSS")
+  field(INPL,"D2Xp_I CPP MSS")
+  field(CALC,"A")
+}
+
+record(calc,"st_D3p"){
+  field(DESC,"D3p group status")
+  field(PINI,"1")
+  field(INPA,"D3pV_V CPP MSS")
+  field(INPB,"D3pX_V CPP MSS")
+  field(INPC,"D3pU_V CPP MSS")
+  field(INPD,"D3pG_V CPP MSS")
+  field(INPE,"D3pV_I CPP MSS")
+  field(INPF,"D3pX_I CPP MSS")
+  field(INPG,"D3pU_I CPP MSS")
+  field(INPH,"D3pG_I CPP MSS")
+  field(CALC,"A")
+}
+
+record(calc,"st_D3m"){
+  field(DESC,"D3m group status")
+  field(PINI,"1")
+  field(INPA,"D3mV_V CPP MSS")
+  field(INPB,"D3mX_V CPP MSS")
+  field(INPC,"D3mU_V CPP MSS")
+  field(INPD,"D3mG_V CPP MSS")
+  field(INPE,"D3mV_I CPP MSS")
+  field(INPF,"D3mX_I CPP MSS")
+  field(INPG,"D3mU_I CPP MSS")
+  field(INPH,"D3mG_I CPP MSS")
+  field(CALC,"A")
+}
+
+record(calc,"st_P4"){
+  field(DESC,"P4 group status")
+  field(PINI,"1")
+  field(INPA,"P4V1_V CPP MSS")
+  field(INPB,"P4H1_V CPP MSS")
+  field(INPC,"P4V2_V CPP MSS")
+  field(INPD,"P4H2_V CPP MSS")
+  field(INPE,"P4V1_I CPP MSS")
+  field(INPF,"P4H1_I CPP MSS")
+  field(INPG,"P4V2_I CPP MSS")
+  field(INPH,"P4H2_I CPP MSS")
+  field(CALC,"A")
+}

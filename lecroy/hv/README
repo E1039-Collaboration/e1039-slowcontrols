@@ -1,0 +1,83 @@
+1) HV control
+
+We use three LeCroy 1440 HV systems: one for the Station 1 hodoscopes
+H1, one for the Station 2 hodoscopes H2 and one for the Stations 3 and
+4 hodoscopes H3 and H4. These HV systems can be controlled via telnet
+using scripts located in "/seaquest/hodoscopes/hv". These scripts are
+adopted by Josh Rubin's HV scripts.
+
+hv is the main workhorse script, which takes two arguments.
+
+- The first is the identifier of the station: H1, H2, H3 or H4. Please
+  note that H3 and H4 refer to same HV system and thus you can control
+  the Station 3 (4) hodoscopes H3 (H4) also via the identifier H4
+  (H3).
+
+- The second argument is a string which must be a LeCroy 1440 command;
+e.g., "hv H3 ST" gives the status of the HV system for the Station 3
+and 4 hodoscopes. 
+
+The various scripts based on "hv" are described below.
+
+
+2) Shift business
+
+During a shift, the hodoscopes should be monitored via the scripts 
+"status" and "monitor". The other scripts are considered as expert 
+tools. However, when you cannot reach one of the hodoscope experts or in 
+a case of emergency, please take action and turn the hodoscope off or on 
+again. This can be done via the scripts "alloff" and "allon". For the 
+sake of studies, you can also manipulate specific PMT via the 
+set-channel script. Please coordinate this with the experts. To turn off 
+an individual PMT, please set the voltage to 0. Due to the design of the 
+LeCroy 1440 HV system, one can only turn off / on the whole system but 
+not individual channels. Another possibility is to adjust the nominal 
+settings of various PMT in
+	/seaquest/hodoscopes/settings/H1
+	/seaquest/hodoscopes/settings/H2
+	/seaquest/hodoscopes/settings/H34
+use the script set-nominal. The maximum values for H1/H2 are -1750V
+and for H3/H4: X.
+
+
+3) HV scripts
+
+For the sake of completeness, all scripts are documented here (in
+alphabetical order) using the Station 3 and 4 hodoscopes as example: 
+
+alloff
+	turn off all hodoscopes
+
+allon
+	turn on all hodoscopes
+
+monitor H3
+	list the set HV values and the read-out HV values
+
+monitor-channel H3 0: 
+	list these values only for channel 0
+
+set-channel H3 0 -1500: 
+	set channel 0 to the specified HV of -1500V
+	maximum values for H1/H2: -1750V
+	maximum values for H3/H4: X
+
+set-nominal H3: 
+	set all HV to their nominal values; 
+	these values are specified in /seaquest/hodoscopes/settings/H34
+
+set-zero H3: 
+	set all HV values to zero
+
+status H3 (an alternate version of "hv H3 ST"): 
+        read-out the status
+        to find out if HV is enabled and if there are channel errors
+
+Please change into the directory /seaquest/hodoscopes/hv/ to execute
+these scripts, e.g., via ./status H3 in a bash shell.  The relation
+between a channel of the read-out system and a PMT, i.e. the
+detectorName and elementID of a hodoscope, is given in the
+	     /seaquest/hodoscopes/settings/H1
+	     /seaquest/hodoscopes/settings/H2
+	     /seaquest/hodoscopes/settings/H34
+Please note that this information is separated from the mapping information.

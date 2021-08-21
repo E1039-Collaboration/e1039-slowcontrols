@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ $# -ne 3 ]; then
+  echo 
+  echo "Usage: set-channel <hodo> <channel> <HV>"
+  echo "  e.g:   set-channel H3 0 -1500:"
+  echo "         set channel 0 to the specified HV of -1500V"
+  echo "      maximum values for H1/H2: -1750V"
+  echo "      maximum values for H3/H4: X"
+  echo 
+else
+  dir=`dirname $0`
+  setstring=""
+  $dir/hv $1 "W $3 C $2"
+fi

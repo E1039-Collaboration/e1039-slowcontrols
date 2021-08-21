@@ -1,0 +1,10 @@
+#!/bin/bash
+
+dir=`dirname $0`
+
+$dir/set-zero H1
+$dir/off H1
+$dir/set-zero H2
+$dir/off H2
+$dir/set-zero H3
+$dir/off H3

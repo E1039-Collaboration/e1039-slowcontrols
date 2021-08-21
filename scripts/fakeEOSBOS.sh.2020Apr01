@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for (( ; ; )) do
+  caput BOS 0
+  caput EOS 1
+  sleep 5s
+  caput EOS 0
+  caput BOS 1
+  export spillcounter=`caget SPILLCOUNTER | awk '{print $1}'`
+  spillcounter = $spillcounter + 1
+  caput $spillcounter
+  sleep 55s
+done

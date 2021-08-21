@@ -1,0 +1,15 @@
+Hephaestus H1T all write -100
+Hephaestus H1B all write -100
+Hephaestus H2T all write -100
+Hephaestus H2B all write -100
+Hephaestus H3T all write -100
+Hephaestus H3B all write -100
+Hephaestus H4Tu all write -100
+Hephaestus H4Td all write -100
+Hephaestus H4Bu all write -100
+Hephaestus H4Bd all write -100
+Hephaestus H1T 10 write -1572
+Hephaestus H2T 10 write -1653
+Hephaestus H3T 11 write -1502
+Hephaestus H4Tu 11 write -1589
+Hephaestus H4Td 11 write -1563

@@ -1,0 +1,47 @@
+//Questions? email: astrid@lanl.gov 
+
+Under CSS a number of projects have been archived and created
+
+  Hall environment:
+
+
+
+HD.plt HH.plt HT.plt P1.plt P.plt T1.plt
+
+
+
+
+
+Drift Chambers:
+
+
+
+D1_V.plt D1_I.plt D2_V.plt D2_I.plt D3_V.plt D3_I.plt
+
+
+
+
+
+Prop tubes:
+
+
+
+P4_V.plt  and P4_i.plt
+
+
+
+
+
+Live  script check:
+NB:Last check on 26 October this was not being saved by EPICS?. Will check on this later
+
+
+Killed.plt
+
+
+
+RetVal.plt
+
+
+
+TimeSinceLastBOS.plt

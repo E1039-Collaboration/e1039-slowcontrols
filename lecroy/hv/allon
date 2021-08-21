@@ -1,0 +1,10 @@
+#!/bin/bash
+
+dir=`dirname $0`
+
+$dir/on H1
+$dir/set-nominal H1
+$dir/on H2
+$dir/set-nominal H2
+$dir/on H3
+$dir/set-nominal H3

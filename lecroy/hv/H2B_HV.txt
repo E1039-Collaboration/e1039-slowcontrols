@@ -1,0 +1,22 @@
+Welcome to Hephaestus hardware control
+
+For help please see the documentation available at:
+https://www.npl.illinois.edu/cgi-bin/twiki/bin/view/E906/Hephaestus
+
+H2B all read
+H2B1:            readout =   -1701 V;       (set =  -1700 V) (nominal =  -1700 V)
+H2B2:            readout =   -1600 V;       (set =  -1600 V) (nominal =  -1600 V)
+H2B3:            readout =   -1551 V;       (set =  -1550 V) (nominal =  -1550 V)
+H2B4:            readout =   -1420 V;       (set =  -1420 V) (nominal =  -1420 V)
+H2B5:            readout =   -1451 V;       (set =  -1450 V) (nominal =  -1450 V)
+H2B6:            readout =   -1480 V;       (set =  -1480 V) (nominal =  -1480 V)
+H2B7:            readout =   -1580 V;       (set =  -1580 V) (nominal =  -1580 V)
+H2B8:            readout =   -1550 V;       (set =  -1550 V) (nominal =  -1550 V)
+H2B9:            readout =   -1470 V;       (set =  -1470 V) (nominal =  -1470 V)
+H2B10:           readout =   -1549 V;       (set =  -1550 V) (nominal =  -1550 V)
+H2B11:           readout =   -1581 V;       (set =  -1580 V) (nominal =  -1580 V)
+H2B12:           readout =   -1490 V;       (set =  -1490 V) (nominal =  -1490 V)
+H2B13:           readout =   -1600 V;       (set =  -1600 V) (nominal =  -1600 V)
+H2B14:           readout =   -1600 V;       (set =  -1600 V) (nominal =  -1600 V)
+H2B15:           readout =   -1620 V;       (set =  -1620 V) (nominal =  -1620 V)
+H2B16:           readout =   -1531 V;       (set =  -1530 V) (nominal =  -1530 V)

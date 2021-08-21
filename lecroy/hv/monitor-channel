@@ -1,0 +1,5 @@
+#!/bin/bash
+
+dir=`dirname $0`
+
+$dir/hv $1 "R E C $2"

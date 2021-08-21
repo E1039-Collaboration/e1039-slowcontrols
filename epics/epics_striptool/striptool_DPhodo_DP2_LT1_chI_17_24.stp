@@ -1,0 +1,86 @@
+StripConfig                   1.2
+Strip.Time.Timespan           300
+Strip.Time.NumSamples         7200
+Strip.Time.SampleInterval     1.000000
+Strip.Time.RefreshInterval    1.000000
+Strip.Color.Background        65535     65535     65535     
+Strip.Color.Foreground        0         0         0         
+Strip.Color.Grid              49087     49087     49087     
+Strip.Color.Color1            0         0         65535     
+Strip.Color.Color2            27499     36494     8995      
+Strip.Color.Color3            42405     10794     10794     
+Strip.Color.Color4            24415     40606     41120     
+Strip.Color.Color5            65535     42405     0         
+Strip.Color.Color6            41120     8224      61680     
+Strip.Color.Color7            65535     0         0         
+Strip.Color.Color8            65535     55255     0         
+Strip.Color.Color9            48316     36751     36751     
+Strip.Color.Color10           39578     52685     12850     
+Strip.Option.GridXon          1
+Strip.Option.GridYon          1
+Strip.Option.AxisYcolorStat   1
+Strip.Option.GraphLineWidth   2
+Strip.Curve.0.Name            DP2_LT1_CH17_I
+Strip.Curve.1.Name            DP2_LT1_CH18_I
+Strip.Curve.2.Name            DP2_LT1_CH19_I
+Strip.Curve.3.Name            DP2_LT1_CH20_I
+Strip.Curve.4.Name            DP2_LT1_CH21_I
+Strip.Curve.5.Name            DP2_LT1_CH22_I
+Strip.Curve.6.Name            DP2_LT1_CH23_I
+Strip.Curve.7.Name            DP2_LT1_CH24_I
+Strip.Curve.0.Units           uA
+Strip.Curve.1.Units           uA
+Strip.Curve.2.Units           uA
+Strip.Curve.3.Units           uA
+Strip.Curve.4.Units           uA
+Strip.Curve.5.Units           uA
+Strip.Curve.6.Units           uA
+Strip.Curve.7.Units           uA
+Strip.Curve.0.Comment         DP2; LT qdrnt; brd 1; SiPM 17 current
+Strip.Curve.1.Comment         DP2; LT qdrnt; brd 1; SiPM 18 current
+Strip.Curve.2.Comment         DP2; LT qdrnt; brd 1; SiPM 19 current
+Strip.Curve.3.Comment         DP2; LT qdrnt; brd 1; SiPM 20 current
+Strip.Curve.4.Comment         DP2; LT qdrnt; brd 1; SiPM 21 current
+Strip.Curve.5.Comment         DP2; LT qdrnt; brd 1; SiPM 22 current
+Strip.Curve.6.Comment         DP2; LT qdrnt; brd 1; SiPM 23 current
+Strip.Curve.7.Comment         DP2; LT qdrnt; brd 1; SiPM 24 current
+Strip.Curve.0.Precision       0
+Strip.Curve.1.Precision       0
+Strip.Curve.2.Precision       0
+Strip.Curve.3.Precision       0
+Strip.Curve.4.Precision       0
+Strip.Curve.5.Precision       0
+Strip.Curve.6.Precision       0
+Strip.Curve.7.Precision       0
+Strip.Curve.0.Min              0
+Strip.Curve.1.Min              0
+Strip.Curve.2.Min              0
+Strip.Curve.3.Min              0
+Strip.Curve.4.Min              0
+Strip.Curve.5.Min              0
+Strip.Curve.6.Min              0
+Strip.Curve.7.Min              0
+Strip.Curve.0.Max              10
+Strip.Curve.1.Max              10
+Strip.Curve.2.Max              10
+Strip.Curve.3.Max              10
+Strip.Curve.4.Max              10
+Strip.Curve.5.Max              10
+Strip.Curve.6.Max              10
+Strip.Curve.7.Max              10
+Strip.Curve.0.Scale           0
+Strip.Curve.1.Scale           0
+Strip.Curve.2.Scale           0
+Strip.Curve.3.Scale           0
+Strip.Curve.4.Scale           0
+Strip.Curve.5.Scale           0
+Strip.Curve.6.Scale           0
+Strip.Curve.7.Scale           0
+Strip.Curve.0.PlotStatus      1
+Strip.Curve.1.PlotStatus      1
+Strip.Curve.2.PlotStatus      1
+Strip.Curve.3.PlotStatus      1
+Strip.Curve.4.PlotStatus      1
+Strip.Curve.5.PlotStatus      1
+Strip.Curve.6.PlotStatus      1
+Strip.Curve.7.PlotStatus      1

@@ -1,0 +1,103 @@
+record(calc,"st_DP1_LT1"){
+  field(DESC,"st_DP1_LT1 group status")
+  field(DTYP,"Soft Channel")
+  field(PINI,"1")
+  field(INPA,"st_DP1_LT1_TVI CPP MSS")
+  field(INPB,"st_DP1_LT1_CHV_A CPP MSS")
+  field(INPC,"st_DP1_LT1_CHV_B CPP MSS")
+  field(INPD,"st_DP1_LT1_CHI_A CPP MSS")
+  field(INPE,"st_DP1_LT1_CHI_B CPP MSS")	
+  field(CALC,"A")
+}
+
+record(calc,"st_DP1_LT1_TVI"){
+  field(DESC,"st_DP1_LT1_TVI group status")
+  field(DTYP,"Soft Channel")
+  field(PINI,"1")
+  field(INPA,"DP1_LT1_TPLATE CPP MSS")
+  field(INPB,"DP1_LT1_TPREAMP CPP MSS")
+  field(INPC,"DP1_LT1_V9 CPP MSS")
+  field(INPD,"DP1_LT1_VDD CPP MSS")
+  field(INPE,"DP1_LT1_V100 CPP MSS")	
+  field(INPF,"DP1_LT1_VPREAMP CPP MSS")
+  field(INPG,"DP1_LT1_IPREAMP CPP MSS")
+  field(CALC,"A")
+}
+
+record(calc,"st_DP1_LT1_CHV_A"){
+  field(DESC,"st_DP1_LT1_CHV_A group status")
+  field(DTYP,"Soft Channel")
+  field(PINI,"1")
+  field(INPA,"DP1_LT1_CH1_V CPP MSS")
+  field(INPB,"DP1_LT1_CH2_V CPP MSS")
+  field(INPC,"DP1_LT1_CH3_V CPP MSS")
+  field(INPD,"DP1_LT1_CH4_V CPP MSS")
+  field(INPE,"DP1_LT1_CH5_V CPP MSS")
+  field(INPF,"DP1_LT1_CH6_V CPP MSS")
+  field(INPG,"DP1_LT1_CH7_V CPP MSS")
+  field(INPH,"DP1_LT1_CH8_V CPP MSS")
+  field(INPI,"DP1_LT1_CH9_V CPP MSS")
+  field(INPJ,"DP1_LT1_CH10_V CPP MSS")
+  field(INPK,"DP1_LT1_CH11_V CPP MSS")
+  field(INPL,"DP1_LT1_CH12_V CPP MSS")
+  field(CALC,"A")
+}
+
+record(calc,"st_DP1_LT1_CHV_B"){
+  field(DESC,"st_DP1_LT1_CHV_B group status")
+  field(DTYP,"Soft Channel")
+  field(PINI,"1")
+  field(INPA,"DP1_LT1_CH13_V CPP MSS")
+  field(INPB,"DP1_LT1_CH14_V CPP MSS")
+  field(INPC,"DP1_LT1_CH15_V CPP MSS")
+  field(INPD,"DP1_LT1_CH16_V CPP MSS")
+  field(INPE,"DP1_LT1_CH17_V CPP MSS")
+  field(INPF,"DP1_LT1_CH18_V CPP MSS")
+  field(INPG,"DP1_LT1_CH19_V CPP MSS")
+  field(INPH,"DP1_LT1_CH20_V CPP MSS")
+  field(INPI,"DP1_LT1_CH21_V CPP MSS")
+  field(INPJ,"DP1_LT1_CH22_V CPP MSS")
+  field(INPK,"DP1_LT1_CH23_V CPP MSS")
+  field(INPL,"DP1_LT1_CH24_V CPP MSS")
+  field(CALC,"A")
+}
+
+record(calc,"st_DP1_LT1_CHI_A"){
+  field(DESC,"st_DP1_LT1_CHI_A group status")
+  field(DTYP,"Soft Channel")
+  field(PINI,"1")
+  field(INPA,"DP1_LT1_CH1_I CPP MSS")
+  field(INPB,"DP1_LT1_CH2_I CPP MSS")
+  field(INPC,"DP1_LT1_CH3_I CPP MSS")
+  field(INPD,"DP1_LT1_CH4_I CPP MSS")
+  field(INPE,"DP1_LT1_CH5_I CPP MSS")
+  field(INPF,"DP1_LT1_CH6_I CPP MSS")
+  field(INPG,"DP1_LT1_CH7_I CPP MSS")
+  field(INPH,"DP1_LT1_CH8_I CPP MSS")
+  field(INPI,"DP1_LT1_CH9_I CPP MSS")
+  field(INPJ,"DP1_LT1_CH10_I CPP MSS")
+  field(INPK,"DP1_LT1_CH11_I CPP MSS")
+  field(INPL,"DP1_LT1_CH12_I CPP MSS")
+  field(CALC,"A")
+}
+
+record(calc,"st_DP1_LT1_CHI_B"){
+  field(DESC,"st_DP1_LT1_CHI_B group status")
+  field(DTYP,"Soft Channel")
+  field(PINI,"1")
+  field(INPA,"DP1_LT1_CH13_I CPP MSS")
+  field(INPB,"DP1_LT1_CH14_I CPP MSS")
+  field(INPC,"DP1_LT1_CH15_I CPP MSS")
+  field(INPD,"DP1_LT1_CH16_I CPP MSS")
+  field(INPE,"DP1_LT1_CH17_I CPP MSS")
+  field(INPF,"DP1_LT1_CH18_I CPP MSS")
+  field(INPG,"DP1_LT1_CH19_I CPP MSS")
+  field(INPH,"DP1_LT1_CH20_I CPP MSS")
+  field(INPI,"DP1_LT1_CH21_I CPP MSS")
+  field(INPJ,"DP1_LT1_CH22_I CPP MSS")
+  field(INPK,"DP1_LT1_CH23_I CPP MSS")
+  field(INPL,"DP1_LT1_CH24_I CPP MSS")
+  field(CALC,"A")
+}
+
+

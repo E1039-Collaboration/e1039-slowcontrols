@@ -1,0 +1,54 @@
+1,NM2 vertical bend,F:NM2D1,double,1,,,,,,1
+2,NM2 vertical vernier trim magnet,F:NM2V,double,1,,,,,,1
+3,NM2 horizontal vernier trim magnet,F:NM2H,double,1,,,,,,1
+4,FMAG,F:NM3S,double,1,,,,,,1
+5,KMAG,F:NM4AN,double,1,,,,,,1
+6,NM2 Secondary Emission Intensity Monitor,F:NM2SEM,double,1,,,,,,1
+7,MI intensity just before spill starts,I:BEAM21,double,1,,,,,,1
+8,MI RF frequency,I:VFOUT,double,1,,,,,,1
+9,Duty factor for slow spill measured by MI,I:FTSDF,double,1,,,,,,1
+10,Target SWIC Horz mean,E:M3TGHM,double,10,,,,,,1
+11,Target SWIC Horz sigma,E:M3TGHS,double,10,,,,,,1
+12,Target SWIC Vert mean,E:M3TGVM,double,10,,,,,,1
+13,Target SWIC Vert sigma,E:M3TGVS,double,10,,,,,,1
+14,Target SWIC Horz intensity,E:M3TGHI,double,10,,,,,,1
+15,Target horz fig-me??,E:M3TGHF,double,1,,,,,,1
+16,Target SWIC Horz intensity,E:M3TGVI,double,1,,,,,,1
+17,Target vert fig-me??,E:M3TGVF,double,1,,,,,,1
+18,NM2 SWIC Horz mean,E:M2C2HM,double,1,,,,,,1
+19,NM2 SWIC Horz sigma,E:M2C2HS,double,1,,,,,,1
+20,NM2 SWIC Vert mean,E:M2C2VM,double,1,,,,,,1
+21,NM2 SWIC Vert sigma,E:M2C2VS,double,1,,,,,,1
+22,NM2 SWIC Horz intensity,E:M2C2HI,double,1,,,,,,1
+23,NM2 horz fig-me??,E:M2C2HF,double,1,,,,,,1
+24,NM2 SWIC Horz intensity,E:M2C2VI,double,1,,,,,,1
+25,NM2 vert fig-me??,E:M2C2VF,double,1,,,,,,1
+26,CTF Barometer,L:CBAR,double,1,,,,,,1
+27,G2 pipe Pirani Gauge,S:KTEVTC,double,1,,,,,,1
+28,NM2 ion chamber,F:NM2ION,double,1,,,,,,1
+29,NM3 ion chamber,F:NM3ION,double,1,,,,,,1
+30,FMAG supply temp,F:NM3RST,double,1,,,,,,1
+31,FMAG return temp,F:NM3RRT,double,1,,,,,,1
+32,KMAG supply temp,F:NS2SUP,double,1,,,,,,1
+33,KMAG return temp,F:NS2RET,double,1,,,,,,1
+34,Outdoor temperture,M:OUTTMP,double,1,,,,,,1
+35,E906 beam counter,F:E906BM,double,1,,,,,,1
+36,Intensity in G2 enclosure??,S:G2SEM,double,1,,,,,,1
+37,number of Linac batches per Booster batch,G:TURN13,double,1,,,,,,1
+38,number of RF bunches per Booster batch,G:BNCH13,double,1,,,,,,1
+39,number of Booster batches per MI turn,G:NBSYD,double,1,,,,,,1
+40,ration NM2 ion chamber to NM3 ion chamber,S:N2N3EF,double,1,,,,,,1
+41,accelerator time,U:TODB25,double,1,,,,,,1
+42,Meson/E906 septa position,S:MSEP1U,double,1,,,,,,1
+43,beam to Meson,S:F1SEM,double,1,,,,,,1
+44,NM2 final focussing quad,F:NM2Q1,double,1,,,,,,1
+45,NM2 final focussing quad,F:NM2Q2,double,1,,,,,,1
+46,,F:NS2FLO,double,1,,,,,,1
+47,,F:NM3SEM,double,1,,,,,,1
+48,,F:NS7DFP,double,1,,,,,,1
+49,,G:RD3161,double,1,,,,,,1
+50,,G:RD3162,double,1,,,,,,1
+51,,F:MT6SC1,double,1,,,,,,1
+52,,F:MC7SC1,double,1,,,,,,1
+53,,F:MC1D,double,1,,,,,,1
+54,,F:MW1W,double,1,,,,,,1

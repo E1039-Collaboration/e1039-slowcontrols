@@ -1,0 +1,30 @@
+g++ -o mtopd/build/epics_scripts/fill_epics_var -pthread mtopd/build/epics_scripts/fill_epics_var.o 
+mtopd/build/epics_scripts/mclas/TEPICcnfg.o 
+mtopd/build/epics_scripts/mclas/TEPICsyst.o 
+mtopd/build/epics_scripts/mclas/TSLCOcnfg.o 
+mtopd/build/epics_scripts/mclas/TSLCOepic.o 
+mtopd/build/epics_scripts/mclas/TSLCOlogs.o 
+mtopd/build/epics_scripts/mclas/TSLCOsyst.o
+
+-Lmtopd/build/epics_scripts/['/data2/e1039/daq/slowcontrols/epics/epics_scripts/mtopd']/lib 
+-L['/data2/e1039/daq/slowcontrols/epics/epics_scripts/mtopd']/lib 
+-L/data2/epics-7.0.2.2/base-7.0.2.2/lib/linux-x86_64 
+-L/data2/e1039/share/root/lib 
+
+-lSpectrum -lca -lCom -lCore -lImt -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lROOTVecOps -lTree -lTreePlayer -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -lMultiProc -lROOTDataFrame -lm -ldl -lGui
+
+g++ -o mtopd/build/epics_scripts/fill_epics_var -pthread mtopd/build/epics_scripts/fill_epics_var.o mtopd/build/epics_scripts/mclas/TEPICcnfg.o mtopd/build/epics_scripts/mclas/TEPICsyst.o mtopd/build/epics_scripts/mclas/TSLCOcnfg.o mtopd/build/epics_scripts/mclas/TSLCOepic.o mtopd/build/epics_scripts/mclas/TSLCOlogs.o mtopd/build/epics_scripts/mclas/TSLCOsyst.o
+
+-Lmtopd/lib -L/data2/epics-7.0.2.2/base-7.0.2.2/lib/linux-x86_64
+-L/data2/e1039/share/root/lib
+
+ -lSpectrum -lca -lCom -lCore -lImt -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lROOTVecOps -lTree -lTreePlayer -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -lMultiProc -lROOTDataFrame -lm -ldl -lGui
+
+
+g++ -o mtopd/build/epics_scripts/fill_epics_var -pthread mtopd/build/epics_scripts/fill_epics_var.o mtopd/build/epics_scripts/mclas/TEPICcnfg.o mtopd/build/epics_scripts/mclas/TEPICsyst.o mtopd/build/epics_scripts/mclas/TSLCOcnfg.o mtopd/build/epics_scripts/mclas/TSLCOepic.o mtopd/build/epics_scripts/mclas/TSLCOlogs.o mtopd/build/epics_scripts/mclas/TSLCOsyst.o 
+
+-Lmtopd/build/epics_scripts/['/data2/e1039/daq/slowcontrols/epics/epics_scripts/mtopd']/lib -L['/data2/e1039/daq/slowcontrols/epics/epics_scripts/mtopd']/lib -L/data2/epics-7.0.2.2/base-7.0.2.2/lib/linux-x86_64
+-L/data2/e1039/share/root/lib 
+
+
+-lSpectrum -lca -lCom -lCore -lImt -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lROOTVecOps -lTree -lTreePlayer -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -lMultiProc -lROOTDataFrame -lm -ldl -lGui

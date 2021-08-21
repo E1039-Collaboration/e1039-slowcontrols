@@ -1,0 +1,1915 @@
+
+file {
+	name="/data2/e1039/daq/slowcontrols/epics/epics_medm/medm_ChamHv_ALL.adl"
+	version=030111
+}
+display {
+	object {
+		x=50
+		y=483
+		width=1550
+		height=300
+	}
+	clr=14
+	bclr=9
+	cmap=""
+	gridSpacing=5
+	gridOn=0
+	snapToGrid=0
+}
+"color map" {
+	ncolors=65
+	colors {
+		ffffff,
+		ececec,
+		dadada,
+		c8c8c8,
+		bbbbbb,
+		aeaeae,
+		9e9e9e,
+		919191,
+		858585,
+		787878,
+		696969,
+		5a5a5a,
+		464646,
+		2d2d2d,
+		000000,
+		00d800,
+		1ebb00,
+		339900,
+		2d7f00,
+		216c00,
+		fd0000,
+		de1309,
+		be190b,
+		a01207,
+		820400,
+		5893ff,
+		597ee1,
+		4b6ec7,
+		3a5eab,
+		27548d,
+		fbf34a,
+		f9da3c,
+		eeb62b,
+		e19015,
+		cd6100,
+		ffb0ff,
+		d67fe2,
+		ae4ebc,
+		8b1a96,
+		610a75,
+		a4aaff,
+		8793e2,
+		6a73c1,
+		4d52a4,
+		343386,
+		c7bb6d,
+		b79d5c,
+		a47e3c,
+		7d5627,
+		58340f,
+		99ffff,
+		73dfff,
+		4ea5f9,
+		2a63e4,
+		0a00b8,
+		ebf1b5,
+		d4db9d,
+		bbc187,
+		a6a462,
+		8b8239,
+		73ff6b,
+		52da3b,
+		3cb420,
+		289315,
+		1a7309,
+	}
+}
+composite {
+	object {
+		x=10
+		y=22
+		width=270
+		height=231
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=18
+				y=101
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="X"
+		}
+		text {
+			object {
+				x=18
+				y=76
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Up"
+		}
+		text {
+			object {
+				x=18
+				y=51
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="U"
+		}
+		text {
+			object {
+				x=18
+				y=126
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Xp"
+		}
+		text {
+			object {
+				x=18
+				y=176
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Vp"
+		}
+		text {
+			object {
+				x=18
+				y=151
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="V"
+		}
+		text {
+			object {
+				x=74
+				y=22
+				width=40
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="V,"
+		}
+		"text update" {
+			object {
+				x=74
+				y=51
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D1U_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=74
+				y=176
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D1Vp_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=74
+				y=151
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D1V_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=74
+				y=126
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D1Xp_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=74
+				y=76
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D1Up_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=74
+				y=101
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D1X_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=93
+				y=22
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D1U_V.EGU"
+				clr=0
+				bclr=9
+			}
+			limits {
+			}
+		}
+		text {
+			object {
+				x=184
+				y=22
+				width=40
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="I,"
+		}
+		"text update" {
+			object {
+				x=184
+				y=51
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D1U_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=184
+				y=176
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D1Vp_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=184
+				y=151
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D1V_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=184
+				y=126
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D1Xp_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=184
+				y=76
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D1Up_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=184
+				y=101
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D1X_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=203
+				y=22
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D1U_I.EGU"
+				clr=0
+				bclr=9
+			}
+			limits {
+			}
+		}
+		polyline {
+			object {
+				x=170
+				y=22
+				width=0
+				height=180
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(170,22)
+				(170,202)
+			}
+		}
+		polyline {
+			object {
+				x=60
+				y=22
+				width=0
+				height=180
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(60,22)
+				(60,202)
+			}
+		}
+		polyline {
+			object {
+				x=10
+				y=46
+				width=265
+				height=0
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(10,46)
+				(275,46)
+			}
+		}
+		"shell command" {
+			object {
+				x=58
+				y=228
+				width=110
+				height=25
+			}
+			command[0] {
+				label="Chart D1_I"
+				name="StripTool"
+				args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_ChamHv_D1_V.stp &"
+			}
+			clr=0
+			bclr=9
+			label="-plots: D1_V"
+		}
+		"shell command" {
+			object {
+				x=170
+				y=228
+				width=110
+				height=25
+			}
+			command[0] {
+				label="Chart D1_V"
+				name="StripTool"
+				args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_ChamHv_D1_I.stp &"
+			}
+			clr=0
+			bclr=9
+			label="-plots: D1_I"
+		}
+		text {
+			object {
+				x=18
+				y=22
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="D1"
+		}
+	}
+}
+composite {
+	object {
+		x=324
+		y=22
+		width=270
+		height=231
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=332
+				y=101
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="X"
+		}
+		text {
+			object {
+				x=332
+				y=76
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Up"
+		}
+		text {
+			object {
+				x=332
+				y=51
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="U"
+		}
+		text {
+			object {
+				x=332
+				y=126
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Xp"
+		}
+		text {
+			object {
+				x=332
+				y=176
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Vp"
+		}
+		text {
+			object {
+				x=332
+				y=151
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="V"
+		}
+		text {
+			object {
+				x=388
+				y=22
+				width=40
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="V,"
+		}
+		"text update" {
+			object {
+				x=388
+				y=51
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D2U_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=388
+				y=176
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D2Vp_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=388
+				y=151
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D2V_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=388
+				y=126
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D2Xp_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=388
+				y=76
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D2Up_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=388
+				y=101
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D2X_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=407
+				y=22
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D2U_V.EGU"
+				clr=0
+				bclr=9
+			}
+			limits {
+			}
+		}
+		text {
+			object {
+				x=498
+				y=22
+				width=40
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="I,"
+		}
+		"text update" {
+			object {
+				x=498
+				y=51
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D2U_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=498
+				y=176
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D2Vp_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=498
+				y=151
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D2V_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=498
+				y=126
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D2Xp_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=498
+				y=76
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D2Up_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=498
+				y=101
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D2X_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=517
+				y=22
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D2U_I.EGU"
+				clr=0
+				bclr=9
+			}
+			limits {
+			}
+		}
+		polyline {
+			object {
+				x=484
+				y=22
+				width=0
+				height=180
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(484,22)
+				(484,202)
+			}
+		}
+		polyline {
+			object {
+				x=374
+				y=22
+				width=0
+				height=180
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(374,22)
+				(374,202)
+			}
+		}
+		polyline {
+			object {
+				x=324
+				y=46
+				width=265
+				height=0
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(324,46)
+				(589,46)
+			}
+		}
+		"shell command" {
+			object {
+				x=372
+				y=228
+				width=110
+				height=25
+			}
+			command[0] {
+				label="Chart D1_V"
+				name="StripTool"
+				args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_ChamHv_D2_V.stp &"
+			}
+			clr=0
+			bclr=9
+			label="-plots: D2_V"
+		}
+		"shell command" {
+			object {
+				x=484
+				y=228
+				width=110
+				height=25
+			}
+			command[0] {
+				label="Chart D2_I"
+				name="StripTool"
+				args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_ChamHv_D2_I.stp &"
+			}
+			clr=0
+			bclr=9
+			label="-plots: D2_I"
+		}
+		text {
+			object {
+				x=332
+				y=22
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="D2"
+		}
+	}
+}
+composite {
+	object {
+		x=638
+		y=22
+		width=270
+		height=231
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=646
+				y=101
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="U"
+		}
+		text {
+			object {
+				x=646
+				y=76
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="X"
+		}
+		text {
+			object {
+				x=646
+				y=51
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="V"
+		}
+		text {
+			object {
+				x=646
+				y=126
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="G"
+		}
+		text {
+			object {
+				x=702
+				y=22
+				width=40
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="V,"
+		}
+		"text update" {
+			object {
+				x=702
+				y=51
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3mV_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=702
+				y=126
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3mG_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=702
+				y=76
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3mX_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=702
+				y=101
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3mU_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=721
+				y=22
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3mV_V.EGU"
+				clr=0
+				bclr=9
+			}
+			limits {
+			}
+		}
+		text {
+			object {
+				x=812
+				y=22
+				width=40
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="I,"
+		}
+		"text update" {
+			object {
+				x=812
+				y=51
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3mV_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=812
+				y=126
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3mG_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=812
+				y=76
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3mX_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=812
+				y=101
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3mU_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=831
+				y=22
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3mV_I.EGU"
+				clr=0
+				bclr=9
+			}
+			limits {
+			}
+		}
+		polyline {
+			object {
+				x=798
+				y=22
+				width=0
+				height=180
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(798,22)
+				(798,202)
+			}
+		}
+		polyline {
+			object {
+				x=688
+				y=22
+				width=0
+				height=180
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(688,22)
+				(688,202)
+			}
+		}
+		polyline {
+			object {
+				x=638
+				y=46
+				width=265
+				height=0
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(638,46)
+				(903,46)
+			}
+		}
+		"shell command" {
+			object {
+				x=686
+				y=228
+				width=110
+				height=25
+			}
+			command[0] {
+				label="Chart D3m_V"
+				name="StripTool"
+				args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_ChamHv_D3m_V.stp &"
+			}
+			clr=0
+			bclr=9
+			label="-plots: D3m_V"
+		}
+		"shell command" {
+			object {
+				x=798
+				y=228
+				width=110
+				height=25
+			}
+			command[0] {
+				label="Chart D3m_I"
+				name="StripTool"
+				args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_ChamHv_D3m_I.stp &"
+			}
+			clr=0
+			bclr=9
+			label="-plots: D3m_I"
+		}
+		text {
+			object {
+				x=646
+				y=22
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="D3m"
+		}
+	}
+}
+composite {
+	object {
+		x=952
+		y=22
+		width=270
+		height=231
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=960
+				y=101
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="U"
+		}
+		text {
+			object {
+				x=960
+				y=76
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="X"
+		}
+		text {
+			object {
+				x=960
+				y=51
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="V"
+		}
+		text {
+			object {
+				x=960
+				y=126
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="G"
+		}
+		text {
+			object {
+				x=1016
+				y=22
+				width=40
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="V,"
+		}
+		"text update" {
+			object {
+				x=1016
+				y=51
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3pV_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1016
+				y=126
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3pG_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1016
+				y=76
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3pX_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1016
+				y=101
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3pU_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1035
+				y=22
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3pV_V.EGU"
+				clr=0
+				bclr=9
+			}
+			limits {
+			}
+		}
+		text {
+			object {
+				x=1126
+				y=22
+				width=40
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="I,"
+		}
+		"text update" {
+			object {
+				x=1126
+				y=51
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3pV_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1126
+				y=126
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3pG_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1126
+				y=76
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3pX_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1126
+				y=101
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3pU_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1145
+				y=22
+				width=65
+				height=20
+			}
+			monitor {
+				chan="D3pV_I.EGU"
+				clr=0
+				bclr=9
+			}
+			limits {
+			}
+		}
+		polyline {
+			object {
+				x=1112
+				y=22
+				width=0
+				height=180
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(1112,22)
+				(1112,202)
+			}
+		}
+		polyline {
+			object {
+				x=1002
+				y=22
+				width=0
+				height=180
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(1002,22)
+				(1002,202)
+			}
+		}
+		polyline {
+			object {
+				x=952
+				y=46
+				width=265
+				height=0
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(952,46)
+				(1217,46)
+			}
+		}
+		"shell command" {
+			object {
+				x=1000
+				y=228
+				width=110
+				height=25
+			}
+			command[0] {
+				label="Chart D3p_V"
+				name="StripTool"
+				args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_ChamHv_D3p_V.stp &"
+			}
+			clr=0
+			bclr=9
+			label="-plots: D3p_V"
+		}
+		"shell command" {
+			object {
+				x=1112
+				y=228
+				width=110
+				height=25
+			}
+			command[0] {
+				label="Chart D3m_I"
+				name="StripTool"
+				args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_ChamHv_D3m_I.stp &"
+			}
+			clr=0
+			bclr=9
+			label="-plots: D3p_I"
+		}
+		text {
+			object {
+				x=960
+				y=22
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="D3p"
+		}
+	}
+}
+composite {
+	object {
+		x=1266
+		y=22
+		width=270
+		height=231
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=1274
+				y=101
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="V2"
+		}
+		text {
+			object {
+				x=1274
+				y=76
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="H1"
+		}
+		text {
+			object {
+				x=1274
+				y=51
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="V1"
+		}
+		text {
+			object {
+				x=1274
+				y=126
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="H2"
+		}
+		text {
+			object {
+				x=1330
+				y=22
+				width=40
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="V,"
+		}
+		"text update" {
+			object {
+				x=1330
+				y=51
+				width=65
+				height=20
+			}
+			monitor {
+				chan="P4V1_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1330
+				y=126
+				width=65
+				height=20
+			}
+			monitor {
+				chan="P4H2_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1330
+				y=76
+				width=65
+				height=20
+			}
+			monitor {
+				chan="P4H1_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1330
+				y=101
+				width=65
+				height=20
+			}
+			monitor {
+				chan="P4V2_V"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1349
+				y=22
+				width=65
+				height=20
+			}
+			monitor {
+				chan="P4V1_V.EGU"
+				clr=0
+				bclr=9
+			}
+			limits {
+			}
+		}
+		text {
+			object {
+				x=1440
+				y=22
+				width=40
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="I,"
+		}
+		"text update" {
+			object {
+				x=1440
+				y=51
+				width=65
+				height=20
+			}
+			monitor {
+				chan="P4V1_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1440
+				y=126
+				width=65
+				height=20
+			}
+			monitor {
+				chan="P4H2_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1440
+				y=76
+				width=65
+				height=20
+			}
+			monitor {
+				chan="P4H1_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1440
+				y=101
+				width=65
+				height=20
+			}
+			monitor {
+				chan="P4V2_I"
+				clr=0
+				bclr=9
+			}
+			align="horiz. right"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1459
+				y=22
+				width=65
+				height=20
+			}
+			monitor {
+				chan="P4V1_I.EGU"
+				clr=0
+				bclr=9
+			}
+			limits {
+			}
+		}
+		polyline {
+			object {
+				x=1426
+				y=22
+				width=0
+				height=180
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(1426,22)
+				(1426,202)
+			}
+		}
+		polyline {
+			object {
+				x=1316
+				y=22
+				width=0
+				height=180
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(1316,22)
+				(1316,202)
+			}
+		}
+		polyline {
+			object {
+				x=1266
+				y=46
+				width=265
+				height=0
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(1266,46)
+				(1531,46)
+			}
+		}
+		"shell command" {
+			object {
+				x=1314
+				y=228
+				width=110
+				height=25
+			}
+			command[0] {
+				label="Chart P4_V"
+				name="StripTool"
+				args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_ChamHv_P4_V.stp &"
+			}
+			clr=0
+			bclr=9
+			label="-plots: P4_V"
+		}
+		"shell command" {
+			object {
+				x=1426
+				y=228
+				width=110
+				height=25
+			}
+			command[0] {
+				label="Chart P4_I"
+				name="StripTool"
+				args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_ChamHv_P4_I.stp &"
+			}
+			clr=0
+			bclr=9
+			label="-plots: P4_I"
+		}
+		text {
+			object {
+				x=1274
+				y=22
+				width=30
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="P4"
+		}
+	}
+}

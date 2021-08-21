@@ -1,0 +1,70 @@
+#!/usr/bin/env python
+import sys, os, optparse
+import DAQUtils_myurov
+
+field_choices = ["all", "scaled", "units", "status"]
+
+usage = """Usage: %prog [options] <variableA> <variableB> ...
+Read the requested value(s) from ACNET using the ACC.
+Option flags must come before process variable list.
+"""
+parser = optparse.OptionParser(usage=usage)
+
+parser.add_option( "--list", dest="list", action="store_true", default=False, help="Print the list of relevant ACNET variables and quit." )
+parser.add_option( "-t", "--terse", dest="terse", action="store_true", default=False, help="Only print the requested values." )
+parser.add_option( "-f", "--field", dest="field", default="scaled", help="Report this field(s) for all variables.  (default=%s). Choices=%s." % ("scaled", str(field_choices) ) )
+parser.add_option( "--timeout", dest="timeout", type="int", default=5, help="Number of seconds to wait for a response before timeout (default=%default).  Use 0 for no timeout which is risky.")
+
+#if no arguments are supplied, give help
+if len(sys.argv) < 2:
+  parser.parse_args( ["--help"] )
+
+#parse the args except for arg 0 (the script name)
+#args are the user's arguments that are not handled by option parser
+#all args are considered to be process variables
+(opts, args) = parser.parse_args(sys.argv[1:])
+acnet_vars = [ a.upper() for a in args ]
+
+#print the list of relevant vars and exit if requested
+if opts.list:
+  f = open( DAQUtils_myurov.acnet_var_file )
+  if f:
+    for line in f:
+      print line.strip()
+  else:
+    print "ERROR: Could not open ACNET variable file at '%s'" % DAQUtils_myurov.acnet_var_file
+  sys.exit()
+
+
+#if there are no acnet variables, then we have nothing to read
+if len(acnet_vars) == 0:
+  sys.exit( "You supplied no acnet variables for me to read.  See --help and try again." )
+
+#make sure field choice makes sense
+if opts.field not in field_choices:
+  sys.exit( "Invalid field choice '%s'.  Choices are %s." % (opts.field, field_choices) )
+
+#query ACNET
+responses = DAQUtils_myurov.GetFromACNET( acnet_vars, timeout = opts.timeout )
+
+#check the response for each variale
+for var in acnet_vars:
+  found_it = False
+  for resp in responses:
+    if resp.has_key("name") and resp["name"] == var:
+      found_it = True
+      if "all" == opts.field:
+        print resp
+      elif resp.has_key(opts.field):
+        if opts.terse:
+          print repr( resp[opts.field] )
+        else:
+          print "%s\t%s" % (var, repr(resp[opts.field]) )
+      else:
+        print "ERROR: Variable '%s' does not have field '%s'." % (var, opts.field)
+      break
+  #end loop over responses
+  if not found_it:
+    print "ERROR: Variable '%s' was not found." % var
+
+#end loop over requested variables

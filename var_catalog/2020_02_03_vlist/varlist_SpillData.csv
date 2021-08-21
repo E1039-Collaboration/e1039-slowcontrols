@@ -1,0 +1,9 @@
+1,two sec long epics BOS signal,BOS,integer,1,,,,,,1
+2,two sec long epics EOS signal,EOS,integer,1,,,,,,1
+3,spill state,BEAM_ON,integer,1,,,,,,1
+4,spill status,SPILL_OK,integer,1,,,,,,1
+5,spill ID,SPILLCOUNTER,integer,1,,,,,,1
+6,heartbeat,TIME5S,integer,1,,,,,,1
+7,temporary BOS,t_BOS,integer,1,,,,,,1
+8,temporary EOS,t_EOS,integer,1,,,,,,1
+9,temporary spill ID,t_SPILLCOUNTER,integer,1,,,,,,1

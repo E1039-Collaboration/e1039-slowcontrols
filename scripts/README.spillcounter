@@ -1,0 +1,13 @@
+
+#########Spill Counter commands (See DCC for details)#########
+> rd 100b - read uptime counter
+> rd 100c - counter
+> wr 100c 122 - write count 122 to memory area 100c
+
+telnet 192.168.24.77 ports are either 1024 or 1025 (simultaneous connections
+are possible).  77 is the ipaddress assigned to the spillcounter
+
+> set 4 ipaddress
+> save
+> reset
+##############################################################

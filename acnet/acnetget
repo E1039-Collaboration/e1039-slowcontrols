@@ -1,0 +1,118 @@
+#!/usr/bin/python
+# Written by Kaz - 9/9/2013
+# This is a wrapper to access acnet variables from linux commandline.
+# It can be used in the same way that one uses caget for EPICS.
+# If your host is on the fermilab public network (or, actually, anywhere in the
+# world that can access the Fermilab ACC web server, this should work).
+# If your host is in a private network, but you have a proxy server available,
+# then set env variables http_proxy, and ftp_proxy to that proxy server, and
+# uncomment the proxy transport line near the bottom of this code (and make
+# sure to comment out the non-proxy portion of the code).
+import MySQLdb
+from xmlrpclib import Server
+import time
+import os
+import commands
+import sys
+import telnetlib
+from datetime import datetime, date
+import xmlrpclib
+import httplib
+import socket
+
+##--------Proxy server class------------------------
+class ProxiedTransport(xmlrpclib.Transport):
+    def set_proxy(self, proxy):
+        self.proxy = proxy
+    def make_connection(self, host):
+        self.realhost = host
+        h = httplib.HTTP(self.proxy)
+        return h
+    def send_request(self, connection, handler, request_body):
+        connection.putrequest("POST", 'http://%s%s' % (self.realhost, handler))
+    def send_host(self, connection, host):
+        connection.putheader('Host', self.realhost)
+##--------------------------------------------------
+
+##--------Beam PV output subroutine-----------------
+def beam(index):
+    if(sys.argv[1] == "-T"):
+#        for index in range(2,len(sys.argv)):
+            for dev in devl:
+              if dev.has_key('scaled'):
+                  val = dev['scaled']
+              	  if dev['name']==sys.argv[index]:
+                  	print repr(val) 
+              else:
+                  print sys.argv[index], " does_not_exist" 
+    else:
+#       for index in range(len(sys.argv)):
+            if not index==0:
+                for dev in devl:
+                    if dev.has_key('scaled'):
+                        val = dev['scaled']
+                        if dev['name']==sys.argv[index]:
+                            print sys.argv[index], "  ", repr(val) 
+                    else:
+                        print sys.argv[index], " does_not_exist"
+##-------------------------------------------------
+
+
+##--------Start Main()------------------------------
+url = "http://www-bd.fnal.gov/xmlrpc/Accelerator"
+
+if len(sys.argv) ==1 or sys.argv[1] == "-H" or sys.argv[1] == "-h":
+    print "This script grabs the ACNET variables from the ACC XML-RPC server"
+    print "Usage: acnet [options] [pvname1] [pvname2] ..."
+    print "(e.g   acnet G:TURN13 -- case insensitive)"
+    print "options:"
+    print "-list  List relevant acnet variables"
+    print "-t     terse mode"
+    print "-h     help (i.e this message)"
+    sys.exit(0)
+
+
+if not sys.argv[1].isupper() == "False": # make it case insensitive by converting to upper case -- acnet XML-RPC only accepts upper case
+    sys.argv = [element.upper() for element in sys.argv]
+
+if(sys.argv[1] == "-LIST"):
+    fd3 = open("/data2/e906daq/slowcontrols/scripts/acnet/acnet_variable_list.txt","r")
+    for line in fd3:
+        splitted_line = line.rstrip("\n")
+        print splitted_line
+elif(sys.argv[1] == "-T"):
+    for index in range(2,len(sys.argv)):
+        temp = [""]
+        temp[0] = sys.argv[index];
+        devicelist = temp #only load the acnet variables in question into device list
+        p = ProxiedTransport()
+        p.set_proxy('e906-gat2.fnal.gov:3128')
+        server = xmlrpclib.Server(url,transport=p)
+        devl = server.getReading(devicelist)
+        beam(index) #Grab beam data from ACNET via XML-RPC.
+else:
+    for index in range(len(sys.argv)):
+        temp = [""]
+        temp[0] = sys.argv[index];
+        devicelist = temp #only load the acnet variables in question into device list
+        p = ProxiedTransport()
+        p.set_proxy('e906-gat2.fnal.gov:3128')
+
+
+	###This is where you decide whether to use a proxy server or not.###
+	###The first conditional is for servers that don't need proxy servers...just keep adding###
+	###hostnames for hosts that are directly connected to the network.####
+
+        hostname = socket.gethostname()
+        if(hostname =="e906-gat3.fnal.gov" or hostname=="e906-gat2.fnal.gov" or hostname=="e906-gat1.fnal.gov" or hostname=="e906-gat4.fnal.gov" or hostname=="e906-gat6"): 
+            devl = Server(url).getReading(devicelist) # if NOT using a proxy server
+        else:
+            server = xmlrpclib.Server(url,transport=p) # if using a proxy server
+            devl = server.getReading(devicelist) # if using a proxy server
+        
+        #        devl = Server(url).getReading(devicelist) # if NOT using a proxy server
+        
+        ##################################################################
+
+        beam(index) #Grab beam data from ACNET via XML-RPC.
+##----------------------------------------------------

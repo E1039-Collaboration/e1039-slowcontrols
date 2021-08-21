@@ -1,0 +1,54 @@
+record(calc,"st_T"){
+  field(DESC,"T group status")
+  field(PINI,"1")
+  field(INPA,"T1 CPP MSS")
+  field(INPB,"T2 CPP MSS")
+  field(INPC,"T3 CPP MSS")
+  field(INPD,"T4 CPP MSS")
+  field(INPE,"T5 CPP MSS")
+  field(INPF,"T6 CPP MSS")
+  field(INPG,"T7 CPP MSS")
+  field(INPH,"T8 CPP MSS")
+  field(INPI,"T9 CPP MSS")
+  field(INPJ,"T10 CPP MSS")
+  field(CALC,"A")
+}
+
+record(calc,"st_HT"){
+  field(DESC,"HT group status")
+  field(PINI,"1")
+  field(INPA,"HT1 CPP MSS")
+  field(INPB,"HT2 CPP MSS")
+  field(INPC,"HT3 CPP MSS")
+  field(INPD,"HT4 CPP MSS")
+  field(CALC,"A")
+}
+
+record(calc,"st_HH"){
+  field(DESC,"HH group status")
+  field(PINI,"1")
+  field(INPA,"HH1 CPP MSS")
+  field(INPB,"HH2 CPP MSS")
+  field(INPC,"HH3 CPP MSS")
+  field(INPD,"HH4 CPP MSS")
+  field(CALC,"A")
+}
+
+record(calc,"st_P"){
+  field(DESC,"P group status")
+  field(PINI,"1")
+  field(INPA,"P1 CPP MSS")
+  field(INPB,"P2 CPP MSS")
+  field(INPC,"P3 CPP MSS")
+  field(CALC,"A")
+}
+
+record(calc,"st_HD"){
+  field(DESC,"HD group status")
+  field(PINI,"1")
+  field(INPA,"HD1 CPP MSS")
+  field(INPB,"HD2 CPP MSS")
+  field(INPC,"HD3 CPP MSS")
+  field(INPD,"HD4 CPP MSS")
+  field(CALC,"A")
+}

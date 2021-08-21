@@ -1,0 +1,7 @@
+top logs dir:  /data2/e1039_data/slowcontrol_logs/
+sys list file: /data2/e1039/daq/slowcontrols/var_catalog/varlist_dir/syslist_Subsys.csv
+var list dir:  /data2/e1039/daq/slowcontrols/var_catalog/varlist_dir/
+var data dir:  /data2/e1039_data/slowcontrol_data/
+max bos2bos time: 60
+max bos2eos time: 8
+max readout time: 45

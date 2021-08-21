@@ -1,0 +1,45 @@
+import os
+Import('env objs')
+instdir = '$TOPDIR/'
+
+if env['buildlib']:
+  instdir += 'lib'
+  lname = os.path.basename(os.getcwd())
+  l = SharedLibrary(lname,objs)
+  env.Install(instdir,l)
+
+else:
+  instdir += 'bin'
+  for src in Glob('*.cc'):
+    o = env.Object(src)
+    p = env.Program(o+objs)
+    env.Install(instdir,p)
+ 
+env.Alias('install',instdir)
+env.Default('install')
+
+
+
+
+#Gets Environment and list of objects from subfolders
+
+#Depending on buildlib variable builds either
+#shared library or executables from projectdir
+
+#Install method arranges for a program, or any other file, 
+#to be copied into a destination directory (instdir)
+
+#Considered a type of file "build" - so if destination is 
+#outside of the top-level SConstruct - must specify that 
+#directory as: scons /../destinationdir/
+
+#Instead Alias can be used which creates a pseudo-target (install)
+#that can expand to the specified destination directory
+#scons install
+
+#Defualt method specifies a list of default targets built by scons 
+#if no explicit targets are given on the command line
+
+#LD_LIBRARY_PATH variable should be defined and exported in .bashrc file
+#in order for executable which uses shared library to work
+#LD_LIBRARY_PATH should point to the directory that contains libname.so

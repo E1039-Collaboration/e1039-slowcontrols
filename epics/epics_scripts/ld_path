@@ -1,0 +1,9 @@
+/data2/e1039/core/daily/lib:
+/data2/e1039/share/lib:
+/data2/e1039/share/lib64:
+/data2/e1039/share/lib:
+/data2/e1039/share/lib64:
+/data2/e1039/share/root/lib::
+/data2/epics-7.0.2.2/base-7.0.2.2/lib/linux-x86_64/:
+/data2/epics-7.0.2.2/base-7.0.2.2/lib/linux-x86_64/:
+/seaquest/users/myurov/work/mtop/lib

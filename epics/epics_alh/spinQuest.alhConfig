@@ -1,0 +1,17 @@
+GROUP NULL E1039
+$GUIDANCE
+Line 1 of guidance information about main group
+Line 2 guidance.
+Line 3 guidance.
+$END
+
+INCLUDE E1039 ./alarms_list_Acnet.alhConfig
+INCLUDE E1039 ./alarms_list_ChamHv.alhConfig
+INCLUDE E1039 ./alarms_list_HodoHv.alhConfig
+INCLUDE E1039 ./alarms_list_DPhodo.alhConfig
+INCLUDE E1039 ./alarms_list_HallEnv.alhConfig
+INCLUDE E1039 ./alarms_list_ScalerDAQ.alhConfig
+INCLUDE E1039 ./alarms_list_BeamDAQ.alhConfig
+INCLUDE E1039 ./alarms_list_TargetDAQ.alhConfig
+INCLUDE E1039 ./alarms_list_StatusMonitor.alhConfig
+

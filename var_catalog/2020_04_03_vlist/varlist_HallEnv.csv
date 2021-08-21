@@ -1,0 +1,25 @@
+1,hydrogen pipe in target control area ,T1,double,1,C,10,20,30,40,1,1
+2,discr NIM crate for st. 1/2 hodoscopes,T2,double,1,C,10,20,30,40,1,1
+3,bottom of tall post 0.91m above floor,T3,double,1,C,10,20,30,40,1,1
+4,bottom of tall post 0.91m above floor,T4,double,1,C,10,20,30,40,1,1
+5,middle of tall post 2.59m above floor,T5,double,1,C,10,20,30,40,1,1
+6,trigger supervisor VME crate,T6,double,1,C,10,20,30,40,1,1
+7,top of tall post 6.25m above floor,T7,double,1,C,10,20,30,40,1,1
+8,NM3,T8,double,1,C,10,20,30,40,1,1
+9,NM3,T9,double,1,C,10,20,30,40,1,1
+10,NM3,T10,double,1,C,10,20,30,40,1,1
+11,,HT1,double,1,,10,20,30,40,1,1
+12,,HT2,double,1,,10,20,30,40,1,1
+13,,HT3,double,1,,10,20,30,40,1,1
+14,,HT4,double,1,,10,20,30,40,1,1
+15,,HH1,double,1,%,0,5,30,50,1,1
+16,,HH2,double,1,%,0,5,30,50,1,1
+17,,HH3,double,1,%,0,5,30,50,1,1
+18,,HH4,double,1,%,0,5,30,50,1,1
+19,,P1,double,1,psi,13,14.2,15.2,16,1,1
+20,,P2,double,1,psi,13,14.2,15.2,16,1,1
+21,,P3,double,1,psi,13,14.2,15.2,16,1,1
+22,,HD1,double,1,C,0,0.1,20,30,1,1
+23,,HD2,double,1,C,0,0.1,20,30,1,1
+24,,HD3,double,1,C,0,0.1,20,30,1,1
+25,,HD4,double,1,C,0,0.1,20,30,1,1

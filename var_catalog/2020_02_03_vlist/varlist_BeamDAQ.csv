@@ -1,0 +1,14 @@
+1,NM3ION,NM3ION,double,1,,,,,,1
+2,QIE sum,QIEsum,double,1,,,,,,1
+3,Dutyfactor (53MHz),dutyfactor53MHz,,1,,,,,,1
+4,Inhibit count,inhibit_count,integer,1,,,,,,1
+5,Inhibit block sum,inhibit_block_sum,double,1,,,,,,1
+6,Trigger count,trigger_count,integer,1,,,,,,1
+7,Trigger sum (no inhibit),trigger_sum_no_inhibit,double,1,,,,,,1
+8,Inh output delay,Inh_output_delay,integer,1,,,,,,1
+9,QIE inh delay,QIE_inh_delay,integer,1,,,,,,1
+10,Min Inh Width,Min_Inh_Width,integer,1,,,,,,1
+11,Inh thres,Inh_thres,integer,1,,,,,,1
+12,QIE busy delay,QIE_busy_delay,integer,1,,,,,,1
+13,Marker delay,Marker_delay,integer,1,,,,,,1
+14,QIE phase adjust,QIE_phase_adjust,integer,1,,,,,,1

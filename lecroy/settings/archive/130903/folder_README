@@ -1,0 +1,8 @@
+H3_old, and H4_old contain nominal voltages that were set before Sep 4, 2013.
+On Sept 4, 2013,the current H3 and H4 files (in settings directory) have been changed: X3B,X3T,X4B, and X4T are updated with voltages set by the ACU students when they gain-matched these counters.
+
+H2_old contains nominal voltages that were set before Sep 4, 2013.
+H2 is currently the same as H2_old.
+H2_new has the voltages in Bryan (Dannowitz)'s excel speadsheet from the gain matching done on Aug 16, 2013.
+
+For any questions, contact Mae at teomaehwee@gmail.com.

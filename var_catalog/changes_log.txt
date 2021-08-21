@@ -1,0 +1,30 @@
+2020_04_03
+    2020_03_24_vlist_master.ods has been updated:
+    	1. ChamHV page: new/updated alarm levels are added
+    	2. DPhodo page: DP1 per-channel variables (21-24 not used) were removed
+	3. SpillData page: new alarm levels are added
+
+2020_03_24
+    2020_02_13_vlist_master.ods has been updated:
+    	1. ChamHV, HallEnv, DPhodo, HodoHv added preliminary alarm levels
+    	2. ChamHV, HallEnv, DPhodo, HodoHv added a new column with PREC field
+
+2020_02_13
+    2020_02_03_vlist_master.ods has been updated:
+        1. BeamDAQ page: added 7 variables (#15 to #21))
+        2. ScalerDAQ page: removed duplicates of PVs name "dead", "none" (172 to 161))
+        3. TargetDAQ page: fixed 4 typos PAS_C2_RSON PAS_C2_RFON to 1,3
+
+2020_02_03
+    2020_01_09_vlist_master.ods has been updated:
+        1. SpillData page: added 3 variables - t_BOS, t_EOS, t_SPILLCOUNTER
+    	2. HodoHv page: *_H34_* variables renamed to *_H3_* variables
+
+2020_01_09
+    2019_11_12_vlist_master.ods has been updated:
+    	1. HodoHv page: H1XT_01_DV and so on changed to H1XT_1_DV and so on
+	2. new StatusMonitor page is addded to include all future status variables;
+	   only two test variables added for now
+	3. new 2020_01_09_vlist_master.ods and 2020_01_09_vlist were generated
+	4. varlist_dir is updated to point to 2020_01_09_vlist
+

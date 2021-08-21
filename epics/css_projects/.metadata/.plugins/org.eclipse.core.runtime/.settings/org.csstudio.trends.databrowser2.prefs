@@ -1,0 +1,4 @@
+archives=current|1|pbraw\://localhost\:17668/retrieval
+eclipse.preferences.version=1
+prompt_for_errors=true
+urls=pbraw\://localhost\:17668/retrieval|archiver appliance

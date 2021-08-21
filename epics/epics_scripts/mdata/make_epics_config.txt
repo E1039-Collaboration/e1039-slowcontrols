@@ -1,0 +1,4 @@
+sys list file: /data2/e1039/daq/slowcontrols/var_catalog/varlist_dir/syslist_Subsys.csv
+var list dir: /data2/e1039/daq/slowcontrols/var_catalog/varlist_dir/
+var data dir: /data2/e1039_data/slowcontrol_data/
+epics_include out dir: /data2/e1039/daq/slowcontrols/epics/epics_include_temp

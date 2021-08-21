@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- INSTRUCTIONS
+
+
+Brian G Tice - July 26, 2014
+tice@anl.gov
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>SeaQuest DAQ Status</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="refresh" content="10">
+    <link rel="stylesheet" href="SeaQuestDAQStatus.css" type="text/css" media="screen" />
+
+
+    <!-- include jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- define include function for jQuery -->
+    <script>
+    (function ($) {
+       $.include = function (url) {
+         $.ajax({
+           url: url,
+           async: false,
+           success: function (result) {
+             document.write(result);
+          }
+        });
+      };
+     }(jQuery));
+     </script>
+
+  </head>
+
+
+  <body>
+  <!-- ============================================== -->
+  <div id="panels">
+      <div class="panel left">
+      <span class="last-update">
+      Page will refresh every 5s<br />
+      Ages shown are relative to the "Last Updated" time of the Status block. Small negative times are normal.<br />
+      This page last updated:<br /> 
+      <script>var d = new Date(); document.write(d.toString()); </script>
+      </span>
+      <hr />
+
+      <script>$.include("StatusMonitor_Status.html");</script>
+      <script>$.include("DiskSpace_Status.html");</script>
+      <script>$.include("Decoder_Status.html");</script>
+      <br />
+      <address>
+        Written by Brian G. Tice, <a href="http://www.phy.anl.gov/mep">Argonne Natl Lab</a>.
+        <br />
+        Page last edited: 3/25/15.
+      </address>
+    </div>
+
+    <div class="panel center">
+      <script>$.include("Target_Status.html");</script>
+      <script>$.include("Magnet_Status.html");</script>
+      <script>$.include("MainDAQ_Status.html");</script>
+      <script>$.include("BeamDAQ_Status.html");</script>
+    </div>
+
+    <div class="panel right">
+      <script>$.include("Spillcounter_Status.html");</script>
+      <script>$.include("SlowControl_Status.html");</script>
+      <script>$.include("ScalerDAQ_Status.html");</script>
+      <script>$.include("CAEN_Status.html");</script>
+    </div>
+  </div> 
+
+  </body>
+</html>
+

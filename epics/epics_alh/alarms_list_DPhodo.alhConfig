@@ -1,0 +1,45 @@
+GROUP NULL DPhodo
+
+GROUP DPhodo DP1
+
+GROUP DP1 LT
+INCLUDE LT ./alarms_list_DPhodo_DP1_LT1.alhConfig
+INCLUDE LT ./alarms_list_DPhodo_DP1_LT2.alhConfig
+INCLUDE LT ./alarms_list_DPhodo_DP1_LT3.alhConfig
+INCLUDE LT ./alarms_list_DPhodo_DP1_LT4.alhConfig
+
+GROUP DP1 RT
+INCLUDE RT ./alarms_list_DPhodo_DP1_RT1.alhConfig
+INCLUDE RT ./alarms_list_DPhodo_DP1_RT2.alhConfig
+INCLUDE RT ./alarms_list_DPhodo_DP1_RT3.alhConfig
+INCLUDE RT ./alarms_list_DPhodo_DP1_RT4.alhConfig
+
+GROUP DP1 LB
+INCLUDE LB ./alarms_list_DPhodo_DP1_LB1.alhConfig
+INCLUDE LB ./alarms_list_DPhodo_DP1_LB2.alhConfig
+INCLUDE LB ./alarms_list_DPhodo_DP1_LB3.alhConfig
+INCLUDE LB ./alarms_list_DPhodo_DP1_LB4.alhConfig
+
+GROUP DP1 RB
+INCLUDE RB ./alarms_list_DPhodo_DP1_RB1.alhConfig
+INCLUDE RB ./alarms_list_DPhodo_DP1_RB2.alhConfig
+INCLUDE RB ./alarms_list_DPhodo_DP1_RB3.alhConfig
+INCLUDE RB ./alarms_list_DPhodo_DP1_RB4.alhConfig
+
+GROUP DPhodo DP2
+
+GROUP DP2 LT
+INCLUDE LT ./alarms_list_DPhodo_DP1_LT1.alhConfig
+INCLUDE LT ./alarms_list_DPhodo_DP1_LT2.alhConfig
+
+GROUP DP2 RT
+INCLUDE RT ./alarms_list_DPhodo_DP1_RT1.alhConfig
+INCLUDE RT ./alarms_list_DPhodo_DP1_RT2.alhConfig
+
+GROUP DP2 LB
+INCLUDE LB ./alarms_list_DPhodo_DP1_LB1.alhConfig
+INCLUDE LB ./alarms_list_DPhodo_DP1_LB2.alhConfig
+
+GROUP DP2 RB
+INCLUDE RB ./alarms_list_DPhodo_DP1_RB1.alhConfig
+INCLUDE RB ./alarms_list_DPhodo_DP1_RB2.alhConfig

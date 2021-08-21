@@ -1,0 +1,718 @@
+
+file {
+	name="/data2/e1039/daq/slowcontrols/epics/epics_medm/medm_DPhodo_board.adl"
+	version=030111
+}
+display {
+	object {
+		x=6
+		y=330
+		width=280
+		height=600
+	}
+	clr=14
+	bclr=9
+	cmap=""
+	gridSpacing=5
+	gridOn=0
+	snapToGrid=0
+}
+"color map" {
+	ncolors=65
+	colors {
+		ffffff,
+		ececec,
+		dadada,
+		c8c8c8,
+		bbbbbb,
+		aeaeae,
+		9e9e9e,
+		919191,
+		858585,
+		787878,
+		696969,
+		5a5a5a,
+		464646,
+		2d2d2d,
+		000000,
+		00d800,
+		1ebb00,
+		339900,
+		2d7f00,
+		216c00,
+		fd0000,
+		de1309,
+		be190b,
+		a01207,
+		820400,
+		5893ff,
+		597ee1,
+		4b6ec7,
+		3a5eab,
+		27548d,
+		fbf34a,
+		f9da3c,
+		eeb62b,
+		e19015,
+		cd6100,
+		ffb0ff,
+		d67fe2,
+		ae4ebc,
+		8b1a96,
+		610a75,
+		a4aaff,
+		8793e2,
+		6a73c1,
+		4d52a4,
+		343386,
+		c7bb6d,
+		b79d5c,
+		a47e3c,
+		7d5627,
+		58340f,
+		99ffff,
+		73dfff,
+		4ea5f9,
+		2a63e4,
+		0a00b8,
+		ebf1b5,
+		d4db9d,
+		bbc187,
+		a6a462,
+		8b8239,
+		73ff6b,
+		52da3b,
+		3cb420,
+		289315,
+		1a7309,
+	}
+}
+text {
+	object {
+		x=10
+		y=10
+		width=50
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="DP$(pl)_$(quad)$(brd)"
+}
+"related display" {
+	object {
+		x=23
+		y=520
+		width=200
+		height=20
+	}
+	display[0] {
+		label="DP$(pl)_$(quad)$(brd) V/I Screen"
+		name="medm_DPhodo_channel.adl"
+		args="pl=$(pl), quad=$(quad), brd=$(brd)"
+	}
+	clr=14
+	bclr=36
+	label="-DP$(pl)_$(quad)$(brd) V/I"
+}
+"shell command" {
+	object {
+		x=20
+		y=140
+		width=200
+		height=25
+	}
+	command[0] {
+		label="Chart DP$(pl)_$(quad)$(brd) T"
+		name="StripTool"
+		args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_DPhodo_DP$(pl)_$(quad)$(brd)_T.stp &"
+	}
+	clr=0
+	bclr=9
+	label="-plots: DP$(pl)_$(quad)$(brd) T"
+}
+polyline {
+	object {
+		x=120
+		y=80
+		width=0
+		height=50
+	}
+	"basic attribute" {
+		clr=0
+	}
+	points {
+		(120,80)
+		(120,130)
+	}
+}
+"text update" {
+	object {
+		x=129
+		y=83
+		width=65
+		height=20
+	}
+	monitor {
+		chan="DP$(pl)_$(quad)$(brd)_TPLATE"
+		clr=0
+		bclr=9
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=129
+		y=108
+		width=65
+		height=20
+	}
+	monitor {
+		chan="DP$(pl)_$(quad)$(brd)_TPREAMP"
+		clr=0
+		bclr=9
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=56
+		y=83
+		width=55
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Plate"
+}
+text {
+	object {
+		x=46
+		y=108
+		width=65
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Preamp"
+}
+"text update" {
+	object {
+		x=199
+		y=84
+		width=65
+		height=20
+	}
+	monitor {
+		chan="DP$(pl)_$(quad)$(brd)_TPLATE.EGU"
+		clr=0
+		bclr=9
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=199
+		y=109
+		width=65
+		height=20
+	}
+	monitor {
+		chan="DP$(pl)_$(quad)$(brd)_TPREAMP.EGU"
+		clr=0
+		bclr=9
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=129
+		y=215
+		width=65
+		height=20
+	}
+	monitor {
+		chan="DP$(pl)_$(quad)$(brd)_V9"
+		clr=0
+		bclr=9
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=129
+		y=240
+		width=65
+		height=20
+	}
+	monitor {
+		chan="DP$(pl)_$(quad)$(brd)_VDD"
+		clr=0
+		bclr=9
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=129
+		y=265
+		width=65
+		height=20
+	}
+	monitor {
+		chan="DP$(pl)_$(quad)$(brd)_V100"
+		clr=0
+		bclr=9
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=129
+		y=290
+		width=65
+		height=20
+	}
+	monitor {
+		chan="DP$(pl)_$(quad)$(brd)_VPREAMP"
+		clr=0
+		bclr=9
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=46
+		y=290
+		width=65
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Preamp"
+}
+text {
+	object {
+		x=76
+		y=240
+		width=35
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="VDD"
+}
+text {
+	object {
+		x=66
+		y=265
+		width=45
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="V100"
+}
+text {
+	object {
+		x=86
+		y=215
+		width=25
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="V9"
+}
+polyline {
+	object {
+		x=120
+		y=212
+		width=0
+		height=100
+	}
+	"basic attribute" {
+		clr=0
+	}
+	points {
+		(120,212)
+		(120,312)
+	}
+}
+"text update" {
+	object {
+		x=199
+		y=216
+		width=65
+		height=20
+	}
+	monitor {
+		chan="DP$(pl)_$(quad)$(brd)_V9.EGU"
+		clr=0
+		bclr=9
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=199
+		y=241
+		width=65
+		height=20
+	}
+	monitor {
+		chan="DP$(pl)_$(quad)$(brd)_VDD.EGU"
+		clr=0
+		bclr=9
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=199
+		y=266
+		width=65
+		height=20
+	}
+	monitor {
+		chan="DP$(pl)_$(quad)$(brd)_V100.EGU"
+		clr=0
+		bclr=9
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=199
+		y=291
+		width=65
+		height=20
+	}
+	monitor {
+		chan="DP$(pl)_$(quad)$(brd)_VPREAMP.EGU"
+		clr=0
+		bclr=9
+	}
+	limits {
+	}
+}
+text {
+	object {
+		x=46
+		y=399
+		width=65
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Preamp"
+}
+"text update" {
+	object {
+		x=129
+		y=399
+		width=65
+		height=20
+	}
+	monitor {
+		chan="DP$(pl)_$(quad)$(brd)_IPREAMP"
+		clr=0
+		bclr=9
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+polyline {
+	object {
+		x=120
+		y=397
+		width=0
+		height=25
+	}
+	"basic attribute" {
+		clr=0
+	}
+	points {
+		(120,397)
+		(120,422)
+	}
+}
+"text update" {
+	object {
+		x=199
+		y=400
+		width=65
+		height=20
+	}
+	monitor {
+		chan="DP$(pl)_$(quad)$(brd)_IPREAMP.EGU"
+		clr=0
+		bclr=9
+	}
+	limits {
+	}
+}
+composite {
+	object {
+		x=10
+		y=50
+		width=220
+		height=22
+	}
+	"composite name"=""
+	children {
+		composite {
+			object {
+				x=10
+				y=50
+				width=220
+				height=22
+			}
+			"composite name"=""
+			children {
+				text {
+					object {
+						x=12
+						y=50
+						width=200
+						height=20
+					}
+					"basic attribute" {
+						clr=0
+					}
+					textix="Board Temperatures"
+				}
+				polyline {
+					object {
+						x=10
+						y=72
+						width=220
+						height=0
+					}
+					"basic attribute" {
+						clr=0
+					}
+					points {
+						(10,72)
+						(230,72)
+					}
+				}
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=10
+		y=185
+		width=220
+		height=22
+	}
+	"composite name"=""
+	children {
+		composite {
+			object {
+				x=10
+				y=185
+				width=220
+				height=22
+			}
+			"composite name"=""
+			children {
+				composite {
+					object {
+						x=10
+						y=185
+						width=220
+						height=22
+					}
+					"composite name"=""
+					children {
+						text {
+							object {
+								x=12
+								y=185
+								width=200
+								height=20
+							}
+							"basic attribute" {
+								clr=0
+							}
+							textix="Board Voltages"
+						}
+						polyline {
+							object {
+								x=10
+								y=207
+								width=220
+								height=0
+							}
+							"basic attribute" {
+								clr=0
+							}
+							points {
+								(10,207)
+								(230,207)
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=10
+		y=370
+		width=220
+		height=22
+	}
+	"composite name"=""
+	children {
+		composite {
+			object {
+				x=10
+				y=370
+				width=220
+				height=22
+			}
+			"composite name"=""
+			children {
+				text {
+					object {
+						x=12
+						y=370
+						width=200
+						height=20
+					}
+					"basic attribute" {
+						clr=0
+					}
+					textix="Board Current"
+				}
+				polyline {
+					object {
+						x=10
+						y=392
+						width=220
+						height=0
+					}
+					"basic attribute" {
+						clr=0
+					}
+					points {
+						(10,392)
+						(230,392)
+					}
+				}
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=10
+		y=480
+		width=220
+		height=22
+	}
+	"composite name"=""
+	children {
+		composite {
+			object {
+				x=10
+				y=480
+				width=220
+				height=22
+			}
+			"composite name"=""
+			children {
+				text {
+					object {
+						x=12
+						y=480
+						width=200
+						height=20
+					}
+					"basic attribute" {
+						clr=0
+					}
+					textix="Board Channels"
+				}
+				polyline {
+					object {
+						x=10
+						y=502
+						width=220
+						height=0
+					}
+					"basic attribute" {
+						clr=0
+					}
+					points {
+						(10,502)
+						(230,502)
+					}
+				}
+			}
+		}
+	}
+}
+"shell command" {
+	object {
+		x=20
+		y=322
+		width=200
+		height=25
+	}
+	command[0] {
+		label="Chart DP$(pl)_$(quad)$(brd) V"
+		name="StripTool"
+		args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_DPhodo_DP$(pl)_$(quad)$(brd)_V.stp &"
+	}
+	clr=0
+	bclr=9
+	label="-plots: DP$(pl)_$(quad)$(brd) V"
+}
+"shell command" {
+	object {
+		x=20
+		y=432
+		width=200
+		height=25
+	}
+	command[0] {
+		label="Chart DP$(pl)_$(quad)$(brd) I"
+		name="StripTool"
+		args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_DPhodo_DP$(pl)_$(quad)$(brd)_I.stp &"
+	}
+	clr=0
+	bclr=9
+	label="-plots: DP$(pl)_$(quad)$(brd) I"
+}
