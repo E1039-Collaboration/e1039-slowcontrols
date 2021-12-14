@@ -115,6 +115,19 @@ class DiskSpace(StatusChecker):
       self.data.append( StatusDatum( "Available on %s:%s" % (hostname,diskname), "%.1f G, %d%%" % (available,percent), warning=isProblem ) )
 
     #-----------
+    #check sc3
+    diskname = "/home"
+    hostname = "e1039sc3"
+    disk = DoDFCommand( diskname, hostname, "e1039daq" )
+    if not disk:
+      self.data.append( StatusDatum( hostname + ":" + diskname, "Disk not found", warning=True ) )
+    else:
+      available = disk["available"] * 1024
+      percent   = 100 - disk["percent"]
+      isProblem = available < 50.
+      self.data.append( StatusDatum( " Available on " + hostname + ":" + diskname, "%.1f G, %d%%" % (available,percent), warning=isProblem ) )
+
+    #-----------
     #check sc4
     diskname = "/home"
     hostname = "e1039sc4"
@@ -127,6 +140,8 @@ class DiskSpace(StatusChecker):
       isProblem = available < 50.
       self.data.append( StatusDatum( " Available on " + hostname + ":" + diskname, "%.1f G, %d%%" % (available,percent), warning=isProblem ) )
 
+    #-----------
+    # Output
     self.OutputToHTML()
     self.SendMailIfNeeded()
     self.SetAlarmIfNeeded()
