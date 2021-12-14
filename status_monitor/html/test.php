@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="refresh" content="10">
   <link rel="stylesheet" href="local.css" type="text/css" media="screen" />
-  <title>DAQ Status Monitor: Test Page</title>
+  <title>Global Status Monitor: Test Page</title>
 </head>
 <!-- ================================================================ -->
 <?php
@@ -13,7 +13,7 @@ include 'inc/maindaq_decoder.php';
 ?>
 <!-- ================================================================ -->
 <body>
-<h1>DAQ Status Monitor: Test Page</h1>
+<h1>Global Status Monitor: Test Page</h1>
 
 <div id="panels">
   <div class="panel left"> <hr>

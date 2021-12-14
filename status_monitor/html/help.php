@@ -3,11 +3,11 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="local.css" type="text/css" media="screen" />
-  <title>Help: DAQ Status Monitor</title>
+  <title>Help: Global Status Monitor</title>
 </head>
 
 <body>
-<h1>Help &mdash; DAQ Status Monitor</h1>
+<h1>Help &mdash; Global Status Monitor</h1>
 <div id="panels">
 <!-- Left Panel ================================================== -->
 <div class="panel50 left text-left">

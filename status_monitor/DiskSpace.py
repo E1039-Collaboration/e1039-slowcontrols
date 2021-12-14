@@ -115,33 +115,10 @@ class DiskSpace(StatusChecker):
       self.data.append( StatusDatum( "Available on %s:%s" % (hostname,diskname), "%.1f G, %d%%" % (available,percent), warning=isProblem ) )
 
     #-----------
-    #check sc2
-    # the computer e906sc2 developped harddisk issue. It is now decommissioned. Andrew Chen, Nov. 3, 2015
-    #diskname = "/data1"
-    #hostname = "e906sc2"
-    #disk = DoDFCommand( diskname, hostname )
-    #if not disk:
-    #  self.data.append( StatusDatum( hostname + ":" + diskname, "Disk not found", warning=True ) )
-    #else:
-    #  available = disk["available"] * 1024
-    #  isProblem = available < 50.
-    #  self.data.append( StatusDatum( hostname + ":" + diskname + " Available", "%.1f G" % available, warning=isProblem ) )
-
-    #diskname = "/"
-    #hostname = "e906sc2"
-    #disk = DoDFCommand( diskname, hostname )
-    #if not disk:
-    #  self.data.append( StatusDatum( hostname + ":" + diskname, "Disk not found", warning=True ) )
-    #else:
-    #  available = disk["available"] * 1024
-    #  isProblem = available < 5.
-    #  self.data.append( StatusDatum( hostname + ":" + diskname + " Available", "%.1f G" % available, warning=isProblem ) )
-
-    #-----------
-    #check sc3
+    #check sc4
     diskname = "/home"
-    hostname = "e906sc3"
-    disk = DoDFCommand( diskname, hostname, "e906daq" )
+    hostname = "e1039sc4"
+    disk = DoDFCommand( diskname, hostname, "e1039daq" )
     if not disk:
       self.data.append( StatusDatum( hostname + ":" + diskname, "Disk not found", warning=True ) )
     else:
