@@ -62,7 +62,7 @@ class ScalerDAQ(StatusChecker):
       components["EBe906sc"] = "Not found"
       components["ERe906sc"] = "Not found"
 
-      command = ["ssh", "-x", "-l", DAQUtils.ScalerDAQ_user, DAQUtils.ScalerDAQ_host, r'plask -rt Sea2sc -all' ]
+      command = ["ssh", "-x", "-l", DAQUtils.ScalerDAQ_user, DAQUtils.ScalerDAQ_host, r'plask -rt Spin2sc -all' ]
       rval, output = DAQUtils.GetOutput( command, timeout=10 )
       if rval is None:
         Log("Timed out executing command %s" % str(command) )
@@ -136,15 +136,14 @@ class ScalerDAQ(StatusChecker):
       self.data.append( StatusDatum( "ScalerDAQ SpillID age", SecondsToTime(scalerDAQ_spillcountAge), problem=isProblem ) )
 
     #get spillcounts
-    local_spillcount = DAQUtils.GetSpillcount( DAQUtils.spillcount_filename )
-
-    scalerDAQ_spillcount = DAQUtils.GetSpillcount( DAQUtils.spillcount_filename_scalerDAQ )
-    isProblem = abs( local_spillcount - scalerDAQ_spillcount ) > 2
-    isProblem = isProblem and (scalerDAQ_spillcount>0)
-    if lastSpillHadBeam:
-      self.data.append( StatusDatum( "ScalerDAQ Last SpillID", scalerDAQ_spillcount, problem=isProblem, email=isProblem, alarm=isProblem ) )
-    else:
-      self.data.append( StatusDatum( "ScalerDAQ Last SpillID", scalerDAQ_spillcount, problem=isProblem  ) )
+    #local_spillcount = DAQUtils.GetSpillcount( DAQUtils.spillcount_filename )
+    #scalerDAQ_spillcount = DAQUtils.GetSpillcount( DAQUtils.spillcount_filename_scalerDAQ )
+    #isProblem = abs( local_spillcount - scalerDAQ_spillcount ) > 2
+    #isProblem = isProblem and (scalerDAQ_spillcount>0)
+    #if lastSpillHadBeam:
+    #  self.data.append( StatusDatum( "ScalerDAQ Last SpillID", scalerDAQ_spillcount, problem=isProblem, email=isProblem, alarm=isProblem ) )
+    #else:
+    #  self.data.append( StatusDatum( "ScalerDAQ Last SpillID", scalerDAQ_spillcount, problem=isProblem  ) )
     
     self.OutputToHTML()
     self.SendMailIfNeeded()

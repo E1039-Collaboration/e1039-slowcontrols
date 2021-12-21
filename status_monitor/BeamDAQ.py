@@ -69,13 +69,12 @@ class BeamDAQ(StatusChecker):
     self.data.append( StatusDatum( "BeamDAQ SpillID age", SecondsToTime(beamDAQ_spillcountAge), problem=isProblem, email=isProblem, alarm=isProblem ) )
 
     #get spillcounts
-    lines = open(DAQUtils.spillcount_filename).readlines()
-    local_spillcount = int(lines[0])
-
-    lines = open(DAQUtils.spillcount_filename_beamDAQ).readlines()
-    beamDAQ_spillcount = int(lines[0])
-    isProblem = abs( local_spillcount - beamDAQ_spillcount ) > 2
-    self.data.append( StatusDatum( "BeamDAQ Last SpillID", beamDAQ_spillcount, problem=isProblem, email=isProblem, alarm=isProblem ) )
+    #lines = open(DAQUtils.spillcount_filename).readlines()
+    #local_spillcount = int(lines[0])
+    #lines = open(DAQUtils.spillcount_filename_beamDAQ).readlines()
+    #beamDAQ_spillcount = int(lines[0])
+    #isProblem = abs( local_spillcount - beamDAQ_spillcount ) > 2
+    #self.data.append( StatusDatum( "BeamDAQ Last SpillID", beamDAQ_spillcount, problem=isProblem, email=isProblem, alarm=isProblem ) )
 
     self.OutputToHTML()
     self.SendMailIfNeeded()
