@@ -8,7 +8,7 @@
     <scroll>true</scroll>
     <update_period>3.0</update_period>
     <scroll_step>5</scroll_step>
-    <start>-1.00 days</start>
+    <start>-394.96 days</start>
     <end>now</end>
     <archive_rescale>NONE</archive_rescale>
     <background>
@@ -119,11 +119,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>P4V2_I</display_name>
@@ -143,11 +138,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>P4H1_I</display_name>
@@ -167,11 +157,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>P4H2_I</display_name>
@@ -191,11 +176,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
     </pvlist>
 </databrowser>

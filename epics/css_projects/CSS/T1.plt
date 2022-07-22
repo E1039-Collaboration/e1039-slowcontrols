@@ -8,7 +8,7 @@
     <scroll>true</scroll>
     <update_period>3.0</update_period>
     <scroll_step>5</scroll_step>
-    <start>-1.00 days</start>
+    <start>-366.00 days</start>
     <end>now</end>
     <archive_rescale>NONE</archive_rescale>
     <background>

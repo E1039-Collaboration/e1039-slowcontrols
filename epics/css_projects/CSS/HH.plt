@@ -91,8 +91,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>11.405000000000001</min>
-            <max>64.095</max>
+            <min>-3.0450000000000004</min>
+            <max>63.94500000000001</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>

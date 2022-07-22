@@ -347,11 +347,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>H3XT_1_DV</display_name>
@@ -371,11 +366,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>H3XT_13_DV</display_name>
@@ -395,11 +385,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>H3XT_7_DV</display_name>
@@ -419,11 +404,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>H3XT_11_DV</display_name>
@@ -443,11 +423,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>H3XT_9_DV</display_name>
@@ -467,11 +442,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>H3XT_5_DV</display_name>
@@ -491,11 +461,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>H3XT_3_DV</display_name>
@@ -515,11 +480,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>H3XT_16_DV</display_name>
@@ -539,11 +499,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>H3XT_14_DV</display_name>
@@ -563,11 +518,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>H3XT_6_DV</display_name>
@@ -587,11 +537,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>H3XT_10_DV</display_name>
@@ -611,11 +556,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>H3XT_12_DV</display_name>
@@ -635,11 +575,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>H3XT_8_DV</display_name>
@@ -659,11 +594,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>H3XT_2_DV</display_name>
@@ -683,11 +613,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>H3XT_4_DV</display_name>
@@ -707,11 +632,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
     </pvlist>
 </databrowser>

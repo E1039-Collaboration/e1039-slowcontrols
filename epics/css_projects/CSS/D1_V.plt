@@ -157,11 +157,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>D1V_V</display_name>
@@ -181,11 +176,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>D1X_V</display_name>
@@ -205,11 +195,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>D1Xp_V</display_name>
@@ -229,11 +214,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>D1Vp_V</display_name>
@@ -253,11 +233,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>D1Up_V</display_name>
@@ -277,11 +252,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
     </pvlist>
 </databrowser>

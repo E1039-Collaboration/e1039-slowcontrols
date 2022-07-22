@@ -8,7 +8,7 @@
     <scroll>true</scroll>
     <update_period>3.0</update_period>
     <scroll_step>5</scroll_step>
-    <start>-7 days 0.0 seconds</start>
+    <start>-1 years -7 days 0.0 seconds</start>
     <end>now</end>
     <archive_rescale>STAGGER</archive_rescale>
     <background>
@@ -34,8 +34,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>3.662</min>
-            <max>3.955</max>
+            <min>-89.80000000000001</min>
+            <max>-6.9</max>
             <grid>false</grid>
             <autoscale>false</autoscale>
             <log_scale>false</log_scale>
@@ -53,8 +53,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>3.7520000000000002</min>
-            <max>4.248</max>
+            <min>-69.10000000000001</min>
+            <max>13.9</max>
             <grid>false</grid>
             <autoscale>false</autoscale>
             <log_scale>false</log_scale>
@@ -72,8 +72,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>3.9610000000000003</min>
-            <max>4.149</max>
+            <min>-43.800000000000004</min>
+            <max>31.3</max>
             <grid>false</grid>
             <autoscale>false</autoscale>
             <log_scale>false</log_scale>
@@ -91,8 +91,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>3.347</min>
-            <max>3.609</max>
+            <min>-36.0</min>
+            <max>71.0</max>
             <grid>false</grid>
             <autoscale>false</autoscale>
             <log_scale>false</log_scale>
@@ -119,11 +119,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>0</key>
-            </archive>
         </pv>
         <pv>
             <display_name>HD2</display_name>
@@ -143,11 +138,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>0</key>
-            </archive>
         </pv>
         <pv>
             <display_name>HD3</display_name>
@@ -167,11 +157,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>0</key>
-            </archive>
         </pv>
         <pv>
             <display_name>HD4</display_name>
@@ -191,11 +176,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://localhost:17668/retrieval</url>
-                <key>0</key>
-            </archive>
         </pv>
     </pvlist>
 </databrowser>

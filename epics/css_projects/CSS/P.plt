@@ -8,7 +8,7 @@
     <scroll>true</scroll>
     <update_period>3.0</update_period>
     <scroll_step>5</scroll_step>
-    <start>-12 hour</start>
+    <start>-30 days 0.0 seconds</start>
     <end>now</end>
     <archive_rescale>STAGGER</archive_rescale>
     <background>
@@ -34,8 +34,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>14.182640000000001</min>
-            <max>14.18373</max>
+            <min>3.7</min>
+            <max>14.700000000000001</max>
             <grid>false</grid>
             <autoscale>false</autoscale>
             <log_scale>false</log_scale>
@@ -53,8 +53,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>14.13038</min>
-            <max>14.13291</max>
+            <min>7.5</min>
+            <max>18.2</max>
             <grid>false</grid>
             <autoscale>false</autoscale>
             <log_scale>false</log_scale>
@@ -72,8 +72,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>13.466640000000002</min>
-            <max>13.46845</max>
+            <min>10.4</min>
+            <max>20.5</max>
             <grid>false</grid>
             <autoscale>false</autoscale>
             <log_scale>false</log_scale>
