@@ -1,0 +1,983 @@
+
+file {
+	name="/home/borei/work/prog/e1039/fnal/epics/epics_medm/medm_SpinQuest.adl"
+	version=030111
+}
+display {
+	object {
+		x=0
+		y=37
+		width=260
+		height=875
+	}
+	clr=29
+	bclr=7
+	cmap=""
+	gridSpacing=10
+	gridOn=0
+	snapToGrid=0
+}
+"color map" {
+	ncolors=65
+	colors {
+		ffffff,
+		ececec,
+		dadada,
+		c8c8c8,
+		bbbbbb,
+		aeaeae,
+		9e9e9e,
+		919191,
+		858585,
+		787878,
+		696969,
+		5a5a5a,
+		464646,
+		2d2d2d,
+		000000,
+		00d800,
+		1ebb00,
+		339900,
+		2d7f00,
+		216c00,
+		fd0000,
+		de1309,
+		be190b,
+		a01207,
+		820400,
+		5893ff,
+		597ee1,
+		4b6ec7,
+		3a5eab,
+		27548d,
+		fbf34a,
+		f9da3c,
+		eeb62b,
+		e19015,
+		cd6100,
+		ffb0ff,
+		d67fe2,
+		ae4ebc,
+		8b1a96,
+		610a75,
+		a4aaff,
+		8793e2,
+		6a73c1,
+		4d52a4,
+		343386,
+		c7bb6d,
+		b79d5c,
+		a47e3c,
+		7d5627,
+		58340f,
+		99ffff,
+		73dfff,
+		4ea5f9,
+		2a63e4,
+		0a00b8,
+		ebf1b5,
+		d4db9d,
+		bbc187,
+		a6a462,
+		8b8239,
+		73ff6b,
+		52da3b,
+		3cb420,
+		289315,
+		1a7309,
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=155
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=4
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=125
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=3
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=110
+		width=240
+		height=75
+	}
+	"basic attribute" {
+		clr=64
+		fill="outline"
+	}
+}
+rectangle {
+	object {
+		x=15
+		y=95
+		width=230
+		height=30
+	}
+	"basic attribute" {
+		clr=64
+	}
+}
+text {
+	object {
+		x=35
+		y=100
+		width=190
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Start All"
+}
+text {
+	object {
+		x=86
+		y=131
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Screen #1"
+}
+text {
+	object {
+		x=86
+		y=161
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Screen #2"
+}
+rectangle {
+	object {
+		x=10
+		y=285
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=3
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=315
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=4
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=225
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=3
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=255
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=4
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=210
+		width=240
+		height=135
+	}
+	"basic attribute" {
+		clr=64
+		fill="outline"
+	}
+}
+rectangle {
+	object {
+		x=15
+		y=195
+		width=230
+		height=30
+	}
+	"basic attribute" {
+		clr=64
+	}
+}
+text {
+	object {
+		x=35
+		y=200
+		width=190
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Spectrometer"
+}
+"related display" {
+	object {
+		x=50
+		y=230
+		width=20
+		height=20
+	}
+	display[0] {
+		label="ChamHv Screen"
+		name="medm_ChamHv.adl"
+	}
+	clr=0
+	bclr=63
+}
+"related display" {
+	object {
+		x=50
+		y=260
+		width=20
+		height=20
+	}
+	display[0] {
+		label="HodoHv"
+		name="medm_HodoHv.adl"
+	}
+	clr=0
+	bclr=63
+}
+"related display" {
+	object {
+		x=50
+		y=290
+		width=20
+		height=20
+	}
+	display[0] {
+		label="DPhodo Screen"
+		name="medm_DPhodo.adl"
+	}
+	clr=0
+	bclr=63
+}
+"related display" {
+	object {
+		x=50
+		y=320
+		width=20
+		height=20
+	}
+	display[0] {
+		label="HallEnv Screen   "
+		name="medm_HallEnv.adl"
+	}
+	clr=0
+	bclr=63
+}
+text {
+	object {
+		x=86
+		y=231
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="ChamHv"
+}
+text {
+	object {
+		x=86
+		y=261
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="HodoHv"
+}
+text {
+	object {
+		x=86
+		y=291
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="DPhodo"
+}
+text {
+	object {
+		x=86
+		y=321
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="HallEnv"
+}
+rectangle {
+	object {
+		x=10
+		y=385
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=3
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=415
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=4
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=445
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=3
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=370
+		width=240
+		height=105
+	}
+	"basic attribute" {
+		clr=64
+		fill="outline"
+	}
+}
+rectangle {
+	object {
+		x=15
+		y=355
+		width=230
+		height=30
+	}
+	"basic attribute" {
+		clr=64
+	}
+}
+text {
+	object {
+		x=35
+		y=360
+		width=190
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Standalone DAQs"
+}
+text {
+	object {
+		x=86
+		y=391
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Scaler DAQ"
+}
+text {
+	object {
+		x=86
+		y=421
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Beam DAQ"
+}
+text {
+	object {
+		x=86
+		y=451
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Target DAQ"
+}
+"related display" {
+	object {
+		x=50
+		y=390
+		width=20
+		height=20
+	}
+	display[0] {
+		label="ScalerDAQ Screen"
+		name="medm_ScalerDAQ.adl"
+	}
+	clr=0
+	bclr=63
+}
+"related display" {
+	object {
+		x=50
+		y=420
+		width=20
+		height=20
+	}
+	display[0] {
+		label="BeamDAQ Screen"
+		name="medm_BeamDAQ.adl"
+	}
+	clr=0
+	bclr=63
+}
+"related display" {
+	object {
+		x=50
+		y=450
+		width=20
+		height=20
+	}
+	display[0] {
+		label="TargetDAQ Screen"
+		name="medm_TargetDAQ.adl"
+	}
+	display[1] {
+		label="          "
+	}
+	clr=0
+	bclr=63
+}
+"related display" {
+	object {
+		x=50
+		y=520
+		width=20
+		height=20
+	}
+	display[0] {
+		label="SpillData Screen"
+		name="medm_SpillData.adl"
+	}
+	clr=0
+	bclr=63
+}
+"related display" {
+	object {
+		x=50
+		y=550
+		width=20
+		height=20
+	}
+	display[0] {
+		label="Acnet Screen"
+		name="medm_Acnet.adl"
+	}
+	clr=0
+	bclr=63
+}
+rectangle {
+	object {
+		x=10
+		y=545
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=4
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=515
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=3
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=500
+		width=240
+		height=75
+	}
+	"basic attribute" {
+		clr=64
+		fill="outline"
+	}
+}
+rectangle {
+	object {
+		x=15
+		y=485
+		width=230
+		height=30
+	}
+	"basic attribute" {
+		clr=64
+	}
+}
+text {
+	object {
+		x=35
+		y=490
+		width=190
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Accelerator"
+}
+text {
+	object {
+		x=86
+		y=521
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Spill Data"
+}
+text {
+	object {
+		x=86
+		y=551
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Acnet"
+}
+rectangle {
+	object {
+		x=10
+		y=805
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=4
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=715
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=3
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=745
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=4
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=775
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=3
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=700
+		width=240
+		height=135
+	}
+	"basic attribute" {
+		clr=64
+		fill="outline"
+	}
+}
+rectangle {
+	object {
+		x=15
+		y=685
+		width=230
+		height=30
+	}
+	"basic attribute" {
+		clr=64
+	}
+}
+text {
+	object {
+		x=35
+		y=690
+		width=190
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Tools"
+}
+text {
+	object {
+		x=86
+		y=721
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Alarm Handler"
+}
+text {
+	object {
+		x=86
+		y=750
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="StripTool"
+}
+text {
+	object {
+		x=86
+		y=781
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Screenshots"
+}
+text {
+	object {
+		x=86
+		y=813
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Page Experts"
+}
+"shell command" {
+	object {
+		x=50
+		y=720
+		width=20
+		height=20
+	}
+	command[0] {
+		label="Launch Alarm Handler"
+		name="alh"
+		args="/data2/e1039/daq/slowcontrols/epics/epics_alh/spinQuest.alhConfig &"
+	}
+	clr=0
+	bclr=63
+}
+"shell command" {
+	object {
+		x=50
+		y=750
+		width=20
+		height=20
+	}
+	command[0] {
+		label="Launch Alarm Handler"
+		name="alh"
+		args="/data2/e1039/daq/slowcontrols/epics/epics_alh/spinQuest.alhConfig &"
+	}
+	clr=0
+	bclr=63
+}
+"shell command" {
+	object {
+		x=50
+		y=779
+		width=20
+		height=20
+	}
+	command[0] {
+		label="Launch Alarm Handler"
+		name="alh"
+		args="/data2/e1039/daq/slowcontrols/epics/epics_alh/spinQuest.alhConfig &"
+	}
+	clr=0
+	bclr=63
+}
+"shell command" {
+	object {
+		x=50
+		y=809
+		width=20
+		height=20
+	}
+	command[0] {
+		label="Launch Alarm Handler"
+		name="alh"
+		args="/data2/e1039/daq/slowcontrols/epics/epics_alh/spinQuest.alhConfig &"
+	}
+	clr=0
+	bclr=63
+}
+"related display" {
+	object {
+		x=50
+		y=620
+		width=20
+		height=20
+	}
+	display[0] {
+		label="SpillData Screen"
+		name="medm_SpillData.adl"
+	}
+	clr=0
+	bclr=63
+}
+"related display" {
+	object {
+		x=50
+		y=650
+		width=20
+		height=20
+	}
+	display[0] {
+		label="Acnet Screen"
+		name="daq.adl"
+	}
+	clr=0
+	bclr=63
+}
+rectangle {
+	object {
+		x=10
+		y=645
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=4
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=615
+		width=240
+		height=30
+	}
+	"basic attribute" {
+		clr=3
+	}
+}
+rectangle {
+	object {
+		x=10
+		y=600
+		width=240
+		height=75
+	}
+	"basic attribute" {
+		clr=64
+		fill="outline"
+	}
+}
+rectangle {
+	object {
+		x=15
+		y=585
+		width=230
+		height=30
+	}
+	"basic attribute" {
+		clr=64
+	}
+}
+text {
+	object {
+		x=35
+		y=590
+		width=190
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Status"
+}
+text {
+	object {
+		x=86
+		y=621
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Processes"
+}
+text {
+	object {
+		x=86
+		y=651
+		width=120
+		height=19
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="System Logs"
+}
+rectangle {
+	object {
+		x=0
+		y=0
+		width=260
+		height=85
+	}
+	"basic attribute" {
+		clr=64
+	}
+}
+composite {
+	object {
+		x=55
+		y=18
+		width=150
+		height=49
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=55
+				y=18
+				width=150
+				height=22
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="E1039 SLOW CONTROLS"
+			align="horiz. centered"
+		}
+		text {
+			object {
+				x=90
+				y=45
+				width=80
+				height=22
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="MAIN MENU"
+			align="horiz. centered"
+		}
+	}
+}
+"shell command" {
+	object {
+		x=50
+		y=130
+		width=20
+		height=20
+	}
+	command[0] {
+		label="Launch Spectrometer Screen 1"
+		name="./start_screen1_command.sh"
+	}
+	clr=0
+	bclr=63
+}
+"shell command" {
+	object {
+		x=50
+		y=160
+		width=20
+		height=20
+	}
+	command[0] {
+		label="Launch Spectrometer Screen 2"
+		name="./start_screen2_command.sh"
+	}
+	clr=0
+	bclr=63
+}

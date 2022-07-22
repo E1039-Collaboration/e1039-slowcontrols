@@ -1,14 +1,14 @@
 
 file {
-	name="/data2/e1039/daq/slowcontrols/epics/epics_medm/medm_HodoHv.adl"
+	name="/home/borei/work/prog/e1039/fnal/epics/epics_medm/medm_HodoHv.adl"
 	version=030111
 }
 display {
 	object {
-		x=20
-		y=93
+		x=310
+		y=338
 		width=1400
-		height=330
+		height=300
 	}
 	clr=14
 	bclr=9
@@ -89,18 +89,22 @@ display {
 }
 rectangle {
 	object {
-		x=73
-		y=184
+		x=134
+		y=199
 		width=10
 		height=20
 	}
 	"basic attribute" {
 		clr=21
 	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_LUMI"
+	}
 }
 rectangle {
 	object {
-		x=197
+		x=234
 		y=164
 		width=20
 		height=35
@@ -108,10 +112,14 @@ rectangle {
 	"basic attribute" {
 		clr=21
 	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H1YL"
+	}
 }
 rectangle {
 	object {
-		x=222
+		x=259
 		y=164
 		width=20
 		height=35
@@ -119,10 +127,14 @@ rectangle {
 	"basic attribute" {
 		clr=21
 	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H1YR"
+	}
 }
 rectangle {
 	object {
-		x=260
+		x=297
 		y=161
 		width=40
 		height=18
@@ -130,10 +142,14 @@ rectangle {
 	"basic attribute" {
 		clr=21
 	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H1XT"
+	}
 }
 rectangle {
 	object {
-		x=260
+		x=297
 		y=184
 		width=40
 		height=18
@@ -141,10 +157,14 @@ rectangle {
 	"basic attribute" {
 		clr=21
 	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H1XB"
+	}
 }
 rectangle {
 	object {
-		x=483
+		x=520
 		y=151
 		width=26
 		height=60
@@ -152,10 +172,14 @@ rectangle {
 	"basic attribute" {
 		clr=21
 	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H2YR"
+	}
 }
 rectangle {
 	object {
-		x=452
+		x=489
 		y=151
 		width=26
 		height=60
@@ -163,10 +187,14 @@ rectangle {
 	"basic attribute" {
 		clr=21
 	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H2YL"
+	}
 }
 rectangle {
 	object {
-		x=530
+		x=567
 		y=141
 		width=51
 		height=38
@@ -174,10 +202,14 @@ rectangle {
 	"basic attribute" {
 		clr=21
 	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H2XT"
+	}
 }
 rectangle {
 	object {
-		x=530
+		x=567
 		y=184
 		width=51
 		height=38
@@ -185,76 +217,14 @@ rectangle {
 	"basic attribute" {
 		clr=21
 	}
-}
-rectangle {
-	object {
-		x=965
-		y=135
-		width=38
-		height=92
-	}
-	"basic attribute" {
-		clr=21
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H2XB"
 	}
 }
 rectangle {
 	object {
-		x=1008
-		y=135
-		width=38
-		height=92
-	}
-	"basic attribute" {
-		clr=21
-	}
-}
-rectangle {
-	object {
-		x=1081
-		y=135
-		width=38
-		height=92
-	}
-	"basic attribute" {
-		clr=21
-	}
-}
-rectangle {
-	object {
-		x=1124
-		y=135
-		width=38
-		height=92
-	}
-	"basic attribute" {
-		clr=21
-	}
-}
-rectangle {
-	object {
-		x=1197
-		y=133
-		width=76
-		height=46
-	}
-	"basic attribute" {
-		clr=21
-	}
-}
-rectangle {
-	object {
-		x=1197
-		y=184
-		width=76
-		height=46
-	}
-	"basic attribute" {
-		clr=21
-	}
-}
-rectangle {
-	object {
-		x=732
+		x=788
 		y=137
 		width=56
 		height=42
@@ -262,10 +232,14 @@ rectangle {
 	"basic attribute" {
 		clr=21
 	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H3XT"
+	}
 }
 rectangle {
 	object {
-		x=732
+		x=788
 		y=184
 		width=56
 		height=42
@@ -273,49 +247,53 @@ rectangle {
 	"basic attribute" {
 		clr=21
 	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H3XB"
+	}
 }
 rectangle {
 	object {
-		x=173
+		x=210
 		y=106
 		width=150
 		height=150
 	}
 	"basic attribute" {
-		clr=52
+		clr=51
 		fill="outline"
 	}
 }
 rectangle {
 	object {
-		x=441
+		x=478
 		y=106
 		width=150
 		height=150
 	}
 	"basic attribute" {
-		clr=52
+		clr=51
 		fill="outline"
 	}
 }
 rectangle {
 	object {
-		x=704
+		x=741
 		y=106
-		width=600
+		width=531
 		height=150
 	}
 	"basic attribute" {
-		clr=52
+		clr=51
 		fill="outline"
 	}
 }
 "related display" {
 	object {
-		x=187
-		y=97
-		width=30
-		height=20
+		x=219
+		y=94
+		width=35
+		height=25
 	}
 	display[0] {
 		label="1YL Screen"
@@ -323,15 +301,15 @@ rectangle {
 		args="side=L"
 	}
 	clr=14
-	bclr=52
+	bclr=51
 	label="-1YL"
 }
 "related display" {
 	object {
-		x=265
-		y=97
-		width=30
-		height=20
+		x=300
+		y=94
+		width=35
+		height=25
 	}
 	display[0] {
 		label="1XL Screen"
@@ -339,15 +317,15 @@ rectangle {
 		args="side=T"
 	}
 	clr=14
-	bclr=52
+	bclr=51
 	label="-1XT"
 }
 "related display" {
 	object {
-		x=222
-		y=247
-		width=30
-		height=20
+		x=259
+		y=244
+		width=35
+		height=25
 	}
 	display[0] {
 		label="1YL Screen"
@@ -355,15 +333,15 @@ rectangle {
 		args="side=R"
 	}
 	clr=14
-	bclr=52
+	bclr=51
 	label="-1YR"
 }
 "related display" {
 	object {
-		x=265
-		y=247
-		width=30
-		height=20
+		x=300
+		y=244
+		width=35
+		height=25
 	}
 	display[0] {
 		label="1XL Screen"
@@ -371,15 +349,15 @@ rectangle {
 		args="side=B"
 	}
 	clr=14
-	bclr=52
+	bclr=51
 	label="-1XB"
 }
 "related display" {
 	object {
-		x=448
-		y=97
-		width=30
-		height=20
+		x=480
+		y=94
+		width=35
+		height=25
 	}
 	display[0] {
 		label="2YL Screen"
@@ -387,15 +365,15 @@ rectangle {
 		args="side=L"
 	}
 	clr=14
-	bclr=52
+	bclr=51
 	label="-2YL"
 }
 "related display" {
 	object {
-		x=540
-		y=97
-		width=30
-		height=20
+		x=575
+		y=94
+		width=35
+		height=25
 	}
 	display[0] {
 		label="2XL Screen"
@@ -403,15 +381,15 @@ rectangle {
 		args="side=T"
 	}
 	clr=14
-	bclr=52
+	bclr=51
 	label="-2XT"
 }
 "related display" {
 	object {
-		x=483
-		y=247
-		width=30
-		height=20
+		x=520
+		y=244
+		width=35
+		height=25
 	}
 	display[0] {
 		label="2YL Screen"
@@ -419,15 +397,15 @@ rectangle {
 		args="side=R"
 	}
 	clr=14
-	bclr=52
+	bclr=51
 	label="-2YR"
 }
 "related display" {
 	object {
-		x=540
-		y=247
-		width=30
-		height=20
+		x=575
+		y=244
+		width=35
+		height=25
 	}
 	display[0] {
 		label="2XL Screen"
@@ -435,15 +413,15 @@ rectangle {
 		args="side=B"
 	}
 	clr=14
-	bclr=52
+	bclr=51
 	label="-2XB"
 }
 "related display" {
 	object {
-		x=745
-		y=97
-		width=30
-		height=20
+		x=799
+		y=94
+		width=35
+		height=25
 	}
 	display[0] {
 		label="3XT Screen"
@@ -451,15 +429,15 @@ rectangle {
 		args="side=T"
 	}
 	clr=14
-	bclr=52
+	bclr=51
 	label="-3XT"
 }
 "related display" {
 	object {
-		x=745
-		y=247
-		width=30
-		height=20
+		x=799
+		y=244
+		width=35
+		height=25
 	}
 	display[0] {
 		label="3XB Screen"
@@ -467,609 +445,316 @@ rectangle {
 		args="side=B"
 	}
 	clr=14
-	bclr=52
+	bclr=51
 	label="-3XB"
 }
 "related display" {
 	object {
-		x=953
-		y=86
+		x=929
+		y=94
 		width=50
-		height=20
+		height=25
 	}
 	display[0] {
-		label="4Y1L-l Screen"
+		label="4Y1L-l"
 		name="medm_HodoHv_4Y.adl"
 		args="pl=1, side=L, pmt=l"
 	}
-	clr=14
-	bclr=52
-	label="-4Y1L-l"
-}
-"related display" {
-	object {
-		x=953
-		y=108
-		width=50
-		height=20
-	}
-	display[0] {
-		label="4Y1L-r Screen"
+	display[1] {
+		label="4Y1L-r"
 		name="medm_HodoHv_4Y.adl"
 		args="pl=1, side=L, pmt=r"
 	}
 	clr=14
-	bclr=52
-	label="-4Y1L-r"
+	bclr=51
+	label="-4Y1L"
 }
 "related display" {
 	object {
-		x=1210
-		y=86
-		width=50
-		height=20
+		x=1165
+		y=94
+		width=45
+		height=25
 	}
 	display[0] {
-		label="4XT-u Screen"
+		label="4XT-u"
 		name="medm_HodoHv_4X.adl"
 		args="side=T, pmt=u"
 	}
-	clr=14
-	bclr=52
-	label="-4XT-u"
-}
-"related display" {
-	object {
-		x=1210
-		y=108
-		width=50
-		height=20
-	}
-	display[0] {
-		label="4XT-d Screen"
+	display[1] {
+		label="4XT-d"
 		name="medm_HodoHv_4X.adl"
 		args="side=T, pmt=d"
 	}
 	clr=14
-	bclr=52
-	label="-4XT-d"
+	bclr=51
+	label="-4XT"
 }
-composite {
+"related display" {
 	object {
-		x=1008
-		y=236
+		x=984
+		y=244
 		width=50
-		height=42
+		height=25
 	}
-	"composite name"=""
-	children {
-		"related display" {
-			object {
-				x=1008
-				y=236
-				width=50
-				height=20
-			}
-			display[0] {
-				label="4Y1R-l Screen"
-				name="medm_HodoHv_4Y.adl"
-				args="pl=1, side=R, pmt=l"
-			}
-			clr=14
-			bclr=52
-			label="-4Y1R-l"
-		}
-		"related display" {
-			object {
-				x=1008
-				y=258
-				width=50
-				height=20
-			}
-			display[0] {
-				label="4Y1R-r Screen"
-				name="medm_HodoHv_4Y.adl"
-				args="pl=1, side=R, pmt=r"
-			}
-			clr=14
-			bclr=52
-			label="-4Y1R-r"
-		}
+	display[0] {
+		label="4Y1R-l"
+		name="medm_HodoHv_4Y.adl"
+		args="pl=1, side=R, pmt=l"
 	}
+	display[1] {
+		label="4Y1R-r"
+		name="medm_HodoHv_4Y.adl"
+		args="pl=1, side=R, pmt=r"
+	}
+	clr=14
+	bclr=51
+	label="-4Y1R"
 }
-composite {
+"related display" {
 	object {
-		x=1210
-		y=236
-		width=50
-		height=42
+		x=1165
+		y=244
+		width=45
+		height=25
 	}
-	"composite name"=""
-	children {
-		"related display" {
-			object {
-				x=1210
-				y=236
-				width=50
-				height=20
-			}
-			display[0] {
-				label="4XB-u Screen"
-				name="medm_HodoHv_4X.adl"
-				args="side=B, pmt=u"
-			}
-			clr=14
-			bclr=52
-			label="-4XB-u"
-		}
-		"related display" {
-			object {
-				x=1210
-				y=258
-				width=50
-				height=20
-			}
-			display[0] {
-				label="4XB-d Screen"
-				name="medm_HodoHv_4X.adl"
-				args="side=B, pmt=d"
-			}
-			clr=14
-			bclr=52
-			label="-4XB-d"
-		}
+	display[0] {
+		label="4XB-u"
+		name="medm_HodoHv_4X.adl"
+		args="side=B, pmt=u"
 	}
+	display[1] {
+		label="4XB-d"
+		name="medm_HodoHv_4X.adl"
+		args="side=B, pmt=d"
+	}
+	clr=14
+	bclr=51
+	label="-4XB"
 }
 rectangle {
 	object {
-		x=73
-		y=184
+		x=134
+		y=199
 		width=10
 		height=20
 	}
 	"basic attribute" {
-		clr=25
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_LUMI.SEVR"
 	}
 }
 rectangle {
 	object {
-		x=197
+		x=234
 		y=164
 		width=20
 		height=35
 	}
 	"basic attribute" {
-		clr=25
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H1YL.SEVR"
 	}
 }
 rectangle {
 	object {
-		x=222
+		x=259
 		y=164
 		width=20
 		height=35
 	}
 	"basic attribute" {
-		clr=25
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H1YR.SEVR"
 	}
 }
 rectangle {
 	object {
-		x=260
+		x=297
 		y=161
 		width=40
 		height=18
 	}
 	"basic attribute" {
-		clr=25
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H1XT.SEVR"
 	}
 }
 rectangle {
 	object {
-		x=260
+		x=297
 		y=184
 		width=40
 		height=18
 	}
 	"basic attribute" {
-		clr=25
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H1XB.SEVR"
 	}
 }
 rectangle {
 	object {
-		x=483
+		x=520
 		y=151
 		width=26
 		height=60
 	}
 	"basic attribute" {
-		clr=25
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H2YR.SEVR"
 	}
 }
 rectangle {
 	object {
-		x=452
+		x=489
 		y=151
 		width=26
 		height=60
 	}
 	"basic attribute" {
-		clr=25
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H2YL.SEVR"
 	}
 }
 rectangle {
 	object {
-		x=530
+		x=567
 		y=141
 		width=51
 		height=38
 	}
 	"basic attribute" {
-		clr=25
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H2XT.SEVR"
 	}
 }
 rectangle {
 	object {
-		x=530
+		x=567
 		y=184
 		width=51
 		height=38
 	}
 	"basic attribute" {
-		clr=25
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H2XB.SEVR"
 	}
 }
 rectangle {
 	object {
-		x=965
-		y=135
-		width=38
-		height=92
-	}
-	"basic attribute" {
-		clr=25
-	}
-}
-rectangle {
-	object {
-		x=1008
-		y=135
-		width=38
-		height=92
-	}
-	"basic attribute" {
-		clr=25
-	}
-}
-rectangle {
-	object {
-		x=1081
-		y=135
-		width=38
-		height=92
-	}
-	"basic attribute" {
-		clr=25
-	}
-}
-rectangle {
-	object {
-		x=1124
-		y=135
-		width=38
-		height=92
-	}
-	"basic attribute" {
-		clr=25
-	}
-}
-rectangle {
-	object {
-		x=1197
-		y=133
-		width=76
-		height=46
-	}
-	"basic attribute" {
-		clr=25
-	}
-}
-rectangle {
-	object {
-		x=1197
-		y=184
-		width=76
-		height=46
-	}
-	"basic attribute" {
-		clr=25
-	}
-}
-rectangle {
-	object {
-		x=732
+		x=788
 		y=137
 		width=56
 		height=42
 	}
 	"basic attribute" {
-		clr=25
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H3XT.SEVR"
 	}
 }
 rectangle {
 	object {
-		x=732
+		x=788
 		y=184
 		width=56
 		height=42
 	}
 	"basic attribute" {
-		clr=25
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H3XB.SEVR"
 	}
 }
 composite {
 	object {
-		x=704
+		x=741
 		y=50
-		width=135
-		height=33
+		width=30
+		height=31
 	}
 	"composite name"=""
 	children {
-		composite {
+		text {
 			object {
-				x=704
+				x=741
 				y=50
 				width=30
-				height=31
+				height=15
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="COM"
+		}
+		composite {
+			object {
+				x=741
+				y=66
+				width=15
+				height=15
 			}
 			"composite name"=""
 			children {
-				text {
+				oval {
 					object {
-						x=704
-						y=50
-						width=30
-						height=15
-					}
-					"basic attribute" {
-						clr=0
-					}
-					textix="COM"
-				}
-				composite {
-					object {
-						x=704
+						x=741
 						y=66
 						width=15
 						height=15
 					}
-					"composite name"=""
-					children {
-						oval {
-							object {
-								x=704
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=21
-							}
-							"dynamic attribute" {
-								vis="if zero"
-								chan="LC_H3_CM"
-							}
-						}
-						oval {
-							object {
-								x=704
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=15
-							}
-							"dynamic attribute" {
-								vis="if not zero"
-								chan="LC_H3_CM"
-							}
-						}
-					}
-				}
-			}
-		}
-		composite {
-			object {
-				x=739
-				y=50
-				width=30
-				height=31
-			}
-			"composite name"=""
-			children {
-				text {
-					object {
-						x=739
-						y=50
-						width=30
-						height=15
-					}
 					"basic attribute" {
-						clr=0
+						clr=21
 					}
-					textix="ENB"
+					"dynamic attribute" {
+						vis="if zero"
+						chan="LC_H3_CM"
+					}
 				}
-				composite {
+				oval {
 					object {
-						x=739
+						x=741
 						y=66
 						width=15
 						height=15
 					}
-					"composite name"=""
-					children {
-						oval {
-							object {
-								x=739
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=21
-							}
-							"dynamic attribute" {
-								vis="if zero"
-								chan="LC_H3_EN"
-							}
-						}
-						oval {
-							object {
-								x=739
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=15
-							}
-							"dynamic attribute" {
-								vis="if not zero"
-								chan="LC_H3_EN"
-							}
-						}
-					}
-				}
-			}
-		}
-		composite {
-			object {
-				x=774
-				y=50
-				width=30
-				height=31
-			}
-			"composite name"=""
-			children {
-				text {
-					object {
-						x=774
-						y=50
-						width=30
-						height=15
-					}
 					"basic attribute" {
-						clr=0
+						clr=15
 					}
-					textix="ERR"
-				}
-				composite {
-					object {
-						x=774
-						y=66
-						width=15
-						height=15
-					}
-					"composite name"=""
-					children {
-						oval {
-							object {
-								x=774
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=21
-							}
-							"dynamic attribute" {
-								vis="if not zero"
-								chan="LC_H3_CE"
-							}
-						}
-						oval {
-							object {
-								x=774
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=15
-							}
-							"dynamic attribute" {
-								vis="if zero"
-								chan="LC_H3_CE"
-							}
-						}
-					}
-				}
-			}
-		}
-		composite {
-			object {
-				x=809
-				y=50
-				width=30
-				height=33
-			}
-			"composite name"=""
-			children {
-				text {
-					object {
-						x=809
-						y=50
-						width=30
-						height=15
-					}
-					"basic attribute" {
-						clr=0
-					}
-					textix="HV"
-				}
-				composite {
-					object {
-						x=809
-						y=63
-						width=30
-						height=20
-					}
-					"composite name"=""
-					children {
-						text {
-							object {
-								x=809
-								y=63
-								width=30
-								height=20
-							}
-							"basic attribute" {
-								clr=21
-							}
-							"dynamic attribute" {
-								vis="if zero"
-								chan="LC_H3_HV"
-							}
-							textix="OFF"
-						}
-						text {
-							object {
-								x=809
-								y=63
-								width=30
-								height=20
-							}
-							"basic attribute" {
-								clr=15
-							}
-							"dynamic attribute" {
-								vis="if not zero"
-								chan="LC_H3_HV"
-							}
-							textix="ON"
-						}
+					"dynamic attribute" {
+						vis="if not zero"
+						chan="LC_H3_CM"
 					}
 				}
 			}
@@ -1078,267 +763,62 @@ composite {
 }
 composite {
 	object {
-		x=441
+		x=776
 		y=50
-		width=135
-		height=33
+		width=30
+		height=31
 	}
 	"composite name"=""
 	children {
-		composite {
+		text {
 			object {
-				x=476
+				x=776
 				y=50
 				width=30
-				height=31
+				height=15
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="ENB"
+		}
+		composite {
+			object {
+				x=776
+				y=66
+				width=15
+				height=15
 			}
 			"composite name"=""
 			children {
-				text {
+				oval {
 					object {
-						x=476
-						y=50
-						width=30
-						height=15
-					}
-					"basic attribute" {
-						clr=0
-					}
-					textix="ENB"
-				}
-				composite {
-					object {
-						x=476
+						x=776
 						y=66
 						width=15
 						height=15
 					}
-					"composite name"=""
-					children {
-						oval {
-							object {
-								x=476
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=21
-							}
-							"dynamic attribute" {
-								vis="if zero"
-								chan="LC_H2_EN"
-							}
-						}
-						oval {
-							object {
-								x=476
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=15
-							}
-							"dynamic attribute" {
-								vis="if not zero"
-								chan="LC_H2_EN"
-							}
-						}
-					}
-				}
-			}
-		}
-		composite {
-			object {
-				x=546
-				y=50
-				width=30
-				height=33
-			}
-			"composite name"=""
-			children {
-				text {
-					object {
-						x=546
-						y=50
-						width=30
-						height=15
-					}
 					"basic attribute" {
-						clr=0
+						clr=21
 					}
-					textix="HV"
-				}
-				composite {
-					object {
-						x=546
-						y=63
-						width=30
-						height=20
-					}
-					"composite name"=""
-					children {
-						text {
-							object {
-								x=546
-								y=63
-								width=30
-								height=20
-							}
-							"basic attribute" {
-								clr=21
-							}
-							"dynamic attribute" {
-								vis="if zero"
-								chan="LC_H2_HV"
-							}
-							textix="OFF"
-						}
-						text {
-							object {
-								x=546
-								y=63
-								width=30
-								height=20
-							}
-							"basic attribute" {
-								clr=15
-							}
-							"dynamic attribute" {
-								vis="if not zero"
-								chan="LC_H2_HV"
-							}
-							textix="ON"
-						}
+					"dynamic attribute" {
+						vis="if zero"
+						chan="LC_H3_EN"
 					}
 				}
-			}
-		}
-		composite {
-			object {
-				x=511
-				y=50
-				width=30
-				height=31
-			}
-			"composite name"=""
-			children {
-				composite {
+				oval {
 					object {
-						x=511
+						x=776
 						y=66
 						width=15
 						height=15
 					}
-					"composite name"=""
-					children {
-						oval {
-							object {
-								x=511
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=21
-							}
-							"dynamic attribute" {
-								vis="if not zero"
-								chan="LC_H2_CE"
-							}
-						}
-						oval {
-							object {
-								x=511
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=15
-							}
-							"dynamic attribute" {
-								vis="if zero"
-								chan="LC_H2_CE"
-							}
-						}
-					}
-				}
-				text {
-					object {
-						x=511
-						y=50
-						width=30
-						height=15
-					}
 					"basic attribute" {
-						clr=0
+						clr=15
 					}
-					textix="ERR"
-				}
-			}
-		}
-		composite {
-			object {
-				x=441
-				y=50
-				width=30
-				height=31
-			}
-			"composite name"=""
-			children {
-				text {
-					object {
-						x=441
-						y=50
-						width=30
-						height=15
-					}
-					"basic attribute" {
-						clr=0
-					}
-					textix="COM"
-				}
-				composite {
-					object {
-						x=441
-						y=66
-						width=15
-						height=15
-					}
-					"composite name"=""
-					children {
-						oval {
-							object {
-								x=441
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=21
-							}
-							"dynamic attribute" {
-								vis="if zero"
-								chan="LC_H2_CM"
-							}
-						}
-						oval {
-							object {
-								x=441
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=15
-							}
-							"dynamic attribute" {
-								vis="if not zero"
-								chan="LC_H2_CM"
-							}
-						}
+					"dynamic attribute" {
+						vis="if not zero"
+						chan="LC_H3_EN"
 					}
 				}
 			}
@@ -1347,272 +827,476 @@ composite {
 }
 composite {
 	object {
-		x=173
+		x=811
 		y=50
-		width=135
-		height=33
+		width=30
+		height=31
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=811
+				y=50
+				width=30
+				height=15
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="ERR"
+		}
+		composite {
+			object {
+				x=811
+				y=66
+				width=15
+				height=15
+			}
+			"composite name"=""
+			children {
+				oval {
+					object {
+						x=811
+						y=66
+						width=15
+						height=15
+					}
+					"basic attribute" {
+						clr=21
+					}
+					"dynamic attribute" {
+						vis="if not zero"
+						chan="LC_H3_CE"
+					}
+				}
+				oval {
+					object {
+						x=811
+						y=66
+						width=15
+						height=15
+					}
+					"basic attribute" {
+						clr=15
+					}
+					"dynamic attribute" {
+						vis="if zero"
+						chan="LC_H3_CE"
+					}
+				}
+			}
+		}
+	}
+}
+text {
+	object {
+		x=846
+		y=50
+		width=30
+		height=15
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="HV"
+}
+composite {
+	object {
+		x=513
+		y=50
+		width=30
+		height=31
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=513
+				y=50
+				width=30
+				height=15
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="ENB"
+		}
+		composite {
+			object {
+				x=513
+				y=66
+				width=15
+				height=15
+			}
+			"composite name"=""
+			children {
+				oval {
+					object {
+						x=513
+						y=66
+						width=15
+						height=15
+					}
+					"basic attribute" {
+						clr=21
+					}
+					"dynamic attribute" {
+						vis="if zero"
+						chan="LC_H2_EN"
+					}
+				}
+				oval {
+					object {
+						x=513
+						y=66
+						width=15
+						height=15
+					}
+					"basic attribute" {
+						clr=15
+					}
+					"dynamic attribute" {
+						vis="if not zero"
+						chan="LC_H2_EN"
+					}
+				}
+			}
+		}
+	}
+}
+text {
+	object {
+		x=583
+		y=50
+		width=30
+		height=15
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="HV"
+}
+composite {
+	object {
+		x=548
+		y=50
+		width=30
+		height=31
 	}
 	"composite name"=""
 	children {
 		composite {
 			object {
-				x=173
-				y=50
-				width=30
-				height=31
+				x=548
+				y=66
+				width=15
+				height=15
 			}
 			"composite name"=""
 			children {
-				text {
+				oval {
 					object {
-						x=173
-						y=50
-						width=30
-						height=15
-					}
-					"basic attribute" {
-						clr=0
-					}
-					textix="COM"
-				}
-				composite {
-					object {
-						x=173
+						x=548
 						y=66
 						width=15
 						height=15
 					}
-					"composite name"=""
-					children {
-						oval {
-							object {
-								x=173
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=21
-							}
-							"dynamic attribute" {
-								vis="if zero"
-								chan="LC_H1_CM"
-							}
-						}
-						oval {
-							object {
-								x=173
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=15
-							}
-							"dynamic attribute" {
-								vis="if not zero"
-								chan="LC_H1_CM"
-							}
-						}
-					}
-				}
-			}
-		}
-		composite {
-			object {
-				x=208
-				y=50
-				width=30
-				height=31
-			}
-			"composite name"=""
-			children {
-				text {
-					object {
-						x=208
-						y=50
-						width=30
-						height=15
-					}
 					"basic attribute" {
-						clr=0
+						clr=21
 					}
-					textix="ENB"
+					"dynamic attribute" {
+						vis="if not zero"
+						chan="LC_H2_CE"
+					}
 				}
-				composite {
+				oval {
 					object {
-						x=208
+						x=548
 						y=66
 						width=15
 						height=15
 					}
-					"composite name"=""
-					children {
-						oval {
-							object {
-								x=208
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=21
-							}
-							"dynamic attribute" {
-								vis="if zero"
-								chan="LC_H1_EN"
-							}
-						}
-						oval {
-							object {
-								x=208
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=15
-							}
-							"dynamic attribute" {
-								vis="if not zero"
-								chan="LC_H1_EN"
-							}
-						}
+					"basic attribute" {
+						clr=15
+					}
+					"dynamic attribute" {
+						vis="if zero"
+						chan="LC_H2_CE"
 					}
 				}
 			}
 		}
-		composite {
+		text {
 			object {
-				x=243
+				x=548
 				y=50
 				width=30
-				height=31
+				height=15
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="ERR"
+		}
+	}
+}
+composite {
+	object {
+		x=478
+		y=50
+		width=30
+		height=31
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=478
+				y=50
+				width=30
+				height=15
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="COM"
+		}
+		composite {
+			object {
+				x=478
+				y=66
+				width=15
+				height=15
 			}
 			"composite name"=""
 			children {
-				text {
+				oval {
 					object {
-						x=243
-						y=50
-						width=30
-						height=15
-					}
-					"basic attribute" {
-						clr=0
-					}
-					textix="ERR"
-				}
-				composite {
-					object {
-						x=243
+						x=478
 						y=66
 						width=15
 						height=15
 					}
-					"composite name"=""
-					children {
-						oval {
-							object {
-								x=243
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=21
-							}
-							"dynamic attribute" {
-								vis="if not zero"
-								chan="LC_H1_CE"
-							}
-						}
-						oval {
-							object {
-								x=243
-								y=66
-								width=15
-								height=15
-							}
-							"basic attribute" {
-								clr=15
-							}
-							"dynamic attribute" {
-								vis="if zero"
-								chan="LC_H1_CE"
-							}
-						}
+					"basic attribute" {
+						clr=21
+					}
+					"dynamic attribute" {
+						vis="if zero"
+						chan="LC_H2_CM"
 					}
 				}
-			}
-		}
-		composite {
-			object {
-				x=278
-				y=50
-				width=30
-				height=33
-			}
-			"composite name"=""
-			children {
-				text {
+				oval {
 					object {
-						x=278
-						y=50
-						width=30
+						x=478
+						y=66
+						width=15
 						height=15
 					}
 					"basic attribute" {
-						clr=0
+						clr=15
 					}
-					textix="HV"
-				}
-				composite {
-					object {
-						x=278
-						y=63
-						width=30
-						height=20
-					}
-					"composite name"=""
-					children {
-						text {
-							object {
-								x=278
-								y=63
-								width=30
-								height=20
-							}
-							"basic attribute" {
-								clr=21
-							}
-							"dynamic attribute" {
-								vis="if zero"
-								chan="LC_H1_HV"
-							}
-							textix="OFF"
-						}
-						text {
-							object {
-								x=278
-								y=63
-								width=30
-								height=20
-							}
-							"basic attribute" {
-								clr=15
-							}
-							"dynamic attribute" {
-								vis="if not zero"
-								chan="LC_H1_HV"
-							}
-							textix="ON"
-						}
+					"dynamic attribute" {
+						vis="if not zero"
+						chan="LC_H2_CM"
 					}
 				}
 			}
 		}
 	}
+}
+composite {
+	object {
+		x=210
+		y=50
+		width=30
+		height=31
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=210
+				y=50
+				width=30
+				height=15
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="COM"
+		}
+		composite {
+			object {
+				x=210
+				y=66
+				width=15
+				height=15
+			}
+			"composite name"=""
+			children {
+				oval {
+					object {
+						x=210
+						y=66
+						width=15
+						height=15
+					}
+					"basic attribute" {
+						clr=21
+					}
+					"dynamic attribute" {
+						vis="if zero"
+						chan="LC_H1_CM"
+					}
+				}
+				oval {
+					object {
+						x=210
+						y=66
+						width=15
+						height=15
+					}
+					"basic attribute" {
+						clr=15
+					}
+					"dynamic attribute" {
+						vis="if not zero"
+						chan="LC_H1_CM"
+					}
+				}
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=245
+		y=50
+		width=30
+		height=31
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=245
+				y=50
+				width=30
+				height=15
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="ENB"
+		}
+		composite {
+			object {
+				x=245
+				y=66
+				width=15
+				height=15
+			}
+			"composite name"=""
+			children {
+				oval {
+					object {
+						x=245
+						y=66
+						width=15
+						height=15
+					}
+					"basic attribute" {
+						clr=21
+					}
+					"dynamic attribute" {
+						vis="if zero"
+						chan="LC_H1_EN"
+					}
+				}
+				oval {
+					object {
+						x=245
+						y=66
+						width=15
+						height=15
+					}
+					"basic attribute" {
+						clr=15
+					}
+					"dynamic attribute" {
+						vis="if not zero"
+						chan="LC_H1_EN"
+					}
+				}
+			}
+		}
+	}
+}
+text {
+	object {
+		x=280
+		y=50
+		width=30
+		height=15
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="ERR"
+}
+composite {
+	object {
+		x=280
+		y=66
+		width=15
+		height=15
+	}
+	"composite name"=""
+	children {
+		oval {
+			object {
+				x=280
+				y=66
+				width=15
+				height=15
+			}
+			"basic attribute" {
+				clr=21
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="LC_H1_CE"
+			}
+		}
+		oval {
+			object {
+				x=280
+				y=66
+				width=15
+				height=15
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="LC_H1_CE"
+			}
+		}
+	}
+}
+text {
+	object {
+		x=315
+		y=50
+		width=30
+		height=15
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="HV"
 }
 text {
 	object {
@@ -1622,153 +1306,700 @@ text {
 		height=25
 	}
 	"basic attribute" {
-		clr=52
+		clr=51
 	}
 	textix="HODOSCOPES HIGH VOLTAGE MONITOR"
 }
 "related display" {
 	object {
-		x=61
-		y=247
-		width=35
-		height=20
+		x=119
+		y=244
+		width=40
+		height=25
 	}
 	display[0] {
 		label="LUMI Screen"
 		name="medm_HodoHv_LUMI.adl"
 	}
 	clr=14
-	bclr=52
+	bclr=51
 	label="-LUMI"
 }
-"shell command" {
-	object {
-		x=1338
-		y=247
-		width=44
-		height=20
-	}
-	clr=14
-	bclr=52
-	label="-ALL"
-}
 "related display" {
 	object {
-		x=173
-		y=276
-		width=135
+		x=1294
+		y=59
+		width=85
 		height=25
 	}
 	display[0] {
-		label="LC1 Expert Screen"
-		name="medm_HodoHv_LC1_Expert.adl"
+		label="Expert Screen"
+		name="medm_HodoHv_Expert.adl"
 	}
 	clr=0
 	bclr=9
-	label="-LeCroy 1 Expert"
+	label="EXPERT"
 }
 "related display" {
 	object {
-		x=441
-		y=276
-		width=135
-		height=25
-	}
-	display[0] {
-		label="LC2 Expert Screen"
-		name="medm_HodoHv_LC2_Expert.adl"
-	}
-	clr=0
-	bclr=9
-	label="-LeCroy 2 Expert"
-}
-"related display" {
-	object {
-		x=704
-		y=276
-		width=135
-		height=25
-	}
-	display[0] {
-		label="LC3 Expert Screen"
-		name="medm_HodoHv_LC3_Expert.adl"
-	}
-	clr=0
-	bclr=9
-	label="-LeCroy 3 Expert"
-}
-"related display" {
-	object {
-		x=1069
-		y=86
+		x=1034
+		y=94
 		width=50
-		height=20
+		height=25
 	}
 	display[0] {
-		label="4Y2L-l Screen"
+		label="4Y2L-l"
 		name="medm_HodoHv_4Y.adl"
 		args="pl=2, side=L, pmt=l"
 	}
-	clr=14
-	bclr=52
-	label="-4Y2L-l"
-}
-"related display" {
-	object {
-		x=1069
-		y=108
-		width=50
-		height=20
-	}
-	display[0] {
-		label="4Y2L-r Screen"
+	display[1] {
+		label="4Y2L-r"
 		name="medm_HodoHv_4Y.adl"
 		args="pl=2, side=L, pmt=r"
 	}
 	clr=14
-	bclr=52
-	label="-4Y2L-r"
+	bclr=51
+	label="-4Y2L"
+}
+"related display" {
+	object {
+		x=1089
+		y=244
+		width=50
+		height=25
+	}
+	display[0] {
+		label="4Y2R-l"
+		name="medm_HodoHv_4Y.adl"
+		args="pl=2, side=R, pmt=l"
+	}
+	display[1] {
+		label="4Y2R-r"
+		name="medm_HodoHv_4Y.adl"
+		args="pl=2, side=R, pmt=r"
+	}
+	clr=14
+	bclr=51
+	label="-4Y2R"
 }
 composite {
 	object {
-		x=1124
-		y=236
-		width=50
-		height=42
+		x=315
+		y=66
+		width=15
+		height=15
 	}
 	"composite name"=""
 	children {
-		"related display" {
+		oval {
 			object {
-				x=1124
-				y=236
-				width=50
-				height=20
+				x=315
+				y=66
+				width=15
+				height=15
 			}
-			display[0] {
-				label="4Y2R-l Screen"
-				name="medm_HodoHv_4Y.adl"
-				args="pl=2, side=R, pmt=l"
+			"basic attribute" {
+				clr=21
 			}
-			clr=14
-			bclr=52
-			label="-4Y2R-l"
+			"dynamic attribute" {
+				vis="if zero"
+				chan="LC_H1_HV"
+			}
 		}
-		"related display" {
+		oval {
 			object {
-				x=1124
-				y=258
-				width=50
-				height=20
+				x=315
+				y=66
+				width=15
+				height=15
 			}
-			display[0] {
-				label="4Y2R-r Screen"
-				name="medm_HodoHv_4Y.adl"
-				args="pl=2, side=R, pmt=r"
+			"basic attribute" {
+				clr=15
 			}
-			clr=14
-			bclr=52
-			label="-4Y2R-r"
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="LC_H1_HV"
+			}
 		}
 	}
+}
+composite {
+	object {
+		x=583
+		y=66
+		width=15
+		height=15
+	}
+	"composite name"=""
+	children {
+		oval {
+			object {
+				x=583
+				y=66
+				width=15
+				height=15
+			}
+			"basic attribute" {
+				clr=21
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="LC_H2_HV"
+			}
+		}
+		oval {
+			object {
+				x=583
+				y=66
+				width=15
+				height=15
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="LC_H2_HV"
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=846
+		y=66
+		width=15
+		height=15
+	}
+	"composite name"=""
+	children {
+		oval {
+			object {
+				x=846
+				y=66
+				width=15
+				height=15
+			}
+			"basic attribute" {
+				clr=21
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="LC_H3_HV"
+			}
+		}
+		oval {
+			object {
+				x=846
+				y=66
+				width=15
+				height=15
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="LC_H3_HV"
+			}
+		}
+	}
+}
+rectangle {
+	object {
+		x=1149
+		y=156
+		width=76
+		height=23
+	}
+	"basic attribute" {
+		clr=21
+	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H4XT-d"
+	}
+}
+rectangle {
+	object {
+		x=1149
+		y=156
+		width=76
+		height=23
+	}
+	"basic attribute" {
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H4XT-d.SEVR"
+	}
+}
+rectangle {
+	object {
+		x=1149
+		y=132
+		width=76
+		height=23
+	}
+	"basic attribute" {
+		clr=21
+	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H4XT-u"
+	}
+}
+rectangle {
+	object {
+		x=1149
+		y=132
+		width=76
+		height=23
+	}
+	"basic attribute" {
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H4XT-u.SEVR"
+	}
+}
+rectangle {
+	object {
+		x=1149
+		y=208
+		width=76
+		height=23
+	}
+	"basic attribute" {
+		clr=21
+	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H4XB-d"
+	}
+}
+rectangle {
+	object {
+		x=1149
+		y=208
+		width=76
+		height=23
+	}
+	"basic attribute" {
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H4XB-d.SEVR"
+	}
+}
+rectangle {
+	object {
+		x=1149
+		y=184
+		width=76
+		height=23
+	}
+	"basic attribute" {
+		clr=21
+	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H4XB-u"
+	}
+}
+rectangle {
+	object {
+		x=1149
+		y=184
+		width=76
+		height=23
+	}
+	"basic attribute" {
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H4XB-u.SEVR"
+	}
+}
+rectangle {
+	object {
+		x=940
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=21
+	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H4Y1L-l"
+	}
+}
+rectangle {
+	object {
+		x=940
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H4Y1L-l.SEVR"
+	}
+}
+rectangle {
+	object {
+		x=960
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=21
+	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H4Y1L-r"
+	}
+}
+rectangle {
+	object {
+		x=960
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H4Y1L-r.SEVR"
+	}
+}
+rectangle {
+	object {
+		x=984
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=21
+	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H4Y1R-l"
+	}
+}
+rectangle {
+	object {
+		x=984
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H4Y1R-l.SEVR"
+	}
+}
+rectangle {
+	object {
+		x=1004
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=21
+	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H4Y1R-r"
+	}
+}
+rectangle {
+	object {
+		x=1004
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H4Y1R-r.SEVR"
+	}
+}
+rectangle {
+	object {
+		x=1045
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=21
+	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H4Y2L-l"
+	}
+}
+rectangle {
+	object {
+		x=1045
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H4Y2L-l.SEVR"
+	}
+}
+rectangle {
+	object {
+		x=1065
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=21
+	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H4Y2L-r"
+	}
+}
+rectangle {
+	object {
+		x=1065
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H4Y2L-r.SEVR"
+	}
+}
+rectangle {
+	object {
+		x=1089
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=21
+	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H4Y2R-l"
+	}
+}
+rectangle {
+	object {
+		x=1089
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H4Y2R-l.SEVR"
+	}
+}
+rectangle {
+	object {
+		x=1109
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=21
+	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_H4Y2R-r"
+	}
+}
+rectangle {
+	object {
+		x=1109
+		y=135
+		width=19
+		height=92
+	}
+	"basic attribute" {
+		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_H4Y2R-r.SEVR"
+	}
+}
+composite {
+	object {
+		x=18
+		y=148
+		width=141
+		height=38
+	}
+	"composite name"=""
+	children {
+		oval {
+			object {
+				x=134
+				y=176
+				width=10
+				height=10
+			}
+			"basic attribute" {
+				clr=0
+			}
+		}
+		text {
+			object {
+				x=119
+				y=148
+				width=40
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Target"
+			align="horiz. centered"
+		}
+		text {
+			object {
+				x=28
+				y=148
+				width=40
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Beam"
+			align="horiz. centered"
+		}
+		composite {
+			object {
+				x=39
+				y=174
+				width=18
+				height=12
+			}
+			"composite name"=""
+			children {
+				polygon {
+					object {
+						x=40
+						y=174
+						width=17
+						height=7
+					}
+					"basic attribute" {
+						clr=0
+					}
+					points {
+						(40,174)
+						(57,181)
+						(46,181)
+						(40,174)
+					}
+				}
+				polygon {
+					object {
+						x=39
+						y=181
+						width=17
+						height=7
+					}
+					"basic attribute" {
+						clr=0
+					}
+					points {
+						(39,188)
+						(56,181)
+						(45,181)
+						(39,188)
+					}
+				}
+			}
+		}
+		polyline {
+			object {
+				x=18
+				y=181
+				width=60
+				height=0
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(18,181)
+				(78,181)
+			}
+		}
+	}
+}
+"related display" {
+	object {
+		x=1309
+		y=256
+		width=60
+		height=25
+	}
+	display[0] {
+		label="Measured   V"
+		name="medm_HodoHv_ALLMV.adl"
+	}
+	clr=14
+	bclr=51
+	label="-ALL MV"
+}
+"related display" {
+	object {
+		x=1309
+		y=226
+		width=60
+		height=25
+	}
+	display[0] {
+		label="Demand   V"
+		name="medm_HodoHv_ALLDV.adl"
+	}
+	clr=14
+	bclr=51
+	label="-ALL DV"
 }

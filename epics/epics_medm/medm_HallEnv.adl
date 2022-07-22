@@ -1,14 +1,14 @@
 
 file {
-	name="/data2/e1039/daq/slowcontrols/epics/epics_medm/medm_HallEnv.adl"
+	name="/home/borei/work/prog/e1039/fnal/epics/epics_medm/medm_HallEnv.adl"
 	version=030111
 }
 display {
 	object {
-		x=265
-		y=488
-		width=330
-		height=220
+		x=1180
+		y=675
+		width=530
+		height=250
 	}
 	clr=14
 	bclr=9
@@ -89,30 +89,13 @@ display {
 }
 rectangle {
 	object {
-		x=79
-		y=61
-		width=20
-		height=20
-	}
-	"basic attribute" {
-		clr=30
-	}
-	"dynamic attribute" {
-		clr="alarm"
-		vis="calc"
-		calc="A=1"
-		chan="check_T.SEVR"
-	}
-}
-rectangle {
-	object {
-		x=45
+		x=98
 		y=47
 		width=80
-		height=150
+		height=180
 	}
 	"basic attribute" {
-		clr=61
+		clr=51
 		fill="outline"
 	}
 }
@@ -124,256 +107,15 @@ text {
 		height=25
 	}
 	"basic attribute" {
-		clr=61
+		clr=51
 	}
 	textix="HALL ENVIRONMENT MONITOR"
 }
 "related display" {
 	object {
-		x=30
-		y=61
-		width=30
-		height=20
-	}
-	display[0] {
-		label="T Screen"
-		name="medm_HallEnv_T.adl"
-	}
-	clr=14
-	bclr=61
-	label="-T"
-}
-rectangle {
-	object {
-		x=79
-		y=61
-		width=20
-		height=20
-	}
-	"basic attribute" {
-		clr=21
-	}
-	"dynamic attribute" {
-		clr="alarm"
-		vis="calc"
-		calc="A=2"
-		chan="check_T.SEVR"
-	}
-}
-rectangle {
-	object {
-		x=79
-		y=61
-		width=20
-		height=20
-	}
-	"basic attribute" {
-		clr=61
-	}
-	"dynamic attribute" {
-		clr="alarm"
-		vis="calc"
-		calc="A=0"
-		chan="check_T.SEVR"
-	}
-}
-"related display" {
-	object {
-		x=30
-		y=161
-		width=30
-		height=20
-	}
-	display[0] {
-		label="HD Screen"
-		name="medm_HallEnv_HD.adl"
-	}
-	clr=14
-	bclr=61
-	label="-HD"
-}
-"related display" {
-	object {
-		x=30
-		y=111
-		width=30
-		height=20
-	}
-	display[0] {
-		label="HH Screen"
-		name="medm_HallEnv_HH.adl"
-	}
-	clr=14
-	bclr=61
-	label="-HH"
-}
-"related display" {
-	object {
-		x=30
-		y=136
-		width=30
-		height=20
-	}
-	display[0] {
-		label="P Screen"
-		name="medm_HallEnv_P.adl"
-	}
-	clr=14
-	bclr=61
-	label="-P"
-}
-"related display" {
-	object {
-		x=30
-		y=86
-		width=30
-		height=20
-	}
-	display[0] {
-		label="HT Screen"
-		name="medm_HallEnv_HT.adl"
-	}
-	clr=14
-	bclr=61
-	label="-HT"
-}
-composite {
-	object {
-		x=79
-		y=136
-		width=20
-		height=20
-	}
-	"composite name"=""
-	children {
-		rectangle {
-			object {
-				x=79
-				y=136
-				width=20
-				height=20
-			}
-			"basic attribute" {
-				clr=21
-			}
-		}
-		rectangle {
-			object {
-				x=79
-				y=136
-				width=20
-				height=20
-			}
-			"basic attribute" {
-				clr=61
-			}
-		}
-	}
-}
-composite {
-	object {
-		x=79
-		y=86
-		width=20
-		height=20
-	}
-	"composite name"=""
-	children {
-		rectangle {
-			object {
-				x=79
-				y=86
-				width=20
-				height=20
-			}
-			"basic attribute" {
-				clr=21
-			}
-		}
-		rectangle {
-			object {
-				x=79
-				y=86
-				width=20
-				height=20
-			}
-			"basic attribute" {
-				clr=61
-			}
-		}
-	}
-}
-composite {
-	object {
-		x=79
-		y=111
-		width=20
-		height=20
-	}
-	"composite name"=""
-	children {
-		rectangle {
-			object {
-				x=79
-				y=111
-				width=20
-				height=20
-			}
-			"basic attribute" {
-				clr=21
-			}
-		}
-		rectangle {
-			object {
-				x=79
-				y=111
-				width=20
-				height=20
-			}
-			"basic attribute" {
-				clr=61
-			}
-		}
-	}
-}
-composite {
-	object {
-		x=79
-		y=161
-		width=20
-		height=20
-	}
-	"composite name"=""
-	children {
-		rectangle {
-			object {
-				x=79
-				y=161
-				width=20
-				height=20
-			}
-			"basic attribute" {
-				clr=21
-			}
-		}
-		rectangle {
-			object {
-				x=79
-				y=161
-				width=20
-				height=20
-			}
-			"basic attribute" {
-				clr=61
-			}
-		}
-	}
-}
-"related display" {
-	object {
-		x=160
-		y=109
-		width=135
+		x=225
+		y=65
+		width=100
 		height=25
 	}
 	display[0] {
@@ -386,16 +128,296 @@ composite {
 }
 "related display" {
 	object {
-		x=160
-		y=161
-		width=30
-		height=20
+		x=225
+		y=185
+		width=35
+		height=25
 	}
 	display[0] {
 		label="ALL Screen"
 		name="medm_HallEnv_ALL.adl"
 	}
 	clr=14
-	bclr=61
+	bclr=51
 	label="-ALL"
+}
+"related display" {
+	object {
+		x=164
+		y=65
+		width=30
+		height=25
+	}
+	display[0] {
+		label="T Screen"
+		name="medm_HallEnv_T.adl"
+	}
+	clr=14
+	bclr=51
+	label="-T"
+}
+"related display" {
+	object {
+		x=164
+		y=185
+		width=30
+		height=25
+	}
+	display[0] {
+		label="HD Screen"
+		name="medm_HallEnv_HD.adl"
+	}
+	clr=14
+	bclr=51
+	label="-HD"
+}
+"related display" {
+	object {
+		x=164
+		y=125
+		width=30
+		height=25
+	}
+	display[0] {
+		label="HH Screen"
+		name="medm_HallEnv_HH.adl"
+	}
+	clr=14
+	bclr=51
+	label="-HH"
+}
+"related display" {
+	object {
+		x=164
+		y=155
+		width=30
+		height=25
+	}
+	display[0] {
+		label="P Screen"
+		name="medm_HallEnv_P.adl"
+	}
+	clr=14
+	bclr=51
+	label="-P"
+}
+"related display" {
+	object {
+		x=164
+		y=95
+		width=30
+		height=25
+	}
+	display[0] {
+		label="HT Screen"
+		name="medm_HallEnv_HT.adl"
+	}
+	clr=14
+	bclr=51
+	label="-HT"
+}
+composite {
+	object {
+		x=121
+		y=65
+		width=25
+		height=25
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=121
+				y=65
+				width=25
+				height=25
+			}
+			"basic attribute" {
+				clr=51
+			}
+			"dynamic attribute" {
+				clr="alarm"
+				chan="st_T"
+			}
+		}
+		rectangle {
+			object {
+				x=121
+				y=65
+				width=25
+				height=25
+			}
+			"basic attribute" {
+				clr=51
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="st_T.SEVR"
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=121
+		y=95
+		width=25
+		height=25
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=121
+				y=95
+				width=25
+				height=25
+			}
+			"basic attribute" {
+				clr=51
+			}
+			"dynamic attribute" {
+				clr="alarm"
+				chan="st_HT"
+			}
+		}
+		rectangle {
+			object {
+				x=121
+				y=95
+				width=25
+				height=25
+			}
+			"basic attribute" {
+				clr=51
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="st_HT.SEVR"
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=121
+		y=125
+		width=25
+		height=25
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=121
+				y=125
+				width=25
+				height=25
+			}
+			"basic attribute" {
+				clr=51
+			}
+			"dynamic attribute" {
+				clr="alarm"
+				chan="st_HH"
+			}
+		}
+		rectangle {
+			object {
+				x=121
+				y=125
+				width=25
+				height=25
+			}
+			"basic attribute" {
+				clr=51
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="st_HH.SEVR"
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=121
+		y=155
+		width=25
+		height=25
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=121
+				y=155
+				width=25
+				height=25
+			}
+			"basic attribute" {
+				clr=51
+			}
+			"dynamic attribute" {
+				clr="alarm"
+				chan="st_P"
+			}
+		}
+		rectangle {
+			object {
+				x=121
+				y=155
+				width=25
+				height=25
+			}
+			"basic attribute" {
+				clr=51
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="st_P.SEVR"
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=121
+		y=185
+		width=25
+		height=25
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=121
+				y=185
+				width=25
+				height=25
+			}
+			"basic attribute" {
+				clr=51
+			}
+			"dynamic attribute" {
+				clr="alarm"
+				chan="st_HD"
+			}
+		}
+		rectangle {
+			object {
+				x=121
+				y=185
+				width=25
+				height=25
+			}
+			"basic attribute" {
+				clr=51
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="st_HD.SEVR"
+			}
+		}
+	}
 }

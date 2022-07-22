@@ -195,6 +195,7 @@ text {
 		clr=0
 		bclr=9
 	}
+	clrmod="alarm"
 	align="horiz. right"
 	limits {
 	}
@@ -514,7 +515,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -530,7 +532,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -546,7 +549,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -562,7 +566,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -578,7 +583,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -594,7 +600,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -610,7 +617,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -626,7 +634,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -642,7 +651,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -658,7 +668,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -674,7 +685,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -690,7 +702,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -706,7 +719,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -722,7 +736,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -738,7 +753,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -754,7 +770,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -770,7 +787,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -786,7 +804,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -802,7 +821,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -818,7 +838,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -834,7 +855,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -850,7 +872,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -866,7 +889,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -882,7 +906,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -898,7 +923,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -914,7 +940,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -930,7 +957,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -946,7 +974,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -962,7 +991,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -978,7 +1008,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -994,7 +1025,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1010,7 +1042,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1026,7 +1059,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1042,7 +1076,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1058,7 +1093,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1074,7 +1110,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1090,7 +1127,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1106,7 +1144,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1122,7 +1161,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1138,7 +1178,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1154,7 +1195,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1170,7 +1212,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1186,7 +1229,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1202,7 +1246,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1218,7 +1263,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1234,7 +1280,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }
@@ -1250,7 +1297,8 @@ text {
 		clr=0
 		bclr=9
 	}
-	align="horiz. right"
+	clrmod="alarm"
+        align="horiz. right"
 	limits {
 	}
 }

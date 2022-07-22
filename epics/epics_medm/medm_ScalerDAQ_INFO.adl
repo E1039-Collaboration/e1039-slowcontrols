@@ -1,0 +1,1087 @@
+
+file {
+	name="/home/borei/work/prog/e1039/fnal/epics/epics_medm/medm_ScalerDAQ_INFO.adl"
+	version=030111
+}
+display {
+	object {
+		x=1268
+		y=390
+		width=1170
+		height=350
+	}
+	clr=14
+	bclr=9
+	cmap=""
+	gridSpacing=5
+	gridOn=0
+	snapToGrid=0
+}
+"color map" {
+	ncolors=65
+	colors {
+		ffffff,
+		ececec,
+		dadada,
+		c8c8c8,
+		bbbbbb,
+		aeaeae,
+		9e9e9e,
+		919191,
+		858585,
+		787878,
+		696969,
+		5a5a5a,
+		464646,
+		2d2d2d,
+		000000,
+		00d800,
+		1ebb00,
+		339900,
+		2d7f00,
+		216c00,
+		fd0000,
+		de1309,
+		be190b,
+		a01207,
+		820400,
+		5893ff,
+		597ee1,
+		4b6ec7,
+		3a5eab,
+		27548d,
+		fbf34a,
+		f9da3c,
+		eeb62b,
+		e19015,
+		cd6100,
+		ffb0ff,
+		d67fe2,
+		ae4ebc,
+		8b1a96,
+		610a75,
+		a4aaff,
+		8793e2,
+		6a73c1,
+		4d52a4,
+		343386,
+		c7bb6d,
+		b79d5c,
+		a47e3c,
+		7d5627,
+		58340f,
+		99ffff,
+		73dfff,
+		4ea5f9,
+		2a63e4,
+		0a00b8,
+		ebf1b5,
+		d4db9d,
+		bbc187,
+		a6a462,
+		8b8239,
+		73ff6b,
+		52da3b,
+		3cb420,
+		289315,
+		1a7309,
+	}
+}
+text {
+	object {
+		x=10
+		y=10
+		width=51
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Miscellaneous information"
+}
+"text update" {
+	object {
+		x=190
+		y=83
+		width=100
+		height=20
+	}
+	monitor {
+		chan="runnumber"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=190
+		y=108
+		width=100
+		height=20
+	}
+	monitor {
+		chan="plask_runnumber"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=190
+		y=133
+		width=100
+		height=20
+	}
+	monitor {
+		chan="evnum"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=190
+		y=158
+		width=100
+		height=20
+	}
+	monitor {
+		chan="local_evnum"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+text {
+	object {
+		x=130
+		y=158
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="local_evnum"
+	align="horiz. right"
+}
+text {
+	object {
+		x=130
+		y=108
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="plask_runnumber"
+	align="horiz. right"
+}
+text {
+	object {
+		x=130
+		y=133
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="evnum"
+	align="horiz. right"
+}
+text {
+	object {
+		x=130
+		y=83
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="runnumber"
+	align="horiz. right"
+}
+polyline {
+	object {
+		x=180
+		y=80
+		width=0
+		height=200
+	}
+	"basic attribute" {
+		clr=0
+	}
+	points {
+		(180,80)
+		(180,280)
+	}
+}
+text {
+	object {
+		x=70
+		y=50
+		width=200
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Run parameters"
+}
+polyline {
+	object {
+		x=70
+		y=72
+		width=220
+		height=0
+	}
+	"basic attribute" {
+		clr=0
+	}
+	points {
+		(70,72)
+		(290,72)
+	}
+}
+"text update" {
+	object {
+		x=190
+		y=183
+		width=100
+		height=20
+	}
+	monitor {
+		chan="plask_evnum"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=190
+		y=208
+		width=100
+		height=20
+	}
+	monitor {
+		chan="coda"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+text {
+	object {
+		x=130
+		y=183
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="plask_evnum"
+	align="horiz. right"
+}
+text {
+	object {
+		x=130
+		y=208
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="coda"
+	align="horiz. right"
+}
+"shell command" {
+	object {
+		x=80
+		y=292
+		width=200
+		height=25
+	}
+	command[0] {
+		label="Chart INFO RUN"
+		name="StripTool"
+		args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_ScalerDAQ_INFO_RUN.stp &"
+	}
+	clr=0
+	bclr=9
+	label="-plots: RUN"
+}
+"text update" {
+	object {
+		x=470
+		y=83
+		width=100
+		height=20
+	}
+	monitor {
+		chan="NM3SEM"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=470
+		y=108
+		width=100
+		height=20
+	}
+	monitor {
+		chan="NM3IONraw"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=470
+		y=133
+		width=100
+		height=20
+	}
+	monitor {
+		chan="turn13"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=470
+		y=158
+		width=100
+		height=20
+	}
+	monitor {
+		chan="bunch13"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+text {
+	object {
+		x=410
+		y=158
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="bunch13"
+	align="horiz. right"
+}
+text {
+	object {
+		x=410
+		y=108
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="NM3IONraw"
+	align="horiz. right"
+}
+text {
+	object {
+		x=410
+		y=133
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="turn13"
+	align="horiz. right"
+}
+text {
+	object {
+		x=410
+		y=83
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="NM3SEM"
+	align="horiz. right"
+}
+polyline {
+	object {
+		x=460
+		y=80
+		width=0
+		height=200
+	}
+	"basic attribute" {
+		clr=0
+	}
+	points {
+		(460,80)
+		(460,280)
+	}
+}
+text {
+	object {
+		x=350
+		y=50
+		width=200
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Beam parameters"
+}
+polyline {
+	object {
+		x=350
+		y=72
+		width=220
+		height=0
+	}
+	"basic attribute" {
+		clr=0
+	}
+	points {
+		(350,72)
+		(570,72)
+	}
+}
+"text update" {
+	object {
+		x=470
+		y=183
+		width=100
+		height=20
+	}
+	monitor {
+		chan="nbsyd"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=470
+		y=208
+		width=100
+		height=20
+	}
+	monitor {
+		chan="RF"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=470
+		y=233
+		width=100
+		height=20
+	}
+	monitor {
+		chan="EOSBit"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+text {
+	object {
+		x=410
+		y=233
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="EOSBit"
+	align="horiz. right"
+}
+text {
+	object {
+		x=410
+		y=183
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="nbsyd"
+	align="horiz. right"
+}
+text {
+	object {
+		x=410
+		y=208
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="RF"
+	align="horiz. right"
+}
+"shell command" {
+	object {
+		x=360
+		y=292
+		width=200
+		height=25
+	}
+	command[0] {
+		label="Chart INFO BEAM"
+		name="StripTool"
+		args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_ScalerDAQ_INFO_BEAM.stp &"
+	}
+	clr=0
+	bclr=9
+	label="-plots: BEAM"
+}
+"text update" {
+	object {
+		x=750
+		y=83
+		width=100
+		height=20
+	}
+	monitor {
+		chan="Inhibit"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=750
+		y=108
+		width=100
+		height=20
+	}
+	monitor {
+		chan="InhxBusy"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=750
+		y=133
+		width=100
+		height=20
+	}
+	monitor {
+		chan="BeamxInhibit"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=750
+		y=158
+		width=100
+		height=20
+	}
+	monitor {
+		chan="TrigL1"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+text {
+	object {
+		x=690
+		y=158
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="TrigL1"
+	align="horiz. right"
+}
+text {
+	object {
+		x=690
+		y=108
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="InhxBusy"
+	align="horiz. right"
+}
+text {
+	object {
+		x=690
+		y=133
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="BeamxInhibit"
+	align="horiz. right"
+}
+text {
+	object {
+		x=690
+		y=83
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Inhibit"
+	align="horiz. right"
+}
+polyline {
+	object {
+		x=740
+		y=80
+		width=0
+		height=200
+	}
+	"basic attribute" {
+		clr=0
+	}
+	points {
+		(740,80)
+		(740,280)
+	}
+}
+text {
+	object {
+		x=630
+		y=50
+		width=200
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Triggers 1"
+}
+polyline {
+	object {
+		x=630
+		y=72
+		width=220
+		height=0
+	}
+	"basic attribute" {
+		clr=0
+	}
+	points {
+		(630,72)
+		(850,72)
+	}
+}
+"text update" {
+	object {
+		x=750
+		y=183
+		width=100
+		height=20
+	}
+	monitor {
+		chan="TSBusy"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+text {
+	object {
+		x=690
+		y=183
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="TSBusy"
+	align="horiz. right"
+}
+"shell command" {
+	object {
+		x=640
+		y=292
+		width=200
+		height=25
+	}
+	command[0] {
+		label="Chart INFO TRIG1"
+		name="StripTool"
+		args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_ScalerDAQ_INFO_TRIG1.stp &"
+	}
+	clr=0
+	bclr=9
+	label="-plots: TRIG1"
+}
+"text update" {
+	object {
+		x=1030
+		y=83
+		width=100
+		height=20
+	}
+	monitor {
+		chan="R4L"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1030
+		y=108
+		width=100
+		height=20
+	}
+	monitor {
+		chan="R11LxR4L"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1030
+		y=133
+		width=100
+		height=20
+	}
+	monitor {
+		chan="R11LxInh"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1030
+		y=158
+		width=100
+		height=20
+	}
+	monitor {
+		chan="H4Y2R11L"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+text {
+	object {
+		x=970
+		y=158
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="H4Y2R11L"
+	align="horiz. right"
+}
+text {
+	object {
+		x=970
+		y=108
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="R11LxR4L"
+	align="horiz. right"
+}
+text {
+	object {
+		x=970
+		y=133
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="R11LxInh"
+	align="horiz. right"
+}
+text {
+	object {
+		x=970
+		y=83
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="R4L"
+	align="horiz. right"
+}
+polyline {
+	object {
+		x=1020
+		y=80
+		width=0
+		height=200
+	}
+	"basic attribute" {
+		clr=0
+	}
+	points {
+		(1020,80)
+		(1020,280)
+	}
+}
+text {
+	object {
+		x=910
+		y=50
+		width=200
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Triggers 2"
+}
+polyline {
+	object {
+		x=910
+		y=72
+		width=220
+		height=0
+	}
+	"basic attribute" {
+		clr=0
+	}
+	points {
+		(910,72)
+		(1130,72)
+	}
+}
+"text update" {
+	object {
+		x=1030
+		y=183
+		width=100
+		height=20
+	}
+	monitor {
+		chan="B12"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1030
+		y=208
+		width=100
+		height=20
+	}
+	monitor {
+		chan="B12xBusy"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1030
+		y=233
+		width=100
+		height=20
+	}
+	monitor {
+		chan="B12xRF"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}
+text {
+	object {
+		x=970
+		y=233
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="B12xRF"
+	align="horiz. right"
+}
+text {
+	object {
+		x=970
+		y=183
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="B12"
+	align="horiz. right"
+}
+text {
+	object {
+		x=970
+		y=208
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="B12xBusy"
+	align="horiz. right"
+}
+"shell command" {
+	object {
+		x=920
+		y=290
+		width=200
+		height=25
+	}
+	command[0] {
+		label="Chart INFO TRIG2"
+		name="StripTool"
+		args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_ScalerDAQ_INFO_TRIG2.stp &"
+	}
+	clr=0
+	bclr=9
+	label="-plots: TRIG2"
+}
+text {
+	object {
+		x=970
+		y=258
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="B12xRF"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=1030
+		y=258
+		width=100
+		height=20
+	}
+	monitor {
+		chan="B12xRF"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	limits {
+	}
+}

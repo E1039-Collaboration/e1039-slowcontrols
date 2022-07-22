@@ -1,6 +1,6 @@
 
 file {
-	name="/data2/e1039/daq/slowcontrols/epics/epics_medm/medm_ChamHv_D2.adl"
+	name="/home/babai/work/prog/e1039/fnal/epics/epics_medm/medm_ChamHv_D2.adl"
 	version=030111
 }
 display {
@@ -183,6 +183,7 @@ text {
 		clr=0
 		bclr=9
 	}
+	clrmod="alarm"
 	align="horiz. right"
 	limits {
 	}
@@ -199,6 +200,7 @@ text {
 		clr=0
 		bclr=9
 	}
+	clrmod="alarm"
 	align="horiz. right"
 	limits {
 	}
@@ -215,6 +217,7 @@ text {
 		clr=0
 		bclr=9
 	}
+	clrmod="alarm"
 	align="horiz. right"
 	limits {
 	}
@@ -231,6 +234,7 @@ text {
 		clr=0
 		bclr=9
 	}
+	clrmod="alarm"
 	align="horiz. right"
 	limits {
 	}
@@ -247,6 +251,7 @@ text {
 		clr=0
 		bclr=9
 	}
+	clrmod="alarm"
 	align="horiz. right"
 	limits {
 	}
@@ -263,6 +268,7 @@ text {
 		clr=0
 		bclr=9
 	}
+	clrmod="alarm"
 	align="horiz. right"
 	limits {
 	}
@@ -306,6 +312,7 @@ text {
 		clr=0
 		bclr=9
 	}
+	clrmod="alarm"
 	align="horiz. right"
 	limits {
 	}
@@ -322,6 +329,7 @@ text {
 		clr=0
 		bclr=9
 	}
+	clrmod="alarm"
 	align="horiz. right"
 	limits {
 	}
@@ -338,6 +346,7 @@ text {
 		clr=0
 		bclr=9
 	}
+	clrmod="alarm"
 	align="horiz. right"
 	limits {
 	}
@@ -354,6 +363,7 @@ text {
 		clr=0
 		bclr=9
 	}
+	clrmod="alarm"
 	align="horiz. right"
 	limits {
 	}
@@ -370,6 +380,7 @@ text {
 		clr=0
 		bclr=9
 	}
+	clrmod="alarm"
 	align="horiz. right"
 	limits {
 	}
@@ -386,6 +397,7 @@ text {
 		clr=0
 		bclr=9
 	}
+	clrmod="alarm"
 	align="horiz. right"
 	limits {
 	}

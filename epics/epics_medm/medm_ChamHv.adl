@@ -1,12 +1,12 @@
 
 file {
-	name="/data2/e1039/daq/slowcontrols/epics/epics_medm/medm_ChamHv.adl"
+	name="/home/borei/work/prog/e1039/fnal/epics/epics_medm/medm_ChamHv.adl"
 	version=030111
 }
 display {
 	object {
-		x=20
-		y=486
+		x=310
+		y=51
 		width=1400
 		height=250
 	}
@@ -89,32 +89,40 @@ display {
 }
 rectangle {
 	object {
-		x=992
-		y=79
+		x=1029
+		y=89
 		width=97
 		height=92
 	}
 	"basic attribute" {
 		clr=21
 	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_P4"
+	}
 }
 rectangle {
 	object {
-		x=992
-		y=79
+		x=1029
+		y=89
 		width=97
 		height=92
 	}
 	"basic attribute" {
 		clr=51
 	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_P4.SEVR"
+	}
 }
 "related display" {
 	object {
-		x=501
-		y=190
+		x=538
+		y=198
 		width=30
-		height=20
+		height=25
 	}
 	display[0] {
 		label="D2 Screen"
@@ -126,10 +134,10 @@ rectangle {
 }
 "related display" {
 	object {
-		x=1025
-		y=190
-		width=30
-		height=20
+		x=1057
+		y=198
+		width=40
+		height=25
 	}
 	display[0] {
 		label="P4 Screen"
@@ -141,10 +149,10 @@ rectangle {
 }
 "related display" {
 	object {
-		x=764
-		y=190
-		width=30
-		height=20
+		x=796
+		y=198
+		width=40
+		height=25
 	}
 	display[0] {
 		label="D3m Screen"
@@ -156,10 +164,10 @@ rectangle {
 }
 "related display" {
 	object {
-		x=764
-		y=41
-		width=30
-		height=20
+		x=796
+		y=51
+		width=40
+		height=25
 	}
 	display[0] {
 		label="D3p Screen"
@@ -171,8 +179,8 @@ rectangle {
 }
 rectangle {
 	object {
-		x=965
-		y=50
+		x=1002
+		y=60
 		width=150
 		height=150
 	}
@@ -183,8 +191,8 @@ rectangle {
 }
 rectangle {
 	object {
-		x=704
-		y=50
+		x=741
+		y=60
 		width=150
 		height=150
 	}
@@ -195,8 +203,8 @@ rectangle {
 }
 rectangle {
 	object {
-		x=441
-		y=50
+		x=478
+		y=60
 		width=150
 		height=150
 	}
@@ -207,10 +215,10 @@ rectangle {
 }
 "related display" {
 	object {
-		x=1182
-		y=189
-		width=30
-		height=20
+		x=1219
+		y=198
+		width=40
+		height=25
 	}
 	display[0] {
 		label="ALL Screen"
@@ -222,10 +230,10 @@ rectangle {
 }
 "related display" {
 	object {
-		x=233
-		y=190
+		x=270
+		y=198
 		width=30
-		height=20
+		height=25
 	}
 	display[0] {
 		label="D1 Screen"
@@ -237,8 +245,8 @@ rectangle {
 }
 rectangle {
 	object {
-		x=173
-		y=50
+		x=210
+		y=60
 		width=150
 		height=150
 	}
@@ -249,90 +257,122 @@ rectangle {
 }
 rectangle {
 	object {
-		x=739
-		y=81
+		x=776
+		y=91
 		width=80
 		height=42
 	}
 	"basic attribute" {
 		clr=21
 	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_D3p"
+	}
 }
 rectangle {
 	object {
-		x=739
-		y=128
+		x=776
+		y=138
 		width=80
 		height=42
 	}
 	"basic attribute" {
 		clr=21
 	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_D3m"
+	}
 }
 rectangle {
 	object {
-		x=487
-		y=92
+		x=524
+		y=102
 		width=58
 		height=66
 	}
 	"basic attribute" {
 		clr=21
 	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_D2"
+	}
 }
 rectangle {
 	object {
-		x=235
-		y=110
+		x=272
+		y=120
 		width=26
 		height=31
 	}
 	"basic attribute" {
 		clr=21
 	}
+	"dynamic attribute" {
+		clr="alarm"
+		chan="st_D1"
+	}
 }
 rectangle {
 	object {
-		x=487
-		y=92
+		x=524
+		y=102
 		width=58
 		height=66
 	}
 	"basic attribute" {
 		clr=51
 	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_D2.SEVR"
+	}
 }
 rectangle {
 	object {
-		x=739
-		y=81
+		x=776
+		y=91
 		width=80
 		height=42
 	}
 	"basic attribute" {
 		clr=51
 	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_D3p.SEVR"
+	}
 }
 rectangle {
 	object {
-		x=739
-		y=128
+		x=776
+		y=138
 		width=80
 		height=42
 	}
 	"basic attribute" {
 		clr=51
 	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_D3m.SEVR"
+	}
 }
 rectangle {
 	object {
-		x=235
-		y=110
+		x=272
+		y=120
 		width=26
 		height=31
 	}
 	"basic attribute" {
 		clr=51
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="st_D1.SEVR"
 	}
 }
 text {
@@ -346,4 +386,112 @@ text {
 		clr=51
 	}
 	textix="DRIFT CHAMBERS HIGH VOLTAGE MONITOR"
+}
+composite {
+	object {
+		x=18
+		y=102
+		width=141
+		height=38
+	}
+	"composite name"=""
+	children {
+		oval {
+			object {
+				x=134
+				y=130
+				width=10
+				height=10
+			}
+			"basic attribute" {
+				clr=0
+			}
+		}
+		text {
+			object {
+				x=119
+				y=102
+				width=40
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Target"
+			align="horiz. centered"
+		}
+		text {
+			object {
+				x=28
+				y=102
+				width=40
+				height=20
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Beam"
+			align="horiz. centered"
+		}
+		composite {
+			object {
+				x=39
+				y=128
+				width=18
+				height=12
+			}
+			"composite name"=""
+			children {
+				polygon {
+					object {
+						x=40
+						y=128
+						width=17
+						height=7
+					}
+					"basic attribute" {
+						clr=0
+					}
+					points {
+						(40,128)
+						(57,135)
+						(46,135)
+						(40,128)
+					}
+				}
+				polygon {
+					object {
+						x=39
+						y=135
+						width=17
+						height=7
+					}
+					"basic attribute" {
+						clr=0
+					}
+					points {
+						(39,142)
+						(56,135)
+						(45,135)
+						(39,142)
+					}
+				}
+			}
+		}
+		polyline {
+			object {
+				x=18
+				y=135
+				width=60
+				height=0
+			}
+			"basic attribute" {
+				clr=0
+			}
+			points {
+				(18,135)
+				(78,135)
+			}
+		}
+	}
 }

@@ -1,0 +1,384 @@
+
+file {
+	name="/home/borei/work/prog/e1039/fnal/epics/epics_medm/medm_Acnet_TestBeams.adl"
+	version=030111
+}
+display {
+	object {
+		x=1534
+		y=572
+		width=290
+		height=800
+	}
+	clr=14
+	bclr=9
+	cmap=""
+	gridSpacing=5
+	gridOn=0
+	snapToGrid=0
+}
+"color map" {
+	ncolors=65
+	colors {
+		ffffff,
+		ececec,
+		dadada,
+		c8c8c8,
+		bbbbbb,
+		aeaeae,
+		9e9e9e,
+		919191,
+		858585,
+		787878,
+		696969,
+		5a5a5a,
+		464646,
+		2d2d2d,
+		000000,
+		00d800,
+		1ebb00,
+		339900,
+		2d7f00,
+		216c00,
+		fd0000,
+		de1309,
+		be190b,
+		a01207,
+		820400,
+		5893ff,
+		597ee1,
+		4b6ec7,
+		3a5eab,
+		27548d,
+		fbf34a,
+		f9da3c,
+		eeb62b,
+		e19015,
+		cd6100,
+		ffb0ff,
+		d67fe2,
+		ae4ebc,
+		8b1a96,
+		610a75,
+		a4aaff,
+		8793e2,
+		6a73c1,
+		4d52a4,
+		343386,
+		c7bb6d,
+		b79d5c,
+		a47e3c,
+		7d5627,
+		58340f,
+		99ffff,
+		73dfff,
+		4ea5f9,
+		2a63e4,
+		0a00b8,
+		ebf1b5,
+		d4db9d,
+		bbc187,
+		a6a462,
+		8b8239,
+		73ff6b,
+		52da3b,
+		3cb420,
+		289315,
+		1a7309,
+	}
+}
+text {
+	object {
+		x=10
+		y=10
+		width=51
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Test Beams instrumentation"
+}
+"text update" {
+	object {
+		x=167
+		y=83
+		width=70
+		height=20
+	}
+	monitor {
+		chan="F:MT6SC1"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	align="horiz. right"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=167
+		y=108
+		width=70
+		height=20
+	}
+	monitor {
+		chan="F:MC7SC1"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	align="horiz. right"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=167
+		y=133
+		width=70
+		height=20
+	}
+	monitor {
+		chan="F:MC1D"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	align="horiz. right"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=167
+		y=158
+		width=70
+		height=20
+	}
+	monitor {
+		chan="F:MW1W"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=66
+		y=158
+		width=65
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="F:MW1W"
+	align="horiz. right"
+}
+text {
+	object {
+		x=96
+		y=108
+		width=35
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="F:MC7SC1"
+	align="horiz. right"
+}
+text {
+	object {
+		x=86
+		y=133
+		width=45
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="F:MC1D"
+	align="horiz. right"
+}
+text {
+	object {
+		x=106
+		y=83
+		width=25
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="F:MT6SC1"
+	align="horiz. right"
+}
+polyline {
+	object {
+		x=148
+		y=80
+		width=0
+		height=175
+	}
+	"basic attribute" {
+		clr=0
+	}
+	points {
+		(148,80)
+		(148,255)
+	}
+}
+text {
+	object {
+		x=10
+		y=50
+		width=200
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Miscellaneous"
+}
+polyline {
+	object {
+		x=10
+		y=72
+		width=220
+		height=0
+	}
+	"basic attribute" {
+		clr=0
+	}
+	points {
+		(10,72)
+		(230,72)
+	}
+}
+"text update" {
+	object {
+		x=167
+		y=183
+		width=70
+		height=20
+	}
+	monitor {
+		chan="F:NS7DFP"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	align="horiz. right"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=167
+		y=208
+		width=70
+		height=20
+	}
+	monitor {
+		chan="G:RD3161"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	align="horiz. right"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=167
+		y=233
+		width=70
+		height=20
+	}
+	monitor {
+		chan="G:RD3162"
+		clr=0
+		bclr=9
+	}
+	clrmod="alarm"
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=67
+		y=233
+		width=65
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="G:RD3162"
+	align="horiz. right"
+}
+text {
+	object {
+		x=96
+		y=183
+		width=35
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="F:NS7DFP"
+	align="horiz. right"
+}
+text {
+	object {
+		x=86
+		y=208
+		width=45
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="G:RD3161"
+	align="horiz. right"
+}
+"shell command" {
+	object {
+		x=37
+		y=265
+		width=200
+		height=25
+	}
+	command[0] {
+		label="Chart TestBeams Misc"
+		name="StripTool"
+		args="/data2/e1039/daq/slowcontrols/epics/epics_striptool/striptool_Acnet_TestBeams_Misc.stp &"
+	}
+	clr=0
+	bclr=9
+	label="-plots: Misc"
+}
+"related display" {
+	object {
+		x=77
+		y=760
+		width=120
+		height=25
+	}
+	display[0] {
+		label="BeamTests Map Screen"
+		name="medm_Acnet_Map_TestBeams.adl"
+	}
+	clr=0
+	bclr=9
+	label="-Beamline Map"
+}
