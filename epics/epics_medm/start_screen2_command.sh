@@ -5,12 +5,13 @@ source /data2/e1039/daq/slowcontrols/scripts/setup_slowcontrols.sh
 
 MEDM_DIR=$SLOWCONTROL_ROOT/epics/epics_medm
 
+X0=1920 # 260
 
 medm \
      -x\
      -displayFont "-bitstream-courier 10 pitch-medium-r-normal--0-0-0-0-m-0-iso8859-1"\
      -attach\
-     -dg +260+0\
+     -dg +$(( X0 ))+0\
       $MEDM_DIR/medm_Acnet.adl &
 
 sleep 1s
@@ -19,7 +20,7 @@ medm \
      -x\
      -displayFont "-bitstream-courier 10 pitch-medium-r-normal--0-0-0-0-m-0-iso8859-1"\
      -attach\
-     -dg +260+287\
+     -dg +$(( X0 ))+287\
       $MEDM_DIR/medm_SpillData.adl &
 
 sleep 1s
@@ -28,7 +29,7 @@ medm \
      -x\
      -displayFont "-bitstream-courier 10 pitch-medium-r-normal--0-0-0-0-m-0-iso8859-1"\
      -attach\
-     -dg +670+287\
+     -dg +$(( X0 + 410 ))+287\
       $MEDM_DIR/medm_BeamDAQ.adl &
 
 sleep 1s
@@ -37,7 +38,7 @@ medm \
      -x\
      -displayFont "-bitstream-courier 10 pitch-medium-r-normal--0-0-0-0-m-0-iso8859-1"\
      -attach\
-     -dg +1170+287\
+     -dg +$(( X0 + 910 ))+287\
       $MEDM_DIR/medm_ScalerDAQ.adl &
     
 
