@@ -1,7 +1,7 @@
 import time
 import DAQUtils
 from StatMonUtils import Log, CodaComponentOK
-from StatusChecker import StatusDatum, StatusChecker
+from StatusChecker import StatusType, StatusDatum, StatusChecker
 
 ###################
 # MainDAQ
