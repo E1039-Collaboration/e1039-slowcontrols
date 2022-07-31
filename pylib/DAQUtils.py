@@ -119,22 +119,21 @@ def GetFromEPICS( variable, timeout = 3 ):
   #print "check env %s" % os.environ["EPICS_CA_ADDR_LIST"]
   #rval, out = GetOutput( ["which", "caget"], timeout)
   #print "check env %s" % out
-  rval, out = GetOutput( ["caget", "-t", variable], timeout)
-  #rval, out = GetOutput( ["/data2/epics-7.0.2.2/base-7.0.2.2/bin/linux-x86_64/caget", "-t", variable], timeout)
+  rval, out = GetOutput( ["caget", "-ts", variable], timeout)
   #print "check env %s" % rval
   #there should only be one line of output
   if len(out) == 1:
     return out[0].strip()
   return ""
 
-def SendMail( recipients, subject, sender = "e906daq@e906-gat6.fnal.gov", message = "No further message." ):
+def SendMail( recipients, subject, sender = "e1039@fnal.gov", message = "No further message." ):
   """Email experts that there is a bad problem"""
   from email.mime.text import MIMEText
   msg = MIMEText(message)
   msg['To']      = ", ".join(recipients)
   msg['Subject'] = subject
   msg['From']    = sender
-  s = smtplib.SMTP('localhost')
+  s = smtplib.SMTP('smtp.fnal.gov', 25)
   s.sendmail( sender, recipients, msg.as_string())
   s.quit()
 
