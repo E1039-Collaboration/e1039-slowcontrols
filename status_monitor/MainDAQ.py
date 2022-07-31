@@ -109,22 +109,31 @@ class MainDAQ(StatusChecker):
     if runNumber is None:
       self.data.append( StatusDatum( "File Size (GB)", "????", warning=True ) )
     else:
-      command = [ "ssh", "-x", "-l", DAQUtils.MainDAQ_user, DAQUtils.MainDAQ_host, "stat --format='%%s' /localdata/codadata/run_%06d_spin.dat" % runNumber ]
+      command = [ "ssh", "-x", "-l", DAQUtils.MainDAQ_user, DAQUtils.MainDAQ_host, "stat --format='%%s %%Z' /localdata/codadata/run_%06d_spin.dat" % runNumber ]
       rval, output = DAQUtils.GetOutput( command, timeout=10 )
       if rval is None:
         Log("Timed out executing command %s" % str(command) )
-      filesize = float(output[0].strip()) / 1024 / 1024 / 1024
-      problem = False
-      email = False
+      values = output[0].split()
+      filesize = float(values[0]) / 1024 / 1024 / 1024
+      fileage  = time.time() - int(values[1])
+
+      status = StatusType.GOOD
+      email  = False
       if filesize > 16.0:
-        problem = True
+        status = StatusType.WARNING
+      self.data.append( StatusDatum( "File Size", "%.1f GB" % filesize, status=status, email=email ) )
+
+      status = StatusType.GOOD
+      email  = False
+      if fileage > 60:
+        status = StatusType.WARNING
+        email  = True
+        self.emailList = [ "liuk.pku@gmail.com", "bhy7tf@virginia.edu" ]
         #if len( eagerShifterList ) > 0 and "sent" not in self.emailList:
         #  email = True
         #  self.emailList = eagerShifterList
         #  self.emailList.append("sent")
-      #else:
-      #  self.emailList = [ "knakano@nucl.phys.titech.ac.jp" ]
-      self.data.append( StatusDatum( "File Size", "%.2f GB" % filesize, warning=problem, email=email ) )
+      self.data.append( StatusDatum( "File Age", "%.1f s" % fileage, status=status, email=email ) )
 
     self.OutputToHTML()
     self.SendMailIfNeeded()

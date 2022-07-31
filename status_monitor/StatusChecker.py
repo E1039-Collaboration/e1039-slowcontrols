@@ -3,13 +3,11 @@ from StatMonUtils import Log
 import DAQUtils
 
 #where to write output html stuff - for normal operation
-#statusDir = "/var/www/html/SpinQuestDAQStatus" 
 statusDir = "/data2/e1039_data/status_monitor/html" # "/dev/shm/SpinQuestDAQStatus"
 
 #do you want target alarms and email?
 do_alarms = True
-#do_email = True  ## put it back when run4 start ## grass
-do_email = False
+do_email = True ## True or False.  Set to 'False' in case of no beam for example.
 
 ######################
 # StatusType
@@ -54,7 +52,7 @@ class StatusChecker:
     self.outputFile = os.path.join( statusDir, self.__class__.__name__ + "_Status.html" ) #where to output html status
     self.timeOfLastUpdate = int( time.time() )
     self.alarmName = None #none means there is no alarm
-    self.emailList = [ "arun.tadepalli1@gmail.com", "reimer@anl.gov", "chenyc@fnal.gov" ]
+    self.emailList = [ "bhy7tf@virginia.edu" ]
 
     self.inAlarm   = False #remember if we are in alarm state
 

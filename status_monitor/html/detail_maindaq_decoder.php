@@ -29,6 +29,7 @@ $list_error_type = array(
   4 => array( 'START_WO_STOP'  , 'A hit word (=start) appears with no preceding header word.' ),
   5 => array( 'START_NOT_RISE' , 'A hit word is not of rising edge.' ),
   6 => array( 'DIRTY_FINISH'   , 'A header word appears but no event-ID word appears upto the end of word set.' ),
+  7 => array( 'V1495_0BAD'     , 'N of words coming from V1495 TDC board is too large.' ),
 );
 ?>
 <!-- ================================================================ -->

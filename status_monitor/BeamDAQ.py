@@ -60,13 +60,13 @@ class BeamDAQ(StatusChecker):
     if os.path.isfile(imgFilename):
       timeSinceLastMod = int( time.time() ) - os.path.getmtime(imgFilename)
       isProblem = timeSinceLastMod > fileAgeWarnTime
-      self.data.append( StatusDatum( "&#268;erenkov file age", SecondsToTime(timeSinceLastMod), problem=isProblem, email=isProblem, alarm=isProblem ) )
+      self.data.append( StatusDatum( "&#268;erenkov file age", SecondsToTime(timeSinceLastMod), problem=isProblem, email=False, alarm=isProblem ) )
 
 
     #get file age
     beamDAQ_spillcountAge = self.timeOfLastUpdate - os.path.getmtime(DAQUtils.spillcount_filename_beamDAQ)
     isProblem = beamDAQ_spillcountAge > fileAgeWarnTime
-    self.data.append( StatusDatum( "BeamDAQ SpillID age", SecondsToTime(beamDAQ_spillcountAge), problem=isProblem, email=isProblem, alarm=isProblem ) )
+    self.data.append( StatusDatum( "BeamDAQ SpillID age", SecondsToTime(beamDAQ_spillcountAge), problem=isProblem, email=False, alarm=isProblem ) )
 
     #get spillcounts
     #lines = open(DAQUtils.spillcount_filename).readlines()

@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import os, datetime, time, subprocess, sys, re
+import argparse
 import DAQUtils
 from StatMonUtils import Log, LogFlush, LogClose, SecondsToTime, fileAgeWarnTimeBuffer, fileAgeWarnTime, lastSpillHadBeam
 from StatusChecker import StatusDatum
@@ -14,17 +15,23 @@ import Decoder
 import DiskSpace
 import StatusMonitor
 
-# Frequency to update the meta information on the webpage about this script
-checkInterval = 10 # 3
+parser = argparse.ArgumentParser(description='Script to serve SQMS in NM4 LAN.')
+parser.add_argument(
+  '--oneShot', '-1', action='store_true', default=False,
+  help='Execute once, ignoring EOS/BOS signals, then quit.  For debugging.')
+parser.add_argument(
+  '--checkInterval', '-c', action='store', default=90,
+  help='Interval to check the status, in addition to the EOS timing.  This interval-based check is disabled if set to "0".')
+parser.add_argument(
+  '--checkIntervalSelf', '-C', action='store', default=10, # 3
+  help='Frequency to update the meta information on the webpage about this script.')
+args = parser.parse_args()
 
 # How many seconds after BOS will we look for EOS
 maxTimeBetweenBOSandEOS = 12
 
-# Execute once, ignoring EOS/BOS signals, then quit - for debugging
-oneShot = False # True or False
-
 # These shifters want to know when it is time to start a new run
-eagerShifterList = [] # [ "knakano@nucl.phys.titech.ac.jp" ]
+#eagerShifterList = []
 
 ##########################
 # Start main program here
@@ -34,6 +41,7 @@ eosflag = False
 bosflag = False
 readyForEOS = False
 secondsAtScriptStart   = int(time.time())
+secondsAtLastCheck     = int(time.time())
 secondsAtLastBOS       = int(time.time())
 secondsAtLastEOS       = int(time.time())
 secondsAtLastBeam      = int(time.time())
@@ -59,6 +67,7 @@ allCheckers = [
 #loop forever
 while True:
   secondsSinceScriptStart = int(time.time()) - secondsAtScriptStart
+  secondsSinceLastCheck   = int(time.time()) - secondsAtLastCheck
   secondsSinceLastBOS     = int(time.time()) - secondsAtLastBOS
   secondsSinceLastEOS     = int(time.time()) - secondsAtLastEOS
   secondsSinceLastBeam    = int(time.time()) - secondsAtLastBeam
@@ -70,7 +79,7 @@ while True:
   eosflag = DAQUtils.GetFromEPICS("EOS") # ( "EOSFLAG" )
   Log( "BOS = %s, EOS = %s, readyForEOS = %s, seconds since last spill = %d" % (bosflag, eosflag, str(readyForEOS), secondsSinceLastBOS ), debug = True )
 
-  if secondsSinceLastBOS % checkInterval == 1:
+  if secondsSinceLastBOS % args.checkIntervalSelf == 1:
     #clear old data
     statMonChecker.data = []
     #check the checkers for problems
@@ -128,9 +137,10 @@ while True:
     Log("Waited %d seconds after BOS but found no EOS.  Something is wrong with EOS.  Waiting for another BOS." % timeSinceLastBOS )
 
 
-  if (readyForEOS and eosflag is "1") or oneShot:
+  if (readyForEOS and eosflag is "1") or (args.checkInterval > 0 and secondsSinceLastCheck > args.checkInterval) or args.oneShot:
     readyForEOS = False
-    secondsAtLastEOS = int(time.time())
+    secondsAtLastCheck = int(time.time())
+    secondsAtLastEOS   = int(time.time())
     fileAgeWarnTime = secondsSinceLastEOS + fileAgeWarnTimeBuffer
     Log( "Found EOS.  Run the script - %s" % time.ctime() )
     
@@ -150,7 +160,7 @@ while True:
     #make sure logfile is up to date at this spills end
     LogFlush()
 
-    if oneShot:
+    if args.oneShot:
       sys.exit(0)
 
 LogClose()
