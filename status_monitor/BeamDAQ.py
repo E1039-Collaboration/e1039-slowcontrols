@@ -19,8 +19,10 @@ class BeamDAQ(StatusChecker):
     self.data = []
     global fileAgeWarnTime
 
+    comm_docker = 'docker compose -f ~/e1039-docker-daq/docker-compose.yml exec beamdaq '
+
     #check that E906BeamDAQ is running
-    command = ["ssh", "-x", "e1039daq@e1039beam3", r"""ps a | egrep 'E906BeamDAQ|RunBeamDAQ'""" ]
+    command = ["ssh", "-x", "e1039daq@e1039beam4.sq.pri", comm_docker + r"""ps ax | egrep 'E906BeamDAQ|RunBeamDAQ'""" ]
     rval, output = DAQUtils.GetOutput( command, timeout=10 )
     if rval is None:
       Log("Timed out executing command %s" % str(command) )
@@ -56,17 +58,22 @@ class BeamDAQ(StatusChecker):
     except:
       pass
 
-    imgFilename = "/data2/data/beamDAQ/pics/cerenkov_last.png"
+    imgFilename = "/data4/dockerDAQ/data/beam/pics/cerenkov_last.png"
     if os.path.isfile(imgFilename):
       timeSinceLastMod = int( time.time() ) - os.path.getmtime(imgFilename)
-      isProblem = timeSinceLastMod > fileAgeWarnTime
-      self.data.append( StatusDatum( "&#268;erenkov file age", SecondsToTime(timeSinceLastMod), problem=isProblem, email=False, alarm=isProblem ) )
-
+      #isProblem = timeSinceLastMod > fileAgeWarnTime
+      isWarning = False 
+      isProblem = False 
+      if timeSinceLastMod > 60:
+        isProblem = True
+      elif timeSinceLastMod > 20:
+        isWarning = True
+      self.data.append( StatusDatum( "&#268;erenkov file age", SecondsToTime(timeSinceLastMod), problem=isProblem, email=False, alarm=isWarning ) )
 
     #get file age
-    beamDAQ_spillcountAge = self.timeOfLastUpdate - os.path.getmtime(DAQUtils.spillcount_filename_beamDAQ)
-    isProblem = beamDAQ_spillcountAge > fileAgeWarnTime
-    self.data.append( StatusDatum( "BeamDAQ SpillID age", SecondsToTime(beamDAQ_spillcountAge), problem=isProblem, email=False, alarm=isProblem ) )
+    #beamDAQ_spillcountAge = self.timeOfLastUpdate - os.path.getmtime(DAQUtils.spillcount_filename_beamDAQ)
+    #isProblem = beamDAQ_spillcountAge > fileAgeWarnTime
+    #self.data.append( StatusDatum( "BeamDAQ SpillID age", SecondsToTime(beamDAQ_spillcountAge), problem=isProblem, email=False, alarm=isProblem ) )
 
     #get spillcounts
     #lines = open(DAQUtils.spillcount_filename).readlines()

@@ -10,6 +10,8 @@ class MainDAQ(StatusChecker):
   """Check that status of the Main DAQ"""
   def __init__(self):
     StatusChecker.__init__(self)
+    self.emailList = [ "liuk.pku@gmail.com", "bhy7tf@virginia.edu" ]
+    self.do_email_this = True
 
   def CheckStatus(self):
     Log( "%s::CheckStatus" % self.__class__.__name__ )
@@ -65,6 +67,8 @@ class MainDAQ(StatusChecker):
       components["ERe906"] = "Not found"
       components["TSe906"] = "Not found"
 
+      run_state = None
+
       command = ["ssh", "-x", "-l", DAQUtils.MainDAQ_user, DAQUtils.MainDAQ_host, r'plask -rt Spin -all' ]
       rval, output = DAQUtils.GetOutput( command, timeout=10 )
       if rval is None:
@@ -83,6 +87,7 @@ class MainDAQ(StatusChecker):
         elif "Run state" in line:
           val = line.split("=")[1].strip()
           self.data.append( StatusDatum( "Run State", val ) )
+          run_state = val
         elif "Start time" in line:
           val = line.split("=")[1]
           self.data.append( StatusDatum( "Run Started", val ) )
@@ -119,16 +124,20 @@ class MainDAQ(StatusChecker):
 
       status = StatusType.GOOD
       email  = False
-      if filesize > 16.0:
+      if filesize > 4.0:
         status = StatusType.WARNING
+        email  = True
       self.data.append( StatusDatum( "File Size", "%.1f GB" % filesize, status=status, email=email ) )
 
       status = StatusType.GOOD
       email  = False
-      if fileage > 60:
-        status = StatusType.WARNING
-        email  = True
-        self.emailList = [ "liuk.pku@gmail.com", "bhy7tf@virginia.edu" ]
+      if run_state == "Running" or run_state == "active":
+        if fileage > 50:
+          status = StatusType.ERROR
+        elif fileage > 10: 
+          status = StatusType.WARNING
+        #email  = True
+        #self.emailList = [ "liuk.pku@gmail.com", "bhy7tf@virginia.edu" ]
         #if len( eagerShifterList ) > 0 and "sent" not in self.emailList:
         #  email = True
         #  self.emailList = eagerShifterList

@@ -5,6 +5,8 @@ import DAQUtils
 #where to write output html stuff - for normal operation
 statusDir = "/data2/e1039_data/status_monitor/html" # "/dev/shm/SpinQuestDAQStatus"
 
+alarmDir = "/data2/e1039_data/status_monitor/alarm"
+
 #do you want target alarms and email?
 do_alarms = True
 do_email = True ## True or False.  Set to 'False' in case of no beam for example.
@@ -53,6 +55,8 @@ class StatusChecker:
     self.timeOfLastUpdate = int( time.time() )
     self.alarmName = None #none means there is no alarm
     self.emailList = [ "bhy7tf@virginia.edu" ]
+    self.email_interval = 12*3600 # in seconds
+    self.do_email_this = False
 
     self.inAlarm   = False #remember if we are in alarm state
 
@@ -73,6 +77,22 @@ class StatusChecker:
       if datum.status == StatusType.WARNING:
         return True
     return False
+
+  def GetLastAlarmTime(self):
+    filename = alarmDir + '/' + self.__class__.__name__ + '.timestamp'
+    if os.path.exists(filename):
+        return os.path.getmtime(filename)
+    else:
+        return 0
+
+  def SetLastAlarmTime(self):
+    if not os.path.exists(alarmDir):
+        os.system( "mkdir -p %s" % alarmDir )
+    filename = alarmDir + '/' + self.__class__.__name__ + '.timestamp'
+    if os.path.exists(filename):
+        os.utime(filename, None)
+    else:
+        open(filename, 'a').close()
 
   def SetAlarmIfNeeded(self):
     """Returns true if at least one datum says there should be an alarm and set the alarm.  Turn off alarm if everything is fine."""
@@ -102,7 +122,7 @@ class StatusChecker:
   def SendMailIfNeeded(self):
     """Email the experts if necessary"""
     #loop for data saying we should email
-    if not do_email:
+    if not do_email and not do_email_this:
       return False
 
     emailLines = []    
@@ -113,12 +133,12 @@ class StatusChecker:
         emailNeeded = True
 
     #if data has email, then send the email
-    if emailNeeded:
+    if emailNeeded and time.time() - self.GetLastAlarmTime() > self.email_interval:
       subject = "%s Problem" % self.__class__.__name__
       message = "\n\n".join(emailLines)
       DAQUtils.SendMail( self.emailList, subject, message=message )
       Log( "Sending email to %s for problem in %s" % (str(self.emailList), self.__class__.__name__ ) )
-
+      self.SetLastAlarmTime()
 
   def OutputToHTML(self):
     """Write the status information to HTML."""

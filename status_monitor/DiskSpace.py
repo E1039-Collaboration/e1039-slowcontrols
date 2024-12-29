@@ -58,12 +58,12 @@ class DiskSpace(StatusChecker):
     diskname = "/data2"
     disk = DoDFCommand( diskname )
     if not disk:
-      self.data.append( StatusDatum( "Available on %s" % diskname, "Disk not found", warning=True ) )
+      self.data.append( StatusDatum( "%s" % diskname, "Disk not found", warning=True ) )
     else:
       available = disk["available"]
       percent   = 100 - disk["percent"] 
       isProblem = available < 1.
-      self.data.append( StatusDatum( "Available on %s" % diskname, "%.1f T, %d%%" % (available,percent), warning=isProblem ) )
+      self.data.append( StatusDatum( "%s" % diskname, "%.1f T, %d%% Free" % (available,percent), warning=isProblem ) )
 
     #-----------
     #check daq1
@@ -71,48 +71,48 @@ class DiskSpace(StatusChecker):
     hostname = "e1039daq1"
     disk = DoDFCommand( diskname, hostname, "e1039daq" )
     if not disk:
-      self.data.append( StatusDatum( "Available on %s:%s" % (hostname,diskname), "Disk not found", warning=True ) )
+      self.data.append( StatusDatum( "%s:%s" % (hostname,diskname), "Disk not found", warning=True ) )
     else:
       available = disk["available"] * 1024
       percent   = 100 - disk["percent"]
       isWarning = available < 150.
       isProblem = available < 100.
-      self.data.append( StatusDatum( "Available on %s:%s" % (hostname,diskname), "%.1f G, %d%%" % (available,percent), warning=isWarning, problem=isProblem ) )
+      self.data.append( StatusDatum( "%s:%s" % (hostname,diskname), "%.1f G, %d%% Free" % (available,percent), warning=isWarning, problem=isProblem ) )
 
     diskname = "/"
     hostname = "e1039daq1"
     disk = DoDFCommand( diskname, hostname, "e1039daq" )
     if not disk:
-      self.data.append( StatusDatum( "Available on %s:%s" % (hostname,diskname), "Disk not found", warning=True ) )
+      self.data.append( StatusDatum( "%s:%s" % (hostname,diskname), "Disk not found", warning=True ) )
     else:
       available = disk["available"] * 1024
       percent   = 100 - disk["percent"]
       isProblem = available < 20.
-      self.data.append( StatusDatum( "Available on %s:%s" % (hostname,diskname), "%.1f G, %d%%" % (available,percent), warning=isProblem ) )
+      self.data.append( StatusDatum( "%s:%s" % (hostname,diskname), "%.1f G, %d%% Free" % (available,percent), warning=isProblem ) )
 
     #-----------
-    #check beam3
+    #check beam4
     diskname = "/"
-    hostname = "e1039beam3"
+    hostname = "e1039beam4"
     disk = DoDFCommand( diskname, hostname, "e1039daq" )
     if not disk:
-      self.data.append( StatusDatum( "Available on %s:%s" % (hostname,diskname), "Disk not found", warning=True ) )
+      self.data.append( StatusDatum( "%s:%s" % (hostname,diskname), "Disk not found", warning=True ) )
     else:
       available = disk["available"] * 1024
       percent   = 100 - disk["percent"]
       isProblem = available < 5.
-      self.data.append( StatusDatum( "Available on %s:%s" % (hostname,diskname), "%.1f G, %d%%" % (available,percent), warning=isProblem ) )
+      self.data.append( StatusDatum( "%s:%s" % (hostname,diskname), "%.1f G, %d%% Free" % (available,percent), warning=isProblem ) )
 
     diskname = "/home"
-    hostname = "e1039beam3"
+    hostname = "e1039beam4"
     disk = DoDFCommand( diskname, hostname, "e1039daq" )
     if not disk:
-      self.data.append( StatusDatum( "Available on %s:%s" % (hostname,diskname), "Disk not found", warning=True ) )
+      self.data.append( StatusDatum( "%s:%s" % (hostname,diskname), "Disk not found", warning=True ) )
     else:
       available = disk["available"] * 1024
       percent   = 100 - disk["percent"]
       isProblem = available < 50.
-      self.data.append( StatusDatum( "Available on %s:%s" % (hostname,diskname), "%.1f G, %d%%" % (available,percent), warning=isProblem ) )
+      self.data.append( StatusDatum( "%s:%s" % (hostname,diskname), "%.1f G, %d%% Free" % (available,percent), warning=isProblem ) )
 
     #-----------
     #check sc4
@@ -125,7 +125,7 @@ class DiskSpace(StatusChecker):
       available = disk["available"] * 1024
       percent   = 100 - disk["percent"]
       isProblem = available < 50.
-      self.data.append( StatusDatum( " Available on " + hostname + ":" + diskname, "%.1f G, %d%%" % (available,percent), warning=isProblem ) )
+      self.data.append( StatusDatum( " " + hostname + ":" + diskname, "%.1f G, %d%% Free" % (available,percent), warning=isProblem ) )
 
     #-----------
     # Output
