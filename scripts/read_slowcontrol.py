@@ -86,18 +86,23 @@ def GetACNET(args):
   acnetDevices = [ \
       "F:NS2FLO","F:NS2SUP","F:NS2RET","F:NM2V", \
       "F:NM2D1", "F:NM2H", "F:NM3S", "F:NM4AN", \
-      "I:BEAM21", "I:VFOUT", "E:M3TGHM", \
-      "E:M3TGHS", "E:M3TGVM", "E:M3TGVS", "E:M3TGHI", \
-      "E:M3TGHF", "E:M3TGVI", "E:M3TGVF", "E:M2C2HM", \
-      "E:M2C2HS", "E:M2C2VM", "E:M2C2VS", "E:M2C2HI", \
-      "E:M2C2HF", "E:M2C2VI", "E:M2C2VF", "L:CBAR", \
-      "S:KTEVTC","F:NM2ION", "F:NM3ION", "F:NM3RST", \
+      "I:BEAM21", "I:VFOUT", \
+      "E:M3TGHM", "E:M3TGHS", "E:M3TGVM", "E:M3TGVS", \
+      "E:M3TGHI", "E:M3TGHF", "E:M3TGVI", "E:M3TGVF", \
+      "E:M3TG2HM", "E:M3TG2HS", "E:M3TG2HI", "E:M3TG2HF", \
+      "E:M3TG2VM", "E:M3TG2VS", "E:M3TG2VI", "E:M3TG2VF", \
+      "E:M2C2HM",  "E:M2C2HS", "E:M2C2VM", "E:M2C2VS", \
+      "E:M2C2HI", "E:M2C2HF", "E:M2C2VI", "E:M2C2VF", \
+      "L:CBAR", "S:KTEVTC","F:NM2ION", "F:NM3ION", "F:NM3RST", \
       "F:NM3SEM", "F:NS7DFP", \
       "M:OUTTMP", "F:E906BM", "S:G2SEM", "F:NM3RRT", \
       "G:TURN13", "G:BNCH13", "G:NBSYD", "S:MSEP1U", \
       "S:F1SEM", "F:NM2Q1", "F:NM2Q2", "U:TODB25", \
-      "G:RD3161", "G:RD3162", "I:FTSDF", \
-      "F:MT6SC1", "F:MC7SC1", "F:MC1D", "F:MW1W" \
+      "G:RD3161", "G:RD3162", "F:LNM344", "I:FTSDF", \
+      "F:MT6SC1", "F:MC7SC1", "F:MC1D", "F:MW1W", \
+      "F:NM4LCWFLOW", "F:NM4LCWP1", "F:NM4LCWP2", "F:NM4LCWP3", \
+      "F:NM4LCWT1", "F:NM4LCWT2", "F:NM4LCWT3", \
+      "G:OUTTMP", "G:HUMID", "G:BPRESS" 
       ]
 
   #these devices will be entered into EPICS
@@ -108,6 +113,8 @@ def GetACNET(args):
   #    "F:NS7DFP", "G:RD3161", "G:RD3162", "F:NM3RRT", \
   #    "F:NM3SEM", "F:NS2SUP", "M:OUTTMP"\
   #    ]
+
+  time.sleep(2) # To let the ACNET values up-to-date.
 
   #Log("Getting from acnet...")
   time0 = int(time.time())

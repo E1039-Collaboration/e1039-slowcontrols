@@ -8,6 +8,7 @@ include "/data2/e1039/daq/slowcontrols/epics/epics_include/records_list_HodoHv.d
 include "/data2/e1039/daq/slowcontrols/epics/epics_include/records_list_DPhodo.db"
 include "/data2/e1039/daq/slowcontrols/epics/epics_include/records_list_HallEnv.db"
 include "/data2/e1039/daq/slowcontrols/epics/epics_include/records_list_StatusMonitor.db"
+include "/data2/e1039/daq/slowcontrols/epics/epics_include/records_list_Acnet_status.db"
 include "/data2/e1039/daq/slowcontrols/epics/epics_include/records_list_HallEnv_status.db"
 include "/data2/e1039/daq/slowcontrols/epics/epics_include/records_list_ChamHv_status.db"
 include "/data2/e1039/daq/slowcontrols/epics/epics_include/records_list_HodoHv_status.db"

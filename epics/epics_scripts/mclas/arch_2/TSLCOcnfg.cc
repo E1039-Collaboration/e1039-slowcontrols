@@ -73,10 +73,10 @@ void TSLCOcnfg::ReadSystemListFile(){
       if(dsv_arr.size()==3){
 
 	if(dsv_arr.at(2).Atoi()){//is on?
-	  if(!mslist.count(dsv_arr.at(1))){//duplicate key?
+	  if(!mslist.count(dsv_arr.at(1))){//duplicate?
 	    mslist[dsv_arr.at(1)]=dsv_arr; isys++;}
 	  else{
-	    TString msg = Form("Key:\"%s\" already exists; exiting...",dsv_arr.at(1).Data());
+	    TString msg = Form("Key:\"%s\" already exist; exiting...",dsv_arr.at(1).Data());
 	    log->SendToLog(msg); cout<<msg<<endl; exit(1111);}
 	}
 

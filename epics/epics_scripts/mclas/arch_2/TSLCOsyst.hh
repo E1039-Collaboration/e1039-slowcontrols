@@ -30,20 +30,16 @@ public :
   void                 CleanUp();
 
 
-  mtype                 mvlist;//map container for all expected PVs info for a subsystem
-  mmtype               mmvevnt;//map container for all read PVs from tsv for a subsystem
+  mtype                 mvlist;
+  mmtype               mmvevnt;
 
-  mtype::iterator       mvl_it;//key - PV name as shown in master spreadsheet 3d column
-  mmtype::iterator     mmve_it;//key - PV name as shown in tsv 1st column
+  mtype::iterator       mvl_it;
+  mmtype::iterator     mmve_it;
 
   Int_t                n_var;
   TString              sys_name;
   TString              sysdata_fname;
-  Bool_t               is_skip;
   Bool_t               is_readdone;
-
-  Int_t                spill_id;
-  Int_t                tsvread_status;
 
 protected:
   
@@ -51,7 +47,7 @@ private:
 
   TSLCOlogs           *log;
   TString              varlist_dname;
-
+  Int_t                spill_id;
 
   std::vector<TString> dsv_arr;
 

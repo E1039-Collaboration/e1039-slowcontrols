@@ -38,8 +38,8 @@ acnet_var_file = os.path.join( os.getenv("SLOWCONTROL_ROOT"), "acnet/acnet_varia
 MainDAQ_user   = "e1039daq"
 MainDAQ_host   = "e1039daq1.sq.pri"
 ScalerDAQ_user = "e1039daq"
-ScalerDAQ_host = "e1039sc4.sq.pri" #machine running ScalerDAQ Coda
-ScalerFFT_host = "e1039sc4.sq.pri" #machine running ScalerDAQ FFT
+ScalerDAQ_host = "e1039beam4.sq.pri" # "e1039sc4.sq.pri" #machine running ScalerDAQ Coda
+ScalerFFT_host = "e1039beam4.sq.pri" # "e1039sc4.sq.pri" #machine running ScalerDAQ FFT
 rampCAEN_Host = "e906-gat6.fnal.gov" #machine attached to CAENhv
 
 def GetOutputOld( command, timeout = 1, check_interval = .025 ):

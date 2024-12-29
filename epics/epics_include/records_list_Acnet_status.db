@@ -1,0 +1,124 @@
+record(calc,"st_NM4"){
+  field(DESC,"st_NM4 group status")
+  field(PINI,"1")
+  field(INPA,"st_NM4_A CPP MSS")
+  field(INPB,"st_NM4_B CPP MSS")
+  field(CALC,"A")  
+}
+
+record(calc,"st_NM4_A"){
+  field(DESC,"st_NM4_A group status")
+  field(PINI,"1")
+  field(INPA,"F:NM3S CPP MSS")
+  field(INPB,"F:NM3RST CPP MSS")
+  field(INPC,"F:NM3RRT CPP MSS")
+  field(INPD,"F:NM4AN CPP MSS")
+  field(INPE,"F:NS2SUP CPP MSS")
+  field(INPF,"F:NS2RET CPP MSS")
+  field(INPG,"F:NS2FLO CPP MSS")
+  field(INPH,"F:E906BM CPP MSS")
+  field(CALC,"A")
+}
+
+record(calc,"st_NM4_B"){
+  field(DESC,"st_NM4_B group status")
+  field(PINI,"1")
+  field(INPA,"F:NM4LCWFLOW CPP MSS")
+  field(INPB,"F:NM4LCWP1 CPP MSS")
+  field(INPC,"F:NM4LCWP2 CPP MSS")
+  field(INPD,"F:NM4LCWP3 CPP MSS")
+  field(INPE,"F:NM4LCWT1 CPP MSS")
+  field(INPF,"F:NM4LCWT2 CPP MSS")
+  field(INPG,"F:NM4LCWT3 CPP MSS")
+  field(CALC,"A")
+}
+
+record(calc,"st_NM3"){
+  field(DESC,"st_NM3 group status")
+  field(PINI,"1")
+  field(INPA,"F:NM3ION CPP MSS")
+  field(INPB,"F:NM3SEM CPP MSS")
+  field(INPC,"E:M3TGHM CPP MSS")
+  field(INPD,"E:M3TGHS CPP MSS")
+  field(INPE,"E:M3TGHF CPP MSS")
+  field(INPF,"E:M3TGHI CPP MSS")
+  field(INPG,"E:M3TGVM CPP MSS")
+  field(INPH,"E:M3TGVS CPP MSS")
+  field(INPI,"E:M3TGVF CPP MSS")
+  field(INPJ,"E:M3TGVI CPP MSS")
+  field(INPK,"S:N2N3EF CPP MSS")
+  field(CALC,"A")  
+}
+
+record(calc,"st_NM1-2"){
+  field(DESC,"st_NM1-2 group status")
+  field(PINI,"1")
+  field(INPA,"st_NM1-2_A CPP MSS")
+  field(INPB,"st_NM1-2_B CPP MSS")  
+  field(CALC,"A")  
+}
+
+record(calc,"st_NM1-2_A"){
+  field(DESC,"st_NM1-2_A group status")
+  field(PINI,"1")
+  field(INPA,"E:M2C2HM CPP MSS")
+  field(INPB,"E:M2C2HS CPP MSS")
+  field(INPC,"E:M2C2HF CPP MSS")
+  field(INPD,"E:M2C2HI CPP MSS")
+  field(INPE,"E:M2C2VM CPP MSS")
+  field(INPF,"E:M2C2VS CPP MSS")
+  field(INPG,"E:M2C2VF CPP MSS")
+  field(INPH,"E:M2C2VI CPP MSS")
+  field(CALC,"A")  
+}
+
+record(calc,"st_NM1-2_B"){
+  field(DESC,"st_NM1-2_B group status")
+  field(PINI,"1")
+  field(INPA,"F:NM2SEM CPP MSS")
+  field(INPB,"F:NM2ION CPP MSS")
+  field(INPC,"F:NM2Q1 CPP MSS")
+  field(INPD,"F:NM2Q2 CPP MSS")
+  field(INPE,"F:NM2D1 CPP MSS")
+  field(INPF,"F:NM2V CPP MSS")
+  field(INPG,"F:NM2H CPP MSS")
+  field(CALC,"A")  
+}
+
+record(calc,"st_BCG1-2"){
+  field(DESC,"st_BCG1-2 group status")
+  field(PINI,"1")
+  field(INPA,"S:G2SEM CPP MSS")
+  field(INPB,"S:KTEVTC CPP MSS")
+  field(INPC,"L:CBARS CPP MSS")
+  field(INPD,":MSEP1U CPP MSS")
+  field(INPE,"S:F1SEM CPP MSS")
+  field(CALC,"A")  
+}
+
+record(calc,"st_TestBeams"){
+  field(DESC,"st_TestBeams group status")
+  field(PINI,"1")
+  field(INPA,"F:MT6SC1 CPP MSS")
+  field(INPB,"F:MC7SC1 CPP MSS")
+  field(INPC,"F:MC1D CPP MSS")
+  field(INPD,"F:MW1W CPP MSS")
+  field(INPE,"F:NS7DFP CPP MSS")
+  field(INPF,"G:RD3161 CPP MSS")
+  field(INPG,"G:RD3162 CPP MSS")
+  field(CALC,"A")  
+}
+
+record(calc,"st_MI"){
+  field(DESC,"st_MI group status")
+  field(PINI,"1")
+  field(INPA,"I:BEAM21 CPP MSS")
+  field(INPA,"I:VFOUT CPP MSS")
+  field(INPA,"I:FTSDF CPP MSS")
+  field(INPA,"G:TURN13 CPP MSS")
+  field(INPA,"G:BNCH13 CPP MSS")
+  field(INPA,"G:NBSYD CPP MSS")
+  field(INPA,"U:TODB25 CPP MSS")
+  field(INPA,"M:OUTTMP CPP MSS")
+  field(CALC,"A")  
+}

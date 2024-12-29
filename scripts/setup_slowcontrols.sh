@@ -10,17 +10,16 @@ export PATH=$SLOWCONTROL_ROOT/acnet:$PATH
 #end ACNET
 
 #setup EPICS
-export EPICS_CA_ADDR_LIST=e1039gat1.sq.pri
-#export EPICS_CA_ADDR_LIST=192.168.24.71
-#export EPICS_CA_ADDR_LIST=e1039gat1.fnal.gov
-#export EPICS_CA_ADDR_LIST=e906-gat6.fnal.gov
-export EPICS_BASE=/data2/epics-7.0.2.2/base-7.0.2.2
+#2021 Nov 15 PEReimer changed server to e1039scrun.sc.pri and base to epics-7.0.6
+export EPICS_BASE=/data2/epics-7.06.1/base-7.0.6
+export EPICS_CA_ADDR_LIST=e1039scrun.sq.pri
+
 export EPICS_HOST_ARCH=linux-x86_64
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$EPICS_BASE/lib/$EPICS_HOST_ARCH/
 arch=`uname -m`
 if [ "$arch" == "i686" ]; then
   export EPICS_HOST_ARCH=linux-x86
 fi
+export LD_LIBRARY_PATH=${EPICS_BASE}/lib/${EPICS_HOST_ARCH}/:${LD_LIBRARY_PATH}
 export PATH=${EPICS_BASE}/bin/${EPICS_HOST_ARCH}:${PATH}
 alias medm='medm -displayFont "-bitstream-courier 10 pitch-medium-r-normal--0-0-0-0-m-0-iso8859-1"'
 

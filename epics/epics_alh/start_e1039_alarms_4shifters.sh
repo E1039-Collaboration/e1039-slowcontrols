@@ -17,6 +17,6 @@ alh \
     -m 5000\
     -L\
     -Lfile ./e1039_lock.LOCK\
-     alarms_SpinQuest.alhConfig
+     alarms_list_SpinQuest.alhConfig
 
 #e1039_alh_lock

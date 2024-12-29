@@ -56,13 +56,15 @@ int main(int argc, char **argv)
   std::map<TString,TSLCOsyst *> syst_tsv;
   std::map<TString,TEPICsyst *> syst_ca;
 
-  for(cnfg->msl_it =cnfg->mslist.begin();cnfg->msl_it!=cnfg->mslist.end();cnfg->msl_it++){
+  for(cnfg->msl_it=cnfg->mslist.begin(); cnfg->msl_it!=cnfg->mslist.end(); cnfg->msl_it++){
     TString indx = cnfg->msl_it->first;
     syst_tsv[indx] = new TSLCOsyst(logs, cnfg->varlist_dname, cnfg->msl_it->first);
     syst_ca[indx]  = new TEPICsyst(logs, cnfg->msl_it->first);
     syst_ca[indx]->ChannelAccessInitVar(syst_tsv[indx]->mvlist);
     syst_ca[indx]->ChannelAccessPendIO();
   }
+  syst_tsv["SpillData"]->is_skip = 1;
+  syst_tsv["StatusMonitor"]->is_skip = 1;
 
   Bool_t mydebug = 1;
 
@@ -126,7 +128,7 @@ int main(int argc, char **argv)
 	TString indx = cnfg->msl_it->first;
 	syst_tsv[indx]->is_readdone = 0;
       }
-      syst_tsv["SpillData"]->is_readdone = 1;
+      //syst_tsv["SpillData"]->is_readdone = 1;
     }
 
     //if(mydebug){
@@ -166,6 +168,7 @@ int main(int argc, char **argv)
 	    cnfg->msl_it++){
 	  
 	  TString indx = cnfg->msl_it->first;
+	  if(syst_tsv[indx]->is_skip){continue;}
 	  if(syst_tsv[indx]->is_readdone){continue;}
 	  if(syst_tsv[indx]->DoesDataFileExist(cnfg->daydata_dname, spill_id)){
 	    clock_t t_start, t_end;
@@ -203,7 +206,9 @@ int main(int argc, char **argv)
 	}//readout loop end
       }//readout waiting loop end
       
-      for(cnfg->msl_it =cnfg->mslist.begin();cnfg->msl_it!=cnfg->mslist.end();cnfg->msl_it++){
+      for(cnfg->msl_it =cnfg->mslist.begin();
+	  cnfg->msl_it!=cnfg->mslist.end();
+	  cnfg->msl_it++){
 	TString indx = cnfg->msl_it->first;
 	if(!syst_tsv[indx]->is_readdone){
 	  TString msg = Form("Warning failed %s readout at Spill ID:%09d",

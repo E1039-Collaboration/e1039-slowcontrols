@@ -17,7 +17,7 @@ port=`grep $1 /data2/e1039/daq/slowcontrols/lecroy/settings/HVcrates | cut -d' '
 echo $ip, $port
 
 #netcat -t -c -v -w $timeout $ip $port < commandPipe$1 > outputPipe$1 2>&1 &  
-nc -t -C -v -w $timeout $ip $port < commandPipe$1 > outputPipe$1 2>&1 &  
+ncat -t -C -v -w $timeout $ip $port < commandPipe$1 > outputPipe$1 2>&1 &  
 
 exec 3>&1
 

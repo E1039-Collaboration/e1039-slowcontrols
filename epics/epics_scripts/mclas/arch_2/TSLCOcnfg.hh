@@ -39,8 +39,8 @@ public :
   Double_t             max_bos2eos_time;
   Double_t             max_readout_time;
   
-  mtype                mslist;//map container for active subsystem names
-  mtype::iterator      msl_it;//key - subsys name as shown in master spreadsheet 2nd column
+  mtype                mslist;//container for active subsystems
+  mtype::iterator      msl_it;
   Int_t                n_syson;//number of active subsystems
   
 protected:

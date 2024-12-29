@@ -13,7 +13,7 @@ alh \
     -l $ALH_LOG_DIR\
     -D\
     -S\
-    alarms_SpinQuest.alhConfig
+    alarms_list_SpinQuest.alhConfig
 
     
 

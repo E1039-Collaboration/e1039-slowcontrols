@@ -102,7 +102,6 @@ void TSLCOsyst::ReadVariableDataFile(){
 ////////////////////////////////////////////////////////////////////////////////////////
 
 void TSLCOsyst::VerifyVariableData(){
-  Int_t err_type1 = 0, err_type2 = 0, err_type3 = 0;
   mvl_it = mvlist.begin();
   while(mvl_it != mvlist.end()){
     std::pair<mmtype::iterator, mmtype::iterator> mmv_record;
@@ -111,9 +110,8 @@ void TSLCOsyst::VerifyVariableData(){
     if(n_pnt<1){
       TString msg = Form("Sys:%s; Key:\"%s\"; Key not found in tsv", 
 			 sys_name.Data(), mvl_it->first.Data());
-      log->SendToLog(msg); cout<<msg<<endl;
-      if(err_type1<9){err_type1++;}
-    }
+      log->SendToLog(msg);
+      cout<<msg<<endl;}
     if(n_pnt>1){
       Double_t old_timestamp = 0;
       for(mmve_it = mmv_record.first; mmve_it != mmv_record.second; mmve_it++){
@@ -121,9 +119,8 @@ void TSLCOsyst::VerifyVariableData(){
 	if(old_timestamp == new_timestamp){
 	  TString msg = Form("Sys:%s; Key:\"%s\"; Time duplicate:%f", 
 			     sys_name.Data(), mvl_it->first.Data(), new_timestamp);
-	  log->SendToLog(msg); cout<<msg<<endl;
-	  if(err_type2<9){err_type2++;}
-	}
+	  log->SendToLog(msg);
+	  cout<<msg<<endl;}
 	else{old_timestamp = new_timestamp;}
       }
     }
@@ -135,13 +132,10 @@ void TSLCOsyst::VerifyVariableData(){
     if(mvlist.find(mmve_it->first) == mvlist.end()){
       TString msg = Form("Sys:%s; Key:\"%s\"; Key not registered in epics db", 
 			 sys_name.Data(), mmve_it->first.Data());
-      log->SendToLog(msg); cout<<msg<<endl;
-      if(err_type3<9){err_type3++;}
-    }
+      log->SendToLog(msg);
+      cout<<msg<<endl;}
     mmve_it++;
   }
-  tsvread_status = err_type1*1 + err_type2*10 + err_type3*100;
-  
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -209,10 +203,7 @@ void TSLCOsyst::InitTSLCOsystMembers(){
   mmvevnt.clear();
 
   n_var         = 0;
-  is_skip       = 0;
   is_readdone   = 0;
-  spill_id      = 0;
-  tsvread_status= 0;
 
   log           = nullptr;
   sys_name      = "";

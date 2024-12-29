@@ -5,6 +5,7 @@
 #include <TTree.h>
 #include <TString.h>
 #include <map>
+#include <ctime>
 
 #include "cadef.h"
 #include "TSLCOlogs.hh"
@@ -22,35 +23,43 @@ public :
   TEPICsyst();
   ~TEPICsyst();
  
-  void                          ChannelAccessInitVar(mtype &_mv_list);
-  void                          ChannelAccessPendIO();
-  Double_t                      ChannelAccessReadDoublesOnly(TString _key);
-  void                          ChannelAccessWrite(mmtype &_mmv_evnt);
-  void                          ChannelAccessFlushIO();
-  void                          ChannelAccessClearVar();
+  void           ChannelAccessInitVar(mtype &_mv_list);
+  void           ChannelAccessPendIO();
+  Double_t       ChannelAccessReadDoublesOnly(TString _key);
+  void           ChannelAccessWrite(mmtype &_mmv_evnt);
+  void           ChannelAccessWriteStatus(TString _ind, TString _t, Int_t _sid, Int_t _st);
+  void           ChannelAccessFlushIO();
+  void           ChannelAccessClearVar();
 
-  void                          CleanUp();
+  void           CleanUp();
 
-  TString                       sys_name;
+  TString        sys_name;
+
+  TString        caput_time;
+  Int_t          caput_status;
 
 protected:
   
 private:
 
-  mtype_ca                      ca_chnl;  
-  Int_t                         ca_return;   
-  Double_t                      ca_timeout;
-  capri                         ca_priority;
+  mtype_ca        ca_chnl;  
+  Int_t           ca_return;   
+  Double_t        ca_timeout;
+  capri           ca_priority;
 
-  TString                       varlist_dname;
-  TSLCOlogs                    *log; 
+  TString         varlist_dname;
+  TSLCOlogs      *log; 
+  std::tm        *time_struc;   
 
-  Int_t                         GetMMapValues(mmpair _rcrd, dbr_double_t *_val);
-  Int_t                         GetMMapValues(mmpair _rcrd, dbr_string_t *_val);
+  Int_t           GetMMapValues(mmpair _rcrd, dbr_double_t *_val);
+  Int_t           GetMMapValues(mmpair _rcrd, dbr_string_t *_val);
 
-  void                          ChannelAccessError(TString _mess);
+  void            ChannelAccessError(TString _mess);
 
-  void                          InitTEPICsystMembers();
+  Double_t        GetTimestamp();
+  TString         GetTimestampString(TString _sel);
+
+  void            InitTEPICsystMembers();
 };
 #endif
 

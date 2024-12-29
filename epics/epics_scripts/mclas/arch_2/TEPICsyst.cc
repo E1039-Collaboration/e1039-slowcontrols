@@ -20,7 +20,7 @@ TEPICsyst::TEPICsyst(TSLCOlogs* _log_in, TString _sysn){
   ca_timeout  = 15;
   ca_priority = CA_PRIORITY_DEFAULT;
   cout<<"INIT "<<sys_name<<endl;
-  log->SendToLog("INIT");
+  log->SendToLog("INITI");
 }
 
 //////////////////////////////////////////////////////////////////////////////////////// 
@@ -38,8 +38,8 @@ void TEPICsyst::ChannelAccessInitVar(mtype &_mv_list){
 				  NULL, NULL, 
 				  ca_priority, 
 				  &ca_chnl[mv_list_it->first]);
-    //cout<<"CA "<<mv_list_it->first<<" "<<ca_return<<endl;
-    log->SendToLog(Form("CA %s, %s",sys_name.Data(),mv_list_it->first.Data())); 
+    cout<<"ACCESS "<<mv_list_it->first<<" "<<ca_return<<endl;
+    log->SendToLog(Form("ACCCCC %s, %s",sys_name.Data(),mv_list_it->first.Data())); 
     if(ca_return != ECA_NORMAL){
       TString msg = Form("Sys:%s; %s ca_create_channel failed",
 			 sys_name.Data(), mv_list_it->first.Data());
@@ -82,16 +82,13 @@ Double_t TEPICsyst::ChannelAccessReadDoublesOnly(TString _key){
 ////////////////////////////////////////////////////////////////////////////////////////
 
 void TEPICsyst::ChannelAccessWrite(mmtype &_mmv_evnt){
-  Int_t err_type1 = 0, err_type2 = 0, err_type3 = 0, err_type4 = 0;
   mtype_ca::iterator ca_chnl_it = ca_chnl.begin();
   while(ca_chnl_it != ca_chnl.end()){
 
     if(!ca_write_access(ca_chnl_it->second)){
       TString msg = Form("Sys: %s; %s ca_write_access failed", 
 			 sys_name.Data(), ca_chnl_it->first.Data());
-      log->SendToLog(msg); cout<<msg<<endl; ChannelAccessError(msg.Data());
-      if(err_type1<9){err_type1++;}
-    }
+      log->SendToLog(msg); cout<<msg<<endl; ChannelAccessError(msg.Data());}
     
     chtype i_chnl_type = ca_field_type(ca_chnl_it->second);
 
@@ -116,9 +113,7 @@ void TEPICsyst::ChannelAccessWrite(mmtype &_mmv_evnt){
       else{//unsupported
 	TString msg = Form("Sys:%s; unsupported channel type:%ld at ca_put", 
 			   sys_name.Data(), i_chnl_type);
-	log->SendToLog(msg); cout<<msg<<endl;
-	if(err_type2<9){err_type2++;}
-      }
+	log->SendToLog(msg); cout<<msg<<endl;}
       
       if(ca_return != ECA_NORMAL){
 	TString msg = Form("Sys:%s; %s ca_put failed", 
@@ -143,63 +138,22 @@ void TEPICsyst::ChannelAccessWrite(mmtype &_mmv_evnt){
       else{//unsupported
 	TString msg = Form("Sys:%s; unsupported channel type:%ld at ca_array_put", 
 			   sys_name.Data(), i_chnl_type);
-	log->SendToLog(msg); cout<<msg<<endl;
-	if(err_type2<9){err_type2++;}
-      }
+	log->SendToLog(msg); cout<<msg<<endl;}
 
       if(ca_return != ECA_NORMAL){
 	TString msg = Form("Sys:%s; %s ca_array_put failed", 
 			   sys_name.Data(), ca_chnl_it->first.Data());
-	log->SendToLog(msg); cout<<msg<<endl; ChannelAccessError(msg.Data());
-	if(err_type3<9){err_type3++;}
-      }
+	log->SendToLog(msg); cout<<msg<<endl; ChannelAccessError(msg.Data());}
 
     }
     else{
       	TString msg = Form("Sys:%s; Key:\"%s\"; wrong number of records:%d ca write", 
 			   sys_name.Data(), ca_chnl_it->first.Data(), n_rcrds);
-	log->SendToLog(msg); cout<<msg<<endl;
-	if(err_type4<9){err_type4++;}
-    }
+	log->SendToLog(msg); cout<<msg<<endl;}
+    
     ca_chnl_it++;
   }
-  caput_time    = GetTimestampString("time"); 
-  caput_status  = err_type1*1 + err_type2*10 + err_type3*100 + err_type4*1000;
-}
-
-////////////////////////////////////////////////////////////////////////////////////////
-
-void TEPICsyst::ChannelAccessWriteStatus(TString _ind, TString _time, Int_t _sid, Int_t _st){
-  TString time_key = Form("caput_time_%s", _ind.Data());
-  TString sid_key = Form("caput_spillid_%s", _ind.Data());
-  TString st_key = Form("caput_status_%s", _ind.Data());
-
-  mtype_ca::iterator ca_chnl_it;
-
-  ca_chnl_it = ca_chnl.find(time_key);
-  if(ca_chnl_it != ca_chnl.end()){
-    chtype i_chnl_type = ca_field_type(ca_chnl_it->second);
-
-    dbr_string_t *var = new dbr_string_t();
-    //dbr_string_t var = {'\0'};
-    //for(Int_t i=0;i<sizeof(dbr_string_t);i++){var[i]='\0';}
-    for(Int_t i=0;i<std::min(sizeof(dbr_string_t),strlen(_time));i++){var[i]=_time[i];}
-
-    ca_return = ca_put(i_chnl_type, ca_chnl_it->second, &var);
-    //delete var;
-  }
-
-  ca_chnl_it = ca_chnl.find(sid_key);
-  if(ca_chnl_it != ca_chnl.end()){
-    chtype i_chnl_type = ca_field_type(ca_chnl_it->second);
-
-    dbr_double_t *var = new dbr_double_t;
-    *var = (dbr_double_t)_sid;
-
-    ca_return = ca_put(i_chnl_type, ca_chnl_it->second, var);
-    delete var;
-  }
-
+  
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -273,39 +227,14 @@ void TEPICsyst::ChannelAccessError(TString _mess){
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
-Double_t TEPICsyst::GetTimestamp(){
-  std::time_t time_stamp;
-  Double_t res = Double_t(time(&time_stamp));
-  time_struc = localtime(&time_stamp);
-  return res;
-}
-
-////////////////////////////////////////////////////////////////////////////////////////
-
-TString TEPICsyst::GetTimestampString(TString _sel){
-  GetTimestamp();
-  char time_buf[100]={0};
-  if(_sel.EqualTo("yymm")){strftime(time_buf, 100, "%Y_%m", time_struc);}
-  if(_sel.EqualTo("date")){strftime(time_buf, 100, "%Y_%m_%d", time_struc);}
-  if(_sel.EqualTo("time")){strftime(time_buf, 100, "%H:%M:%S", time_struc);}
-  TString time_str = time_buf;
-  return time_str;
-}
-
-////////////////////////////////////////////////////////////////////////////////////////
-
 void TEPICsyst::InitTEPICsystMembers(){
   sys_name      = "";
-  caput_time    = ""; 
-  caput_status  = 0;
-
   ca_chnl.clear();  
   ca_return     = 0;   
   ca_timeout    = 0.;
   ca_priority   = 0;
 
   log           = nullptr; 
-  time_struc    = nullptr;   
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////

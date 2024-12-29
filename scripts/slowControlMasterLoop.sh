@@ -16,6 +16,8 @@
 # PEReimer 21 October 2019 Modified to take hostname from command and only start those things needed
 #                          on that host
 # PEReimer 09 January 2020 added -L to screen command to  produce a log file.
+# 2021 Nove 15 PEReimer changed epics host to e1039scrun.sq.pri
+# 2021 Nov 17 PEReimer added $SLOWCONTROL_ROOT/epics/epics/fill_epics_var.sh to check list
 ####################################
 
 DIR_SCRIPT=$(dirname $(readlink -f $0))
@@ -146,17 +148,20 @@ check_backup=false
 check_qie_reset=false
 check_magnet_epics=false
 check_status_monitor=false
+check_fill_epics_var=false
+
 if [ "$thisHost" = e1039gat1 ]; then 
-  check_epics=true
-# PER removed on 09 Sept 2020 for Astrid to test new installation
-# PER reinstated 26 July 2021
- check_archiver=true
+# 2021 Nov 15 check epics is not running here any more
+  check_archiver=true
   check_fakeEOSBOS=false
 #  check_spillcounter=false
 elif [ "$thisHost" = e1039scrun ]; then 
   check_slowcontrol=true
+# 2021 Nov 15 check epics is NOW running here
+  check_epics=true
   check_status_monitor=true
 #  check_spillcounter=true
+  check_fill_epics_var=true
 fi
 
 email_recipients="reimer@anl.gov knakano0524@gmail.com"
@@ -194,6 +199,7 @@ while true ; do
   #HandleSubsys "$check_archiver"   "/usr/share/tomcat/mgmt" "root" "$archiverStartScript restart mgmt"
   #HandleSubsys "$check_archiver"   "/usr/share/tomcat/retrieval" "root" "$SLOWCONTROL_ROOT/archiver/spinQuestStartup.sh restart retrieval"
   HandleSubsys "$check_status_monitor" "$SLOWCONTROL_ROOT/status_monitor/status_monitor.py"  "e1039daq"
+  HandleSubsys "$check_fill_epics_var" "$SLOWCONTROL_ROOT/epics/epics_scripts/fill_epics_var.sh" "e1039daq"
 
   #if there was a problem notify DAQ experts
   if [ "$allOK" = false ]; then

@@ -94,7 +94,6 @@ int main()
     //printf("%s \n", cmd);
     //std::system(cmd);
     std::strftime(buffer, 80, "%X", ptm);
-    std::cout << buffer << " reached! " << tt << std::endl;
   }
   return 0;
 }
