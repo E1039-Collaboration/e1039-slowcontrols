@@ -49,7 +49,7 @@ def Log( message, debug = False ):
   #timestr = datetime.datetime.now().ctime()
   #line = "%s - %s" % (timestr, message)
   line = "%s - %s" % (timenow.ctime(), message)
-  print line
+  print(line)
   if logfile:
     if (not debug) or (debug and do_debug):
       logfile.write( line + "\n" )

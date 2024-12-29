@@ -151,16 +151,14 @@ check_status_monitor=false
 check_fill_epics_var=false
 
 if [ "$thisHost" = e1039gat1 ]; then 
-# 2021 Nov 15 check epics is not running here any more
   check_archiver=true
   check_fakeEOSBOS=false
-#  check_spillcounter=false
+  #check_spillcounter=false
 elif [ "$thisHost" = e1039scrun ]; then 
   check_slowcontrol=true
-# 2021 Nov 15 check epics is NOW running here
   check_epics=true
   check_status_monitor=true
-#  check_spillcounter=true
+  #check_spillcounter=true
   check_fill_epics_var=true
 fi
 
@@ -189,11 +187,11 @@ while true ; do
   HandleSubsys "$check_backup"         "$SLOWCONTROL_ROOT/perl/backup_check.pl"
   HandleSubsys "$check_qie_reset"      "$SLOWCONTROL_ROOT/perl/get_QIE_settings.pl"
   HandleSubsys "$check_magnet_epics"   "$SLOWCONTROL_ROOT/scripts/update_magnet_epics.py"
-#PEReimer 27 July 2021 changed directory of startup for archiver 
-#   from $SLOWCONTROL_ROOT/archiver/spinQuestStartup.sh 
-#   to $EPICS_BASE/epics-extensions/archiver_appliance/prelim_setupArchiver.sh
+  #PEReimer 27 July 2021 changed directory of startup for archiver 
+  #   from $SLOWCONTROL_ROOT/archiver/spinQuestStartup.sh 
+  #   to $EPICS_BASE/epics-extensions/archiver_appliance/prelim_setupArchiver.sh
   archiverStartScript=$EPICS_BASE/epics-extensions/archiver_appliance/prelim_setupArchiver.sh
-#turned off by Astrid as its potentially incompatible with the 2020 version of the archiver  
+  #turned off by Astrid as its potentially incompatible with the 2020 version of the archiver  
   #HandleSubsys "$check_archiver"   "/usr/share/tomcat/engine" "root" "$archiverStartScript restart engine"
   #HandleSubsys "$check_archiver"   "/usr/share/tomcat/etl" "root" "$archiverStartScript restart etl"
   #HandleSubsys "$check_archiver"   "/usr/share/tomcat/mgmt" "root" "$archiverStartScript restart mgmt"

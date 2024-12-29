@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import os, datetime, time, subprocess, sys, re
 import argparse
 import DAQUtils
@@ -125,7 +125,7 @@ while True:
     LogFlush()
     
 
-  if bosflag is "1":
+  if bosflag == "1":
     readyForEOS = True
     Log("Found BOS %d seconds after previous BOS.  Now look for EOS before taking action." % secondsSinceLastBOS )
     secondsAtLastBOS = int(time.time())
@@ -137,7 +137,7 @@ while True:
     Log("Waited %d seconds after BOS but found no EOS.  Something is wrong with EOS.  Waiting for another BOS." % timeSinceLastBOS )
 
 
-  if (readyForEOS and eosflag is "1") or (args.checkInterval > 0 and secondsSinceLastCheck > args.checkInterval) or args.oneShot:
+  if (readyForEOS and eosflag == "1") or (args.checkInterval > 0 and secondsSinceLastCheck > args.checkInterval) or args.oneShot:
     readyForEOS = False
     secondsAtLastCheck = int(time.time())
     secondsAtLastEOS   = int(time.time())

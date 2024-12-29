@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #######################
 # read slowcontrol information from:
 #     - ACNET (beam)
@@ -41,7 +41,7 @@ maxTimeBetweenBOSandEOS = 12
 def Log( message ):
   """Print message to stdout and logfile."""
   global logfile
-  print message
+  print(message)
   timestr = datetime.datetime.now().ctime()
   logfile.write( "%s - %s\n" % (timestr, message) )
 
@@ -124,9 +124,9 @@ def GetACNET(args):
   cont = ""
   for dev in devl:
     val = "-9999"
-    if dev.has_key("scaled"):
+    if "scaled" in dev:
       val = dev["scaled"]
-    elif dev.has_key("devicestatus"):
+    elif "devicestatus" in dev:
       val = dev["devicestatus"]
 
     #ensure string rep
@@ -223,7 +223,7 @@ secondsAtLastBOS = int(time.time()) #time since epoch at last BOS
 readyForEOS = False       #make sure we only one once per spill by requiring EOS after BOS
 nSpillsSeen   = 0
 
-print "======== Initializing script ========"
+print("======== Initializing script ========")
 
 #loop forever
 while True:
@@ -245,7 +245,7 @@ while True:
     logdir = os.path.join( logdir_root, monthstamp )
     os.system( "mkdir -p %s" % logdir )
     logfilename = os.path.join( logdir, "slowcontrol_%s.log" % daystamp )
-    print "using logfile = ",logfilename
+    print("using logfile = ",logfilename)
     #mode "a" appends if file exists and makes a new one if it doesn't
     logfile = open(logfilename, "a")
     Log( "Begin appending to logfile %s" % logfilename )
@@ -255,9 +255,9 @@ while True:
   # DAQUtils.UseTargetEPICS()
   bosflag = DAQUtils.GetFromEPICS( "BOS" ) # ( "BOSFLAG" )
   eosflag = DAQUtils.GetFromEPICS( "EOS" ) # ( "EOSFLAG" )
-  print "BOS = %s, EOS = %s, readyForEOS = %s, seconds since last spill = %d" % (bosflag, eosflag, str(readyForEOS), secondsSinceLastSpill )
+  print("BOS = %s, EOS = %s, readyForEOS = %s, seconds since last spill = %d" % (bosflag, eosflag, str(readyForEOS), secondsSinceLastSpill ))
 
-  if bosflag is "1":
+  if bosflag == "1":
     readyForEOS = True
     #Log("Found BOS %d seconds after previous BOS.  Now look for EOS before taking action." % secondsSinceLastSpill )
     secondsAtLastBOS = int(time.time())
@@ -269,7 +269,7 @@ while True:
     Log("Waited %d seconds after BOS but found no EOS.  Something is wrong with EOS.  Waiting for another BOS." % timeSinceLastBOS )
     
 
-  if readyForEOS and eosflag is "1":
+  if readyForEOS and eosflag == "1":
     readyForEOS = False
     nSpillsSeen += 1
     #Log( "Found EOS.  Updating slowcontrol iteration %d." % nSpillsSeen )
@@ -333,7 +333,7 @@ while True:
     minInsertTime = maxCycleTime - 10
     while timeSinceLastBOS < minInsertTime:
       timeSinceLastBOS = int(time.time()) - secondsAtLastBOS
-      print "Wait to insert slowcontrol event (%d/%d)." % (timeSinceLastBOS, minInsertTime)
+      print("Wait to insert slowcontrol event (%d/%d)." % (timeSinceLastBOS, minInsertTime))
       time.sleep(1)
 
     if proc_rsc.is_alive():

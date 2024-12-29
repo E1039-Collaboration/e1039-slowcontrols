@@ -11,7 +11,7 @@
 ####################################
 import smtplib, os, time
 import threading
-import xmlrpclib, socket, httplib
+import xmlrpc.client, socket, http.client
 from subprocess import Popen, PIPE
 import signal
 import multiprocessing as mp
@@ -67,7 +67,7 @@ def GetOutputOld( command, timeout = 1, check_interval = .025 ):
     #kill the process if possible
     try:
       p.kill()
-    except Exception, e:
+    except Exception as e:
       pass
 
   return rval, output
@@ -140,13 +140,13 @@ def SendMail( recipients, subject, sender = "e1039@fnal.gov", message = "No furt
 ##############
 # ACNET
 ##############
-class ProxiedTransport(xmlrpclib.Transport, object):
+class ProxiedTransport(xmlrpc.client.Transport, object):
   """Allows us to use an http proxy"""
   #note: source code copied from https://docs.python.org/2/library/xmlrpclib.html
   def __init__(self):
     #python 2.6+ needs base class init, but such an init does not exist in old old python (which some machines use)
     try:
-      xmlrpclib.Transport.__init__(self)
+      xmlrpc.client.Transport.__init__(self)
     except:
       pass
     self.proxy = None
@@ -155,9 +155,9 @@ class ProxiedTransport(xmlrpclib.Transport, object):
   def make_connection(self, host):
     self.realhost = host
     if self.proxy:
-      h = httplib.HTTP(self.proxy)
+      h = http.client.HTTP(self.proxy)
     else:
-      h = httplib.HTTP(host)
+      h = http.client.HTTP(host)
     return h
   def send_request(self, connection, handler, request_body):
     connection.putrequest("POST", 'http://%s%s' % (self.realhost, handler))
@@ -184,7 +184,7 @@ class ACNETThread( threading.Thread ):
 
     #connect to server and get response
     #server = xmlrpclib.Server( acnet_url, transport=transport )
-    server = xmlrpclib.Server( acnet_url )
+    server = xmlrpc.client.Server( acnet_url )
     self.response = server.getReading( self.deviceList )
 
 class ACNETWriteThread( threading.Thread ):
@@ -208,7 +208,7 @@ class ACNETWriteThread( threading.Thread ):
 
     #connect to server and get response
     #server = xmlrpclib.Server( acnet_write_url, transport=transport )
-    server = xmlrpclib.Server( acnet_write_url )
+    server = xmlrpc.client.Server( acnet_write_url )
     self.response = server.Remote.setting( self.device, self.val )
 
 
@@ -228,7 +228,7 @@ def GetFromACNET( deviceList, timeout = 10 ):
 
   #if we stopped for timeout, then print a warning
   if timeout and t.isAlive():
-    print "WARNING - DAQUtils::GetFromACNET - Request timed out after %(timeout).1fs, got nothing." % locals()
+    print("WARNING - DAQUtils::GetFromACNET - Request timed out after %(timeout).1fs, got nothing." % locals())
 
   return t.response
 
@@ -250,7 +250,7 @@ def WriteToACNET( dev, val, timeout = 10 ):
 
   #if we stopped for timeout, then print a warning
   if timeout and t.isAlive():
-    print "WARNING - DAQUtils::WriteToACNET - Request timed out after %(timeout).1fs, got nothing." % locals()
+    print("WARNING - DAQUtils::WriteToACNET - Request timed out after %(timeout).1fs, got nothing." % locals())
 
   return t.response
 
