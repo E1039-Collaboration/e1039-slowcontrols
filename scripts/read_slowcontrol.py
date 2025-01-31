@@ -77,7 +77,7 @@ def InsertSpillCount(args):
   """Insert the spill-counter event into MainDAQ & ScalerDAQ."""
   proc = subprocess.Popen(['/data2/e1039/daq/slowcontrols/scripts/insert_spillcount.py'], stdout=subprocess.PIPE)
   cont = proc.communicate()[0];
-  return proc.returncode, cont
+  return proc.returncode, cont.decode()
 
 def GetACNET(args):
   """Get ACNET data, enter some into gat EPICS, and prepare the data for insertion into coda"""
@@ -147,21 +147,21 @@ def GetHodoHv(args):
   #Log("Getting the HodoHv info.  Takes ~20 seconds...")
   proc = subprocess.Popen(['cd /data2/e1039/daq/slowcontrols/lecroy/hv && tclsh lecroyHVsc.tcl'], shell=True, stdout=subprocess.PIPE)
   cont = proc.communicate()[0];
-  return proc.returncode, cont
+  return proc.returncode, cont.decode()
 
 def GetDpHodoHv(args):
   """Get the Dark-Photon-hodoscope HV status"""
   proc = subprocess.Popen(["ssh -x pi@192.168.24.180 'cd power_scripts && ./read_power.py'"], shell=True, stdout=subprocess.PIPE)
   cont = proc.communicate()[0];
-  return proc.returncode, cont
+  return proc.returncode, cont.decode()
 
 
 def GetChamHv(args):
   """Get the slow-control data from the Chamber HV monitor"""
   #Log("Getting the ChamHv info.  Takes ~5 seconds...")
-  proc = subprocess.Popen(['/data2/chambers/hvmon_cham/fy2018-sl7/hvmoncham', 'slow'], stdout=subprocess.PIPE)
+  proc = subprocess.Popen(['/data2/chambers/hvmon_cham/fy2018/hvmoncham', 'slow'], stdout=subprocess.PIPE)
   cont = proc.communicate()[0];
-  return proc.returncode, cont
+  return proc.returncode, cont.decode()
 
 
 def GetKeithley(args):
@@ -169,7 +169,7 @@ def GetKeithley(args):
   #Log("Getting Keithley information.  Takes ~11 seconds...")
   proc = subprocess.Popen('/data2/e1039/daq/slowcontrols/hall_env/kscan', stdout=subprocess.PIPE)
   cont = proc.communicate()[0];
-  return proc.returncode, cont
+  return proc.returncode, cont.decode()
 
 
 def GetVXTicks(args):
@@ -253,8 +253,8 @@ while True:
 
   #look for bos/eos on target EPICS
   # DAQUtils.UseTargetEPICS()
-  bosflag = DAQUtils.GetFromEPICS( "BOS" ) # ( "BOSFLAG" )
-  eosflag = DAQUtils.GetFromEPICS( "EOS" ) # ( "EOSFLAG" )
+  bosflag = DAQUtils.GetFromEPICS( "BOS" )
+  eosflag = DAQUtils.GetFromEPICS( "EOS" )
   print("BOS = %s, EOS = %s, readyForEOS = %s, seconds since last spill = %d" % (bosflag, eosflag, str(readyForEOS), secondsSinceLastSpill ))
 
   if bosflag == "1":
@@ -313,8 +313,9 @@ while True:
       proc_kill = 1 if proc.is_alive() else 0
       if proc_kill:
         Log("  Kill: pid %d, pgid %d" % (proc.pid, os.getpgid(proc.pid)))
-        os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
-        #os.kill(proc.pid, signal.SIGKILL) # proc.kill() in Python >= 3?
+        #os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
+        #os.kill(proc.pid, signal.SIGKILL)
+        proc.kill()
         proc_exit = 0
       else:
         proc_exit = proc.exitcode

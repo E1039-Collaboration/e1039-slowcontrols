@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #######################
 # This script reads the spill count (or ID) from EPICS and
 # insert it into mainDAQ and scalerDAQ coda stream as event 0x81.
@@ -127,8 +127,8 @@ status_main   = InsertEvent(DAQUtils.MainDAQ_user  , DAQUtils.MainDAQ_host  , "S
 status_scaler = InsertEventToScalerDAQ(DAQUtils.ScalerDAQ_user, DAQUtils.ScalerDAQ_host, "Spin2sc", "Scaler DAQ")
 #utime_str = str(int(timenow.timestamp())) # Only Python 3
 utime_str = str(int((timenow - datetime.datetime(1970,1,1)).total_seconds()))
-print "MainDAQ\t"  , utime_str, "\t", str(status_main  ), "\t0"
-print "ScalerDAQ\t", utime_str, "\t", str(status_scaler), "\t0"
+print("MainDAQ\t"  , utime_str, "\t", str(status_main  ), "\t0")
+print("ScalerDAQ\t", utime_str, "\t", str(status_scaler), "\t0")
 logfile.write("MainDAQ\t"  + utime_str + "\t" + str(status_main  ) + "\n")
 logfile.write("ScalerDAQ\t"+ utime_str + "\t" + str(status_scaler) + "\n")
 

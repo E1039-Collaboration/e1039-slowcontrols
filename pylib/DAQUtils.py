@@ -123,7 +123,7 @@ def GetFromEPICS( variable, timeout = 3 ):
   #print "check env %s" % rval
   #there should only be one line of output
   if len(out) == 1:
-    return out[0].strip()
+    return out[0].strip().decode()
   return ""
 
 def SendMail( recipients, subject, sender = "e1039@fnal.gov", message = "No further message." ):
@@ -227,7 +227,7 @@ def GetFromACNET( deviceList, timeout = 10 ):
   t.join(timeout)
 
   #if we stopped for timeout, then print a warning
-  if timeout and t.isAlive():
+  if timeout and t.is_alive():
     print("WARNING - DAQUtils::GetFromACNET - Request timed out after %(timeout).1fs, got nothing." % locals())
 
   return t.response
@@ -249,7 +249,7 @@ def WriteToACNET( dev, val, timeout = 10 ):
   t.join(timeout)
 
   #if we stopped for timeout, then print a warning
-  if timeout and t.isAlive():
+  if timeout and t.is_alive():
     print("WARNING - DAQUtils::WriteToACNET - Request timed out after %(timeout).1fs, got nothing." % locals())
 
   return t.response
